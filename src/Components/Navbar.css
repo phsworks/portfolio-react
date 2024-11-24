@@ -1,0 +1,39 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 20px 20px 20px;
+}
+
+.navbar-links {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+
+
+
+  .link {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.social-links {
+  display: none;
+  gap: 20px;
+  list-style: none;
+  margin-right: 40px;
+}
+
+.social-links img:hover {
+  transform: scale(1.05);
+}
+
+.menu {
+  
+  img:hover {
+    transform: scale(1.05);
+  }
+}

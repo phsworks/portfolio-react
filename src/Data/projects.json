@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Personal Portfolio Website",
+    "shortDescription": "A responsive website showcasing my projects.",
+    "longDescription": "This portfolio was built using React and CSS to demonstrate my web development skills. It includes dynamic project cards, a responsive layout, and interactive animations to enhance user engagement.",
+    "technologies": [
+      "React",
+      "CSS",
+      "JavaScript"
+    ],
+    "image": "/src/assets/Houseintuscany.png",
+    "video": "https://www.youtube.com/watch?v=example",
+    "githubLink": "https://github.com/username/portfolio",
+    "liveDemo": "https://portfolio.example.com"
+  },
+  {
+    "id": 2,
+    "title": "E-commerce App",
+    "shortDescription": "An online shopping platform with advanced features.",
+    "longDescription": "This e-commerce application enables users to browse products, add items to their cart, and complete secure transactions. The backend is powered by Node.js and MongoDB for efficient data management.",
+    "technologies": [
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ],
+    "image": "/src/assets/007-legacy.png",
+    "video": null,
+    "githubLink": "https://github.com/username/ecommerce-app",
+    "liveDemo": "https://ecommerce.example.com"
+  },
+  {
+    "id": 3,
+    "title": "Blog Platform",
+    "shortDescription": "A platform for creating and sharing blog posts.",
+    "longDescription": "This blogging platform allows users to create, edit, and delete posts with a user-friendly interface. Built with Django and styled using Bootstrap, the app provides a clean and functional design.",
+    "technologies": [
+      "Django",
+      "Python",
+      "Bootstrap"
+    ],
+    "image": "https://via.placeholder.com/blog-image.png",
+    "video": null,
+    "githubLink": "https://github.com/username/blog-platform",
+    "liveDemo": "https://blog.example.com"
+  }
+]

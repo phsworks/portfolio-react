@@ -1,0 +1,33 @@
+.projectcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  margin: 0 auto;
+  border: 1px solid #2A2A2A;
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  img {
+    height: auto;
+    width: 250px;
+  }
+}
+
+.projectcard.bg-img-1 {
+  background-image: url(../assets/BackgroundCard.png);
+}
+.projectcard.bg-img-2 {
+  background-image: url(../assets/backgroundcard2.png);
+}
+
+
+.projectcard:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  transition-duration: 200ms;
+}
