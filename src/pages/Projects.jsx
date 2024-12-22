@@ -1,10 +1,6 @@
-import projects from '../Data/projects.json'
-
-
-
-function ProjectsPage(){
+function ProjectsDetailPage(){
   return (
-    <h1>My Projects</h1>
+    <h1>Project</h1>
 
 
 
@@ -14,4 +10,4 @@ function ProjectsPage(){
   )
 }
 
-export default ProjectsPage
+export default ProjectsDetailPage

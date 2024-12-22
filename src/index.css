@@ -5,9 +5,14 @@ body {
   font-weight: 200;
   font-style: normal;
   line-height: 1.5;
-  background: linear-gradient(to right, #000000, #000617);
+  background-color: #0B0B0B;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: white;
+
+  --primary--color: #1B00AF;
+  --secondary-color: #3C3D62;
+  --accent: #77BFD2;
+  --background : #0B0B0B;
 }

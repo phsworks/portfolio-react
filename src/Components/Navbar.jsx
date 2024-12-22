@@ -8,7 +8,7 @@ import menu from "../assets/menu-icon.png";
 
 function Navbar() {
   return (
-    <>
+    <div className="navbar">
       <div className="navbar-container">
         <div className="logo">
           <NavLink to="/">
@@ -62,7 +62,7 @@ function Navbar() {
             <img width={30} src={menu} alt="menu-icon" />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

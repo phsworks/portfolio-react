@@ -1,47 +1,107 @@
 [
   {
     "id": 1,
-    "title": "Personal Portfolio Website",
-    "shortDescription": "A responsive website showcasing my projects.",
-    "longDescription": "This portfolio was built using React and CSS to demonstrate my web development skills. It includes dynamic project cards, a responsive layout, and interactive animations to enhance user engagement.",
+    "title": "007 Legacy",
+    "shortDescription": "A James Bond-themed browser game.",
+    "longDescription": "This interactive game allows players to navigate as James Bond, defeat villains, and collect Vodka Martinis for extra lives. Built with HTML, CSS, and JavaScript, the game showcases smooth gameplay mechanics and a responsive layout.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "image": "/src/assets/Imac mockup  (9).png",
+    "video": null,
+    "githubLink": "https://github.com/username/007-legacy",
+    "liveDemo": "https://007-legacy.example.com"
+  },
+  {
+    "id": 2,
+    "title": "BookQuest",
+    "shortDescription": "An online personal library for managing books.",
+    "longDescription": "BookQuest is a web application designed for book lovers to track books they've read and want to read. It features personalized filters, a reading profile, and interactive elements, making it easy to organize collections.",
     "technologies": [
       "React",
       "CSS",
       "JavaScript"
     ],
-    "image": "/src/assets/Houseintuscany.png",
-    "video": "https://www.youtube.com/watch?v=example",
-    "githubLink": "https://github.com/username/portfolio",
-    "liveDemo": "https://portfolio.example.com"
-  },
-  {
-    "id": 2,
-    "title": "E-commerce App",
-    "shortDescription": "An online shopping platform with advanced features.",
-    "longDescription": "This e-commerce application enables users to browse products, add items to their cart, and complete secure transactions. The backend is powered by Node.js and MongoDB for efficient data management.",
-    "technologies": [
-      "Node.js",
-      "Express",
-      "MongoDB"
-    ],
-    "image": "/src/assets/007-legacy.png",
+    "image": "/src/assets/legacy.png",
     "video": null,
-    "githubLink": "https://github.com/username/ecommerce-app",
-    "liveDemo": "https://ecommerce.example.com"
+    "githubLink": "https://github.com/username/bookquest",
+    "liveDemo": "https://bookquest.example.com"
   },
   {
     "id": 3,
-    "title": "Blog Platform",
-    "shortDescription": "A platform for creating and sharing blog posts.",
-    "longDescription": "This blogging platform allows users to create, edit, and delete posts with a user-friendly interface. Built with Django and styled using Bootstrap, the app provides a clean and functional design.",
+    "title": "IronHub",
+    "shortDescription": "A platform for sharing tech resources and connecting developers.",
+    "longDescription": "IronHub is a web application where users can share and discover tech resources such as articles, tutorials, and tools. The platform encourages collaboration and skill-sharing among developers.",
     "technologies": [
-      "Django",
-      "Python",
-      "Bootstrap"
+      "React",
+      "CSS",
+      "JavaScript"
     ],
-    "image": "https://via.placeholder.com/blog-image.png",
+    "image": "/src/assets/ironhub-2.svg",
     "video": null,
-    "githubLink": "https://github.com/username/blog-platform",
-    "liveDemo": "https://blog.example.com"
+    "githubLink": "https://github.com/username/ironhub",
+    "liveDemo": "https://ironhub-front.netlify.app"
+  },
+  {
+    "id": 4,
+    "title": "Mobile User-Flow UX/UI Project",
+    "shortDescription": "Interactive mobile user flow for creating custom bags.",
+    "longDescription": "This project was a collaboration to design a seamless UX/UI flow for customizing bags on mobile. Built with a focus on user-friendly interactions and responsive design, it provides a smooth experience from selecting options to visualizing the final product.",
+    "technologies": [
+      "React",
+      "CSS",
+      "JavaScript"
+    ],
+    "image": "/src/assets/",
+    "video": null,
+    "githubLink": null,
+    "liveDemo": "https://mietis.netlify.app/#/createbag"
+  },
+  {
+    "id": 5,
+    "title": "Solvware Website",
+    "shortDescription": "Corporate website for Solvware's software solutions.",
+    "longDescription": "Built a professional and modern website for Solvware, showcasing its advanced software products and services. The website is designed with a responsive layout and clear navigation to provide an engaging user experience.",
+    "technologies": [
+      "WordPress",
+      "PHP",
+      "CSS"
+    ],
+    "image": "/src/assets/solvware.png",
+    "video": null,
+    "githubLink": null,
+    "liveDemo": "https://solvware.nl"
+  },
+  {
+    "id": 6,
+    "title": "SolvCRM Website",
+    "shortDescription": "Informational website for SolvCRM, a powerful CRM system.",
+    "longDescription": "Created a clean and functional website for SolvCRM to highlight the system's features and capabilities. Designed with the user in mind, the site is optimized for performance and accessibility.",
+    "technologies": [
+      "WordPress",
+      "PHP",
+      "CSS"
+    ],
+    "image": "/src/assets/solvcrm.png",
+    "video": null,
+    "githubLink": null,
+    "liveDemo": "https://solvcrm.nl"
+  },
+  {
+    "id": 7,
+    "title": "House in Tuscany Website",
+    "shortDescription": "An online presence for a luxurious vacation villa in Tuscany.",
+    "longDescription": "Created a tasteful and user-friendly website for House in Tuscany, showcasing the villa's features and enabling easy booking for potential guests. The design highlights the beauty of Tuscany, focusing on aesthetics and usability.",
+    "technologies": [
+      "WordPress",
+      "PHP",
+      "CSS"
+    ],
+    "image": "/src/assets/houseintuscany.png",
+    "video": null,
+    "githubLink": null,
+    "liveDemo": "https://houseintuscany.eu"
   }
 ]

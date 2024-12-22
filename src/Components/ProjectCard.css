@@ -2,32 +2,96 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 30px;
+  align-items: center;
+  position: relative;
+  padding: 35px;
   margin: 0 auto;
-  border: 1px solid #2A2A2A;
-  width: 250px;
-  height: auto;
+  width: 350px;
+  height: 280px;
   border-radius: 10px;
   background-size: cover;
   background-position: center;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
-  img {
-    height: auto;
-    width: 250px;
+
+
+  p {
+    display: none;
   }
+
+  h3 {
+    display: none;
+  }
+
+  img {
+    margin: 0 auto;
+    height: auto;
+    width: 300px;
+    animation-name: kenburns-top;
+    animation-duration: 4s;
+    border-radius: 10px;
+    border: 2px solid rgb(202, 202, 202);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  img:hover {
+    animation-play-state: running;
+  }
+  button {
+    display: none;
+  }
+
 }
 
-.projectcard.bg-img-1 {
-  background-image: url(../assets/BackgroundCard.png);
+.projectcard.bg-1 {
+  background-image: url(../assets/legacy.png);
 }
-.projectcard.bg-img-2 {
+.projectcard.bg-2 {
   background-image: url(../assets/backgroundcard2.png);
 }
-
-
-.projectcard:hover {
-  cursor: pointer;
-  transform: scale(1.03);
-  transition-duration: 200ms;
+.projectcard.bg-3 {
+  background-image: url(../assets/ironhub.png);
 }
+.projectcard.bg-4 {
+  background-image: url(../assets/mietis.png);
+}
+
+
+.projectcard:hover, .projectcard:active {
+  cursor: pointer;
+  transition-duration: 300ms;
+  border: 1px solid grey;
+  color: white;
+  height: 280px;
+
+
+  p {
+    display: block;
+    text-align: center;
+  }
+
+  h3 {
+    display: block;
+  }
+  button {
+    display: block;
+  }
+
+  img {
+    display: none;
+  }
+
+  background-image: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
