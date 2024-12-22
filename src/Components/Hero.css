@@ -1,4 +1,9 @@
 .hero {
-  height: 300px;
+  height: 50vh;
+  padding-top: 20px;
   padding-left: 30px;
+  background-image: url(../assets/Backgrund-Hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
