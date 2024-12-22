@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.css";
+import Piet from '../assets/Piet-Hein.png'
 
 function Hero() {
   return (
@@ -7,14 +8,14 @@ function Hero() {
       <div className="hero">
         <h2> I am Piet-Hein,</h2>
         <h1>Full-Stack Web Developer</h1>
+        <img width={300} src={Piet} alt="piet-hein" />
         <p>
-          I’ve always been fascinated by how technology can shape our world.
-          From building websites to developing full-stack applications, I bring
-          creativity, problem-solving, and a results-oriented mindset to every
-          project.
+          “With a passion for building websites and full-stack
+          applications, I combine creativity, problem-solving, and a
+          results-driven approach to bring ideas to life.”
         </p>
-        <button>See Projects</button>
-        <button>Let's Connect </button>
+        <button>Download CV</button>
+        <button>My Projects</button>
       </div>
     </div>
   );

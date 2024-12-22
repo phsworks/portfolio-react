@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Nunito", sans-serif;
@@ -8,12 +12,18 @@ body {
   font-style: normal;
   line-height: 1.5;
   background-color: #0B101F;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
   color: white;
 
   --primary--color: #1B00AF;
   --secondary-color: #3C3D62;
   --accent: #77BFD2;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
 }

@@ -1,9 +1,49 @@
 .hero {
-  height: 50vh;
-  padding-top: 20px;
+  height: 70vh;
   padding-left: 30px;
   background-image: url(../assets/Backgrund-Hero.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+
+  h2 {
+    color: white;
+  }
+
+  h1 {
+    color: var(--accent);
+    margin-bottom: 30px;
+  }
+
+  img {
+    margin: 0 auto;
+    rotate: 2deg;
+    border-radius: 38px;
+    border: 2px solid #77bed23e;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  img:hover {
+    transform: rotate(-2deg);
+    transition-duration: 300ms;
+    border: 2px solid #77bed2;
+  }
+
+  p {
+    width: 280px;
+    padding-top: 20px;
+  }
+
+  
+
+
+
+
 }
+

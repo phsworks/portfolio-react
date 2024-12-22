@@ -3,13 +3,13 @@
   align-items: center;
   justify-content: space-between;
   padding-top: 15px;
-  background-image: url(../assets/Background-Navbar.png);
+  background-image: url(../assets/background-nav.png);
   background-size: cover;
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   width: 100vw;
-  background-color: #0B0D11;
   height: 80px;
+
 }
 
 .navbar-links {
