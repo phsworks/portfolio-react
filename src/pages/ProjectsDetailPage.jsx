@@ -13,7 +13,11 @@ function ProjectsDetailPage() {
   return (
     <div>
       <h1>{project.title}</h1>
-      <p>{project.longDescription}</p>
+      <p>Technologies: {project.technologies}</p>
+
+      <h2>Description</h2>
+      <p> {project.longDescription}</p>
+      <video src={project.video}></video>
     </div>
   );
 }
