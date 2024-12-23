@@ -2,8 +2,8 @@
   {
     "id": 1,
     "title": "007 Legacy",
-    "shortDescription": "A James Bond-themed browser game.",
-    "longDescription": "This interactive game allows players to navigate as James Bond, defeat villains, and collect Vodka Martinis for extra lives. Built with HTML, CSS, and JavaScript, the game showcases smooth gameplay mechanics and a responsive layout.",
+    "shortDescription": "A James Bond-themed browser game created with passion.",
+    "longDescription": "007 Legacy is a browser-based game inspired by my love for James Bond. Players navigate as Bond, taking on missions, defeating villains, and collecting Vodka Martinis for extra lives. The game incorporates iconic Bond elements, such as thrilling scenarios and gadgets, combined with smooth gameplay mechanics and a responsive layout. Developed with HTML, CSS, and JavaScript, this project highlights creativity and technical skills while providing an immersive gaming experience.",
     "technologies": [
       "HTML",
       "CSS",
@@ -18,7 +18,7 @@
     "id": 2,
     "title": "BookQuest",
     "shortDescription": "An online personal library for managing books.",
-    "longDescription": "BookQuest is a web application designed for book lovers to track books they've read and want to read. It features personalized filters, a reading profile, and interactive elements, making it easy to organize collections.",
+    "longDescription": "BookQuest is a web application designed for book enthusiasts to track books they've read and want to read. It features personalized filters, a reading profile, and interactive elements, allowing users to organize collections effortlessly. The app's user-friendly interface and efficient design make it a valuable tool for any avid reader.",
     "technologies": [
       "React",
       "CSS",
@@ -32,12 +32,13 @@
   {
     "id": 3,
     "title": "IronHub",
-    "shortDescription": "A platform for sharing tech resources and connecting developers.",
-    "longDescription": "IronHub is a web application where users can share and discover tech resources such as articles, tutorials, and tools. The platform encourages collaboration and skill-sharing among developers.",
+    "shortDescription": "A platform for Ironhack students to collaborate and share knowledge.",
+    "longDescription": "IronHub was developed as a forum for Ironhack students to ask questions, share resources, and collaborate on projects. With a secure sign-up and login system, users can post questions, share insights, and find answers in a supportive community environment. The platform also features resources like tutorials and articles, enhancing the learning experience. Built using React, JavaScript, and MongoDB, IronHub embodies the spirit of collaboration and innovation.",
     "technologies": [
       "React",
       "CSS",
-      "JavaScript"
+      "JavaScript",
+      "MongoDB"
     ],
     "image": "/src/assets/ironhub-2.svg",
     "video": null,
@@ -47,8 +48,8 @@
   {
     "id": 4,
     "title": "Mobile User-Flow UX/UI Project",
-    "shortDescription": "Interactive mobile user flow for creating custom bags.",
-    "longDescription": "This project was a collaboration to design a seamless UX/UI flow for customizing bags on mobile. Built with a focus on user-friendly interactions and responsive design, it provides a smooth experience from selecting options to visualizing the final product.",
+    "shortDescription": "Interactive mobile user flow for customizing bags.",
+    "longDescription": "This project focused on creating a seamless UX/UI flow for a mobile application that allows users to customize bags. Emphasizing user-friendly interactions and responsive design, the application guides users through a smooth process, from selecting options to visualizing the final product. The project showcases design thinking and front-end development expertise.",
     "technologies": [
       "React",
       "CSS",
@@ -62,8 +63,8 @@
   {
     "id": 5,
     "title": "Solvware Website",
-    "shortDescription": "Corporate website for Solvware's software solutions.",
-    "longDescription": "Built a professional and modern website for Solvware, showcasing its advanced software products and services. The website is designed with a responsive layout and clear navigation to provide an engaging user experience.",
+    "shortDescription": "Corporate website showcasing Solvware's software solutions.",
+    "longDescription": "During my internship at Solvware, I redesigned their website to integrate existing content with new, modern elements. The website highlights Solvware's diverse services, emphasizing usability and clarity. With a responsive design, intuitive navigation, and strategic calls-to-action, the site effectively communicates Solvware's technical expertise and converts visitors into clients.",
     "technologies": [
       "WordPress",
       "PHP",
@@ -78,10 +79,9 @@
     "id": 6,
     "title": "SolvCRM Website",
     "shortDescription": "Informational website for SolvCRM, a powerful CRM system.",
-    "longDescription": "Created a clean and functional website for SolvCRM to highlight the system's features and capabilities. Designed with the user in mind, the site is optimized for performance and accessibility.",
+    "longDescription": "As part of my internship, I developed a clean and functional website for SolvCRM to highlight its advanced features. The website emphasizes capabilities like workflow automation, centralized data management, and Google Calendar integration. Designed with the user in mind, the site is optimized for performance and accessibility, ensuring a seamless experience for visitors.",
     "technologies": [
       "WordPress",
-      "PHP",
       "CSS"
     ],
     "image": "/src/assets/solvcrm.png",
@@ -92,8 +92,8 @@
   {
     "id": 7,
     "title": "House in Tuscany Website",
-    "shortDescription": "An online presence for a luxurious vacation villa in Tuscany.",
-    "longDescription": "Created a tasteful and user-friendly website for House in Tuscany, showcasing the villa's features and enabling easy booking for potential guests. The design highlights the beauty of Tuscany, focusing on aesthetics and usability.",
+    "shortDescription": "An elegant online presence for a luxurious vacation villa in Tuscany.",
+    "longDescription": "HouseInTuscany.eu is a visually stunning website that showcases the luxury and charm of a vacation villa in Tuscany. The design focuses on aesthetics, capturing the beauty of the Tuscan landscape while providing comprehensive information about the villa's features and local attractions. Visitors are inspired by immersive visuals and intuitive navigation, making it easy to book their dream getaway.",
     "technologies": [
       "WordPress",
       "PHP",

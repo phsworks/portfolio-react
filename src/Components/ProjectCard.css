@@ -44,9 +44,9 @@
 .projectcard.bg-1 {
   background-image: url(../assets/legacy.png);
 }
-.projectcard.bg-2 {
+/* .projectcard.bg-2 {
   background-image: url(../assets/backgroundcard2.png);
-}
+} */
 .projectcard.bg-3 {
   background-image: url(../assets/ironhub.png);
 }
