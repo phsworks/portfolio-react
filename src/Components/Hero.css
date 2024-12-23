@@ -1,5 +1,5 @@
 .hero {
-  height: 70vh;
+  height: 700px;
   padding-left: 30px;
   background-image: url(../assets/Backgrund-Hero.png);
   background-size: cover;
@@ -40,7 +40,7 @@
     padding-top: 20px;
   }
 
-  
+
 
 
 
