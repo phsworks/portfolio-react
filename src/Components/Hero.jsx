@@ -10,7 +10,7 @@ function Hero() {
         <h1>
           Full-Stack <span>Web Developer</span>{" "}
         </h1>
-        <img width={300} src={Piet} alt="piet-hein" />
+        <img width={290} src={Piet} alt="piet-hein" />
         <p>
           “With a passion for building websites and full-stack applications, I
           combine creativity, problem-solving, and a results-driven approach to
@@ -22,9 +22,9 @@ function Hero() {
             <span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="25"
-                height="13"
-                viewBox="0 0 20 25"
+                width="18"
+                height="11"
+                viewBox="0 0 20 22"
               >
                 <path
                   fill="#02609a"

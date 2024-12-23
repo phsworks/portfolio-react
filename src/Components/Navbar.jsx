@@ -12,7 +12,7 @@ function Navbar() {
       <div className="navbar-container">
         <div className="logo">
           <NavLink to="/">
-            <img width={60} src={logo} alt="logo" />
+            <img width={55} src={logo} alt="logo" />
           </NavLink>
         </div>
         <nav>
@@ -46,7 +46,7 @@ function Navbar() {
           <button className="primary-button">Let's connect</button>
         </div>
         <div className="menu">
-          <img width={40} src={menu} alt="menu-icon" />
+          <img width={48} src={menu} alt="menu-icon" />
         </div>
       </div>
     </div>

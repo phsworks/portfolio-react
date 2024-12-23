@@ -35,13 +35,13 @@ h2 {
 .primary-button {
   background-image: linear-gradient(to right, #02609a, #77BFD2);
   border-radius: 20px;
-  width: 140px;
+  width: 130px;
   border-style: none;
   color: #FFFFFF;
   cursor: pointer;
   font-size: 15px;
   font-weight: 500;
-  height: 40px;
+  height: 35px;
   padding: 10px;
   text-align: center;
   text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
@@ -64,10 +64,16 @@ h2 {
   color: #02609a;
   padding: 10px;
   border-radius: 20px;
-  width: 140px;
+  width: 130px;
   text-align: center;
-  height: 40px;
-  font-size: 15px;
+  height: 35px;
+  font-size: 14px;
 
 }
 
+.secondary-button:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  border: 1px solid #0978bd;
+  box-shadow: #118edc21 0px 8px 24px;
+}
