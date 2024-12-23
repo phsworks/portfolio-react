@@ -12,31 +12,15 @@ function Navbar() {
       <div className="navbar-container">
         <div className="logo">
           <NavLink to="/">
-            <img width={50} src={logo} alt="logo" />
+            <img width={60} src={logo} alt="logo" />
           </NavLink>
         </div>
         <nav>
           <ul className="navbar-links">
-            <li>
-              <NavLink className="link" to="/">
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink className="link" to="/about">
-                About
-              </NavLink>
-            </li>
-            <li>
-              <NavLink className="link" to="/projects">
-                Projects
-              </NavLink>
-            </li>
-            <li>
-              <NavLink className="link" to="/contact">
-                Contact
-              </NavLink>
-            </li>
+            <li>Home</li>
+            <li>My Projects</li>
+            <li>My Skills</li>
+            <li>Contact</li>
           </ul>
         </nav>
         <div className="socials">
@@ -58,8 +42,11 @@ function Navbar() {
             </li>
           </ul>
         </div>
+        <div>
+          <button className="primary-button">Let's connect</button>
+        </div>
         <div className="menu">
-            <img width={30} src={menu} alt="menu-icon" />
+          <img width={40} src={menu} alt="menu-icon" />
         </div>
       </div>
     </div>

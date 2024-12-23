@@ -15,15 +15,59 @@ body {
 
   color: white;
 
-  --primary--color: #1B00AF;
+  --primary--color: #0916c6;
   --secondary-color: #3C3D62;
   --accent: #77BFD2;
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 26px;
+  background-image: linear-gradient(45deg, #02609a, #77BFD2,  #fdffff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h2 {
   font-size: 20px;
 }
+
+
+.primary-button {
+  background-image: linear-gradient(to right, #02609a, #77BFD2);
+  border-radius: 20px;
+  width: 140px;
+  border-style: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+}
+
+.primary-button:hover {
+  background-image: linear-gradient(to right, #77BFD2, #02609a);
+  transition-duration: 300ms;
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 2.6rem;
+  }
+}
+
+.secondary-button {
+  border: 1px solid #02609a;
+  background-color: transparent;
+  color: #02609a;
+  padding: 10px;
+  border-radius: 20px;
+  width: 140px;
+  text-align: center;
+  height: 40px;
+  font-size: 15px;
+
+}
+

@@ -15,10 +15,7 @@
     color: white;
   }
 
-  h1 {
-    color: var(--accent);
-    margin-bottom: 30px;
-  }
+  
 
   img {
     margin: 0 auto;
