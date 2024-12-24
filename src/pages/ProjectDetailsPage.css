@@ -1,12 +1,59 @@
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+
+  img {
+    background-color: black;
+    border-radius: 10px;
+  }
+
+  .technologies {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+    p {
+        background-image: linear-gradient(to right, #02609a, #77BFD2);
+        padding: 10px;
+        border-radius: 20px;
+      }
+
+    p:hover {
+      transform: scale(1.02);
+    }
+    }
+
+}
+
+
+
 .project-details {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
 
-
-
-  video {
+  iframe {
+    width: 350px;
     height: auto;
   }
+
+  p {
+    width: 300px;
+    text-align: center;
+  }
+
 }
