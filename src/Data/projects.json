@@ -9,7 +9,7 @@
       "CSS",
       "JavaScript"
     ],
-    "image": "../assets/007-legacy.png",
+    "image": "/public/images/007-legacy.png",
     "video": "I9rkChfLnzw",
     "githubLink": "https://github.com/phsworks/007-Legacy",
     "liveDemo": "https://phsworks.github.io/007-Legacy/"

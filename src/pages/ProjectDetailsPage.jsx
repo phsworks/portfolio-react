@@ -29,7 +29,7 @@ function ProjectsDetailsPage() {
         <p> {project.longDescription}</p>
         <div className="video">
           <iframe
-            src={`https:www.youtube.com/embed/${project.video}`}
+            src={`https://www.youtube.com/embed/${project.video}`}
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
