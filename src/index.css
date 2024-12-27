@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 * {
   margin: 0;
@@ -11,39 +11,38 @@ body {
   font-weight: 200;
   font-style: normal;
   line-height: 1.5;
-  background-color: #0B1224;
+  background-color: #0b1224;
 
   color: white;
 
   --primary--color: #02609a;
   --secondary-color: #fdffff;
-  --accent: #77BFD2;
+  --accent: #77bfd2;
 }
 
 h1 {
-  font-size: 28px;
-  background-image: linear-gradient(45deg, #02609a, #77BFD2,  #fdffff);
+  font-size: 32px;
+  background-image: linear-gradient(45deg, #02609a, #77bfd2, #fdffff);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 h2 {
-  font-size: 23px;
+  font-size: 28px;
 }
 
 a {
   text-decoration: none;
   width: 30px;
+  color: white;
 }
 
-
-
 .primary-button {
-  background-image: linear-gradient(to right, #02609a, #77BFD2);
+  background-image: linear-gradient(to right, #02609a, #77bfd2);
   border-radius: 20px;
   width: 130px;
   border-style: none;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
   font-size: 15px;
   font-weight: 500;
@@ -54,7 +53,7 @@ a {
 }
 
 .primary-button:hover {
-  background-image: linear-gradient(to right, #77BFD2, #02609a);
+  background-image: linear-gradient(to right, #77bfd2, #02609a);
   transition-duration: 300ms;
 }
 
@@ -74,7 +73,6 @@ a {
   text-align: center;
   height: 35px;
   font-size: 14px;
-
 }
 
 .secondary-button:hover {
@@ -86,34 +84,38 @@ a {
 
 .github-button {
   cursor: pointer;
-  display: flex;
-  gap: 0.5rem;
   border: none;
   width: 130px;
-
-  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: 300ms ease;
   border-radius: 20px;
   font-weight: 800;
   place-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 
-  padding: 0.75rem 1rem;
-  font-size: 0.825rem;
-  line-height: 1rem;
+  padding: 10px;
+  font-size: 14px;
 
   background-color: rgba(0, 0, 0, 0.4);
-  box-shadow:
-    inset 0 1px 0 0 rgba(255, 255, 255, 0.04),
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.04),
     inset 0 0 0 1px rgba(255, 255, 255, 0.04);
-  color: #FFFFFF
 
-
+  .icon {
+    color: white;
+  }
 }
 
 .github-button:hover {
-  box-shadow:
-    inset 0 1px 0 0 rgba(255, 255, 255, 0.08),
-    inset 0 0 0 1px rgba(252, 232, 3, 0.08);
-  color: #0978bd;
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.08),
+  inset 0 0 0 1px rgba(252, 232, 3, 0.08);
   background-color: rgba(0, 0, 0, 0.5);
-}
 
+  a {
+    color: #0978bd;
+  }
+  .icon {
+    color: #0978bd;
+  }
+}

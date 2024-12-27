@@ -24,10 +24,12 @@
     gap: 20px;
     justify-content: center;
 
+
     p {
         background-image: linear-gradient(to right, #02609a, #77BFD2);
-        padding: 10px;
+        padding: 8px;
         border-radius: 20px;
+        font-size: 12px;
       }
 
     p:hover {
@@ -44,16 +46,26 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
 
   iframe {
     width: 350px;
-    height: auto;
+    height: 190px;
   }
 
   p {
     width: 300px;
     text-align: center;
   }
+
+}
+
+.project-buttons {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
 
 }
