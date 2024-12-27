@@ -46,7 +46,7 @@ a {
   cursor: pointer;
   font-size: 15px;
   font-weight: 500;
-  height: 35px;
+  height: auto;
   padding: 10px;
   text-align: center;
   text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
@@ -71,8 +71,9 @@ a {
   border-radius: 20px;
   width: 130px;
   text-align: center;
-  height: 35px;
+  height: auto;
   font-size: 14px;
+  text-align: center;
 }
 
 .secondary-button:hover {
@@ -94,6 +95,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  height: auto;
 
   padding: 10px;
   font-size: 14px;

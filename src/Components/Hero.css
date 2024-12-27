@@ -1,5 +1,5 @@
 .hero {
-  height: 700px;
+  height: 800px;
   padding-left: 30px;
   background-image: url(../assets/Backgrund-Hero.png);
   background-size: cover;
@@ -9,7 +9,6 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-
 
 
   h2 {
@@ -28,6 +27,7 @@
     margin-bottom: 20px;
     padding-left: 10px;
     margin-left: 15px;
+    box-shadow: rgba(61, 61, 61, 0.2) 0px 8px 24px;
   }
 
   img:hover {
@@ -44,9 +44,7 @@
   }
 
 
-
-
-
-
 }
+
+
 

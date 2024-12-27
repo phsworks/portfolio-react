@@ -12,7 +12,7 @@
   border-radius: 10px;
   background-size: cover;
   background-position: center;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
   p {
     display: none;
@@ -30,7 +30,6 @@
     animation-duration: 4s;
     border-radius: 10px;
     border: 2px solid rgb(202, 202, 202);
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
   img:hover {
     animation-play-state: running;
@@ -60,7 +59,9 @@
   transition-duration: 300ms;
   border: 1px solid grey;
   color: white;
-  height: 280px;
+  height: 295px;
+  background-image: none;
+
 
 
   p {
@@ -79,7 +80,6 @@
     display: none;
   }
 
-  background-image: none;
 }
 
 

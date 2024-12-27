@@ -4,6 +4,10 @@
   align-items: center;
   flex-direction: column;
   gap: 20px;
+  background-image: url(../assets/Backgrund-Hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .project-top {
@@ -12,11 +16,12 @@
   align-items: center;
   flex-direction: column;
   gap: 20px;
-  padding-top: 20px;
+  padding-top: 40px;
 
   img {
     background-color: black;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 
   .technologies {
@@ -30,6 +35,7 @@
         padding: 8px;
         border-radius: 20px;
         font-size: 12px;
+        margin-bottom: 20px;
       }
 
     p:hover {
@@ -47,25 +53,33 @@
   align-items: center;
   flex-direction: column;
   gap: 20px;
+  background-color: transparent;
 
-  iframe {
-    width: 350px;
-    height: 190px;
-  }
+
 
   p {
-    width: 300px;
+    width: 330px;
     text-align: center;
+    padding-bottom: 20px;
+  }
+  iframe {
+    width: 350px;
+    height: 220px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid rgb(19, 19, 19);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #000000;
+    padding: 5px;
+    border-radius: 10px;
   }
 
-}
+  .project-buttons {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 
-.project-buttons {
-  width: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-
-
+  }
 }

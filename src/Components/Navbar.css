@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   padding-top: 12px;
+  padding-bottom: 12px;
   background-image: url(../assets/background-nav.png);
   background-size: cover;
   background-position: left;

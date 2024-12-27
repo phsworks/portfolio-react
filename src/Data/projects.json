@@ -67,11 +67,10 @@
     "longDescription": "During my internship at Solvware, I redesigned their website to integrate existing content with new, modern elements. The website highlights Solvware's diverse services, emphasizing usability and clarity. With a responsive design, intuitive navigation, and strategic calls-to-action, the site effectively communicates Solvware's technical expertise and converts visitors into clients.",
     "technologies": [
       "WordPress",
-      "PHP",
       "CSS"
     ],
     "image": "/src/assets/solvware.png",
-    "video": null,
+    "video": "kEjU5_Md3uI",
     "githubLink": null,
     "liveDemo": "https://solvware.nl"
   },
@@ -85,7 +84,7 @@
       "CSS"
     ],
     "image": "/src/assets/solvcrm.png",
-    "video": null,
+    "video": "Bo2YxoRB8Xg",
     "githubLink": null,
     "liveDemo": "https://solvcrm.nl"
   },
@@ -96,11 +95,10 @@
     "longDescription": "HouseInTuscany.eu is a visually stunning website that showcases the luxury and charm of a vacation villa in Tuscany. The design focuses on aesthetics, capturing the beauty of the Tuscan landscape while providing comprehensive information about the villa's features and local attractions. Visitors are inspired by immersive visuals and intuitive navigation, making it easy to book their dream getaway.",
     "technologies": [
       "WordPress",
-      "PHP",
       "CSS"
     ],
     "image": "/src/assets/houseintuscany.png",
-    "video": null,
+    "video": "jNbIfOlhsN0",
     "githubLink": null,
     "liveDemo": "https://houseintuscany.eu"
   }
