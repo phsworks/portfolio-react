@@ -18,8 +18,10 @@
   gap: 20px;
   padding-top: 40px;
 
+  
+
   img {
-    background-color: black;
+    background-color: #02040c;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
