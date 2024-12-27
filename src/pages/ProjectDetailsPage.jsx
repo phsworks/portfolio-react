@@ -17,8 +17,8 @@ function ProjectsDetailsPage() {
         <h1>{project.title}</h1>
         <img width={300} src={project.image} alt="project-image" />
         <div className="technologies">
-        {project.technologies.map((technology) => (
-            <p>{technology}</p>
+        {project.technologies.map((technology, index) => (
+            <p key={index}>{technology}</p>
         ))
       }
       </div>
