@@ -86,7 +86,7 @@ a {
 .github-button {
   cursor: pointer;
   border: none;
-  width: 130px;
+  width: 140px;
   transition: 300ms ease;
   border-radius: 20px;
   font-weight: 800;
@@ -95,7 +95,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  height: auto;
+  height: 43px;
 
   padding: 10px;
   font-size: 14px;

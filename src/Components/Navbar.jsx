@@ -1,12 +1,21 @@
 import "./Navbar.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import logo from "../assets/Logo.png";
 import linkedin from "../assets/linkedin.png";
 import behance from "../assets/behance.png";
 import github from "../assets/github.png";
 import menu from "../assets/menu-icon.png";
+import X from "../assets/X-mark.png"
+
+import { useState } from "react";
 
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen((open) => !open);
+  };
+
   return (
     <div className="navbar">
       <div className="navbar-container">
@@ -15,14 +24,6 @@ function Navbar() {
             <img width={55} src={logo} alt="logo" />
           </NavLink>
         </div>
-        <nav>
-          <ul className="navbar-links">
-            <li>Home</li>
-            <li>My Projects</li>
-            <li>My Skills</li>
-            <li>Contact</li>
-          </ul>
-        </nav>
         <div className="socials">
           <ul className="social-links">
             <li>
@@ -45,9 +46,29 @@ function Navbar() {
         <div>
           <button className="primary-button">Let's connect</button>
         </div>
-        <div className="menu">
-          <img width={48} src={menu} alt="menu-icon" />
+        <div className={`menu-icon ${isOpen ? "open-menu" : ""}`}>
+          <button onClick={toggleMenu}>
+            <img className="hamburger" width={45} src={menu} alt="menu-icon" />
+            <img className="x-mark" width={45} src={X} alt="x-cross" />
+          </button>
         </div>
+      </div>
+      <div className={`mobile-menu ${isOpen ? "is-open" : ""}`}>
+        <nav>
+          <ul className="mobile-links">
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="">My Skills</a>
+            </li>
+            <li>
+              <NavLink to="projects-container"> My Projects </NavLink>
+            </li>
+
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
       </div>
     </div>
   );

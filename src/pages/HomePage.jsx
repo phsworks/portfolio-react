@@ -8,7 +8,7 @@ function HomePage() {
 return (
   <>
   <Hero/>
-<div className="projects-container">
+<div id="projects-container">
   <div className="projectsort">
     <h2>My recent Projects</h2>
   </div>
