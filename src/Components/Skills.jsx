@@ -89,6 +89,13 @@ function Skills() {
             </div>
             <p>NodeJS</p>
           </div>
+          <div className="skill-container">
+            <div className="skill-card">
+              <img width={100} src={MongoDB} alt="NodeJS" />
+              <p>92%</p>
+            </div>
+            <p>MongoDB</p>
+          </div>
         </div>
       </div>
   );

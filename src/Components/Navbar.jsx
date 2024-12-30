@@ -5,7 +5,6 @@ import { HashLink as Link } from "react-router-hash-link";
 import logo from "../assets/Logo.png";
 import linkedin from "../assets/linkedin.png";
 import behance from "../assets/behance.png";
-import github from "../assets/github.png";
 import menu from "../assets/menu-icon.png";
 import X from "../assets/X-mark.png"
 
@@ -31,11 +30,6 @@ function Navbar() {
             <li>
               <a href="">
                 <img width={25} src={linkedin} alt="linkedin" />
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img width={25} src={github} alt="github" />
               </a>
             </li>
             <li>
