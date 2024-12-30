@@ -3,14 +3,17 @@ import { useRef } from "react";
 import ProjectCard from "../Components/ProjectCard";
 import projects from "../Data/projects.json";
 import Hero from "../Components/Hero";
+import Skills from "../Components/Skills";
 import "./HomePage.css";
 
 function HomePage() {
-
   return (
     <>
       <div className="hero-section">
         <Hero />
+      </div>
+      <div className="skills-section">
+        <Skills />
       </div>
       <div id="projects-section">
         <div className="projectsort">

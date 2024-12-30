@@ -1,0 +1,64 @@
+.skills {
+  padding-left: 30px;
+  background-image: url(../assets/Backgrund-Hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: start;
+  padding-bottom: 20px;
+}
+
+.skills-top {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  p {
+    text-align: center;
+    width: 300px;
+  }
+}
+
+.all-skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  p {
+    color: var(--accent);
+    font-weight: 600;
+  }
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background-color: #10161a;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+  filter: grayscale(60%);
+}
+
+.skills-card:hover {
+  filter: none;
+  background-color: var(--primary--color);
+  cursor: pointer;
+  border: 1px solid var(--accent);
+  transition: 300ms ease;
+}
