@@ -64,47 +64,78 @@
 
 .menu-icon {
   padding-right: 20px;
-  padding-top: 8px;
-
-  .hamburger:hover, .x-mark:hover {
-    transform: scale(1.05);
-    cursor: pointer;
-  }
-
-  .x-mark {
-    display: none;
-  }
+  position: relative;
+  padding-bottom: 20px;
 
   button {
-    border-style: none;
+    border: none;
     background-color: transparent;
   }
-}
 
-.menu-icon.open-menu {
-  .hamburger {
-    display: none;
-  }
-
-  .x-mark {
-    display: block;
-    animation: roll 400ms;
-
+  img {
+    transition: opacity 0.3s ease, transform 0.4s ease;
+    margin-right: 10px;
   }
 }
 
-@keyframes roll {
+.hamburger {
+  opacity: 1;
+  transform: scale(1);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.hamburger.hidden {
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+.x-mark {
+  display: none;
+  opacity: 0;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.x-mark.open {
+  display: block;
+  opacity: 1;
+  transform: rotate(0deg);
+}
+
+.x-mark.close {
+  display: block;
+  animation: roll-back 400ms, roll-forwards 200ms disappear 300ms;
+}
+
+@keyframes roll-back {
   from {
-    transform: rotate(40deg);
-  }
-  to {
     transform: rotate(90deg);
   }
+  to {
+    transform: rotate(0deg);
+  }
+}
+@keyframes roll-forwards {
+  from {
+    transform: rotate(90deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes disappear {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 
-.info-buttons {
-  display: flex;
-  gap: 10px;
-}
 

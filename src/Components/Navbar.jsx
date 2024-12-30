@@ -43,13 +43,13 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="connect-button">
           <button className="primary-button">Let's connect</button>
         </div>
-        <div className={`menu-icon ${isOpen ? "open-menu" : ""}`}>
+        <div className={`menu-icon ${isOpen ? "open-menu" : "close-menu"}`}>
           <button onClick={toggleMenu}>
-            <img className="hamburger" width={45} src={menu} alt="menu-icon" />
-            <img className="x-mark" width={45} src={X} alt="x-cross" />
+            <img className={`hamburger ${isOpen ? "hidden" : "visible"}`} width={45} src={menu} alt="menu-icon" />
+            <img className={`x-mark ${isOpen ? "open" : "close"}`} width={45} src={X} alt="x-mark" />
           </button>
         </div>
       </div>
