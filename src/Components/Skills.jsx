@@ -9,7 +9,7 @@ import Wordpress from "../assets/Wordpress.png";
 import MySQL from "../assets/MySQL.png";
 import NodeJS from "../assets/NodeJS.png";
 import Git from "../assets/Git.png";
-import Github from "../assets/Github.png";
+// import Github from "../assets/Github.png";
 
 function Skills() {
   return (
@@ -54,13 +54,13 @@ function Skills() {
             </div>
             <p>Git</p>
           </div>
-          <div className="skill-container">
+          {/* <div className="skill-container">
             <div className="skill-card">
               <img width={100} src={Github} alt="Github" />
               <p>92%</p>
             </div>
-            <p>Github</p>
-          </div>
+            <p>Github</p> */}
+          {/* </div> */}
           <div className="skill-container">
             <div className="skill-card">
               <img width={100} src={Express} alt="Express" />
