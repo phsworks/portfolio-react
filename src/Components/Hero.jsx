@@ -8,7 +8,7 @@ function Hero() {
       <div className="hero">
         <h2> I am Piet-Hein,</h2>
         <h1>
-          Full-Stack <span>Web Developer</span>{" "}
+          Passionate Full-Stack <span>Web Developer</span>{" "}
         </h1>
         <img width={290} src={Piet} alt="piet-hein" />
         <p>

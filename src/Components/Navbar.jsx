@@ -1,5 +1,7 @@
 import "./Navbar.css";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
+
 import logo from "../assets/Logo.png";
 import linkedin from "../assets/linkedin.png";
 import behance from "../assets/behance.png";
@@ -63,9 +65,8 @@ function Navbar() {
               <a href="">My Skills</a>
             </li>
             <li>
-              <NavLink to="projects-container"> My Projects </NavLink>
+              <Link to="/#projects-section">My projects</Link>
             </li>
-
             <li><a href="">Contact</a></li>
           </ul>
         </nav>

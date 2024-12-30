@@ -75,6 +75,7 @@
   img {
     transition: opacity 0.3s ease, transform 0.4s ease;
     margin-right: 10px;
+    width: 50px;
   }
 }
 
@@ -98,12 +99,15 @@
   position: absolute;
   top: 0;
   right: 0;
+
 }
 
 .x-mark.open {
   display: block;
   opacity: 1;
   transform: rotate(0deg);
+  width: 45px;
+  height: 45px;
 }
 
 .x-mark.close {
