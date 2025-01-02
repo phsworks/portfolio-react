@@ -1,14 +1,14 @@
 .skills {
-  padding-left: 30px;
   background-image: url(../assets/Backgrund-Hero.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: start;
-  padding-bottom: 20px;
+  padding-bottom: 35px;
 }
 
 .skills-top {
   padding-top: 40px;
+  padding-bottom: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,9 +24,11 @@
 .all-skills {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(12, 1fr);
-  grid-column-gap: 10px;
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 8px;
   grid-row-gap: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .skill-container {
@@ -34,7 +36,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 15px;
 
   p {
     color: var(--accent);
@@ -49,13 +51,13 @@
   justify-content: center;
   gap: 15px;
   background-color: #10161a;
-  padding: 20px;
+  padding: 25px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
-  filter: grayscale(60%);
+  filter: grayscale(50%);
 }
 
-.skills-card:hover {
+.skills-card:hover, .skill-card:active {
   filter: none;
   background-color: var(--primary--color);
   cursor: pointer;

@@ -4,6 +4,7 @@ import ProjectCard from "../Components/ProjectCard";
 import projects from "../Data/projects.json";
 import Hero from "../Components/Hero";
 import Skills from "../Components/Skills";
+import Contact from "../Components/Contact";
 import "./HomePage.css";
 
 function HomePage() {
@@ -27,6 +28,9 @@ function HomePage() {
               className={`bg-${project.id}`}
             />
           ))}
+        </div>
+        <div className="contact-section">
+          <Contact />
         </div>
       </div>
     </>
