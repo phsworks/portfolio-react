@@ -6,7 +6,7 @@ import logo from "../assets/Logo.png";
 import linkedin from "../assets/linkedin.png";
 import behance from "../assets/behance.png";
 import menu from "../assets/menu-icon.png";
-import X from "../assets/X-mark.png"
+import X from "../assets/X-mark.png";
 
 import { useState } from "react";
 
@@ -44,8 +44,18 @@ function Navbar() {
         </div>
         <div className={`menu-icon ${isOpen ? "open-menu" : "close-menu"}`}>
           <button onClick={toggleMenu}>
-            <img className={`hamburger ${isOpen ? "hidden" : "visible"}`} width={45} src={menu} alt="menu-icon" />
-            <img className={`x-mark ${isOpen ? "open" : "close"}`} width={45} src={X} alt="x-mark" />
+            <img
+              className={`hamburger ${isOpen ? "hidden" : "visible"}`}
+              width={45}
+              src={menu}
+              alt="menu-icon"
+            />
+            <img
+              className={`x-mark ${isOpen ? "open" : "close"}`}
+              width={45}
+              src={X}
+              alt="x-mark"
+            />
           </button>
         </div>
       </div>
@@ -56,12 +66,14 @@ function Navbar() {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="">My Skills</a>
+              <Link to="/#skills-section">My Skills</Link>
             </li>
             <li>
               <Link to="/#projects-section">My projects</Link>
             </li>
-            <li><a href="">Contact</a></li>
+            <li>
+              <Link to="/#contact-section">Contact</Link>
+            </li>
           </ul>
         </nav>
       </div>

@@ -13,13 +13,11 @@ function HomePage() {
       <div className="hero-section">
         <Hero />
       </div>
-      <div className="skills-section">
+      <div id="skills-section">
         <Skills />
       </div>
       <div id="projects-section">
-        <div className="projectsort">
           <h2>My recent Projects</h2>
-        </div>
         <div className="projects">
           {projects.map((project, index) => (
             <ProjectCard
@@ -29,10 +27,10 @@ function HomePage() {
             />
           ))}
         </div>
-        <div className="contact-section">
+      </div>
+        <div id="contact-section">
           <Contact />
         </div>
-      </div>
     </>
   );
 }

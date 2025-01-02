@@ -45,9 +45,6 @@
     text-decoration: none;
     width: 100vw;
   }
-  li:hover{
-    background-color: var(--primary--color);
-  }
 }
 
 
