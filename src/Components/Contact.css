@@ -34,10 +34,12 @@
     border-radius: 10px;
     border: 1px solid var(--primary--color);
     box-shadow: rgba(61, 61, 61, 0.2) 0px 8px 24px;
+    font-size: 20px;
   }
   ::placeholder {
     color: rgb(234, 234, 234);
     opacity: 1;
+    font-size: 20px;
   }
 
   textarea {

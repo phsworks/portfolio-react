@@ -8,10 +8,30 @@ function Contact() {
   const [number, setNumber] = useState("")
   const [message, setMessage] = useState("")
 
-  function handleSubmit() {
-    e.preventDefault();
+  const [result, setResult] = React.useState("");
 
-  }
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "b15501f2-26aa-448c-94b2-ed57b42c56fa");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
 
 
   return (
@@ -24,7 +44,14 @@ function Contact() {
         </p>
       </div>
       <div className="form-section">
-        <form action="mailto:piethein@schouten.nl" method="post" className="contact-form">
+        <form onSubmit={onSubmit}
+          className="contact-form"
+        >
+          <input
+            type="hidden"
+            name="access_key"
+            value="b15501f2-26aa-448c-94b2-ed57b42c56fa"
+          ></input>
           <input
             placeholder="First Name"
             type="text"
@@ -57,8 +84,9 @@ function Contact() {
             type="text"
             name="Message"
             onChange={(e) => setMessage(e.target.value)}
+            required
           ></textarea>
-          <button className="primary-button" type="submit" value="Send">
+          <button className="primary-button" type="submit">
             Send
           </button>
         </form>
