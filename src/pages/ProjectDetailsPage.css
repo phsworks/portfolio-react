@@ -4,10 +4,11 @@
   align-items: center;
   flex-direction: column;
   gap: 20px;
-  background-image: url(../assets/Backgrund-Hero.png);
+  background-image: url(../assets/Background.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding-bottom: 50px;
 }
 
 .project-top {
@@ -18,10 +19,10 @@
   gap: 20px;
   padding-top: 40px;
 
-  
+
 
   img {
-    background-color: #02040c;
+    background-image: linear-gradient(to right, #02609a, #77BFD2);
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
@@ -62,15 +63,14 @@
   p {
     width: 330px;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
   iframe {
     width: 350px;
     height: 220px;
-    padding-bottom: 20px;
     margin-top: 20px;
-    border: 1px solid rgb(19, 19, 19);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid var(--primary--color);
+    box-shadow: rgba(59, 59, 59, 0.35) 0px 5px 15px;
     background-color: #000000;
     padding: 5px;
     border-radius: 10px;

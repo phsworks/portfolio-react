@@ -24,10 +24,10 @@
       "CSS",
       "JavaScript"
     ],
-    "image": "/src/assets/legacy.png",
-    "video": null,
-    "githubLink": "https://github.com/username/bookquest",
-    "liveDemo": "https://bookquest.example.com"
+    "image": "/images/TheBookQuest.png",
+    "video": "gLO3q4JOJDk",
+    "githubLink": "https://github.com/NigelFerrefe/bookquest-project",
+    "liveDemo": "https://thebookquest.netlify.app/"
   },
   {
     "id": 3,
