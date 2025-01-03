@@ -55,6 +55,12 @@
 .projectcard.bg-5 {
   background-image: url(../assets/Solvware.png);
 }
+.projectcard.bg-6 {
+  background-image: url(../assets/houseintuscany.png);
+}
+.projectcard.bg-7 {
+  background-image: url(../assets/BucketlistPosters.png);
+}
 
 
 .projectcard:hover, .projectcard:active {

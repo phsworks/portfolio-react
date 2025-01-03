@@ -40,7 +40,7 @@
       "JavaScript",
       "MongoDB"
     ],
-    "image": "/src/assets/ironhub-2.svg",
+    "image": "/images/ironhub-platform.png",
     "video": null,
     "githubLink": "https://github.com/username/ironhub",
     "liveDemo": "https://ironhub-front.netlify.app"
@@ -55,50 +55,50 @@
       "CSS",
       "JavaScript"
     ],
-    "image": "/src/assets/",
+    "image": "/images/Mietis-webshop.png",
     "video": null,
     "githubLink": null,
     "liveDemo": "https://mietis.netlify.app/#/createbag"
   },
   {
     "id": 5,
-    "title": "Solvware Website",
+    "title": "Solvware",
     "shortDescription": "Corporate website showcasing Solvware's software solutions.",
     "longDescription": "During my internship at Solvware, I redesigned their website to integrate existing content with new, modern elements. The website highlights Solvware's diverse services, emphasizing usability and clarity. With a responsive design, intuitive navigation, and strategic calls-to-action, the site effectively communicates Solvware's technical expertise and converts visitors into clients.",
     "technologies": [
       "WordPress",
       "CSS"
     ],
-    "image": "/src/assets/solvware.png",
+    "image": "/images/Solvware-website.png",
     "video": "kEjU5_Md3uI",
     "githubLink": null,
     "liveDemo": "https://solvware.nl"
   },
   {
     "id": 6,
-    "title": "SolvCRM Website",
-    "shortDescription": "Informational website for SolvCRM, a powerful CRM system.",
-    "longDescription": "As part of my internship, I developed a clean and functional website for SolvCRM to highlight its advanced features. The website emphasizes capabilities like workflow automation, centralized data management, and Google Calendar integration. Designed with the user in mind, the site is optimized for performance and accessibility, ensuring a seamless experience for visitors.",
-    "technologies": [
-      "WordPress",
-      "CSS"
-    ],
-    "image": "/src/assets/solvcrm.png",
-    "video": "Bo2YxoRB8Xg",
-    "githubLink": null,
-    "liveDemo": "https://solvcrm.nl"
-  },
-  {
-    "id": 7,
-    "title": "House in Tuscany Website",
+    "title": "House in Tuscany",
     "shortDescription": "An elegant online presence for a luxurious vacation villa in Tuscany.",
     "longDescription": "HouseInTuscany.eu is a visually stunning website that showcases the luxury and charm of a vacation villa in Tuscany. The design focuses on aesthetics, capturing the beauty of the Tuscan landscape while providing comprehensive information about the villa's features and local attractions. Visitors are inspired by immersive visuals and intuitive navigation, making it easy to book their dream getaway.",
     "technologies": [
       "WordPress",
       "CSS"
     ],
-    "image": "/src/assets/houseintuscany.png",
+    "image": "/images/House.png",
     "video": "jNbIfOlhsN0",
+    "githubLink": null,
+    "liveDemo": "https://houseintuscany.eu"
+  },
+  {
+    "id": 7,
+    "title": "BucketlistPosters",
+    "shortDescription": "An elegant online presence for a luxurious vacation villa in Tuscany.",
+    "longDescription": "HouseInTuscany.eu is a visually stunning website that showcases the luxury and charm of a vacation villa in Tuscany. The design focuses on aesthetics, capturing the beauty of the Tuscan landscape while providing comprehensive information about the villa's features and local attractions. Visitors are inspired by immersive visuals and intuitive navigation, making it easy to book their dream getaway.",
+    "technologies": [
+      "WordPress",
+      "CSS"
+    ],
+    "image": "/images/Bucketlistposters.nl.png",
+    "video": "Y69TIW-kSzo",
     "githubLink": null,
     "liveDemo": "https://houseintuscany.eu"
   }
