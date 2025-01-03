@@ -8,7 +8,7 @@ function Contact() {
   const [number, setNumber] = useState("")
   const [message, setMessage] = useState("")
 
-  const [result, setResult] = React.useState("");
+  const [result, setResult] = useState("");
 
   const onSubmit = async (event) => {
     event.preventDefault();
