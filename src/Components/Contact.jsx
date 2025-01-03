@@ -8,6 +8,11 @@ function Contact() {
   const [number, setNumber] = useState("")
   const [message, setMessage] = useState("")
 
+  function handleSubmit() {
+    e.preventDefault();
+
+  }
+
 
   return (
     <div className="contact-container">
@@ -19,7 +24,7 @@ function Contact() {
         </p>
       </div>
       <div className="form-section">
-        <form className="contact-form">
+        <form action="mailto:piethein@schouten.nl" method="post" className="contact-form">
           <input
             placeholder="First Name"
             type="text"
@@ -53,7 +58,7 @@ function Contact() {
             name="Message"
             onChange={(e) => setMessage(e.target.value)}
           ></textarea>
-          <button className="primary-button" type="submit">
+          <button className="primary-button" type="submit" value="Send">
             Send
           </button>
         </form>
