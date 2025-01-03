@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import Piet from '../assets/Piet-Hein.png'
+import { HashLink as Link } from "react-router-hash-link";
 
 function Hero() {
   return (
@@ -33,7 +34,7 @@ function Hero() {
               </svg>
             </span>
           </button>
-          <button className="primary-button">My Projects</button>
+          <button className="primary-button">About me</button>
         </div>
       </div>
     </div>

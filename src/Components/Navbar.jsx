@@ -41,7 +41,11 @@ function Navbar() {
           </ul>
         </div>
         <div className="connect-button">
-          <button className="primary-button">Let's connect</button>
+          <button className="primary-button">
+            <Link to="/#contact-section">
+              Let's Connect
+            </Link>
+          </button>
         </div>
         <div className={`menu-icon ${isOpen ? "open-menu" : "close-menu"}`}>
           <button onClick={toggleMenu}>
