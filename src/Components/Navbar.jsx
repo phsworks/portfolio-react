@@ -69,17 +69,17 @@ function Navbar() {
           <ul className="mobile-links">
             <li>
               <a onClick={toggleMenu} href="/">
-                Home
+                About Me
               </a>
             </li>
             <li>
               <Link onClick={toggleMenu} to="/#skills-section">
-                My Skills
+                Skills
               </Link>
             </li>
             <li>
               <Link onClick={toggleMenu} to="/#projects-section">
-                My projects
+                My Projects
               </Link>
             </li>
             <li>

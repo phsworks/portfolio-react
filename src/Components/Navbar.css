@@ -20,9 +20,6 @@
   img {
     width: 60px;
   }
-  img:hover {
-    transform: scale(1.02);
-  }
 }
 
 .mobile-menu {
@@ -82,9 +79,6 @@
     width: 50px;
   }
 
-  img:hover {
-    transform: scale(1.02);
-  }
 }
 
 .hamburger {

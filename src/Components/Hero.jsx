@@ -4,6 +4,12 @@ import Piet from '../assets/Piet-Hein.png'
 import { HashLink as Link } from "react-router-hash-link";
 
 function Hero() {
+
+  const cvDownload = () => {
+    window.location.href = "https://drive.google.com/file/d/1GgkVkFqLvX6lxUdtQuH_Pb7yZYIFtlQj/view?usp=drive_link";
+  }
+
+
   return (
     <div className="hero-container">
       <div className="hero">
@@ -18,7 +24,7 @@ function Hero() {
           bring ideas to life.”
         </p>
         <div className="info-buttons">
-          <button className="secondary-button">
+          <button onClick={cvDownload} className="secondary-button">
             Download CV
             <span>
               <svg
