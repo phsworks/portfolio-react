@@ -6,7 +6,16 @@ import "./ProjectDetailsPage.css";
 function ProjectsDetailsPage() {
   const { id } = useParams();
   const project = projects.find((project) => project.id === Number(id));
+  if (project) {
+    window.scrollTo(
+      {
+        top: 0,
+        left: 0,
+        behavior:"instant",
+      }
+    )
 
+  }
   if (!project) {
     return <p>Project not found</p>;
   }

@@ -17,6 +17,7 @@ function Navbar() {
     setIsOpen((open) => !open);
   };
 
+
   return (
     <div className="navbar">
       <div className="navbar-container">
@@ -63,16 +64,24 @@ function Navbar() {
         <nav>
           <ul className="mobile-links">
             <li>
-              <a href="/">Home</a>
+              <a onClick={toggleMenu} href="/">
+                Home
+              </a>
             </li>
             <li>
-              <Link to="/#skills-section">My Skills</Link>
+              <Link onClick={toggleMenu} to="/#skills-section">
+                My Skills
+              </Link>
             </li>
             <li>
-              <Link to="/#projects-section">My projects</Link>
+              <Link onClick={toggleMenu} to="/#projects-section">
+                My projects
+              </Link>
             </li>
             <li>
-              <Link to="/#contact-section">Contact</Link>
+              <Link onClick={toggleMenu} to="/#contact-section">
+                Contact
+              </Link>
             </li>
           </ul>
         </nav>

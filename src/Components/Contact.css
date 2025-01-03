@@ -1,15 +1,22 @@
 .contact-container {
-  background-image: url(../assets/Backgrund-Hero.png);
-  padding-top: 50px;
-  padding-bottom: 50px;
+  background-image: url(../assets/Background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 30px;
+
 }
 
 .contact-top {
+  h2 {
+    text-align: center;
+  }
   p {
     text-align: center;
     width: 300px;
@@ -22,28 +29,29 @@
   align-items: center;
   flex-direction: column;
   gap: 10px;
-  font-size: 20px;
+  font-size: 18px;
+  padding-bottom: 30px;
 
 
 
   input, textarea {
     width: 300px;
-    padding: 20px;
+    padding: 15px;
     background-color:#151f3e;
     color: white;
     border-radius: 10px;
     border: 1px solid var(--primary--color);
     box-shadow: rgba(61, 61, 61, 0.2) 0px 8px 24px;
-    font-size: 20px;
+    font-size: 18px;
   }
   ::placeholder {
     color: rgb(234, 234, 234);
     opacity: 1;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   textarea {
-    min-height: 100px;
+    min-height: 150px;
     max-width: 300px;
     min-width: 300px;
   }

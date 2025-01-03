@@ -5,9 +5,9 @@ function Contact() {
   const [firstName, setFirstName] = useState("")
   const [lastName, setLastName] = useState("")
   const [email, setEmail] = useState("")
+  const [company, setCompany] = useState("")
   const [number, setNumber] = useState("")
   const [message, setMessage] = useState("")
-
   const [result, setResult] = useState("");
 
   const onSubmit = async (event) => {
@@ -72,6 +72,12 @@ function Contact() {
             name="Email"
             required
             onChange={(e) => setEmail(e.target.value)}
+          />
+          <input
+            placeholder="Company (Optional)"
+            type="text"
+            name="Company"
+            onChange={(e) => setCompany(e.target.value)}
           />
           <input
             placeholder="Phone Number (optional)"
