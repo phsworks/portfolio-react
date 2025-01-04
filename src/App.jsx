@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage'
 import ProjectDetailsPage from './pages/ProjectDetailsPage';
 import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
+import AboutPage from './pages/AboutPage';
 import ErrorPage from './pages/ErrorPage';
 
 
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/projectdetails/:id" element={<ProjectDetailsPage />} />
+        <Route path="/aboutme" element={<AboutPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       </div>

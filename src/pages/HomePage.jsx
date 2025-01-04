@@ -1,5 +1,3 @@
-import { useState, useEffect } from "react";
-import { useRef } from "react";
 import ProjectCard from "../Components/ProjectCard";
 import projects from "../Data/projects.json";
 import Hero from "../Components/Hero";

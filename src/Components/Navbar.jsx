@@ -42,9 +42,7 @@ function Navbar() {
         </div>
         <div className="connect-button">
           <button className="primary-button">
-            <Link to="/#contact-section">
-              Let's Connect
-            </Link>
+            <Link to="/#contact-section">Let's Connect</Link>
           </button>
         </div>
         <div className={`menu-icon ${isOpen ? "open-menu" : "close-menu"}`}>
@@ -68,12 +66,15 @@ function Navbar() {
         <nav>
           <ul className="mobile-links">
             <li>
-              <a onClick={toggleMenu} href="/">
-                About Me
-              </a>
+              <NavLink onClick={toggleMenu} to="/aboutme">
+                About
+              </NavLink>
             </li>
             <li>
-              <Link onClick={toggleMenu} to="/#skills-section">
+              <Link
+                onClick={toggleMenu}
+                to="/#skills-section"
+              >
                 Skills
               </Link>
             </li>

@@ -9,7 +9,7 @@ function Footer(){
     window.scrollTo({
       top: 0,
       left: 0,
-      behavior: "instant",
+      behavior: "smooth",
     });
   }
 
@@ -24,18 +24,22 @@ function Footer(){
         <nav>
           <ul className="footer-links">
             <li>
-              <a href="/">
-                About Me
-              </a>
+              <NavLink to="/aboutme"> About Me</NavLink>
             </li>
             <li>
-              <Link to="/#skills-section">Skills</Link>
+              <Link onClick={scrollUp} to="/#skills-section">
+                Skills
+              </Link>
             </li>
             <li>
-              <Link to="/#projects-section">Projects</Link>
+              <Link onClick={scrollUp} to="/#projects-section">
+                Projects
+              </Link>
             </li>
             <li>
-              <Link to="/#contact-section">Contact</Link>
+              <Link onClick={scrollUp} to="/#contact-section">
+                Contact
+              </Link>
             </li>
           </ul>
         </nav>

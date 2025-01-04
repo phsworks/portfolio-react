@@ -1,0 +1,37 @@
+.about-intro, .my-story {
+  height: 700px;
+  padding-left: 30px;
+  background-image: url(../assets/Background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+
+  img {
+      border-radius: 38px;
+      border: 2px solid #77bed23e;
+      height: auto;
+      margin-bottom: 20px;
+
+      box-shadow: rgba(61, 61, 61, 0.2) 0px 8px 24px;
+    }
+    img:hover {
+      transition-duration: 300ms;
+      border: 2px solid #77bed2;
+    }
+
+}
+
+.my-story {
+  height: 1300px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
