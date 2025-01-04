@@ -41,7 +41,7 @@
       "MongoDB"
     ],
     "image": "/images/ironhub-platform.png",
-    "video": null,
+    "video": "fmNhYVl26AQ",
     "githubLink": "https://github.com/username/ironhub",
     "liveDemo": "https://ironhub-front.netlify.app"
   },
@@ -56,7 +56,7 @@
       "JavaScript"
     ],
     "image": "/images/Mietis-webshop.png",
-    "video": null,
+    "video": "vJBIYEjoK7c",
     "githubLink": null,
     "liveDemo": "https://mietis.netlify.app/#/createbag"
   },
@@ -100,6 +100,6 @@
     "image": "/images/Bucketlistposters.nl.png",
     "video": "Y69TIW-kSzo",
     "githubLink": null,
-    "liveDemo": "https://houseintuscany.eu"
+    "liveDemo": "https://bucketlistposters.nl/"
   }
 ]

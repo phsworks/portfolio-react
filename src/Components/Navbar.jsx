@@ -79,7 +79,7 @@ function Navbar() {
             </li>
             <li>
               <Link onClick={toggleMenu} to="/#projects-section">
-                My Projects
+                Projects
               </Link>
             </li>
             <li>
