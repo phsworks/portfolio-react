@@ -2,6 +2,10 @@ import "./AboutPage.css";
 import diploma from "../assets/diploma.png";
 
 function AboutPage() {
+  
+
+
+
   return (
     <div className="about-container">
       <div className="about-intro">

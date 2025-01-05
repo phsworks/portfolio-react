@@ -11,7 +11,7 @@ body {
   font-weight: 200;
   font-style: normal;
   line-height: 1.5;
-  background-color: #0C0D10;
+  background-color: #0c0d10;
 
   color: white;
 
@@ -31,10 +31,15 @@ h2 {
   font-size: 28px;
 }
 
+h3 {
+  font-size: 20px;
+}
+
 a {
   text-decoration: none;
-  width: 30px;
+  width: 40px;
   color: white;
+  font-size: 18px;
 }
 
 p {
@@ -44,11 +49,10 @@ p {
 .primary-button {
   background-image: linear-gradient(to right, #02609a, #77bfd2);
   border-radius: 20px;
-  width: 130px;
+  width: 135px;
   border-style: none;
   color: #ffffff;
   cursor: pointer;
-  font-size: 15px;
   font-weight: 500;
   height: auto;
   padding: 10px;
@@ -76,7 +80,6 @@ p {
   width: 130px;
   text-align: center;
   height: auto;
-  font-size: 14px;
   text-align: center;
 }
 
@@ -102,7 +105,6 @@ p {
   height: 43px;
 
   padding: 10px;
-  font-size: 14px;
 
   background-color: rgba(0, 0, 0, 0.4);
   box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.04),
@@ -115,7 +117,7 @@ p {
 
 .github-button:hover {
   box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.08),
-  inset 0 0 0 1px rgba(252, 232, 3, 0.08);
+    inset 0 0 0 1px rgba(252, 232, 3, 0.08);
   background-color: rgba(0, 0, 0, 0.5);
 
   a {
@@ -123,5 +125,31 @@ p {
   }
   .icon {
     color: #0978bd;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 1023px) {
+
+  p {
+    font-size: 20px;
+  }
+
+
+  h1 {
+    font-size: 33px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1024px) {
+  p {
+    font-size: 20px;
   }
 }

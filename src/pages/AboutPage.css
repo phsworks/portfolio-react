@@ -1,5 +1,5 @@
 .about-intro, .my-story {
-  height: 700px;
+  height: 750px;
   padding-left: 30px;
   background-image: url(../assets/Background.png);
   background-size: cover;
@@ -24,14 +24,22 @@
       border: 2px solid #77bed2;
     }
 
+    p {
+      width: 300px;
+    }
+
 }
 
 .my-story {
-  height: 1300px;
-
+  height: 1500px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   gap: 20px;
+
+
+  article {
+    width: 300px;
+  }
 }
 

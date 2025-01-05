@@ -10,7 +10,6 @@
   background-repeat: no-repeat;
   width: 100vw;
   height: 80px;
-
 }
 
 .logo {
@@ -51,17 +50,26 @@
   }
 }
 
-
-.social-links {
+.navbar {
   display: none;
-  gap: 20px;
-  list-style: none;
-  margin-right: 40px;
 }
 
-.social-links img:hover {
-  transform: scale(1.05);
-}
+.navbar-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding-left: 60px;
+
+    li {
+      list-style: none;
+    }
+
+    a {
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
 
 .menu-icon {
   padding-right: 20px;
@@ -78,7 +86,6 @@
     margin-right: 10px;
     width: 50px;
   }
-
 }
 
 .hamburger {
@@ -101,7 +108,6 @@
   position: absolute;
   top: 0;
   right: 0;
-
 }
 
 .x-mark.open {
@@ -143,5 +149,33 @@
   }
 }
 
+@media (min-width: 650px) and (max-width: 1023px) {
+  .navbar {
+    display: block;
+  }
+
+  .connect-button {
+    padding-left: 20px;
+  }
+
+  .logo {
+    padding-left: 25px;
+  }
 
 
+  .hamburger {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbar {
+    display: flex;
+  }
+
+
+
+  .hamburger {
+    display: none;
+  }
+}

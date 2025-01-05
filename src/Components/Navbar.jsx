@@ -19,24 +19,28 @@ function Navbar() {
 
 
   return (
-    <div className="navbar">
+    <div className="navbar-section">
       <div className="navbar-container">
         <div className="logo">
           <NavLink to="/">
             <img width={55} src={logo} alt="logo" />
           </NavLink>
         </div>
-        <div className="socials">
-          <ul className="social-links">
+        <div className="navbar">
+          <ul className="navbar-links">
             <li>
-              <a href="">
-                <img width={25} src={linkedin} alt="linkedin" />
-              </a>
+              <NavLink to="/aboutme">About</NavLink>
             </li>
             <li>
-              <a href="">
-                <img width={25} src={behance} alt="behance" />
-              </a>
+              <Link to="/#skills-section">Skills</Link>
+            </li>
+            <li>
+              <Link to="/#projects-section">Projects</Link>
+            </li>
+            <li>
+              <Link to="/#contact-section">
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
@@ -45,6 +49,7 @@ function Navbar() {
             <Link to="/#contact-section">Let's Connect</Link>
           </button>
         </div>
+        {/* Mobile and tablet menu */}
         <div className={`menu-icon ${isOpen ? "open-menu" : "close-menu"}`}>
           <button onClick={toggleMenu}>
             <img
@@ -71,10 +76,7 @@ function Navbar() {
               </NavLink>
             </li>
             <li>
-              <Link
-                onClick={toggleMenu}
-                to="/#skills-section"
-              >
+              <Link onClick={toggleMenu} to="/#skills-section">
                 Skills
               </Link>
             </li>
