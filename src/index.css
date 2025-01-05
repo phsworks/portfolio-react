@@ -77,10 +77,11 @@ p {
   color: #02609a;
   padding: 10px;
   border-radius: 20px;
-  width: 130px;
+  width: 140px;
   text-align: center;
   height: auto;
   text-align: center;
+  font-size: 16px;
 }
 
 .secondary-button:hover {

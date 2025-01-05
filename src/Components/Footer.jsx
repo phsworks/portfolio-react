@@ -1,7 +1,7 @@
 import "./Footer.css"
 import { NavLink } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
-import logo from "../assets/Logo.png";
+import logo from "../assets/Logo-mobile.png";
 
 function Footer(){
 
@@ -15,9 +15,9 @@ function Footer(){
 
   return (
     <div className="footer-container">
-      <div className="logo">
+      <div className="logo-footer">
         <NavLink to="/" onClick={scrollUp}>
-          <img width={55} src={logo} alt="logo" />
+          <img src={logo} alt="logo" />
         </NavLink>
       </div>
       <div className="footer-menu">

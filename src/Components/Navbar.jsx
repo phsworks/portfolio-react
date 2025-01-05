@@ -1,10 +1,8 @@
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
-
-import logo from "../assets/Logo.png";
-import linkedin from "../assets/linkedin.png";
-import behance from "../assets/behance.png";
+import mobilelogo from "../assets/Logo-mobile.png";
+import desktoplogo from "../assets/PHS-logo.png"
 import menu from "../assets/menu-icon.png";
 import X from "../assets/X-mark.png";
 
@@ -21,9 +19,17 @@ function Navbar() {
   return (
     <div className="navbar-section">
       <div className="navbar-container">
-        <div className="logo">
+        <div className="logo-container">
           <NavLink to="/">
-            <img width={55} src={logo} alt="logo" />
+            <img
+              className="logo-mobile"
+              width={60}
+              src={mobilelogo}
+              alt="logo"
+            />
+          </NavLink>
+          <NavLink to="/">
+            <img className="logo-desktop"  src={desktoplogo} alt="logo" />
           </NavLink>
         </div>
         <div className="navbar">
@@ -38,9 +44,7 @@ function Navbar() {
               <Link to="/#projects-section">Projects</Link>
             </li>
             <li>
-              <Link to="/#contact-section">
-                Contact
-              </Link>
+              <Link to="/#contact-section">Contact</Link>
             </li>
           </ul>
         </div>
