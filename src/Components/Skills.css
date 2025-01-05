@@ -54,7 +54,7 @@
   padding: 25px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
-  filter: grayscale(50%);
+  filter: grayscale(30%);
 }
 
 .skills-card:hover, .skill-card:active {
