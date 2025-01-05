@@ -9,7 +9,7 @@ import Wordpress from "../assets/Wordpress.png";
 import MySQL from "../assets/MySQL.png";
 import NodeJS from "../assets/NodeJS.png";
 import Git from "../assets/Git.png";
-import Github from "../assets/Github.png";
+import Github from "../assets/Github.png"
 
 function Skills() {
   return (
