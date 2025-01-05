@@ -41,6 +41,7 @@ function ProjectsDetailsPage() {
           <button className="primary-button">
             <a href={project.liveDemo}>Live Preview</a>
           </button>
+          {project.githubLink && (
           <button className="github-button">
             <div className="icon">
               <svg
@@ -60,6 +61,7 @@ function ProjectsDetailsPage() {
               <a href={project.githubLink}>See Github</a>
             </div>
           </button>
+          )}
         </div>
 
         <button className="secondary-button">
