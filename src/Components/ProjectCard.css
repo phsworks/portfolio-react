@@ -6,22 +6,14 @@
   gap: 15px;
   position: relative;
   margin: 0 auto;
-  width: 310px;
-  height: 300px;
+  width: 350px;
+  height: 320px;
   border-radius: 10px;
   background-size: cover;
   background-position: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
-  p {
-    display: none;
-  }
-
-  h4 {
-    display: none;
-  }
-
-  a {
+  .project-info {
     display: none;
   }
 }
@@ -53,36 +45,32 @@
   cursor: pointer;
   transition-duration: 300ms;
   color: white;
-  height: 295px;
+  animation: Ken-Burns 2s ease;
+
 
   .project-info {
     display: flex;
     justify-content: center;
     align-items: left;
     gap: 10px;
-    background-color: var(--primary--color);
+    background-image: linear-gradient(45deg, #77bfd2, #02609a);
     width: 310px;
     text-align: left;
     padding: 5px 0px 5px 10px;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
 
-    p {
-      display: block;
-    }
-
     h4 {
-      display: block;
+      font-size: 18px;
+      font-weight: 800;
     }
-    a {
-      display: block;
-      rotate: 10deg;
-      animation: roll-forwards 200ms;
 
       img {
-        width: 30px;
-      }
+        width: 35px;
+        animation: roll-forwards 300ms;
+        margin-right: 10px;
+
     }
   }
 }
@@ -95,26 +83,9 @@
 
   .projectcard:hover,
   .projectcard:active {
-    width: 400px;
-    height: 350px;
 
      .project-info {
-      gap: 10px;
-      background-color: var(--primary--color);
-      width: 400px;
-      padding-left: 20px;
-      margin-bottom: 15px;
-
-      p {
-        display: block;
-      }
-
-      h4 {
-        display: block;
-      }
-      button {
-        display: block;
-      }
+      width: 370px;
     }
   }
 }
@@ -127,29 +98,13 @@
 
   .projectcard:hover,
   .projectcard:active {
-    width: 550px;
-    height: 480px;
 
 
     .project-info {
-      gap: 10px;
-      background-color: var(--primary--color);
-      width: 400px;
-      padding-left: 20px;
-      margin-bottom: 15px;
-
-      p {
-        display: block;
-      }
-
-      h4 {
-        display: block;
-      }
-      button {
-        display: block;
-      }
-    }
+      width: 500px;
   }
+
+}
 
 }
 
@@ -164,3 +119,17 @@
     transform: rotate(80deg);
   }
 }
+
+@keyframes Ken-Burns {
+  from 0% {
+    transform: scale(1.01)
+  }
+  to {
+    transform: scale(1.02);
+  }
+
+}
+
+
+
+
