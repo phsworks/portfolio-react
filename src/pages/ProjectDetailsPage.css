@@ -69,11 +69,14 @@
     width: 350px;
     height: 220px;
     margin-top: 20px;
-    border: 2px solid var(--accent);
+    border: 2px solid black;
     box-shadow: rgba(59, 59, 59, 0.35) 0px 5px 15px;
     background-color: #000000;
     padding: 5px;
     border-radius: 10px;
+  }
+  iframe:hover, iframe:active {
+    transform: scale(1.02);
   }
 
   .project-buttons {

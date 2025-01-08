@@ -1,8 +1,8 @@
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
-import mobilelogo from "../assets/Logo-mobile.png";
-import desktoplogo from "../assets/PHS-logo.png"
+import mobilelogo from "../assets/PHS-mobile.svg";
+import desktoplogo from "../assets/PHS-desktop.svg"
 import menu from "../assets/menu-icon.png";
 import X from "../assets/X-mark.png";
 
