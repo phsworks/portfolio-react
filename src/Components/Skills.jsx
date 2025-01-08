@@ -27,13 +27,13 @@ function Skills() {
         </div>
           <div className="skill-container">
             <div className="skill-card">
-              <img width={100} src={CSS} alt="CSS" />
+              <img width={80} src={CSS} alt="CSS" />
             </div>
             <p>CSS</p>
           </div>
           <div className="skill-container">
             <div className="skill-card">
-              <img width={100} src={Javascript} alt="Javascript" />
+              <img src={Javascript} alt="Javascript" />
             </div>
             <p>Javascript</p>
           </div>
@@ -45,43 +45,38 @@ function Skills() {
           </div>
           <div className="skill-container">
             <div className="skill-card">
-              <img width={100} src={Git} alt="Git" />
+              <img src={Git} alt="Git" />
             </div>
             <p>Git</p>
           </div>
           <div className="skill-container">
             <div className="skill-card">
-              <img width={100} src={GithubLogo} alt="Git" />
+              <img src={GithubLogo} alt="Git" />
             </div>
             <p>Github</p>
           </div>
+
           <div className="skill-container">
             <div className="skill-card">
-              <img width={100} src={Express} alt="Express" />
-            </div>
-            <p>Express</p>
-          </div>
-          <div className="skill-container">
-            <div className="skill-card">
-              <img width={100} src={Wordpress} alt="Wordpress" />
+              <img src={Wordpress} alt="Wordpress" />
             </div>
             <p>Wordpress</p>
           </div>
           <div className="skill-container">
             <div className="skill-card">
-              <img width={100} src={MySQL} alt="MySQL" />
+              <img src={MySQL} alt="MySQL" />
             </div>
             <p>MySQL</p>
           </div>
           <div className="skill-container">
             <div className="skill-card">
-              <img width={100} src={NodeJS} alt="NodeJS" />
+              <img src={NodeJS} alt="NodeJS" />
             </div>
             <p>NodeJS</p>
           </div>
           <div className="skill-container">
             <div className="skill-card">
-              <img width={100} src={MongoDB} alt="NodeJS" />
+              <img src={MongoDB} alt="NodeJS" />
             </div>
             <p>MongoDB</p>
           </div>

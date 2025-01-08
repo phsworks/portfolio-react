@@ -15,7 +15,7 @@ function HomePage() {
         <Skills />
       </div>
       <div id="projects-section">
-          <h2>Projects</h2>
+          <h2>My Projects</h2>
         <div className="projects">
           {projects.map((project, index) => (
             <ProjectCard

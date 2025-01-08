@@ -1,11 +1,10 @@
 .projectcard {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   gap: 15px;
   position: relative;
-  padding: 35px;
   margin: 0 auto;
   width: 310px;
   height: 300px;
@@ -18,14 +17,13 @@
     display: none;
   }
 
-  h3 {
+  h4 {
     display: none;
   }
 
-  button {
+  a {
     display: none;
   }
-
 }
 
 .projectcard.bg-1 {
@@ -50,44 +48,119 @@
   background-image: url(../assets/BucketListPosters.png);
 }
 
-
-.projectcard:hover, .projectcard:active {
+.projectcard:hover,
+.projectcard:active {
   cursor: pointer;
   transition-duration: 300ms;
-  border: 1px solid var(--accent);
   color: white;
   height: 295px;
-  background-image: none;
 
+  .project-info {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+    background-color: var(--primary--color);
+    width: 310px;
+    text-align: left;
+    padding: 5px 0px 5px 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
 
+    p {
+      display: block;
+    }
 
-  p {
-    display: block;
-    text-align: center;
+    h4 {
+      display: block;
+    }
+    a {
+      display: block;
+      rotate: 10deg;
+      animation: roll-forwards 200ms;
+
+      img {
+        width: 30px;
+      }
+    }
+  }
+}
+
+@media (min-width: 650px) and (max-width: 1100px) {
+  .projectcard {
+    width: 400px;
+    height: 350px;
   }
 
-  h3 {
-    display: block;
+  .projectcard:hover,
+  .projectcard:active {
+    width: 400px;
+    height: 350px;
+
+     .project-info {
+      gap: 10px;
+      background-color: var(--primary--color);
+      width: 400px;
+      padding-left: 20px;
+      margin-bottom: 15px;
+
+      p {
+        display: block;
+      }
+
+      h4 {
+        display: block;
+      }
+      button {
+        display: block;
+      }
+    }
   }
-  button {
-    display: block;
+}
+
+@media (min-width: 1100px) {
+  .projectcard {
+    width: 550px;
+    height: 480px;
   }
 
-  img {
-    display: none;
+  .projectcard:hover,
+  .projectcard:active {
+    width: 550px;
+    height: 480px;
+
+
+    .project-info {
+      gap: 10px;
+      background-color: var(--primary--color);
+      width: 400px;
+      padding-left: 20px;
+      margin-bottom: 15px;
+
+      p {
+        display: block;
+      }
+
+      h4 {
+        display: block;
+      }
+      button {
+        display: block;
+      }
+    }
   }
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+@keyframes roll-forwards {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(80deg);
+  }
+}

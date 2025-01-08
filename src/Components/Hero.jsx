@@ -17,7 +17,7 @@ function Hero() {
     <div className="hero-container">
       <div className="hero">
         <div className="personal-info">
-          <h2> I am Piet-Hein,</h2>
+          <h3> I am Piet-Hein,</h3>
           <h1>
             Passionate Full-Stack <br></br>
             <span>Web Developer</span>{" "}
