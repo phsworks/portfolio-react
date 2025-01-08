@@ -1,5 +1,5 @@
 .hero {
-  height: 800px;
+  height: 900px;
   padding-left: 30px;
   background-image: url(../assets/Background.png);
   background-size: cover;
@@ -9,7 +9,7 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-
+  gap: 10px;
 
   h2 {
     color: white;
@@ -25,7 +25,6 @@
     border: 2px solid #77bed23e;
     height: auto;
     margin-bottom: 20px;
-    padding-left: 10px;
     margin-left: 15px;
     box-shadow: rgba(61, 61, 61, 0.2) 0px 8px 24px;
   }
@@ -43,19 +42,46 @@
   }
 
   .info-buttons {
+    display: flex;
+    gap: 10px;
+  }
+}
+.connect-section {
   display: flex;
-  gap: 10px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
 }
+
+.social-icons {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 12px;
+
+  img {
+    border: 1px solid var(--primary--color);
+    padding: 8px;
+    width: 42px;
+  }
+  img:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    box-shadow: #118edc21 0px 8px 24px;
+    border: 1px solid var(--primary--color);
+  }
 }
+
 
 .image-tablet {
   display: none;
 }
 
 
-@media (min-width: 650px) and (max-width: 110px) {
+@media (min-width: 650px) and (max-width: 1100px) {
   .hero {
     flex-direction: row;
+    justify-content: space-around;
     height: 600px;
     padding-top: 80px;
     padding-left: 40px;
@@ -64,7 +90,6 @@
       padding-bottom: 10px;
     }
   }
-
 
   .image-tablet {
     display: block;
@@ -76,22 +101,39 @@
   }
 }
 
+
+
 @media (min-width: 1100px) {
   .hero {
     flex-direction: row;
-    height: 600px;
+    justify-content: space-around;
+    height: 700px;
     padding-top: 80px;
     padding-left: 40px;
 
-}
+    h1 {
+      font-size: 50px;
+    }
+    h2 {
+      font-size: 40px;
+    }
+    p {
+      width: 400px;
+      padding-top: 0px;
+      padding-bottom: 40px;
+      font-size: 22px;
+    }
+  }
 
-.image-tablet {
+  .image-tablet {
     display: block;
-    margin-top: 50px;
-    margin-right: 30px;
+    width: 450px;
   }
   .image-mobile {
     display: none;
   }
 }
 
+.connect-section {
+  flex-direction: row;
+}
