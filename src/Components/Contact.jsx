@@ -1,13 +1,16 @@
 import "./Contact.css";
 import { useState } from "react";
+import mail from "../assets/mail.svg"
+import map from "../assets/map.svg"
+import phone from "../assets/phone.svg"
 
 function Contact() {
-  const [firstName, setFirstName] = useState("")
-  const [lastName, setLastName] = useState("")
-  const [email, setEmail] = useState("")
-  const [company, setCompany] = useState("")
-  const [number, setNumber] = useState("")
-  const [message, setMessage] = useState("")
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [company, setCompany] = useState("");
+  const [number, setNumber] = useState("");
+  const [message, setMessage] = useState("");
   const [result, setResult] = useState("");
 
   const onSubmit = async (event) => {
@@ -33,69 +36,97 @@ function Contact() {
     }
   };
 
-
   return (
     <div className="contact-container">
-      <div className="contact-top">
-        <h2>Let's work together!</h2>
-        <p>
-          I love to design and code as much as possible, because I love to
-          create software. Just simple like that!
-        </p>
+      <div className="contact-info">
+        <div className="contact-method">
+          <div className="contact-icon">
+            <img src={phone} alt="phone" />
+          </div>
+          <div className="contact-text">
+            <h4>Phone</h4>
+            <p>+31 615309763</p>
+          </div>
+        </div>
+        <div className="contact-method">
+          <div className="contact-icon">
+            <img src={mail} alt="mail" />
+          </div>
+          <div className="contact-text">
+            <h4>Email</h4>
+            <p>piethein@schouten.nl</p>
+          </div>
+        </div>
+        <div className="contact-method">
+          <div className="contact-icon">
+            <img src={map} alt="map" />
+          </div>
+          <div className="contact-text">
+            <h4>Address</h4>
+            <p>Netherlands - Breda</p>
+          </div>
+        </div>
       </div>
       <div className="form-section">
-        <form onSubmit={onSubmit}
-          className="contact-form"
-        >
-          <input
-            type="hidden"
-            name="access_key"
-            value="b15501f2-26aa-448c-94b2-ed57b42c56fa"
-          ></input>
-          <input
-            placeholder="First Name"
-            type="text"
-            name="First name"
-            required
-            onChange={(e) => setFirstName(e.target.value)}
-          />
-          <input
-            placeholder="Last Name"
-            type="text"
-            name="Last name"
-            required
-            onChange={(e) => setLastName(e.target.value)}
-          />
-          <input
-            placeholder="Email"
-            type="email"
-            name="Email"
-            required
-            onChange={(e) => setEmail(e.target.value)}
-          />
-          <input
-            placeholder="Company (Optional)"
-            type="text"
-            name="Company"
-            onChange={(e) => setCompany(e.target.value)}
-          />
-          <input
-            placeholder="Phone Number (optional)"
-            type="tel"
-            name="Phone number"
-            onChange={(e) => setNumber(e.target.value)}
-          />
-          <textarea
-            placeholder="Message"
-            type="text"
-            name="Message"
-            onChange={(e) => setMessage(e.target.value)}
-            required
-          ></textarea>
-          <button className="primary-button" type="submit">
-            Send
-          </button>
-        </form>
+        <div className="form-intro">
+          <h2>Let's work together!</h2>
+          <p>
+            I love to design and code as much as possible, because I love to
+            create software. Just simple like that!
+          </p>
+        </div>
+        <div className="form">
+          <form onSubmit={onSubmit} className="contact-form">
+            <input
+              type="hidden"
+              name="access_key"
+              value="b15501f2-26aa-448c-94b2-ed57b42c56fa"
+            />
+            <input
+              placeholder="First Name"
+              type="text"
+              name="First name"
+              required
+              onChange={(e) => setFirstName(e.target.value)}
+            />
+            <input
+              placeholder="Last Name"
+              type="text"
+              name="Last name"
+              required
+              onChange={(e) => setLastName(e.target.value)}
+            />
+            <input
+              placeholder="Email"
+              type="email"
+              name="Email"
+              required
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <input
+              placeholder="Company (Optional)"
+              type="text"
+              name="Company"
+              onChange={(e) => setCompany(e.target.value)}
+            />
+            <input
+              placeholder="Phone Number (optional)"
+              type="tel"
+              name="Phone number"
+              onChange={(e) => setNumber(e.target.value)}
+            />
+            <textarea
+              placeholder="Message"
+              type="text"
+              name="Message"
+              onChange={(e) => setMessage(e.target.value)}
+              required
+            ></textarea>
+            <button className="primary-button" type="submit">
+              Send Message
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   );

@@ -25,6 +25,7 @@
   .projects {
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 50px;
   }
 }
 
@@ -34,5 +35,6 @@
   .projects {
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 60px;
   }
 }

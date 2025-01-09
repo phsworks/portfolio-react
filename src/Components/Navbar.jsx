@@ -23,7 +23,7 @@ function Navbar() {
           <NavLink to="/">
             <img
               className="logo-mobile"
-              width={60}
+              width={45}
               src={mobilelogo}
               alt="logo"
             />

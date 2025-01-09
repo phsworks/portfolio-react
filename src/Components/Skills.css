@@ -1,6 +1,7 @@
 .skills {
   background-color: #0B1226;
   padding-bottom: 45px;
+  padding-top: 45px;
 }
 
 .skills-top {
@@ -52,7 +53,7 @@
   padding: 45px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
-
+  filter: grayscale(40%);
   border: 1px solid black;
 
   img {
@@ -62,9 +63,13 @@
 
 .skill-card:hover, .skill-card:active {
   filter: none;
-  background-color: var(--primary--color);
-  border: 1px solid var(--accent);
-  transition: 300ms;
+  background-color: #1c262d;
+  transition: 300ms all ease;
+
+  img {
+    transform: scale(1.05);
+    filter: contrast(200%);
+  }
 }
 
 
