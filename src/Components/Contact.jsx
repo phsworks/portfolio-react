@@ -83,18 +83,11 @@ function Contact() {
               value="b15501f2-26aa-448c-94b2-ed57b42c56fa"
             />
             <input
-              placeholder="First Name"
+              placeholder="Full Name"
               type="text"
               name="First name"
               required
               onChange={(e) => setFirstName(e.target.value)}
-            />
-            <input
-              placeholder="Last Name"
-              type="text"
-              name="Last name"
-              required
-              onChange={(e) => setLastName(e.target.value)}
             />
             <input
               placeholder="Email"
@@ -122,6 +115,7 @@ function Contact() {
               onChange={(e) => setMessage(e.target.value)}
               required
             ></textarea>
+            <br></br>
             <button className="primary-button" type="submit">
               Send Message
             </button>
