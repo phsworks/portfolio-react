@@ -10,7 +10,7 @@ import youtube from "../assets/youtube.png";
 function Hero() {
   const cvDownload = () => {
     window.location.href =
-      "https://drive.google.com/file/d/1GgkVkFqLvX6lxUdtQuH_Pb7yZYIFtlQj/view?usp=drive_link";
+      "https://drive.google.com/file/d/1ahXnjrxq33x_ydXAOJA_MFDkkOWqbo88/view?usp=sharing";
   };
 
   return (
