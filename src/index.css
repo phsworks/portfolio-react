@@ -51,7 +51,7 @@ p {
 .primary-button {
   background-image: linear-gradient(to right, #02609a, #77bfd2);
   border-radius: 20px;
-  width: 135px;
+  width: 130px;
   border-style: none;
   color: #ffffff;
   cursor: pointer;
@@ -66,6 +66,7 @@ p {
 .primary-button:hover {
   background-image: linear-gradient(to right, #77bfd2, #02609a);
   transition-duration: 300ms;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
