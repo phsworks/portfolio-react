@@ -156,7 +156,7 @@
   }
 }
 
-@media (min-width: 650px) and (max-width: 1100px) {
+@media (min-width: 600px) and (max-width: 1100px) {
   .navbar-container {
     height: 120px;
   }

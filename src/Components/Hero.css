@@ -12,7 +12,7 @@
   gap: 10px;
 
   h1 {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 
   }
 
@@ -84,8 +84,9 @@
 }
 
 
-@media (min-width: 650px) and (max-width: 1100px) {
+@media (min-width: 600px) and (max-width: 1100px) {
   .hero {
+    height: 60vh;
     flex-direction: row;
     justify-content: space-around;
     height: 600px;
@@ -123,7 +124,7 @@
   .hero {
     flex-direction: row;
     justify-content:space-around;
-    height: 50vh;
+    height: 90vh;
     padding-top: 80px;
 
     .personal-info {
