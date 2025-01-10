@@ -124,8 +124,9 @@
   .hero {
     flex-direction: row;
     justify-content:space-around;
-    height: 95vh;
-    padding-top: 80px;
+    height: 97vh;
+    padding-top: 60px;
+    gap: 50px;
 
 
     .hero-subtitle {
@@ -151,7 +152,7 @@
 
   .image-tablet {
     display: block;
-    width: 480px;
+    width: 450px;
   }
   .image-mobile {
     display: none;

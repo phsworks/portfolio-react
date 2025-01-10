@@ -123,13 +123,14 @@
   .contact-container {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 30px;
     background-position: left;
     height: 80vh;
   }
 
   .contact-info {
     padding-left: 0px;
+
   }
 
   .form-section {
@@ -176,17 +177,17 @@
   .contact-container {
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 80px;
     background-position: left;
-    height: 98vh;
+    height: 99vh;
   }
 
   .contact-info {
-    padding-left: 200px;
+    padding-left: 80px;
   }
 
   .form-section {
-    width: 65vw;
+    width: 60vw;
     height: 90vh;
     display: flex;
     justify-content: center;
@@ -214,8 +215,9 @@
 
 
     textarea {
+      margin-left: 20px;
       min-width: 620px;
-      max-width: 605px;
+      max-width: 620px;
       max-height: 200px;
     }
     button {
