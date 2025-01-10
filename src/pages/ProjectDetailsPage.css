@@ -19,10 +19,8 @@
   gap: 20px;
   padding-top: 40px;
 
-
-
   img {
-    background-image: linear-gradient(to right, #02609a, #77BFD2);
+    background-image: linear-gradient(to right, #02609a, #77bfd2);
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
@@ -32,51 +30,46 @@
     gap: 20px;
     justify-content: center;
 
-
     p {
-        background-image: linear-gradient(to right, #02609a, #77BFD2);
-        padding: 8px;
-        border-radius: 20px;
-        font-size: 12px;
-        margin-bottom: 20px;
-      }
+      background-image: linear-gradient(to right, #02609a, #77bfd2);
+      padding: 8px;
+      border-radius: 20px;
+      font-size: 12px;
+      margin-bottom: 20px;
+    }
 
     p:hover {
       transform: scale(1.02);
     }
-    }
-
+  }
 }
-
-
 
 .project-details {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 40px;
+  background-color: transparent;
+}
+
+.project-method {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
   gap: 20px;
   background-color: transparent;
 
-
+  h2 {
+    padding-left: 20px;
+  }
 
   p {
     width: 330px;
-    text-align: center;
+    text-align: left;
     padding-bottom: 10px;
-  }
-  iframe {
-    width: 350px;
-    height: 220px;
-    margin-top: 20px;
-    border: 2px solid black;
-    box-shadow: rgba(59, 59, 59, 0.35) 0px 5px 15px;
-    background-color: #000000;
-    padding: 5px;
-    border-radius: 10px;
-  }
-  iframe:hover, iframe:active {
-    transform: scale(1.02);
+    padding-left: 20px;
   }
 
   .project-buttons {
@@ -84,7 +77,133 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
 
+  .secondary-button {
+    margin-left: 30px;
+  }
+}
+
+.video {
+  iframe {
+    width: 320px;
+    height: 220px;
+    border: 2px solid black;
+    box-shadow: rgba(59, 59, 59, 0.35) 0px 5px 15px;
+    background-color: #000000;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  iframe:hover,
+  iframe:active {
+    transform: scale(1.02);
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1100px) {
+  .project-container {
+    align-items: flex-start;
+    padding-left: 20px;
+
+  }
+
+  .project-top {
+    align-items: flex-start;
+    padding-top: 20px;
+
+    img {
+      width: 90vw;
+    }
+    .technologies {
+      p {
+        padding: 8px;
+        font-size: 20px;
+        width: 110px;
+        text-align: center;
+
+      }
+    }
+  }
+
+  .project-details {
+    flex-direction: row;
+    gap: 4vw;
+  }
+
+  .project-method {
+    p {
+      width: 300px;
+    }
+
+    .project-buttons {
+      width: 300px;
+
+      .secondary-button {
+        margin-left: 0px;
+      }
+    }
+  }
+
+  .video {
+    margin-top: 140px;
+    iframe {
+      width: 450px;
+      height: 300px;
+    }
+  }
+}
+
+@media (min-width: 1100px) {
+  .project-container {
+    align-items: flex-start;
+    padding-left: 20px;
+
+  }
+
+  .project-top {
+    align-items: flex-start;
+    padding-top: 20px;
+
+    img {
+      width: 90vw;
+    }
+    .technologies {
+      p {
+        padding: 8px;
+        font-size: 20px;
+        width: 110px;
+        text-align: center;
+
+      }
+    }
+  }
+
+  .project-details {
+    flex-direction: row;
+    gap: 4vw;
+  }
+
+  .project-method {
+    p {
+      width: 500px;
+    }
+
+    .project-buttons {
+      width: 500px;
+
+      .secondary-button {
+        margin-left: 0px;
+      }
+    }
+  }
+
+  .video {
+    margin-top: 20px;
+    iframe {
+      width: 700px;
+      height: 500px;
+    }
   }
 }

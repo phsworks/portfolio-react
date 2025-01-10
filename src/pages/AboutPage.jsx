@@ -2,15 +2,12 @@ import "./AboutPage.css";
 import diploma from "../assets/diploma.png";
 
 function AboutPage() {
-  
-
-
 
   return (
     <div className="about-container">
       <div className="about-intro">
         <div className="about-picture">
-          <img width={230} src={diploma} alt="piet-diploma" />
+          <img className="image-mobile" width={230} src={diploma} alt="piet-diploma" />
         </div>
         <div className="about-info">
           <h1>About</h1>
@@ -23,6 +20,9 @@ function AboutPage() {
             For me, building software feels like creating magic!
           </p>
         </div>
+      <div className="about-picture-2">
+        <img className="image-desktop" width={230} src={diploma} alt="piet-diploma" />
+      </div>
       </div>
       <div className="my-story">
         <h2>My Story</h2>
@@ -72,7 +72,7 @@ function AboutPage() {
         </article>
 
         <section>
-          <h2>Looking Ahead</h2>
+          <h3>Looking Ahead</h3>
           <p>
             Transitioning to web development has been the best decision of my
             career. I’m excited to continue growing, learning new technologies,
