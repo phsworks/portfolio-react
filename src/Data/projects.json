@@ -2,8 +2,8 @@
   {
     "id": 1,
     "title": "007 Legacy",
-    "shortDescription": "A James Bond-themed browser game created with passion.",
-    "longDescription": "007 Legacy is a browser-based game inspired by my love for James Bond. Players navigate as Bond, taking on missions, defeating villains, and collecting Vodka Martinis for extra lives. The game incorporates iconic Bond elements, such as thrilling scenarios and gadgets, combined with smooth gameplay mechanics and a responsive layout. Developed with HTML, CSS, and JavaScript, this project highlights creativity and technical skills while providing an immersive gaming experience.",
+    "shortDescription": "A James Bond-themed browser game where players battle villains from the movies",
+    "longDescription": "007 Legacy is a browser-based game inspired by my love for James Bond. It will take you in to the world of 007. You will be fighting against multiple Bond Villains from the movie franchise. They will come at you with everything they got and you need to be careful not too let them catch you. Ofcourse you have a licence to kill so you will be able to shoot the Villains. And also look for the Vodka Martinis, they can give you some extra strength to be stronger in your fight against the Villains. So good luck and remember your Name is Bond, James Bond!",
     "technologies": [
       "HTML",
       "CSS",
@@ -17,8 +17,8 @@
   {
     "id": 2,
     "title": "BookQuest",
-    "shortDescription": "An online personal library for managing books.",
-    "longDescription": "BookQuest is a web application designed for book enthusiasts to track books they've read and want to read. It features personalized filters, a reading profile, and interactive elements, allowing users to organize collections effortlessly. The app's user-friendly interface and efficient design make it a valuable tool for any avid reader.",
+    "shortDescription": "A personal library app for organizing books, track favorites and save future reads.",
+    "longDescription": "BookQuest was created during my Full Stack Web Development Bootcamp as a collaborative project with a colleague. We wanted to build an app that helps users organize their personal libraries, like their favorite books, and keep track of the ones they still want to read. We used Supabase to manage and store the book data, making it easy to create a smooth and responsive experience for book lovers.",
     "technologies": [
       "React",
       "CSS",
@@ -32,8 +32,8 @@
   {
     "id": 3,
     "title": "IronHub",
-    "shortDescription": "A platform for Ironhack students to collaborate and share knowledge.",
-    "longDescription": "IronHub was developed as a forum for Ironhack students to ask questions, share resources, and collaborate on projects. With a secure sign-up and login system, users can post questions, share insights, and find answers in a supportive community environment. The platform also features resources like tutorials and articles, enhancing the learning experience. Built using React, JavaScript, and MongoDB, IronHub embodies the spirit of collaboration and innovation.",
+    "shortDescription": "A platform for Ironhack students to share resources, ask questions, and support each other.",
+    "longDescription": "IronHub was developed during my Full Stack Web Development Bootcamp as a collaborative project inspired by platforms like Stack Overflow. We wanted to create a dedicated space for Ironhack students to ask questions, share resources, and collaborate on projects. The platform features a secure sign-up and login system, allowing users to post questions, exchange ideas, and support each other in the growing IronHack community. We also included a resource hub with tutorials and articles to enrich the learning experience. The platform was built with React, JavaScript (NodeJS), and MongoDB.",
     "technologies": [
       "React",
       "CSS",
@@ -42,14 +42,14 @@
     ],
     "image": "/images/ironhub-platform.png",
     "video": "fmNhYVl26AQ",
-    "githubLink": "https://github.com/username/ironhub",
+    "githubLink": "https://github.com/didonatodani/ironhub-front",
     "liveDemo": "https://ironhub-front.netlify.app"
   },
   {
     "id": 4,
-    "title": "Mobile User-Flow UX/UI Project",
-    "shortDescription": "Interactive mobile user flow for customizing bags.",
-    "longDescription": "This project focused on creating a seamless UX/UI flow for a mobile application that allows users to customize bags. Emphasizing user-friendly interactions and responsive design, the application guides users through a smooth process, from selecting options to visualizing the final product. The project showcases design thinking and front-end development expertise.",
+    "title": "Mietis mobile userflow",
+    "shortDescription": "A custom mobile user flow for designing and purchasing personalized bags.",
+    "longDescription": "Mietis was a client project we worked on during the Full Stack Web Development Bootcamp at Ironhack. Located near our campus, Mietis challenged us to design and develop a seamless user flow for their website, focusing on customizing and purchasing bags. The goal was to create a smooth and engaging shopping experience that allowed customers to personalize products effortlessly. This fast-paced, one-week project pushed us to collaborate closely with UX/UI design students, combining design and development to deliver a functional and user-friendly solution under a tight deadline.",
     "technologies": [
       "React",
       "CSS",
@@ -57,14 +57,14 @@
     ],
     "image": "/images/Mietis-webshop.png",
     "video": "vJBIYEjoK7c",
-    "githubLink": null,
+    "githubLink": "https://github.com/didonatodani/mietis",
     "liveDemo": "https://mietis.netlify.app/#/createbag"
   },
   {
     "id": 5,
     "title": "Solvware",
-    "shortDescription": "Corporate website showcasing Solvware's software solutions.",
-    "longDescription": "During my internship at Solvware, I redesigned their website to integrate existing content with new, modern elements. The website highlights Solvware's diverse services, emphasizing usability and clarity. With a responsive design, intuitive navigation, and strategic calls-to-action, the site effectively communicates Solvware's technical expertise and converts visitors into clients.",
+    "shortDescription": "A modernb website showcasing Solvware’s software solutions.",
+    "longDescription": "During my internship at Solvware, I redesigned their website to integrate existing content with new, modern elements. The website highlights Solvware's diverse services, emphasizing usability and clarity. With a responsive design, intuitive navigation, and strategic call-to-actions, the site effectively communicates Solvware's technical expertise and converts visitors into clients.",
     "technologies": [
       "WordPress",
       "CSS"
@@ -77,8 +77,8 @@
   {
     "id": 6,
     "title": "House in Tuscany",
-    "shortDescription": "An elegant online presence for a luxurious vacation villa in Tuscany.",
-    "longDescription": "HouseInTuscany.eu is a visually stunning website that showcases the luxury and charm of a vacation villa in Tuscany. The design focuses on aesthetics, capturing the beauty of the Tuscan landscape while providing comprehensive information about the villa's features and local attractions. Visitors are inspired by immersive visuals and intuitive navigation, making it easy to book their dream getaway.",
+    "shortDescription": "A stylish website highlighting a luxury family villa in Tuscany.",
+    "longDescription": "HouseInTuscany.eu is a website designed to showcase the beauty and charm of my family’s vacation villa in Tuscany. The goal was to highlight the villa’s unique atmosphere and the stunning Tuscan landscape while making it easy for visitors to explore the property and book their stay. The design focuses on elegance and simplicity, providing clear information about the villa’s features, availability, and nearby attractions.",
     "technologies": [
       "WordPress",
       "CSS"
@@ -91,8 +91,8 @@
   {
     "id": 7,
     "title": "BucketlistPosters",
-    "shortDescription": "An elegant online presence for a luxurious vacation villa in Tuscany.",
-    "longDescription": "HouseInTuscany.eu is a visually stunning website that showcases the luxury and charm of a vacation villa in Tuscany. The design focuses on aesthetics, capturing the beauty of the Tuscan landscape while providing comprehensive information about the villa's features and local attractions. Visitors are inspired by immersive visuals and intuitive navigation, making it easy to book their dream getaway.",
+    "shortDescription": "Bucketlist Posters is a webshop offering scratch-off posters with various themes.",
+    "longDescription": "Bucketlist Posters started as a large webshop called Trendgigant, where my friend and I sold a wide range of trendy products. I built the webshop using WordPress and WooCommerce, which became a great learning experience and sparked my passion for web development. Over time, I decided to focus more on growing my skills as a developer, while my friend rebranded the store into BucketlistPosters.nl.",
     "technologies": [
       "WordPress",
       "CSS"

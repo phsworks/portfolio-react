@@ -26,7 +26,7 @@ function Footer() {
           <nav>
             <ul className="footer-links">
               <li>
-                <NavLink to="/aboutme"> About Me</NavLink>
+                <NavLink to="/aboutme"> About</NavLink>
               </li>
               <li>
                 <Link onClick={scrollUp} to="/#skills-section">

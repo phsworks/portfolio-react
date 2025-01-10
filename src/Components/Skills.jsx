@@ -16,7 +16,12 @@ function Skills() {
     <div className="skills">
       <div className="skills-top">
         <h2>My Skills</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <p>
+          I have experience building responsive websites and developing
+          interactive web applications. I'm always
+          exploring new technologies and finding creative ways to improve and
+          grow in the tech world.
+        </p>
       </div>
       <div className="all-skills">
         <div className="skill-container">
@@ -25,63 +30,63 @@ function Skills() {
           </div>
           <p>HTML</p>
         </div>
-          <div className="skill-container">
-            <div className="skill-card">
-              <img width={80} src={CSS} alt="CSS" />
-            </div>
-            <p>CSS</p>
+        <div className="skill-container">
+          <div className="skill-card">
+            <img width={80} src={CSS} alt="CSS" />
           </div>
-          <div className="skill-container">
-            <div className="skill-card">
-              <img src={Javascript} alt="Javascript" />
-            </div>
-            <p>Javascript</p>
+          <p>CSS</p>
+        </div>
+        <div className="skill-container">
+          <div className="skill-card">
+            <img src={Javascript} alt="Javascript" />
           </div>
-          <div className="skill-container">
-            <div className="skill-card">
-              <img width={100} src={ReactLogo} alt="React" />
-            </div>
-            <p>React</p>
+          <p>Javascript</p>
+        </div>
+        <div className="skill-container">
+          <div className="skill-card">
+            <img width={100} src={ReactLogo} alt="React" />
           </div>
-          <div className="skill-container">
-            <div className="skill-card">
-              <img src={Git} alt="Git" />
-            </div>
-            <p>Git</p>
+          <p>React</p>
+        </div>
+        <div className="skill-container">
+          <div className="skill-card">
+            <img src={Git} alt="Git" />
           </div>
-          <div className="skill-container">
-            <div className="skill-card">
-              <img src={GithubLogo} alt="Git" />
-            </div>
-            <p>Github</p>
+          <p>Git</p>
+        </div>
+        <div className="skill-container">
+          <div className="skill-card">
+            <img src={GithubLogo} alt="Git" />
           </div>
+          <p>Github</p>
+        </div>
 
-          <div className="skill-container">
-            <div className="skill-card">
-              <img src={Wordpress} alt="Wordpress" />
-            </div>
-            <p>Wordpress</p>
+        <div className="skill-container">
+          <div className="skill-card">
+            <img src={Wordpress} alt="Wordpress" />
           </div>
-          <div className="skill-container">
-            <div className="skill-card">
-              <img src={MySQL} alt="MySQL" />
-            </div>
-            <p>MySQL</p>
+          <p>Wordpress</p>
+        </div>
+        <div className="skill-container">
+          <div className="skill-card">
+            <img src={MySQL} alt="MySQL" />
           </div>
-          <div className="skill-container">
-            <div className="skill-card">
-              <img src={NodeJS} alt="NodeJS" />
-            </div>
-            <p>NodeJS</p>
+          <p>MySQL</p>
+        </div>
+        <div className="skill-container">
+          <div className="skill-card">
+            <img src={NodeJS} alt="NodeJS" />
           </div>
-          <div className="skill-container">
-            <div className="skill-card">
-              <img src={MongoDB} alt="NodeJS" />
-            </div>
-            <p>MongoDB</p>
+          <p>NodeJS</p>
+        </div>
+        <div className="skill-container">
+          <div className="skill-card">
+            <img src={MongoDB} alt="NodeJS" />
           </div>
+          <p>MongoDB</p>
         </div>
       </div>
+    </div>
   );
 }
 

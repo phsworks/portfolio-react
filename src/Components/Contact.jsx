@@ -71,8 +71,8 @@ function Contact() {
         <div className="form-intro">
           <h2>Let's work together!</h2>
           <p>
-            I love to design and code as much as possible, because I love to
-            create software. Just simple like that!
+            I’m passionate about designing and coding because I love bringing
+            ideas to life through software!
           </p>
         </div>
         <div className="form">
