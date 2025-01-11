@@ -19,7 +19,7 @@ function Hero() {
         <div className="personal-info">
           <span className="hero-subtitle"> I am Piet-Hein,</span>
           <h1>
-            Passionate Full-Stack <br></br>
+            Full-Stack <br></br>
             <span>Web Developer</span>{" "}
           </h1>
 

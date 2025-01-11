@@ -62,14 +62,14 @@
   background-color: transparent;
 
   h2 {
-    padding-left: 20px;
+    padding-left: 10px;
   }
 
   p {
     width: 330px;
     text-align: left;
     padding-bottom: 10px;
-    padding-left: 20px;
+    padding-left: 10px;
   }
 
   .project-buttons {
@@ -108,13 +108,15 @@
     padding-left: 20px;
 
   }
-
+  h1 {
+    font-size: 40px;
+  }
   .project-top {
     align-items: flex-start;
     padding-top: 20px;
 
     img {
-      width: 90vw;
+      width: 80vw;
     }
     .technologies {
       p {
@@ -127,18 +129,18 @@
     }
   }
 
-  .project-details {
-    flex-direction: row;
-    gap: 4vw;
-  }
-
   .project-method {
+
     p {
-      width: 300px;
+      padding-left: 0px;
+      width: 700px;
+    }
+    h2 {
+      padding-left: 0px;
     }
 
     .project-buttons {
-      width: 300px;
+      width: 500px;
 
       .secondary-button {
         margin-left: 0px;
@@ -147,10 +149,12 @@
   }
 
   .video {
-    margin-top: 140px;
+    padding-left: 20px;
+
     iframe {
-      width: 450px;
-      height: 300px;
+      width: 700px;
+      height: 450px;
+
     }
   }
 }
@@ -159,7 +163,12 @@
   .project-container {
     align-items: flex-start;
     padding-left: 20px;
+    gap: 10px;
+    padding-bottom: 80px;
 
+  }
+  h1 {
+    font-size: 50px;
   }
 
   .project-top {
@@ -167,7 +176,7 @@
     padding-top: 20px;
 
     img {
-      width: 90vw;
+      width: 80vw;
     }
     .technologies {
       p {
@@ -182,7 +191,7 @@
 
   .project-details {
     flex-direction: row;
-    gap: 4vw;
+    gap: 6vw;
   }
 
   .project-method {
@@ -200,10 +209,10 @@
   }
 
   .video {
-    margin-top: 20px;
+    margin-top: 60px;
     iframe {
-      width: 700px;
-      height: 500px;
+      width: 650px;
+      height: 400px;
     }
   }
 }

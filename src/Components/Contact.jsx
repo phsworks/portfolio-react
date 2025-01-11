@@ -115,7 +115,7 @@ function Contact() {
               onChange={(e) => setMessage(e.target.value)}
               required
             ></textarea>
-            <br></br>
+           
             <button className="primary-button" type="submit">
               Send Message
             </button>

@@ -100,13 +100,13 @@ p {
   width: 140px;
   transition: 300ms ease;
   border-radius: 20px;
-  font-weight: 800;
   place-content: center;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   height: 47px;
+  font-size: 16px;
 
   padding: 10px;
 

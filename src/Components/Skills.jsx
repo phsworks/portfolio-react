@@ -16,12 +16,6 @@ function Skills() {
     <div className="skills">
       <div className="skills-top">
         <h2>My Skills</h2>
-        <p>
-          I have experience building responsive websites and developing
-          interactive web applications. I'm always
-          exploring new technologies and finding creative ways to improve and
-          grow in the tech world.
-        </p>
       </div>
       <div className="all-skills">
         <div className="skill-container">

@@ -3,7 +3,7 @@
     "id": 1,
     "title": "007 Legacy",
     "shortDescription": "A James Bond-themed browser game where players battle villains from the movies",
-    "longDescription": "007 Legacy is a browser-based game inspired by my love for James Bond. It will take you in to the world of 007. You will be fighting against multiple Bond Villains from the movie franchise. They will come at you with everything they got and you need to be careful not too let them catch you. Ofcourse you have a licence to kill so you will be able to shoot the Villains. And also look for the Vodka Martinis, they can give you some extra strength to be stronger in your fight against the Villains. So good luck and remember your Name is Bond, James Bond!",
+    "longDescription": "007 Legacy is a browser-based game inspired by my love for James Bond. In the game you will be fighting against multiple Bond Villains based on the movie franchise. They will come at you with everything they got and you need to be careful not too let them catch you. Ofcourse you have a licence to kill so you will be able to shoot the Villains. And also look for the Vodka Martinis, they can give you some extra strength to be stronger in your fight against the Villains.",
     "technologies": [
       "HTML",
       "CSS",
@@ -33,7 +33,7 @@
     "id": 3,
     "title": "IronHub",
     "shortDescription": "A platform for Ironhack students to share resources, ask questions, and support each other.",
-    "longDescription": "IronHub was developed during my Full Stack Web Development Bootcamp as a collaborative project inspired by platforms like Stack Overflow. We wanted to create a dedicated space for Ironhack students to ask questions, share resources, and collaborate on projects. The platform features a secure sign-up and login system, allowing users to post questions, exchange ideas, and support each other in the growing IronHack community. We also included a resource hub with tutorials and articles to enrich the learning experience. The platform was built with React, JavaScript (NodeJS), and MongoDB.",
+    "longDescription": "IronHub was developed during my Full Stack Web Development Bootcamp as a collaborative project inspired by platforms like Stack Overflow. We wanted to create a dedicated space for Ironhack students to ask questions, share resources, and collaborate on projects. The platform features a secure sign-up and login system, allowing users to post questions, exchange ideas, and support each other in the growing IronHack community. The platform was built with React, JavaScript (NodeJS), and MongoDB.",
     "technologies": [
       "React",
       "CSS",
