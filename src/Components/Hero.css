@@ -86,7 +86,7 @@
 
 @media (min-width: 600px) and (max-width: 1100px) {
   .hero {
-    height: 80vh;
+    height: 83vh;
     flex-direction: row;
     justify-content: space-around;
     height: 600px;
@@ -126,7 +126,7 @@
     justify-content:space-around;
     height: 97vh;
     padding-top: 60px;
-    gap: 50px;
+    gap: 40px;
 
 
     .hero-subtitle {
@@ -152,7 +152,7 @@
 
   .image-tablet {
     display: block;
-    width: 450px;
+    width: 470px;
   }
   .image-mobile {
     display: none;
