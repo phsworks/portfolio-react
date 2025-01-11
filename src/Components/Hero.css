@@ -125,7 +125,7 @@
     flex-direction: row;
     justify-content:space-around;
     height: 97vh;
-    padding-top: 60px;
+    padding-top: 10px;
     gap: 40px;
 
 
@@ -143,16 +143,15 @@
     p {
       width: 500px;
       padding-top: 0px;
-      padding-bottom: 40px;
+      padding-bottom: 20px;
       font-size: 28px;
     }
   }
 
 
-
   .image-tablet {
     display: block;
-    width: 470px;
+    width: 480px;
   }
   .image-mobile {
     display: none;
