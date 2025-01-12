@@ -90,7 +90,7 @@
     flex-direction: row;
     justify-content: space-around;
     height: 600px;
-    padding-top: 80px;
+    padding-top: 30px;
     padding-left: 40px;
 
     .hero-subtitle {
@@ -126,7 +126,7 @@
     justify-content:space-around;
     height: 97vh;
     padding-top: 10px;
-    gap: 40px;
+    gap: 35px;
 
 
     .hero-subtitle {

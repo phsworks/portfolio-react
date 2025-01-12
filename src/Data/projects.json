@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "007 Legacy",
-    "shortDescription": "A James Bond-themed browser game where players battle villains from the movies",
+    "shortDescription": "A James Bond-themed browser game.",
     "longDescription": "007 Legacy is a browser-based game inspired by my love for James Bond. In the game you will be fighting against multiple Bond Villains based on the movie franchise. They will come at you with everything they got and you need to be careful not too let them catch you. Ofcourse you have a licence to kill so you will be able to shoot the Villains. And also look for the Vodka Martinis, they can give you some extra strength to be stronger in your fight against the Villains.",
     "technologies": [
       "HTML",
@@ -17,7 +17,7 @@
   {
     "id": 2,
     "title": "BookQuest",
-    "shortDescription": "A personal library app for organizing books, track favorites and save future reads.",
+    "shortDescription": "A personal library app for organizing books.",
     "longDescription": "BookQuest was created during my Full Stack Web Development Bootcamp as a collaborative project with a colleague. We wanted to build an app that helps users organize their personal libraries, like their favorite books, and keep track of the ones they still want to read. We used Supabase to manage and store the book data, making it easy to create a smooth and responsive experience for book lovers.",
     "technologies": [
       "React",
@@ -32,7 +32,7 @@
   {
     "id": 3,
     "title": "IronHub",
-    "shortDescription": "A platform for Ironhack students to share resources, ask questions, and support each other.",
+    "shortDescription": "A forum for the Ironhack community.",
     "longDescription": "IronHub was developed during my Full Stack Web Development Bootcamp as a collaborative project inspired by platforms like Stack Overflow. We wanted to create a dedicated space for Ironhack students to ask questions, share resources, and collaborate on projects. The platform features a secure sign-up and login system, allowing users to post questions, exchange ideas, and support each other in the growing IronHack community. The platform was built with React, JavaScript (NodeJS), and MongoDB.",
     "technologies": [
       "React",
@@ -48,7 +48,7 @@
   {
     "id": 4,
     "title": "Mietis mobile userflow",
-    "shortDescription": "A custom mobile user flow for designing and purchasing personalized bags.",
+    "shortDescription": "A mobile user flow for Mietis",
     "longDescription": "Mietis was a client project we worked on during the Full Stack Web Development Bootcamp at Ironhack. Located near our campus, Mietis challenged us to design and develop a seamless user flow for their website, focusing on customizing and purchasing bags. The goal was to create a smooth and engaging shopping experience that allowed customers to personalize products effortlessly. This fast-paced, one-week project pushed us to collaborate closely with UX/UI design students, combining design and development to deliver a functional and user-friendly solution under a tight deadline.",
     "technologies": [
       "React",
@@ -63,7 +63,7 @@
   {
     "id": 5,
     "title": "Solvware",
-    "shortDescription": "A modernb website showcasing Solvware’s software solutions.",
+    "shortDescription": "A modern business website for Solvware.",
     "longDescription": "During my internship at Solvware, I redesigned their website to integrate existing content with new, modern elements. The website highlights Solvware's diverse services, emphasizing usability and clarity. With a responsive design, intuitive navigation, and strategic call-to-actions, the site effectively communicates Solvware's technical expertise and converts visitors into clients.",
     "technologies": [
       "WordPress",
@@ -77,7 +77,7 @@
   {
     "id": 6,
     "title": "House in Tuscany",
-    "shortDescription": "A stylish website highlighting a luxury family villa in Tuscany.",
+    "shortDescription": "A stylish website for House in Tuscany.",
     "longDescription": "HouseInTuscany.eu is a website designed to showcase the beauty and charm of my family’s vacation villa in Tuscany. The goal was to highlight the villa’s unique atmosphere and the stunning Tuscan landscape while making it easy for visitors to explore the property and book their stay. The design focuses on elegance and simplicity, providing clear information about the villa’s features, availability, and nearby attractions.",
     "technologies": [
       "WordPress",
@@ -91,7 +91,7 @@
   {
     "id": 7,
     "title": "BucketlistPosters",
-    "shortDescription": "Bucketlist Posters is a webshop offering scratch-off posters with various themes.",
+    "shortDescription": "A modern webshop for Bucketlistposters.nl.",
     "longDescription": "Bucketlist Posters started as a large webshop called Trendgigant, where my friend and I sold a wide range of trendy products. I built the webshop using WordPress and WooCommerce, which became a great learning experience and sparked my passion for web development. Over time, I decided to focus more on growing my skills as a developer, while my friend rebranded the store into BucketlistPosters.nl.",
     "technologies": [
       "WordPress",

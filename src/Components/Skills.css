@@ -5,7 +5,7 @@
 }
 
 .skills-top {
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;
@@ -24,10 +24,10 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 8px;
+  grid-column-gap: 5px;
   grid-row-gap: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .skill-container {
@@ -50,7 +50,7 @@
   justify-content: center;
   gap: 15px;
   background-color: #10161a;
-  padding: 45px;
+  padding: 35px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
   filter: grayscale(40%);

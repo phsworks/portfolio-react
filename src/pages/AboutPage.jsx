@@ -11,7 +11,7 @@ function AboutPage() {
         </div>
         <div className="about-info">
           <h1>About</h1>
-          <h3>I Am Piet-Hein Schouten,</h3>
+          <h4>I Am Piet-Hein Schouten,</h4>
           <p>
             My whole life, I have been passionate about technology and
             innovative software. Starting out as a marketing student, I realized

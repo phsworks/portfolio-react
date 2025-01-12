@@ -1,5 +1,5 @@
 .about-intro, .my-story {
-  height: 700px;
+  height: 720px;
   padding-left: 30px;
   background-image: url(../assets/Background.png);
   background-size: cover;
@@ -24,9 +24,12 @@
       transition-duration: 300ms;
       border: 2px solid #77bed2;
     }
+    h4 {
+      font-size: 24px;
+    }
 
     p {
-      width: 300px;
+      width: 280px;
     }
 
     .about-picture-2 {
@@ -36,7 +39,7 @@
 }
 
 .my-story {
-  height: 1800px;
+  height: 1900px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -101,7 +104,7 @@
 @media (min-width: 1100px) {
   .about-intro {
     flex-direction: row;
-    gap: 15vw;
+    gap: 12vw;
     padding-left: 0px;
     height: 90vh;
     justify-content: space-around;
@@ -125,6 +128,7 @@
 
   .my-story {
     height: 1350px;
+    padding-left: 50px;
 
     article {
       width: 60vw;
