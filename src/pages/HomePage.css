@@ -33,12 +33,12 @@
     background-color: transparent;
     border: 2px solid var(--primary--color);
     border-radius: 50%;
-    padding: 5px;
+    padding: 5px 5px 2px 5px;
     font-size: 15px;
     transition: opacity 0.3s ease-in-out;
 
     img {
-      opacity: 60%;
+      opacity: 80%;
     }
   }
   button:hover {
