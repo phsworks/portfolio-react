@@ -24,7 +24,7 @@
 .scroll-up {
   position: fixed;
   bottom: 20px;
-  right: 15px;
+  right: 20px;
   z-index: 999;
 
   button {
@@ -33,13 +33,12 @@
     background-color: transparent;
     border: 2px solid var(--primary--color);
     border-radius: 50%;
-    padding: 9px;
-    font-size: 18px;
+    padding: 5px;
+    font-size: 15px;
     transition: opacity 0.3s ease-in-out;
 
     img {
-      width: 20px;
-      opacity: 80%;
+      opacity: 60%;
     }
   }
   button:hover {
