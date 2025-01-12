@@ -161,7 +161,7 @@
 @media (min-width: 1100px) {
   .project-container {
     align-items: flex-start;
-    padding-left: 50px;
+    padding-left: 70px;
     gap: 10px;
     padding-bottom: 80px;
 
@@ -199,7 +199,7 @@
     }
 
     .project-buttons {
-      width: 500px;
+      width: 300px;
 
       .secondary-button {
         margin-left: 0px;
