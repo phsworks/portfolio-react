@@ -27,22 +27,13 @@ function AboutPage() {
       <div className="my-story">
         <h2>My Story</h2>
         <article>
-          <h3>2019–2021: Early Career in Marketing and Customer Service</h3>
-          <p>
-            Started my career in customer service and marketing, learning the
-            importance of user engagement and problem-solving while assisting
-            customers and managing online campaigns.
-          </p>
-        </article>
-        <article>
           <h3>2021–2023: Education and Exploration</h3>
           <p>
             Earned a{" "}
             <strong>
               Propaedeutic Diploma in Entrepreneurship & Retail Management
             </strong>{" "}
-            at Avans University, where I developed a foundation in business
-            strategy.
+            at Avans University, where I developed a foundation in Entrepreneurship & Retail Management.
           </p>
           <p>
             Gained hands-on experience in market research and digital marketing
@@ -58,7 +49,7 @@ function AboutPage() {
           </p>
           <p>
             At <strong>Solvware B.V.</strong>, I further developed technical
-            skills by balancing WordPress development with marketing strategies.
+            skills by balancing WordPress development with online marketing activities.
           </p>
         </article>
         <article>

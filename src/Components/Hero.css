@@ -126,7 +126,7 @@
     justify-content:space-around;
     height: 97vh;
     padding-top: 10px;
-    gap: 35px;
+    gap: 30px;
 
 
     .hero-subtitle {
@@ -151,6 +151,7 @@
 
   .image-tablet {
     display: block;
+    margin-top: 50px;
     width: 480px;
   }
   .image-mobile {
