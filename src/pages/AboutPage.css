@@ -39,7 +39,7 @@
 }
 
 .my-story {
-  height: 1900px;
+  height: 1650px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -89,7 +89,7 @@
   }
 
   .my-story {
-    height: 1350px;
+    height: 1050px;
 
     article {
       width: 60vw;
@@ -127,7 +127,7 @@
   }
 
   .my-story {
-    height: 1350px;
+    height: 1200px;
     padding-left: 50px;
 
     article {
