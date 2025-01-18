@@ -14,7 +14,7 @@ function AboutPage() {
           <h4>I Am Piet-Hein Schouten,</h4>
           <p>
             My whole life, I have been passionate about technology and
-            innovative software. Starting out as a marketing student, I realized
+            software. Starting out as a Entrepreneurship & Retail Management student, I realized
             I wanted to make a change and pursue a career in software
             development. Following my passion, I am now a Full Stack Developer.
             For me, building software feels like creating magic!
