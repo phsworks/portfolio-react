@@ -90,7 +90,7 @@
     flex-direction: row;
     justify-content: space-around;
     height: 600px;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-left: 40px;
 
     .hero-subtitle {
@@ -125,17 +125,17 @@
     flex-direction: row;
     justify-content:space-around;
     height: 97vh;
-    padding-top: 10px;
+    padding-top: 40px;
     gap: 30px;
 
 
     .hero-subtitle {
-      font-size: 50px;
+      font-size: 45px;
     }
 
 
     h1 {
-      font-size: 65px;
+      font-size: 60px;
     }
     h2 {
       font-size: 40px;
@@ -152,7 +152,7 @@
   .image-tablet {
     display: block;
     margin-top: 50px;
-    width: 480px;
+    width: 450px;
   }
   .image-mobile {
     display: none;
