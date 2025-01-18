@@ -178,7 +178,6 @@
     width: 220px;
   }
   .logo-desktop:hover {
-    transform: scale(1.02);
     cursor: pointer;
   }
 
@@ -204,7 +203,6 @@
     width: 320px;
   }
   .logo-desktop:hover {
-    transform: scale(1.02);
     cursor: pointer;
   }
 
