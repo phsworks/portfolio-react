@@ -1,5 +1,5 @@
 .hero {
-  height: 920px;
+  height: 940px;
   padding-left: 30px;
   background-image: url(../assets/Background.png);
   background-size: cover;
@@ -13,11 +13,12 @@
 
   h1 {
     padding-bottom: 20px;
+    font-size: 42px;
 
   }
 
   .hero-subtitle {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 700;
     font-family: nunito, sans-serif;
   }
@@ -28,7 +29,7 @@
     border: 2px solid #77bed23e;
     height: auto;
     margin-bottom: 20px;
-    margin-left: 15px;
+    margin-left: 10px;
     box-shadow: rgba(61, 61, 61, 0.2) 0px 8px 24px;
   }
 
@@ -153,7 +154,7 @@
     display: block;
     margin-top: 50px;
     margin-right: 20px;
-    width: 450px;
+    width: 460px;
 
   }
   .image-mobile {
