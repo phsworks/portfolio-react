@@ -18,7 +18,7 @@
     "id": 2,
     "title": "BookQuest",
     "shortDescription": "A personal library app for organizing books.",
-    "longDescription": "BookQuest was created during my Full Stack Web Development Bootcamp as a collaborative project with a colleague. We wanted to build an app that helps users organize their personal libraries, like their favorite books, and keep track of the ones they still want to read. We used Supabase to manage and store the book data, making it easy to create a smooth and responsive experience for book lovers.",
+    "longDescription": "BookQuest was created during my Full Stack Development Bootcamp at IronHack with a colleague. We wanted to build an app that helps users organize their personal libraries, like their favorite books, and keep track of the ones they still want to read. We used Supabase to manage and store the book data, making it easy to create a smooth and responsive experience for book lovers.",
     "technologies": [
       "React",
       "CSS",
@@ -32,8 +32,8 @@
   {
     "id": 3,
     "title": "IronHub",
-    "shortDescription": "A forum for the Ironhack community.",
-    "longDescription": "IronHub was developed during my Full Stack Web Development Bootcamp as a collaborative project inspired by platforms like Stack Overflow. We wanted to create a dedicated space for Ironhack students to ask questions, share resources, and collaborate on projects. The platform features a secure sign-up and login system, allowing users to post questions, exchange ideas, and support each other in the growing IronHack community. The platform was built with React, JavaScript (NodeJS), and MongoDB.",
+    "shortDescription": "A forum platform for the Ironhack community.",
+    "longDescription": "IronHub was developed during my Full Stack Development Bootcamp inspired by platforms like Stack Overflow. We wanted to create a dedicated space for Ironhack students to ask questions, share resources, and collaborate on projects. The platform features a secure sign-up and login system, allowing users to post questions, exchange ideas, and support each other in the growing IronHack community. The platform was built with React, JavaScript (NodeJS), and MongoDB.",
     "technologies": [
       "React",
       "CSS",
@@ -92,7 +92,7 @@
     "id": 7,
     "title": "BucketlistPosters",
     "shortDescription": "A modern webshop for Bucketlistposters.nl.",
-    "longDescription": "Bucketlist Posters started as a large webshop called Trendgigant, where my friend and I sold a wide range of trendy products. I built the webshop using WordPress and WooCommerce, which became a great learning experience and sparked my passion for web development. Over time, I decided to focus more on growing my skills as a developer, while my friend rebranded the store into BucketlistPosters.nl.",
+    "longDescription": "Bucketlist Posters started as a large webshop called Trendgigant, where I was selling a wide range of trendy products together with friend. We built the webshop using WordPress and WooCommerce, which became a great learning experience and sparked my passion for web development. Over time, I decided to focus more on growing my skills as a developer. The platform is now rebranded into BucketlistPosters.nl.",
     "technologies": [
       "WordPress",
       "CSS"
