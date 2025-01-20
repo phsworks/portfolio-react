@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 50px;
   padding-left: 10px;
   padding-right: 10px;
@@ -70,7 +70,7 @@
 .menu-icon {
   padding-left: 15px;
   position: relative;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 
   button {
     border: none;
@@ -79,8 +79,8 @@
 
   img {
     transition: opacity 0.3s ease, transform 0.4s ease;
-    margin-right: 10px;
-    width: 50px;
+    margin-right: 8px;
+    width: 52px;
   }
 }
 
