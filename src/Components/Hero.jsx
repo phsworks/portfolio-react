@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import Piet from "../assets/Piet-Hein.jpg";
+import Piet from "../assets/Piet-Hein.png";
 import { NavLink } from "react-router-dom";
 import github from "../assets/GithubLogo.png";
 import linkedin from "../assets/linkedin.png";
