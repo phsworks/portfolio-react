@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import scrollUpArrow from "../assets/arrowUp.svg"
 import "./HomePage.css";
 
+
 function HomePage() {
   const [isVisible, setIsVisible] = useState(false);
 
