@@ -93,15 +93,13 @@
     padding: 5px;
     border-radius: 10px;
   }
-  iframe:hover,
-  iframe:active {
-    transform: scale(1.02);
-  }
+
 }
 
 @media (min-width: 600px) and (max-width: 1100px) {
   .project-container {
     align-items: flex-start;
+    padding-left: 50px;
 
   }
   h1 {
@@ -145,8 +143,8 @@
     padding-left: 20px;
 
     iframe {
-      width: 700px;
-      height: 450px;
+      width: 600px;
+      height: 350px;
 
     }
   }
@@ -155,8 +153,8 @@
 @media (min-width: 1100px) {
   .project-container {
     align-items: flex-start;
-    padding-left: 70px;
-    gap: 10px;
+    padding-left: 160px;
+    gap: 20px;
     padding-bottom: 80px;
 
   }
@@ -184,7 +182,7 @@
 
   .project-details {
     flex-direction: row;
-    gap: 5vw;
+    gap: 10vw;
   }
 
   .project-method {
@@ -199,9 +197,9 @@
   }
 
   .video {
-    margin-top: 60px;
+    margin-top: 20px;
     iframe {
-      width: 650px;
+      width: 680px;
       height: 400px;
     }
   }

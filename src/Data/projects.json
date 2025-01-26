@@ -15,21 +15,6 @@
     "liveDemo": "https://phsworks.github.io/007-Legacy/"
   },
   {
-    "id": 2,
-    "title": "BookQuest",
-    "shortDescription": "A personal library app for organizing books.",
-    "longDescription": "BookQuest was created during my Full Stack Development Bootcamp at IronHack with a colleague. We wanted to build an app that helps users organize their personal libraries, like their favorite books, and keep track of the ones they still want to read. We used Supabase to manage and store the book data, making it easy to create a smooth and responsive experience for book lovers.",
-    "technologies": [
-      "React",
-      "CSS",
-      "JavaScript"
-    ],
-    "image": "/images/TheBookQuest.png",
-    "video": "gLO3q4JOJDk",
-    "githubLink": "https://github.com/NigelFerrefe/bookquest-project",
-    "liveDemo": "https://thebookquest.netlify.app/"
-  },
-  {
     "id": 3,
     "title": "IronHub",
     "shortDescription": "A forum platform for the Ironhack community.",
@@ -46,19 +31,19 @@
     "liveDemo": "https://ironhub-front.netlify.app"
   },
   {
-    "id": 4,
-    "title": "Mietis mobile userflow",
-    "shortDescription": "A mobile user flow for shopping bags at Mietis",
-    "longDescription": "Mietis was a client project we worked on during the Full Stack Web Development Bootcamp at Ironhack. Located near our campus, Mietis challenged us to design and develop a seamless user flow for their website, focusing on customizing and purchasing bags. The goal was to create a smooth and engaging shopping experience that allowed customers to personalize products effortlessly. This fast-paced, one-week project pushed us to collaborate closely with UX/UI design students, combining design and development to deliver a functional and user-friendly solution under a tight deadline.",
+    "id": 2,
+    "title": "BookQuest",
+    "shortDescription": "A personal library app for organizing books.",
+    "longDescription": "BookQuest was created during my Full Stack Development Bootcamp at IronHack with a colleague. We wanted to build an app that helps users organize their personal libraries, like their favorite books, and keep track of the ones they still want to read. We used Supabase to manage and store the book data, making it easy to create a smooth and responsive experience for book lovers.",
     "technologies": [
       "React",
       "CSS",
       "JavaScript"
     ],
-    "image": "/images/Mietis-webshop.png",
-    "video": "vJBIYEjoK7c",
-    "githubLink": "https://github.com/didonatodani/mietis",
-    "liveDemo": "https://mietis.netlify.app/#/createbag"
+    "image": "/images/TheBookQuest.png",
+    "video": "gLO3q4JOJDk",
+    "githubLink": "https://github.com/NigelFerrefe/bookquest-project",
+    "liveDemo": "https://thebookquest.netlify.app/"
   },
   {
     "id": 5,
@@ -73,6 +58,21 @@
     "video": "kEjU5_Md3uI",
     "githubLink": null,
     "liveDemo": "https://solvware.nl"
+  },
+  {
+    "id": 4,
+    "title": "Mietis mobile userflow",
+    "shortDescription": "A mobile user flow for shopping bags at Mietis",
+    "longDescription": "Mietis was a client project we worked on during the Full Stack Web Development Bootcamp at Ironhack. Located near our campus, Mietis challenged us to design and develop a seamless user flow for their website, focusing on customizing and purchasing bags. The goal was to create a smooth and engaging shopping experience that allowed customers to personalize products effortlessly. This fast-paced, one-week project pushed us to collaborate closely with UX/UI design students, combining design and development to deliver a functional and user-friendly solution under a tight deadline.",
+    "technologies": [
+      "React",
+      "CSS",
+      "JavaScript"
+    ],
+    "image": "/images/Mietis-webshop.png",
+    "video": "vJBIYEjoK7c",
+    "githubLink": "https://github.com/didonatodani/mietis",
+    "liveDemo": "https://mietis.netlify.app/#/createbag"
   },
   {
     "id": 6,
