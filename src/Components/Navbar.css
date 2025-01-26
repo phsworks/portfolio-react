@@ -168,7 +168,7 @@
 
   .navbar {
     display: block;
-    width: 50vw;
+    width: 40vw;
 
   }
 
@@ -220,7 +220,7 @@
   }
 
   .navbar-links {
-    padding-left: 38vw;
+    padding-left: 32vw;
   }
 
   .connect-button {

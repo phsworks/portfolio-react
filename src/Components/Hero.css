@@ -91,12 +91,12 @@
 
 @media (min-width: 600px) and (max-width: 1100px) {
   .hero {
-    height: 63vh;
+    height: 58vh;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 50px;
-    padding-left: 40px;
-    width: 50vw;
+    padding-left: 20px;
+    gap: 30px;
 
     .hero-subtitle {
       font-size: 30px;
@@ -111,6 +111,7 @@
     display: block;
     margin-top: 50px;
     margin-right: 30px;
+    width: 380px;
   }
   .image-mobile {
     display: none;
@@ -127,7 +128,7 @@
 
 @media (min-width: 1100px) {
   .hero {
-    height: 70vh;
+    height: 75vh;
     flex-direction: row;
     justify-content:space-around;
     padding-top: 40px;
@@ -154,12 +155,11 @@
     }
   }
 
-
   .image-tablet {
     display: block;
     margin-top: 30px;
     margin-right: 20px;
-    width: 490px;
+    width: 470px;
 
   }
   .image-mobile {
