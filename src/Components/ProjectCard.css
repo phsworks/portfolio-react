@@ -22,23 +22,27 @@
   background-image: url(../assets/legacy.png);
 }
 .projectcard.bg-2 {
-  background-image: url(../assets/BookQuest.png);
-}
-.projectcard.bg-3 {
   background-image: url(../assets/ironhub.png);
 }
+.projectcard.bg-3 {
+  background-image: url(../assets/BookQuest.png);
+}
 .projectcard.bg-4 {
-  background-image: url(../assets/mietis.png);
+  background-image: url(../assets/GuessNumberGame.png);
 }
 .projectcard.bg-5 {
   background-image: url(../assets/Solvware.png);
 }
 .projectcard.bg-6 {
-  background-image: url(../assets/houseintuscany.png);
+  background-image: url(../assets/mietis.png);
 }
 .projectcard.bg-7 {
+  background-image: url(../assets/houseintuscany.png);
+}
+.projectcard.bg-8 {
   background-image: url(../assets/BucketListPosters.png);
 }
+
 
 .projectcard:hover,
 .projectcard:active {

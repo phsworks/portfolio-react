@@ -13,7 +13,20 @@ function Navbar() {
 
   const toggleMenu = () => {
     setIsOpen((open) => !open);
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   };
+
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+
 
 
   return (
@@ -29,13 +42,16 @@ function Navbar() {
             />
           </NavLink>
           <NavLink to="/">
-            <img className="logo-desktop"  src={desktoplogo} alt="logo" />
+            <img className="logo-desktop" src={desktoplogo} alt="logo" />
           </NavLink>
         </div>
         <div className="navbar">
           <ul className="navbar-links">
             <li>
-              <NavLink to="/aboutme">About</NavLink>
+              <NavLink onClick={scrollUp} to="/aboutme">
+                {" "}
+                About
+              </NavLink>
             </li>
             <li>
               <Link to="/#skills-section">Skills</Link>
@@ -75,7 +91,7 @@ function Navbar() {
         <nav>
           <ul className="mobile-links">
             <li>
-              <NavLink onClick={toggleMenu} to="/aboutme">
+              <NavLink onClick={toggleMenu}  to="/aboutme">
                 About
               </NavLink>
             </li>
