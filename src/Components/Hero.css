@@ -8,7 +8,7 @@
 
 .hero {
   height: 940px;
-  padding-left: 30px;
+  padding-left: 50px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -127,13 +127,11 @@
 
 @media (min-width: 1100px) {
   .hero {
-    height: 83vh;
+    height: 70vh;
     flex-direction: row;
     justify-content:space-around;
-    height: 97vh;
     padding-top: 40px;
     gap: 13px;
-    width: 80vw;
 
 
 
@@ -161,7 +159,7 @@
     display: block;
     margin-top: 30px;
     margin-right: 20px;
-    width: 480px;
+    width: 490px;
 
   }
   .image-mobile {
