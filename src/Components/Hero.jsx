@@ -13,6 +13,13 @@ function Hero() {
       "https://drive.google.com/file/d/1NJ7qvW4Fkr0v2zSHhweyEotIU3g87wlF/view?usp=drive_link";
   };
 
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="hero-container">
       <div className="hero">
@@ -53,7 +60,7 @@ function Hero() {
                 </span>
               </button>
               <button className="primary-button">
-                <NavLink to="/aboutme"> About Me</NavLink>
+                <NavLink onClick={scrollUp} to="/aboutme"> About Me</NavLink>
               </button>
             </div>
             <div className="social-icons">

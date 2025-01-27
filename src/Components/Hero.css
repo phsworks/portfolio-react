@@ -128,7 +128,7 @@
 
 @media (min-width: 1100px) {
   .hero {
-    height: 75vh;
+    height: 78vh;
     flex-direction: row;
     justify-content:space-around;
     padding-top: 40px;
