@@ -106,8 +106,8 @@
 
 @media (min-width: 1100px) {
   .projectcard {
-    width: 580px;
-    height: 420px;
+    width: 530px;
+    height: 400px;
   }
 
   .projectcard:hover,

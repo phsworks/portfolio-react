@@ -160,60 +160,25 @@
 
 @media (min-width: 600px) and (max-width: 1100px) {
   .navbar-container {
-    height: 100px;
-    padding-left: 0px;
-
+    justify-content: space-around;
+    width: 100vw;
+    gap: 5vw;
   }
 
-  .navbar {
-    display: block;
-    width: 40vw;
-
-  }
-
-  .logo-container {
-    padding-top: 0px;
-  }
-
-  .logo-desktop {
-    display: block;
-    width: 220px;
-  }
-  .logo-desktop:hover {
-    cursor: pointer;
-  }
-
-  .logo-mobile {
-    display: none;
-  }
-
-  .hamburger {
-    display: none;
-  }
-}
-
-@media (min-width: 1100px) {
-  .navbar-container {
-   justify-content: space-between;
-   width: 100vw;
-   gap: 10vw;
-
- }
   .navbar {
     display: flex;
-
   }
 
   .logo-container {
     padding-top: 0px;
+    padding-left: 0px;
   }
 
   .logo-desktop {
     display: block;
-    width: 320px;
+    width: 200px;
   }
 
-  
   .logo-desktop:hover {
     cursor: pointer;
   }
@@ -223,7 +188,7 @@
   }
 
   .connect-button {
-    padding-left: 30px;
+    padding-left: 20px;
   }
 
   .hamburger {
@@ -235,8 +200,55 @@
   .x-mark.close {
     display: none;
   }
+  .menu-icon {
+    display: none;
+  }
+}
 
+@media (min-width: 1100px) {
+  .navbar-container {
+    justify-content: space-around;
+    width: 100vw;
+    gap: 20vw;
+  }
 
+  .navbar {
+    display: flex;
+  }
 
+  .logo-container {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 
+  .logo-desktop {
+    display: block;
+    width: 320px;
+  }
+
+  .logo-desktop:hover {
+    cursor: pointer;
+  }
+
+  .logo-mobile {
+    display: none;
+  }
+
+  .connect-button {
+    padding-left: 20px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+  .x-mark {
+    display: none;
+  }
+  .x-mark.close {
+    display: none;
+  }
+  .menu-icon {
+    display: none;
+  }
 }

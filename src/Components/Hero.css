@@ -94,9 +94,9 @@
     height: 58vh;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left: 20px;
-    gap: 30px;
+    gap: 3vw;
 
     .hero-subtitle {
       font-size: 30px;
@@ -128,11 +128,11 @@
 
 @media (min-width: 1100px) {
   .hero {
-    height: 78vh;
+    height: 85vh;
     flex-direction: row;
     justify-content:space-around;
     padding-top: 40px;
-    gap: 0px;
+    gap: 5vw;
 
 
 
@@ -168,7 +168,6 @@
   .connect-section {
     flex-direction: row;
     gap: 12px;
-    padding-right: 120px;
   }
 }
 

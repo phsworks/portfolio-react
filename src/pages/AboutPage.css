@@ -110,9 +110,8 @@
 @media (min-width: 1100px) {
   .about-intro {
     flex-direction: row;
-    gap: 8vw;
-    padding-left: 10px;
-    height: 75vh;
+    gap: 13vw;
+    height: 85vh;
     justify-content: space-around;
     padding-top: 40px;
 
@@ -135,7 +134,7 @@
 
   .my-story {
     height: 1200px;
-    padding-left: 170px;
+    padding-left: 90px;
 
     article {
       width: 60vw;
