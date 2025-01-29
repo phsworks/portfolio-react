@@ -2,7 +2,7 @@ import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import mobilelogo from "../assets/PHS-mobile.svg";
-import desktoplogo from "../assets/PHS-desktop.svg"
+import desktoplogo from "../assets/PHS-desktop.svg";
 import menu from "../assets/menu-icon.png";
 import X from "../assets/X-mark.png";
 
@@ -25,9 +25,6 @@ function Navbar() {
       behavior: "smooth",
     });
   };
-
-
-
 
   return (
     <div className="navbar-section">
@@ -63,11 +60,11 @@ function Navbar() {
               <Link to="/#contact-section">Contact</Link>
             </li>
           </ul>
-        </div>
-        <div className="connect-button">
-          <button className="primary-button">
-            <Link to="/#contact-section">Let's Connect</Link>
-          </button>
+          <div className="connect-button">
+            <button className="primary-button">
+              <Link to="/#contact-section">Let's Connect</Link>
+            </button>
+          </div>
         </div>
         {/* Mobile and tablet menu */}
         <div className={`menu-icon ${isOpen ? "open-menu" : "close-menu"}`}>
@@ -91,7 +88,7 @@ function Navbar() {
         <nav>
           <ul className="mobile-links">
             <li>
-              <NavLink onClick={toggleMenu}  to="/aboutme">
+              <NavLink onClick={toggleMenu} to="/aboutme">
                 About
               </NavLink>
             </li>

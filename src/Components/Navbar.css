@@ -52,7 +52,6 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
-  padding-left: 20px;
 
   li {
     list-style: none;
@@ -195,11 +194,13 @@
 
 @media (min-width: 1100px) {
   .navbar-container {
-   justify-content: center;
+   justify-content: space-between;
    width: 100vw;
+   gap: 10vw;
+
  }
   .navbar {
-    display: block;
+    display: flex;
 
   }
 
@@ -211,6 +212,8 @@
     display: block;
     width: 320px;
   }
+
+  
   .logo-desktop:hover {
     cursor: pointer;
   }
@@ -219,17 +222,21 @@
     display: none;
   }
 
-  .navbar-links {
-    padding-left: 33.5vw;
-  }
-
   .connect-button {
     padding-left: 30px;
   }
 
-
-
   .hamburger {
     display: none;
   }
+  .x-mark {
+    display: none;
+  }
+  .x-mark.close {
+    display: none;
+  }
+
+
+
+
 }
