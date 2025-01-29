@@ -80,7 +80,6 @@
     flex-wrap: wrap;
     gap: 20px;
   }
-
 }
 
 .video {
@@ -93,73 +92,17 @@
     padding: 5px;
     border-radius: 10px;
   }
-
 }
 
 @media (min-width: 600px) and (max-width: 1100px) {
-  .project-container {
+   .project-container {
     align-items: flex-start;
-    padding-left: 50px;
-
-  }
-  h1 {
-    font-size: 40px;
-  }
-  .project-top {
-    align-items: flex-start;
-    padding-top: 20px;
-
-    img {
-      width: 80vw;
-    }
-    .technologies {
-      p {
-        padding: 8px;
-        font-size: 20px;
-        width: 130px;
-        text-align: center;
-
-      }
-    }
-  }
-
-  .project-method {
-
-    p {
-      padding-left: 0px;
-      width: 700px;
-    }
-    h2 {
-      padding-left: 0px;
-    }
-
-    .project-buttons {
-      width: 500px;
-
-    }
-  }
-
-  .video {
-    padding-left: 20px;
-
-    iframe {
-      width: 600px;
-      height: 350px;
-
-    }
-  }
-}
-
-@media (min-width: 1100px) {
-  .project-container {
-    align-items: flex-start;
-    padding-left: 160px;
+    padding-left: 4vw;
     gap: 20px;
     padding-bottom: 80px;
-
   }
   h1 {
-    font-size: 50px;
+    font-size: 35px;
   }
 
   .project-top {
@@ -172,26 +115,30 @@
     .technologies {
       p {
         padding: 8px;
-        font-size: 20px;
+        font-size: 17px;
         width: 150px;
         text-align: center;
-
       }
     }
   }
 
   .project-details {
-    flex-direction: row;
-    gap: 10vw;
+    flex-direction: column;
+    gap: 2vh;
   }
 
   .project-method {
+    gap: 5px;
+
     p {
-      width: 500px;
+      width: 70vw;
+
     }
 
     .project-buttons {
-      width: 300px;
+      width: 500px;
+      display: flex;
+      justify-content: flex-start;
 
     }
   }
@@ -199,8 +146,66 @@
   .video {
     margin-top: 20px;
     iframe {
-      width: 680px;
-      height: 400px;
+      width: 70vw;
+      height: 30vh;
+    }
+  }
+}
+
+@media (min-width: 1100px) {
+  .project-container {
+    align-items: flex-start;
+    padding-left: 2vw;
+    gap: 20px;
+    padding-bottom: 80px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+
+  .project-top {
+    align-items: flex-start;
+    padding-top: 20px;
+
+    img {
+      width: 50vw;
+    }
+    .technologies {
+      p {
+        padding: 8px;
+        font-size: 20px;
+        width: 150px;
+        text-align: center;
+      }
+    }
+  }
+
+  .project-details {
+    flex-direction: row;
+    gap: 7vw;
+  }
+
+  .project-method {
+    gap: 5px;
+
+    p {
+      width: 500px;
+
+    }
+
+    .project-buttons {
+      width: 500px;
+      display: flex;
+      justify-content: flex-start;
+
+    }
+  }
+
+  .video {
+    margin-top: 20px;
+    iframe {
+      width: 45vw;
+      height: 52vh;
     }
   }
 }

@@ -25,7 +25,7 @@ function ProjectsDetailsPage() {
   return (
     <section className="project-container">
       <div className="project-top">
-          <h1>{project.title}</h1>
+        <h1>{project.title}</h1>
         <img width={350} src={project.image} alt="project-image" />
         <div className="technologies">
           {project.technologies.map((technology, index) => (
@@ -39,6 +39,11 @@ function ProjectsDetailsPage() {
           <p> {project.longDescription}</p>
 
           <div className="project-buttons">
+            <button className="secondary-button">
+              <NavLink to={"/"} onClick={scrollUp}>
+                Back to Home
+              </NavLink>
+            </button>
             <button className="primary-button">
               <a href={project.liveDemo}>Live Preview</a>
             </button>
@@ -63,12 +68,6 @@ function ProjectsDetailsPage() {
                 </div>
               </button>
             )}
-
-            <button className="secondary-button">
-              <NavLink to={"/"} onClick={scrollUp}>
-                Back to Home
-              </NavLink>
-            </button>
           </div>
         </div>
 
