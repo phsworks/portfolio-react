@@ -17,7 +17,7 @@
   align-items: center;
   flex-direction: column;
   gap: 20px;
-  padding-top: 40px;
+  
 
   img {
     background-image: linear-gradient(to right, #02609a, #77bfd2);
@@ -155,7 +155,7 @@
 @media (min-width: 1100px) {
   .project-container {
     align-items: flex-start;
-    padding-left: 2vw;
+    padding-left: 7vw;
     gap: 20px;
     padding-bottom: 80px;
   }
