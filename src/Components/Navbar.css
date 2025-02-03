@@ -132,6 +132,11 @@
   animation: roll-back 400ms, roll-forwards 200ms disappear 300ms;
 }
 
+  .connect-button-1 {
+    padding-left: 30px;
+    padding-top: 5px;
+  }
+
 @keyframes roll-back {
   from {
     transform: rotate(90deg);
@@ -157,6 +162,7 @@
     opacity: 0;
   }
 }
+
 
 @media (min-width: 600px) and (max-width: 1100px) {
   .navbar-container {
@@ -189,6 +195,9 @@
 
   .connect-button {
     padding-left: 20px;
+  }
+  .connect-button-1 {
+    display: none;
   }
 
   .hamburger {
@@ -237,6 +246,10 @@
 
   .connect-button {
     padding-left: 20px;
+  }
+
+  .connect-button-1 {
+    display: none;
   }
 
   .hamburger {

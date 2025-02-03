@@ -42,6 +42,11 @@ function Navbar() {
             <img className="logo-desktop" src={desktoplogo} alt="logo" />
           </NavLink>
         </div>
+        <div className="connect-button-1">
+          <button className="primary-button">
+            <Link to="/#contact-section">Let's Connect</Link>
+          </button>
+        </div>
         <div className="navbar">
           <ul className="navbar-links">
             <li>
