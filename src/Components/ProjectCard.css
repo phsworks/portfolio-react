@@ -31,15 +31,18 @@
   background-image: url(../assets/GuessNumberGame.png);
 }
 .projectcard.bg-5 {
-  background-image: url(../assets/Solvware.png);
+  background-image: url(../assets/RecipesApp.png);
 }
 .projectcard.bg-6 {
-  background-image: url(../assets/mietis.png);
+  background-image: url(../assets/Solvware.png);
 }
 .projectcard.bg-7 {
-  background-image: url(../assets/houseintuscany.png);
+  background-image: url(../assets/mietis.png);
 }
 .projectcard.bg-8 {
+  background-image: url(../assets/houseintuscany.png);
+}
+.projectcard.bg-9 {
   background-image: url(../assets/BucketListPosters.png);
 }
 

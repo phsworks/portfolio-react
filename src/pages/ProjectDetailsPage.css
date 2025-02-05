@@ -17,12 +17,12 @@
   align-items: center;
   flex-direction: column;
   gap: 20px;
-  
 
   img {
-    background-image: linear-gradient(to right, #02609a, #77bfd2);
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url(../assets/3d-render-of-wide-abstract-light-blue-translucent-shape.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .technologies {
@@ -95,7 +95,7 @@
 }
 
 @media (min-width: 600px) and (max-width: 1100px) {
-   .project-container {
+  .project-container {
     align-items: flex-start;
     padding-left: 4vw;
     gap: 20px;
@@ -132,14 +132,12 @@
 
     p {
       width: 70vw;
-
     }
 
     .project-buttons {
       width: 500px;
       display: flex;
       justify-content: flex-start;
-
     }
   }
 
@@ -190,14 +188,12 @@
 
     p {
       width: 500px;
-
     }
 
     .project-buttons {
       width: 500px;
       display: flex;
       justify-content: flex-start;
-
     }
   }
 
