@@ -25,7 +25,6 @@ function ProjectsDetailsPage() {
   return (
     <section className="project-container">
       <div className="project-top">
-        <h1>{project.title}</h1>
         <img width={350} src={project.image} alt="project-image" />
         <div className="technologies">
           {project.technologies.map((technology, index) => (

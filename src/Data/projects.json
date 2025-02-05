@@ -62,18 +62,17 @@
   },
   {
     "id": 5,
-    "title": "My Recipe App",
+    "title": "Recipe App",
     "shortDescription": "A React Native app to manage and explore recipes.",
-    "longDescription": "My Recipe App is a React Native app I developed during a course to explore how to build dynamic applications with React Native. The app allows users to browse, add, and edit recipes with detailed information like ingredients, instructions, and preparation time. It features an intuitive user interface and the ability to filter recipes based on categories. This project helped me learn about React components, state management, and routing. (no live preview)",
+    "longDescription": "This Recipe App is a React Native app I developed during a course to explore how to build dynamic applications. It features an intuitive user interface and the ability to filter recipes based on categories. This project helped me learn about React Native Navigation components. (no live preview)",
     "technologies": [
       "React Native",
       "JavaScript",
       "Expo"
-
     ],
     "image": "/images/Recipe-App.png",
-    "video": "abc123XYZ",
-    "githubLink": "https://github.com/phsworks/my-recipe-app",
+    "video": "0mJKk9R2S2I",
+    "githubLink": "https://github.com/phsworks/my-recipes-app",
     "liveDemo": null
   },
   {
