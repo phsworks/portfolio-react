@@ -1,5 +1,5 @@
 .footer-container {
-  margin-top: 20px;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,21 +18,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 
 
 .logo-footer {
   img {
-    width: 50px;
+    width: 230px;
   }
   img:hover {
     cursor: pointer;
   }
 
-  .desktop-logo {
-    display: none;
-  }
+
 }
 
 .footer-links {
@@ -61,7 +59,7 @@
 
 
   .logo-footer {
-    .desktop-logo {
+    .footer-logo {
       display: block;
       width: 250px;
     }
@@ -102,13 +100,11 @@
   }
 
   .logo-footer {
-    .desktop-logo {
+    .footer-logo {
       display: block;
       width: 300px;
     }
-    .mobile-logo {
-      display: none;
-    }
+
   }
   .footer-container {
     height: 150px;
