@@ -18,7 +18,7 @@ function Footer() {
       <div className="footer-items">
         <div className="logo-footer">
           <NavLink to="/" onClick={scrollUp}>
-            <img className="desktop-logo" src={desktoplogo} alt="footer-logo" />
+            <img className="footer-logo" src={desktoplogo} alt="footer-logo" />
           </NavLink>
         </div>
         <div className="footer-menu">

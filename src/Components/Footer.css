@@ -60,11 +60,7 @@
 
   .logo-footer {
     .footer-logo {
-      display: block;
       width: 250px;
-    }
-    .mobile-logo {
-      display: none;
     }
   }
   .footer-container {
@@ -101,7 +97,6 @@
 
   .logo-footer {
     .footer-logo {
-      display: block;
       width: 300px;
     }
 
