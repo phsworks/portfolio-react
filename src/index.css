@@ -11,7 +11,7 @@ body {
   font-weight: 200;
   font-style: normal;
   line-height: 1.5;
-  background-color: #0c0d10;
+  background-color: #090b15;
 
   --dark--gradient: linear-gradient(135deg, #0B0D10, #0C0F1A, #141e39, #0C1227);
   --light--gradient: linear-gradient(135deg, #0B0D10, #12182a, #141e39, #0b1127);

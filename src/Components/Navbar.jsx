@@ -13,12 +13,14 @@ function Navbar() {
 
   const toggleMenu = () => {
     setIsOpen((open) => !open);
+    setNavBackground(true);
 
   };
 
   useEffect(() => {
     const toggleNavbar = () => {
-      if (window.scrollY > 100 || isOpen === true) {
+
+      if (window.scrollY > 100) {
         setNavBackground(true);
       } else {
         setNavBackground(false);
@@ -31,7 +33,7 @@ function Navbar() {
       window.removeEventListener('scroll', toggleNavbar)
     };
 
-  }, [])
+  }, [isOpen])
 
 
   const scrollUp = () => {
