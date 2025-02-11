@@ -17,7 +17,6 @@
 
 .navbar-container-background {
   animation: fade-in ease 1s;
-  height: 70px;
   background-color: #090b15;
 }
 
@@ -280,7 +279,6 @@
 @keyframes fade-in {
   0% {
     opacity: 0;
-    height: 90px;
   }
 
   100% {
