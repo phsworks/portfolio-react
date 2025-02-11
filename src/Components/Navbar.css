@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 40px;
-  padding-bottom: 65px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
   background-image: url(../assets/background-nav.png);
@@ -12,6 +12,8 @@
   background-repeat: no-repeat;
   width: 100vw;
   height: 90px;
+  position: fixed;
+  z-index: 9999;
 }
 
 .mobile-menu {
@@ -22,7 +24,11 @@
   display: block;
   background-color: #0c1633;
   transition: 300ms ease;
-  height: 90vh;
+  height: 100vh;
+  padding-top: 80px;
+  position: fixed;
+  z-index: 888;
+
 }
 
 .mobile-links {

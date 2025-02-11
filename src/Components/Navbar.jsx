@@ -13,10 +13,7 @@ function Navbar() {
 
   const toggleMenu = () => {
     setIsOpen((open) => !open);
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+    
   };
 
   const scrollUp = () => {
@@ -36,10 +33,11 @@ function Navbar() {
               width={42}
               src={mobilelogo}
               alt="logo"
+              onClick={scrollUp}
             />
           </NavLink>
           <NavLink to="/">
-            <img className="logo-desktop" src={desktoplogo} alt="logo" />
+            <img className="logo-desktop" src={desktoplogo} alt="logo" onClick={scrollUp} />
           </NavLink>
         </div>
         <div className="connect-button-1">

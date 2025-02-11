@@ -7,9 +7,9 @@
   background-image: url(../assets/Background.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top right 65%;
+  background-position: left;
   padding-bottom: 50px;
-  padding-top: 20px;
+  padding-top: 120px;
 }
 
 .project-top {
