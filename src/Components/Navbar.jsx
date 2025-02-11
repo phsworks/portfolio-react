@@ -12,9 +12,19 @@ function Navbar() {
   const [navBackground, setNavBackground] = useState(false)
 
   const toggleMenu = () => {
-    setIsOpen((open) => !open);
-    setNavBackground(true);
+    setIsOpen((open) => {
+      const menuOpen = !open;
 
+      if (menuOpen) {
+        setNavBackground(true);
+      } else {
+        if (window.scrollY < 100) {
+          setNavBackground(false);
+        }
+      }
+
+      return menuOpen;
+    });
   };
 
   useEffect(() => {
