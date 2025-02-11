@@ -5,16 +5,34 @@ import mobilelogo from "../assets/PHS-mobile.svg";
 import desktoplogo from "../assets/PHS-desktop.svg";
 import menu from "../assets/menu-icon.png";
 import X from "../assets/X-mark.png";
-
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [navBackground, setNavBackground] = useState(false)
 
   const toggleMenu = () => {
     setIsOpen((open) => !open);
-    
+
   };
+
+  useEffect(() => {
+    const toggleNavbar = () => {
+      if (window.scrollY > 100 || isOpen === true) {
+        setNavBackground(true);
+      } else {
+        setNavBackground(false);
+      }
+    }
+
+    window.addEventListener('scroll', toggleNavbar)
+
+    return () => {
+      window.removeEventListener('scroll', toggleNavbar)
+    };
+
+  }, [])
+
 
   const scrollUp = () => {
     window.scrollTo({
@@ -25,7 +43,7 @@ function Navbar() {
 
   return (
     <div className="navbar-section">
-      <div className="navbar-container">
+      <div className= {navBackground ? "navbar-container-background" : "navbar-container" }>
         <div className="logo-container">
           <NavLink to="/">
             <img

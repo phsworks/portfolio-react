@@ -1,8 +1,5 @@
 .contact-container {
-  background-image: url(../assets/Background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center left;
+  background: var(--light--gradient);
   padding-top: 50px;
   padding-bottom: 50px;
   display: flex;
@@ -73,7 +70,7 @@
 }
 
 .form-section {
-  background-color: #0d152f;
+  background: var(--light--gradient);
   border-radius: 20px;
   padding: 25px;
 }

@@ -4,10 +4,8 @@
   align-items: center;
   flex-direction: column;
   gap: 20px;
-  background-image: url(../assets/Background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: left;
+  background: var(--light--gradient);
+
   padding-bottom: 50px;
   padding-top: 120px;
 }

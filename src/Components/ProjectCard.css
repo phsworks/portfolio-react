@@ -50,9 +50,8 @@
 .projectcard:hover,
 .projectcard:active {
   cursor: pointer;
-  transition-duration: 300ms;
   color: white;
-  animation: Ken-Burns 2s ease;
+
 
 
   .project-info {
@@ -147,15 +146,7 @@
   }
 }
 
-@keyframes Ken-Burns {
-  from 0% {
-    transform: scale(1.01)
-  }
-  to {
-    transform: scale(1.02);
-  }
 
-}
 
 
 

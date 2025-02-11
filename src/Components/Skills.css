@@ -1,5 +1,5 @@
 .skills {
-  background-color: #0B1226;
+  background: var(--dark--gradient);
   padding-bottom: 45px;
   padding-top: 45px;
 }

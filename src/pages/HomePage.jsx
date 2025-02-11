@@ -23,7 +23,7 @@ function HomePage() {
       if (window.scrollY > 300) {
         setIsVisible(true);
       } else {
-        setIsVisible(false);k
+        setIsVisible(false);
       }
     };
 
