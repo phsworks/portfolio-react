@@ -38,7 +38,7 @@ function HomePage() {
       </div>
       {isVisible && (
       <div className="scroll-up">
-        <button onClick={scrollUp}><img src={scrollUpArrow} alt="scroll-up-icon" /></button>
+        <button onClick={scrollUp}><img loading="lazy" src={scrollUpArrow} alt="scroll-up-icon" /></button>
       </div>
       )}
       <div id="projects-section">

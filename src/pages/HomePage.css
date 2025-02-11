@@ -2,11 +2,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
   gap: 20px;
-  padding-top: 100px;
-  padding-bottom: 100px;
   text-align: center;
-  background: var(--light--gradient)
+  background: var(--light--gradient);
 }
 
 .projects {
@@ -44,6 +44,11 @@
 }
 
 @media (min-width: 600px) and (max-width: 1100px) {
+  #projects-section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
   .projects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -61,6 +66,11 @@
 }
 
 @media (min-width: 1100px) {
+  #projects-section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
   .projects {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 0px;

@@ -78,6 +78,7 @@ function ProjectsDetailsPage() {
             allowFullScreen
             title="project-video"
             muted
+            loading="lazy"
           />
         </div>
       </div>

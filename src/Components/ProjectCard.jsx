@@ -18,7 +18,7 @@ function ProjectCard({ project, className }) {
         </div>
         <div className="project-link">
           <NavLink to={`/projectdetails/${project.id}`}>
-            <img src={arrowRight} alt="arrow-right" />
+            <img loading="lazy" src={arrowRight} alt="arrow-right" />
           </NavLink>
         </div>
       </div>

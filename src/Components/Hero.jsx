@@ -68,16 +68,16 @@ function Hero() {
             </div>
             <div className="social-icons">
               <a href="https://github.com/phsworks?tab=repositories">
-                <img width={30} src={github} alt="github-logo" />
+                <img src={github} alt="github-logo" />
               </a>
               <a href="https://www.youtube.com/channel/UCEIjn71x-ahkmjvUxYURz-w">
-                <img width={30} src={youtube} alt="youtube-logo" />
+                <img src={youtube} alt="youtube-logo" />
               </a>
               <a href="https://www.instagram.com/phsdevelopment/">
-                <img width={30} src={instagram} alt="instagram-logo" />
+                <img src={instagram} alt="instagram-logo" />
               </a>
               <a href="https://www.linkedin.com/in/piethein-schouten/">
-                <img width={30} src={linkedin} alt="linkedin-logo" />
+                <img  src={linkedin} alt="linkedin-logo" />
               </a>
             </div>
           </div>

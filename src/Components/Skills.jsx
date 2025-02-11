@@ -19,37 +19,37 @@ function Skills() {
       <div className="all-skills">
         <div className="skill-container">
           <div className="skill-card">
-            <img width={100} src={HTML} alt="HTML" />
+            <img loading="lazy" width={100} src={HTML} alt="HTML" />
           </div>
           <p>HTML</p>
         </div>
         <div className="skill-container">
           <div className="skill-card">
-            <img width={80} src={CSS} alt="CSS" />
+            <img loading="lazy" width={80} src={CSS} alt="CSS" />
           </div>
           <p>CSS</p>
         </div>
         <div className="skill-container">
           <div className="skill-card">
-            <img src={Javascript} alt="Javascript" />
+            <img loading="lazy" src={Javascript} alt="Javascript" />
           </div>
           <p>Javascript</p>
         </div>
         <div className="skill-container">
           <div className="skill-card">
-            <img width={100} src={ReactLogo} alt="React" />
+            <img loading="lazy" width={100} src={ReactLogo} alt="React" />
           </div>
           <p>React</p>
         </div>
         <div className="skill-container">
           <div className="skill-card">
-            <img src={Git} alt="Git" />
+            <img loading="lazy" src={Git} alt="Git" />
           </div>
           <p>Git</p>
         </div>
         <div className="skill-container">
           <div className="skill-card">
-            <img src={GithubLogo} alt="Git" />
+            <img loading="lazy" src={GithubLogo} alt="Git" />
           </div>
           <p>Github</p>
         </div>
@@ -62,19 +62,19 @@ function Skills() {
         </div>
         <div className="skill-container">
           <div className="skill-card">
-            <img src={MySQL} alt="MySQL" />
+            <img loading="lazy" src={MySQL} alt="MySQL" />
           </div>
           <p>MySQL</p>
         </div>
         <div className="skill-container">
           <div className="skill-card">
-            <img src={NodeJS} alt="NodeJS" />
+            <img loading="lazy" src={NodeJS} alt="NodeJS" />
           </div>
           <p>NodeJS</p>
         </div>
         <div className="skill-container">
           <div className="skill-card">
-            <img src={MongoDB} alt="NodeJS" />
+            <img loading="lazy" src={MongoDB} alt="NodeJS" />
           </div>
           <p>MongoDB</p>
         </div>
