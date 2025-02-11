@@ -1,6 +1,6 @@
 import "./ErrorPage.css"
 import { NavLink } from "react-router-dom";
-import error from "../assets/404.png"
+import error from "../assets/404.webp"
 
 function ErrorPage() {
   return (

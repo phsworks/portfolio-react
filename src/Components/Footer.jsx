@@ -1,7 +1,6 @@
 import "./Footer.css";
 import { NavLink } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
-import mobilelogo from "../assets/PHS-mobile.svg";
 import desktoplogo from "../assets/PHS-desktop.svg"
 
 function Footer() {

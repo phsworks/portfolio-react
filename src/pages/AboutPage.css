@@ -1,12 +1,16 @@
 .about-intro, .my-story {
-  height: 920px;
+  height: 1050px;
   padding-left: 30px;
-  background: linear-gradient(135deg, #0B0D10, #0C0F1A, #0B101E, #0C1227);
+  background: var(--light--gradient);
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  padding-top: 0px;
+  padding-top: 30px;
+
+  h1 {
+    padding-bottom: 10px;
+  }
 
 
   img {
@@ -24,6 +28,7 @@
     }
     h4 {
       font-size: 24px;
+
     }
 
     p {
@@ -31,19 +36,18 @@
 
     }
 
-    .about-picture-2 {
-      display: none;
-    }
+
 
 }
 
 .my-story {
-  height: 1650px;
+  height: 1700px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
   gap: 30px;
+  padding-bottom: 30px;
 
 
   article {
@@ -67,26 +71,19 @@
 @media (min-width: 600px) and (max-width: 1100px) {
   .about-intro {
     flex-direction: row;
-    gap: 5vw;
     padding-left: 0px;
     height: 55vh;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 120px;
 
-    .about-picture {
-      display: none;
-    }
 
-    .about-picture-2 {
-      display: block;
-    }
 
     img {
       width: 350px;
     }
 
     p {
-      width: 300px;
+      width: 430px;
     }
   }
 
@@ -110,27 +107,20 @@
 @media (min-width: 1100px) {
   .about-intro {
     flex-direction: row;
-    gap: 15vw;
     height: 94vh;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 120px;
+    gap: 0px;
+    gap: 10px;
 
-
-
-    .about-picture {
-      display: none;
-    }
-
-    .about-picture-2 {
-      display: block;
-    }
 
     img {
-      width: 350px;
+      width: 420px;
     }
 
     p {
-      width: 500px;
+      width: 550px;
+      margin-right: 200px;
     }
   }
 

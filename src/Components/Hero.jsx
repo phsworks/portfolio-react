@@ -1,11 +1,11 @@
 import React from "react";
 import "./Hero.css";
-import Piet from "../assets/Piet-Hein.png";
+import Piet from "../assets/Piet-Hein.webp";
 import { NavLink } from "react-router-dom";
-import github from "../assets/GithubLogo.png";
-import linkedin from "../assets/linkedin.png";
-import instagram from "../assets/instagram.png";
-import youtube from "../assets/youtube.png";
+import github from "../assets/GithubLogo.webp";
+import linkedin from "../assets/linkedin.webp";
+import instagram from "../assets/instagram.webp";
+import youtube from "../assets/youtube.webp";
 
 function Hero() {
   const cvDownload = () => {
@@ -53,14 +53,17 @@ function Hero() {
                     viewBox="0 0 20 22"
                   >
                     <path
-                      fill="#02609a"
+                      fill="#0072ba"
                       d="M12 2a1 1 0 0 1 1 1v10.586l2.293-2.293a1 1 0 0 1 1.414 1.414l-4 4a1 1 0 0 1-1.414 0l-4-4a1 1 0 1 1 1.414-1.414L11 13.586V3a1 1 0 0 1 1-1M5 17a1 1 0 0 1 1 1v2h12v-2a1 1 0 1 1 2 0v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2a1 1 0 0 1 1-1"
                     />
                   </svg>
                 </span>
               </button>
               <button className="primary-button">
-                <NavLink onClick={scrollUp} to="/aboutme"> About Me</NavLink>
+                <NavLink onClick={scrollUp} to="/aboutme">
+                  {" "}
+                  About Me
+                </NavLink>
               </button>
             </div>
             <div className="social-icons">

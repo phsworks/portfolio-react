@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import mobilelogo from "../assets/PHS-mobile.svg";
 import desktoplogo from "../assets/PHS-desktop.svg";
-import menu from "../assets/menu-icon.png";
-import X from "../assets/X-mark.png";
+import menu from "../assets/menu-icon.webp";
+import X from "../assets/X-mark.webp";
 import { useEffect, useState } from "react";
 
 function Navbar() {
@@ -18,7 +18,7 @@ function Navbar() {
       if (menuOpen) {
         setNavBackground(true);
       } else {
-        if (window.scrollY < 100) {
+        if (window.scrollY < 30) {
           setNavBackground(false);
         }
       }
@@ -30,7 +30,7 @@ function Navbar() {
   useEffect(() => {
     const toggleNavbar = () => {
 
-      if (window.scrollY > 100) {
+      if (window.scrollY > 30) {
         setNavBackground(true);
       } else {
         setNavBackground(false);

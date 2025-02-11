@@ -18,21 +18,21 @@ body {
   --small--gradient: linear-gradient(50deg, #0B0D10, #12182a, #141e39, #0b1127);
   color: white;
 
-  --primary--color: #02609a;
+  --primary--color: #0072ba;
   --secondary-color: #fdffff;
   --accent: #77bfd2;
 }
 
 h1 {
   font-size: 34px;
-  background-image: linear-gradient(45deg, #02609a, #77bfd2, #fdffff);
+  background-image: linear-gradient(45deg, #0072ba, #77bfd2, #fdffff);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 h2 {
   font-size: 32px;
-  background-image: linear-gradient(45deg, #02609a, #77bfd2, #fdffff);
+  background-image: linear-gradient(45deg, #0072ba, #77bfd2, #fdffff);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -52,7 +52,7 @@ p {
 }
 
 .primary-button {
-  background-image: linear-gradient(to right, #02609a, #77bfd2);
+  background-image: linear-gradient(to right, #0072ba, #77bfd2);
   border-radius: 20px;
   width: 130px;
   border-style: none;
@@ -67,7 +67,7 @@ p {
 }
 
 .primary-button:hover {
-  background-image: linear-gradient(to right, #77bfd2, #02609a);
+  background-image: linear-gradient(to right, #77bfd2, #0072ba);
   transition-duration: 300ms;
   cursor: pointer;
 }

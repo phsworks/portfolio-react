@@ -1,15 +1,14 @@
 import "./Skills.css";
-import Javascript from "../assets/Javascript.png";
-import HTML from "../assets/HTML.png";
-import CSS from "../assets/CSS.png";
-import ReactLogo from "../assets/React.png";
-import Express from "../assets/Express.js.png";
-import MongoDB from "../assets/MongoDB.png";
-import Wordpress from "../assets/Wordpress.png";
-import MySQL from "../assets/MySQL.png";
-import NodeJS from "../assets/NodeJS.png";
-import Git from "../assets/Git.png";
-import GithubLogo from "../assets/GithubLogo.png"
+import Javascript from "../assets/Javascript.webp";
+import HTML from "../assets/HTML.webp";
+import CSS from "../assets/CSS.webp";
+import ReactLogo from "../assets/React.webp";
+import MongoDB from "../assets/MongoDB.webp";
+import Wordpress from "../assets/Wordpress.webp";
+import MySQL from "../assets/MySQL.webp";
+import NodeJS from "../assets/NodeJS.webp";
+import Git from "../assets/Git.webp";
+import GithubLogo from "../assets/GithubLogo.webp"
 
 function Skills() {
   return (

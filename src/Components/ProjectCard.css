@@ -19,33 +19,32 @@
 }
 
 .projectcard.bg-1 {
-  background-image: url(../assets/legacy.png);
+  background-image: url(../assets/legacy.webp);
 }
 .projectcard.bg-2 {
-  background-image: url(../assets/ironhub.png);
+  background-image: url(../assets/ironhub.webp);
 }
 .projectcard.bg-3 {
-  background-image: url(../assets/BookQuest.png);
+  background-image: url(../assets/BookQuest.webp);
 }
 .projectcard.bg-4 {
-  background-image: url(../assets/GuessNumberGame.png);
+  background-image: url(../assets/GuessNumberGame.webp);
 }
 .projectcard.bg-5 {
-  background-image: url(../assets/RecipesApp.png);
+  background-image: url(../assets/RecipesApp.webp);
 }
 .projectcard.bg-6 {
-  background-image: url(../assets/Solvware.png);
+  background-image: url(../assets/Solvware.webp);
 }
 .projectcard.bg-7 {
-  background-image: url(../assets/mietis.png);
+  background-image: url(../assets/mietis.webp);
 }
 .projectcard.bg-8 {
-  background-image: url(../assets/houseintuscany.png);
+  background-image: url(../assets/houseintuscany.webp);
 }
 .projectcard.bg-9 {
-  background-image: url(../assets/BucketListPosters.png);
+  background-image: url(../assets/BucketListPosters.webp);
 }
-
 
 .projectcard:hover,
 .projectcard:active {

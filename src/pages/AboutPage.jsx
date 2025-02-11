@@ -1,5 +1,5 @@
 import "./AboutPage.css";
-import diploma from "../assets/diploma.png";
+import diploma from "../assets/diploma.webp";
 import { useState, useEffect } from "react";
 import scrollUpArrow from "../assets/arrowUp.svg";
 
@@ -28,21 +28,16 @@ function AboutPage() {
 
   return (
     <div id="about-section">
-          {isVisible && (
-            <div className="scroll-up">
-              <button onClick={scrollUp}>
-                <img src={scrollUpArrow} alt="scroll-up-icon" />
-              </button>
-            </div>
-          )}
+      {isVisible && (
+        <div className="scroll-up">
+          <button onClick={scrollUp}>
+            <img src={scrollUpArrow} alt="scroll-up-icon" />
+          </button>
+        </div>
+      )}
       <div className="about-intro">
         <div className="about-picture">
-          <img
-            className="image-mobile"
-            width={230}
-            src={diploma}
-            alt="piet-diploma"
-          />
+          <img width={230} src={diploma} alt="piet-diploma" />
         </div>
         <div className="about-info">
           <h1>About</h1>
@@ -52,20 +47,19 @@ function AboutPage() {
             Starting out as a Entrepreneurship & Retail Management student, I
             realized I wanted to make a change and pursue a career in software
             development. Following my passion, I am now a Full Stack Developer.
-            For me, building software feels like creating magic!
           </p>
-        </div>
-        <div className="about-picture-2">
-          <img
-            className="image-desktop"
-            width={230}
-            src={diploma}
-            alt="piet-diploma"
-          />
+          <br></br>
+          <p>
+
+            I am especiallyinterested in working on meaningful projects that
+            improve our daily lives. I enjoy building applications, websites,
+            and games, optimizing performance, and experimenting with creative
+            designs.
+          </p>
         </div>
       </div>
       <div className="my-story">
-        <h2>My Story</h2>
+        <h2>My Experience</h2>
         <article>
           <h3>2021–2023: Education and Exploration</h3>
           <p>

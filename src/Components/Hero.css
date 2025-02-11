@@ -77,7 +77,7 @@
       cursor: pointer;
       transform: scale(1.03);
       box-shadow: #118edc21 0px 8px 24px;
-      border: 1px solid var(--primary--color);
+      border: 1px solid var(--accent);
     }
   }
 }
@@ -127,7 +127,7 @@
     height: 99vh;
     flex-direction: row;
     justify-content:space-around;
-    padding-top: 120px;
+    padding-top: 140px;
     gap: 5vw;
 
 
@@ -153,7 +153,6 @@
 
   .image-tablet {
     display: block;
-    margin-top: 30px;
     margin-right: 20px;
     width: 470px;
 
