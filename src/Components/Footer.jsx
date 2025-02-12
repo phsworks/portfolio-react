@@ -2,8 +2,11 @@ import "./Footer.css";
 import { NavLink } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import desktoplogo from "../assets/PHS-desktop.svg"
+import { useTranslation } from "react-i18next";
 
 function Footer() {
+   const { t } = useTranslation();
+
   const scrollUp = () => {
     window.scrollTo({
       top: 0,
@@ -24,7 +27,9 @@ function Footer() {
           <nav>
             <ul className="footer-links">
               <li>
-                <NavLink onClick={scrollUp} to="/aboutme"> About</NavLink>
+                <NavLink onClick={scrollUp} to="/aboutme">
+                  {t("About")}
+                </NavLink>
               </li>
               <li>
                 <Link onClick={scrollUp} to="/#skills-section">
@@ -33,7 +38,7 @@ function Footer() {
               </li>
               <li>
                 <Link onClick={scrollUp} to="/#projects-section">
-                  Projects
+                  {t("projects")}
                 </Link>
               </li>
               <li>
@@ -45,7 +50,7 @@ function Footer() {
           </nav>
         </div>
       </div>
-      <small> © 2025 ALl Rights Reserved by PHS Development</small>
+      <small> © 2025 PHS Development All Rights Reserved </small>
     </div>
   );
 }

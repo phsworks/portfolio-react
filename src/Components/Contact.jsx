@@ -3,8 +3,11 @@ import { useState } from "react";
 import mail from "../assets/mail.svg"
 import map from "../assets/map.svg"
 import phone from "../assets/phone.svg"
+import { useTranslation } from "react-i18next";
 
 function Contact() {
+  const { t } = useTranslation();
+
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
@@ -44,7 +47,7 @@ function Contact() {
             <img src={phone} alt="phone" />
           </div>
           <div className="contact-text">
-            <h4>Phone</h4>
+            <h4>Tel</h4>
             <p>+31 615309763</p>
           </div>
         </div>
@@ -53,7 +56,7 @@ function Contact() {
             <img src={mail} alt="mail" />
           </div>
           <div className="contact-text">
-            <h4>Email</h4>
+            <h4>{t("email")}</h4>
             <p>piethein@schouten.nl</p>
           </div>
         </div>
@@ -62,18 +65,15 @@ function Contact() {
             <img src={map} alt="map" />
           </div>
           <div className="contact-text">
-            <h4>Address</h4>
-            <p>Netherlands - Breda</p>
+            <h4>{t("address")}</h4>
+            <p>{t("countryCity")}</p>
           </div>
         </div>
       </div>
       <div className="form-section">
         <div className="form-intro">
-          <h2>Let's work together!</h2>
-          <p>
-            I’m passionate about designing and coding because I love bringing
-            ideas to life through software!
-          </p>
+          <h2>{t("workTogether")}</h2>
+          <p>{t("workTogetherText")}</p>
         </div>
         <div className="form">
           <form onSubmit={onSubmit} className="contact-form">
@@ -83,41 +83,41 @@ function Contact() {
               value="b15501f2-26aa-448c-94b2-ed57b42c56fa"
             />
             <input
-              placeholder="Full Name"
+              placeholder={t("fullName")}
               type="text"
               name="First name"
               required
               onChange={(e) => setFirstName(e.target.value)}
             />
             <input
-              placeholder="Email"
+              placeholder={t("email")}
               type="email"
               name="Email"
               required
               onChange={(e) => setEmail(e.target.value)}
             />
             <input
-              placeholder="Company (Optional)"
+              placeholder={t("companyOptional")}
               type="text"
               name="Company"
               onChange={(e) => setCompany(e.target.value)}
             />
             <input
-              placeholder="Phone Number (optional)"
+              placeholder={t("phoneOptional")}
               type="tel"
               name="Phone number"
               onChange={(e) => setNumber(e.target.value)}
             />
             <textarea
-              placeholder="Message"
+              placeholder={t("message")}
               type="text"
               name="Message"
               onChange={(e) => setMessage(e.target.value)}
               required
             ></textarea>
-           
+
             <button className="primary-button" type="submit">
-              Send Message
+              {t("sendMessage")}
             </button>
           </form>
         </div>

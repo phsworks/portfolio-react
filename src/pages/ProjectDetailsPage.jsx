@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import projects from "../Data/projects.json";
 import { NavLink } from "react-router-dom";
 import "./ProjectDetailsPage.css";
+import { useTranslation } from "react-i18next";
 
 function ProjectsDetailsPage() {
   const { id } = useParams();
@@ -22,6 +23,13 @@ function ProjectsDetailsPage() {
     return <p>Project not found</p>;
   }
 
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
+
+  const longDescription = t(
+    project.translations[currentLanguage].longDescription
+  );
+
   return (
     <section className="project-container">
       <div className="project-top">
@@ -35,7 +43,7 @@ function ProjectsDetailsPage() {
       <div className="project-details">
         <div className="project-method">
           <h2>Description</h2>
-          <p> {project.longDescription}</p>
+          <p>{longDescription}</p>
 
           <div className="project-buttons">
             <button className="secondary-button">

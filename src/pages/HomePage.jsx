@@ -6,10 +6,12 @@ import Contact from "../Components/Contact";
 import { useEffect, useState } from "react";
 import scrollUpArrow from "../assets/arrowUp.svg"
 import "./HomePage.css";
+import { useTranslation } from "react-i18next";
 
 
 function HomePage() {
   const [isVisible, setIsVisible] = useState(false);
+   const { t } = useTranslation();
 
   const scrollUp = () => {
     window.scrollTo({
@@ -37,12 +39,14 @@ function HomePage() {
         <Hero />
       </div>
       {isVisible && (
-      <div className="scroll-up">
-        <button onClick={scrollUp}><img loading="lazy" src={scrollUpArrow} alt="scroll-up-icon" /></button>
-      </div>
+        <div className="scroll-up">
+          <button onClick={scrollUp}>
+            <img loading="lazy" src={scrollUpArrow} alt="scroll-up-icon" />
+          </button>
+        </div>
       )}
       <div id="projects-section">
-        <h2>My Projects</h2>
+        <h2>{t("projects")}</h2>
         <div className="projects">
           {projects.map((project, index) => (
             <ProjectCard

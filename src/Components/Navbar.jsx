@@ -6,10 +6,13 @@ import desktoplogo from "../assets/PHS-desktop.svg";
 import menu from "../assets/menu-icon.webp";
 import X from "../assets/X-mark.webp";
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [navBackground, setNavBackground] = useState(false)
+  const { t } = useTranslation();
 
   const toggleMenu = () => {
     setIsOpen((open) => {
@@ -55,7 +58,11 @@ function Navbar() {
 
   return (
     <div className="navbar-section">
-      <div className= {navBackground ? "navbar-container-background" : "navbar-container" }>
+      <div
+        className={
+          navBackground ? "navbar-container-background" : "navbar-container"
+        }
+      >
         <div className="logo-container">
           <NavLink to="/">
             <img
@@ -67,10 +74,16 @@ function Navbar() {
             />
           </NavLink>
           <NavLink to="/">
-            <img className="logo-desktop" src={desktoplogo} alt="logo" onClick={scrollUp} />
+            <img
+              className="logo-desktop"
+              src={desktoplogo}
+              alt="logo"
+              onClick={scrollUp}
+            />
           </NavLink>
         </div>
         <div className="connect-button-1">
+          <LanguageSwitcher />
           <button className="primary-button">
             <Link to="/#contact-section">Let's Connect</Link>
           </button>
@@ -78,16 +91,18 @@ function Navbar() {
         <div className="navbar">
           <ul className="navbar-links">
             <li>
+              <LanguageSwitcher />
+            </li>
+            <li>
               <NavLink onClick={scrollUp} to="/aboutme">
-                {" "}
-                About
+                {t("About")}
               </NavLink>
             </li>
             <li>
               <Link to="/#skills-section">Skills</Link>
             </li>
             <li>
-              <Link to="/#projects-section">Projects</Link>
+              <Link to="/#projects-section">{t("projects")}</Link>
             </li>
             <li>
               <Link to="/#contact-section">Contact</Link>
@@ -122,7 +137,7 @@ function Navbar() {
           <ul className="mobile-links">
             <li>
               <NavLink onClick={toggleMenu} to="/aboutme">
-                About
+                {t("About")}
               </NavLink>
             </li>
             <li>
@@ -132,7 +147,7 @@ function Navbar() {
             </li>
             <li>
               <Link onClick={toggleMenu} to="/#projects-section">
-                Projects
+                {t("projects")}
               </Link>
             </li>
             <li>

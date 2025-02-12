@@ -2,8 +2,16 @@
   {
     "id": 1,
     "title": "007 Legacy",
-    "shortDescription": "A James Bond-themed browser game based on the movies.",
-    "longDescription": "007 Legacy is a browser-based game inspired by my love for James Bond. In the game you will be fighting against multiple Bond Villains based on the movie franchise. They will come at you with everything they got and you need to be careful not too let them catch you. Ofcourse you have a licence to kill so you will be able to shoot the Villains. And also look for the Vodka Martinis, they can give you some extra strength to be stronger in your fight against the Villains.",
+    "translations": {
+      "en": {
+        "shortDescription": "A James Bond-themed browser game based on the movies.",
+        "longDescription": "007 Legacy is a browser-based game inspired by my love for James Bond. In the game you will be fighting against multiple Bond Villains based on the movie franchise. They will come at you with everything they got and you need to be careful not too let them catch you. Of course you have a licence to kill so you will be able to shoot the Villains. And also look for the Vodka Martinis, they can give you some extra strength to be stronger in your fight against the Villains."
+      },
+      "nl": {
+        "shortDescription": "Een James Bond-thema browserspel gebaseerd op de films.",
+        "longDescription": "007 Legacy is een browserspel geïnspireerd door mijn liefde voor James Bond. In het spel vecht je tegen meerdere Bond-schurken uit de filmreeks. Ze komen je te lijf met alles wat ze hebben en je moet oppassen dat ze je niet te pakken krijgen. Natuurlijk heb je een licentie om te doden, dus je kunt de schurken neerschieten. Kijk ook uit naar de Vodka Martini's, ze kunnen je extra kracht geven om sterker te zijn in je strijd tegen de schurken."
+      }
+    },
     "technologies": [
       "HTML",
       "CSS",
@@ -17,8 +25,16 @@
   {
     "id": 2,
     "title": "IronHub",
-    "shortDescription": "A forum platform for the Ironhack community.",
-    "longDescription": "IronHub was developed during my Full Stack Development Bootcamp inspired by platforms like Stack Overflow. We wanted to create a dedicated space for Ironhack students to ask questions, share resources, and collaborate on projects. The platform features a secure sign-up and login system, allowing users to post questions, exchange ideas, and support each other in the growing IronHack community. The platform was built with React, JavaScript (NodeJS), and MongoDB.",
+    "translations": {
+      "en": {
+        "shortDescription": "A forum platform for the Ironhack community.",
+        "longDescription": "IronHub was developed during my Full Stack Development Bootcamp inspired by platforms like Stack Overflow. We wanted to create a dedicated space for Ironhack students to ask questions, share resources, and collaborate on projects. The platform features a secure sign-up and login system, allowing users to post questions, exchange ideas, and support each other in the growing IronHack community. The platform was built with React, JavaScript (NodeJS), and MongoDB."
+      },
+      "nl": {
+        "shortDescription": "Een forumplatform voor de Ironhack-gemeenschap.",
+        "longDescription": "IronHub werd ontwikkeld tijdens mijn Full Stack Development Bootcamp, geïnspireerd door platforms zoals Stack Overflow. We wilden een gewijd platform creëren voor Ironhack-studenten om vragen te stellen, bronnen te delen en samen te werken aan projecten. Het platform biedt een veilig registratie- en inlogsystem, waardoor gebruikers vragen kunnen posten, ideeën uitwisselen en elkaar ondersteunen in de groeiende IronHack-gemeenschap. Het platform is gebouwd met React, JavaScript (NodeJS) en MongoDB."
+      }
+    },
     "technologies": [
       "React",
       "CSS",
@@ -33,8 +49,16 @@
   {
     "id": 3,
     "title": "BookQuest",
-    "shortDescription": "A personal app for organizing the books you own and the ones you want to read.",
-    "longDescription": "BookQuest was created during my Full Stack Development Bootcamp at IronHack with a colleague. We wanted to build an app that helps users organize their personal libraries, like their favorite books, and keep track of the ones they still want to read. We used Supabase to manage and store the book data, making it easy to create a smooth and responsive experience for book lovers.",
+    "translations": {
+      "en": {
+        "shortDescription": "A personal app for organizing the books you own and the ones you want to read.",
+        "longDescription": "BookQuest was created during my Full Stack Development Bootcamp at IronHack with a colleague. We wanted to build an app that helps users organize their personal libraries, like their favorite books, and keep track of the ones they still want to read. We used Supabase to manage and store the book data, making it easy to create a smooth and responsive experience for book lovers."
+      },
+      "nl": {
+        "shortDescription": "Een persoonlijke app om de boeken die je bezit en die je wilt lezen te organiseren.",
+        "longDescription": "BookQuest werd gemaakt tijdens mijn Full Stack Development Bootcamp bij IronHack met een collega. We wilden een app bouwen die gebruikers helpt hun persoonlijke bibliotheken te organiseren, zoals hun favoriete boeken, en bij te houden welke ze nog willen lezen. We gebruikten Supabase om de boekgegevens te beheren en op te slaan, waardoor het gemakkelijk werd om een soepele en responsieve ervaring voor boekenliefhebbers te creëren."
+      }
+    },
     "technologies": [
       "React",
       "CSS",
@@ -48,8 +72,16 @@
   {
     "id": 4,
     "title": "Guess My Number",
-    "shortDescription": "A React Native game where your phone tries to guess your number.",
-    "longDescription": "Guess My Number is a React Native game I built during a course to learn React Native and Expo. In this game, you think of a number, and the phone tries to guess it by asking if your number is higher or lower than its guess. You guide the phone by providing hints ('higher' or 'lower'), and it continues guessing until it finds the correct number. The game tracks how many attempts the phone needs, making it a fun and interactive challenge! (no live preview)",
+    "translations": {
+      "en": {
+        "shortDescription": "A React Native game where your phone tries to guess your number.",
+        "longDescription": "Guess My Number is a React Native game I built during a course to learn React Native and Expo. In this game, you think of a number, and the phone tries to guess it by asking if your number is higher or lower than its guess. You guide the phone by providing hints ('higher' or 'lower'), and it continues guessing until it finds the correct number. The game tracks how many attempts the phone needs, making it a fun and interactive challenge! (no live preview)"
+      },
+      "nl": {
+        "shortDescription": "Een React Native spel waarbij je telefoon probeert je getal te raden.",
+        "longDescription": "Guess My Number is een React Native spel dat ik bouwde tijdens een cursus om React Native en Expo te leren. In dit spel denk je aan een getal en je telefoon probeert het te raden door te vragen of je getal hoger of lager is dan zijn gok. Je begeleidt de telefoon door hints te geven ('hoger' of 'lager') en hij blijft raden tot hij het juiste getal vindt. Het spel houdt bij hoeveel pogingen de telefoon nodig heeft, waardoor het een leuk en interactief uitdaging is! (geen live preview)"
+      }
+    },
     "technologies": [
       "React Native",
       "JavaScript",
@@ -63,8 +95,16 @@
   {
     "id": 5,
     "title": "Recipe App",
-    "shortDescription": "A React Native app to manage and explore recipes.",
-    "longDescription": "This Recipe App is a React Native app I developed during a course to explore how to build dynamic applications. It features an intuitive user interface and the ability to filter recipes based on categories. This project helped me learn about React Native Navigation components. (no live preview)",
+    "translations": {
+      "en": {
+        "shortDescription": "A React Native app to manage and explore recipes.",
+        "longDescription": "This Recipe App is a React Native app I developed during a course to explore how to build dynamic applications. It features an intuitive user interface and the ability to filter recipes based on categories. This project helped me learn about React Native Navigation components. (no live preview)"
+      },
+      "nl": {
+        "shortDescription": "Een React Native app om recepten te beheren en te verkennen.",
+        "longDescription": "Deze Recipe App is een React Native app die ik ontwikkelde tijdens een cursus om te leren hoe je dynamische applicaties bouwt. Het biedt een intuïtieve gebruikersinterface en de mogelijkheid om recepten te filteren op basis van categorieën. Dit project hielp me om meer te leren over React Native Navigatiecomponenten. (geen live preview)"
+      }
+    },
     "technologies": [
       "React Native",
       "JavaScript",
@@ -78,8 +118,16 @@
   {
     "id": 6,
     "title": "Solvware",
-    "shortDescription": "A modern interactive business website for Solvware.",
-    "longDescription": "During my internship at Solvware, I redesigned their website to integrate existing content with new, modern elements. The website highlights Solvware's diverse services, emphasizing usability and clarity. With a responsive design, intuitive navigation, and strategic call-to-actions, the site effectively communicates Solvware's technical expertise and converts visitors into clients.",
+    "translations": {
+      "en": {
+        "shortDescription": "A modern interactive business website for Solvware.",
+        "longDescription": "During my internship at Solvware, I redesigned their website to integrate existing content with new, modern elements. The website highlights Solvware's diverse services, emphasizing usability and clarity. With a responsive design, intuitive navigation, and strategic call-to-actions, the site effectively communicates Solvware's technical expertise and converts visitors into clients."
+      },
+      "nl": {
+        "shortDescription": "Een moderne interactieve bedrijfssite voor Solvware.",
+        "longDescription": "Tijdens mijn stage bij Solvware heb ik hun website herontworpen om bestaande inhoud te integreren met nieuwe, moderne elementen. De website benadrukt de diverse diensten van Solvware, met de nadruk op gebruiksgemak en duidelijkheid. Met een responsief ontwerp, intuïtieve navigatie en strategische call-to-actions communiceert de site effectief de technische expertise van Solvware en zet bezoekers om in klanten."
+      }
+    },
     "technologies": [
       "WordPress",
       "CSS"
@@ -92,8 +140,16 @@
   {
     "id": 7,
     "title": "Mietis mobile userflow",
-    "shortDescription": "A mobile user flow for shopping bags at Mietis",
-    "longDescription": "Mietis was a client project we worked on during the Full Stack Web Development Bootcamp at Ironhack. Located near our campus, Mietis challenged us to design and develop a seamless user flow for their website, focusing on customizing and purchasing bags. The goal was to create a smooth and engaging shopping experience that allowed customers to personalize products effortlessly. This fast-paced, one-week project pushed us to collaborate closely with UX/UI design students, combining design and development to deliver a functional and user-friendly solution under a tight deadline.",
+    "translations": {
+      "en": {
+        "shortDescription": "A mobile user flow for shopping bags at Mietis",
+        "longDescription": "Mietis was a client project we worked on during the Full Stack Web Development Bootcamp at Ironhack. Located near our campus, Mietis challenged us to design and develop a seamless user flow for their website, focusing on customizing and purchasing bags. The goal was to create a smooth and engaging shopping experience that allowed customers to personalize products effortlessly. This fast-paced, one-week project pushed us to collaborate closely with UX/UI design students, combining design and development to deliver a functional and user-friendly solution under a tight deadline."
+      },
+      "nl": {
+        "shortDescription": "Een mobiele gebruikersstroom voor het kopen van tassen bij Mietis",
+        "longDescription": "Mietis was een klantproject waar we aan werkten tijdens de Full Stack Web Development Bootcamp bij Ironhack. Dichtbij onze campus gevestigd, daagde Mietis ons uit om een soepele gebruikersstroom voor hun website te ontwerpen en te ontwikkelen, met de nadruk op het aanpassen en kopen van tassen. Het doel was om een vlotte en boeiende winkelervaring te creëren die klanten in staat stelt om producten gemakkelijk te personaliseren. Dit snel veranderende, één week durende project dwong ons om nauw samen te werken met UX/UI design studenten, waarbij we design en ontwikkeling combineerden om een functionele en gebruiksvriendelijke oplossing te leveren binnen een korte deadline."
+      }
+    },
     "technologies": [
       "React",
       "CSS",
@@ -107,8 +163,16 @@
   {
     "id": 8,
     "title": "House in Tuscany",
-    "shortDescription": "A stylish booking website for House in Tuscany.",
-    "longDescription": "HouseInTuscany.eu is a website designed to showcase the beauty and charm of my family’s vacation villa in Tuscany. The goal was to highlight the villa’s unique atmosphere and the stunning Tuscan landscape while making it easy for visitors to explore the property and book their stay. The design focuses on elegance and simplicity, providing clear information about the villa’s features, availability, and nearby attractions.",
+    "translations": {
+      "en": {
+        "shortDescription": "A stylish booking website for House in Tuscany.",
+        "longDescription": "HouseInTuscany.eu is a website designed to showcase the beauty and charm of my family’s vacation villa in Tuscany. The goal was to highlight the villa’s unique atmosphere and the stunning Tuscan landscape while making it easy for visitors to explore the property and book their stay. The design focuses on elegance and simplicity, providing clear information about the villa’s features, availability, and nearby attractions."
+      },
+      "nl": {
+        "shortDescription": "Een stijlvolle boekingssite voor House in Tuscany.",
+        "longDescription": "HouseInTuscany.eu is een website ontworpen om de schoonheid en charme van de vakantievilla van mijn familie in Toscane te tonen. Het doel was om de unieke sfeer van de villa en het prachtige Toscaanse landschap te benadrukken en het gemakkelijk te maken voor bezoekers om het eigendom te verkennen en hun verblijf te boeken. Het ontwerp richt zich op elegantie en eenvoud, met duidelijke informatie over de kenmerken van de villa, beschikbaarheid en nabijgelegen attracties."
+      }
+    },
     "technologies": [
       "WordPress",
       "CSS"
@@ -121,8 +185,16 @@
   {
     "id": 9,
     "title": "BucketlistPosters",
-    "shortDescription": "A modern webshop for Bucketlistposters.nl.",
-    "longDescription": "Bucketlist Posters started as a large webshop called Trendgigant, where I was selling a wide range of trendy products together with friend. We built the webshop using WordPress and WooCommerce, which became a great learning experience and sparked my passion for web development. Over time, I decided to focus more on growing my skills as a developer. The platform is now rebranded into BucketlistPosters.nl.",
+    "translations": {
+      "en": {
+        "shortDescription": "A modern webshop for Bucketlistposters.nl.",
+        "longDescription": "Bucketlist Posters started as a large webshop called Trendgigant, where I was selling a wide range of trendy products together with friend. We built the webshop using WordPress and WooCommerce, which became a great learning experience and sparked my passion for web development. Over time, I decided to focus more on growing my skills as a developer. The platform is now rebranded into BucketlistPosters.nl."
+      },
+      "nl": {
+        "shortDescription": "Een moderne webshop voor Bucketlistposters.nl.",
+        "longDescription": "Bucketlist Posters begon als een grote webshop genaamd Trendgigant, waar ik samen met een vriend een breed scala aan trendy producten verkocht. We bouwden de webshop met WordPress en WooCommerce, wat een geweldige leerervaring was en mijn passie voor webontwikkeling aanwakkerde. In de loop der tijd besloot ik om me meer te richten op het uitbreiden van mijn vaardigheden als ontwikkelaar. Het platform is nu hernoemd naar BucketlistPosters.nl."
+      }
+    },
     "technologies": [
       "WordPress",
       "CSS"

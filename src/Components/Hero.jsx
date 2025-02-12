@@ -6,8 +6,11 @@ import github from "../assets/GithubLogo.webp";
 import linkedin from "../assets/linkedin.webp";
 import instagram from "../assets/instagram.webp";
 import youtube from "../assets/youtube.webp";
+import { useTranslation } from "react-i18next";
 
 function Hero() {
+  const { t } = useTranslation();
+
   const cvDownload = () => {
     window.location.href =
       "https://drive.google.com/file/d/1ojJAcrRCS8YfmTvLKdMMTrQJTq0rsra3/view?usp=sharing";
@@ -24,7 +27,7 @@ function Hero() {
     <div className="hero-container">
       <div className="hero">
         <div className="personal-info">
-          <span className="hero-subtitle"> I am Piet-Hein,</span>
+          <span className="hero-subtitle"> {t("iamPietHein")}</span>
           <h1>
             Full-Stack <br></br>
             <span>Web Developer</span>{" "}
@@ -36,11 +39,7 @@ function Hero() {
             src={Piet}
             alt="piet-hein"
           />
-          <p>
-            “With a passion for building websites and full-stack applications, I
-            combine creativity, problem-solving, and a results-driven approach
-            to bring ideas to life.”
-          </p>
+          <p>{t("personalStatement")}</p>
           <div className="connect-section">
             <div className="info-buttons">
               <button onClick={cvDownload} className="secondary-button">
@@ -61,8 +60,7 @@ function Hero() {
               </button>
               <button className="primary-button">
                 <NavLink onClick={scrollUp} to="/aboutme">
-                  {" "}
-                  About Me
+                  {t("About")}
                 </NavLink>
               </button>
             </div>
@@ -77,7 +75,7 @@ function Hero() {
                 <img src={instagram} alt="instagram-logo" />
               </a>
               <a href="https://www.linkedin.com/in/piethein-schouten/">
-                <img  src={linkedin} alt="linkedin-logo" />
+                <img src={linkedin} alt="linkedin-logo" />
               </a>
             </div>
           </div>

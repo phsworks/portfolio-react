@@ -1,0 +1,20 @@
+.language-switcher {
+  padding-top: 10px;
+  position: relative;
+  display: inline-block;
+
+
+  button {
+    border: none;
+    background-color: transparent;
+  }
+}
+
+
+.dropdown-menu {
+  list-style: none;
+  position: absolute;
+
+
+}
+

@@ -2,9 +2,11 @@ import "./AboutPage.css";
 import diploma from "../assets/diploma.webp";
 import { useState, useEffect } from "react";
 import scrollUpArrow from "../assets/arrowUp.svg";
+import { useTranslation } from "react-i18next";
 
 function AboutPage() {
   const [isVisible, setIsVisible] = useState(false);
+   const { t } = useTranslation();
 
   const scrollUp = () => {
     window.scrollTo({
@@ -40,72 +42,30 @@ function AboutPage() {
           <img width={230} src={diploma} alt="piet-diploma" />
         </div>
         <div className="about-info">
-          <h1>About</h1>
-          <h4>I Am Piet-Hein Schouten,</h4>
-          <p>
-            My whole life, I have been passionate about technology and software.
-            Starting out as a Entrepreneurship & Retail Management student, I
-            realized I wanted to make a change and pursue a career in software
-            development. Following my passion, I am now a Full Stack Developer.
-          </p>
+          <h1>{t("About")}</h1>
+          <h4>{t("iam")}</h4>
+          <p>{t("mywholelife")}</p>
           <br></br>
-          <p>
-
-            I am especiallyinterested in working on meaningful projects that
-            improve our daily lives. I enjoy building applications, websites,
-            and games, optimizing performance, and experimenting with creative
-            designs.
-          </p>
+          <p>{t("interestedin")}</p>
         </div>
       </div>
       <div className="my-story">
-        <h2>My Experience</h2>
+        <h2>{t("experience")}</h2>
+        <p>{t("propaedeuticDiploma")}</p>
+        <p>{t("internshipExperience")}</p>
         <article>
-          <h3>2021–2023: Education and Exploration</h3>
-          <p>
-            Earned a{" "}
-            <strong>
-              Propaedeutic Diploma in Entrepreneurship & Retail Management
-            </strong>{" "}
-            at Avans University, where I developed a foundation in
-            Entrepreneurship & Retail Management.
-          </p>
-          <p>
-            Gained hands-on experience in market research and digital marketing
-            during an internship at Blue Talents and as a Marketeer at Recruit a
-            Student.
-          </p>
-        </article>
-        <article>
-          <h3>2022–2024: Entrepreneurship and Web Development</h3>
-          <p>
-            Co-founded <strong>TrendGigant</strong>, an e-commerce business,
-            where I built and managed a WordPress webshop.
-          </p>
-          <p>
-            At <strong>Solvware B.V.</strong>, I further developed technical
-            skills by balancing WordPress development with online marketing
-            activities.
-          </p>
+          <h3>{t("entrepeneurship")}</h3>
+          <p>{t("trendGigant")}</p>
+          <p>{t("solvware")}</p>
         </article>
         <article>
           <h3>2024: Full Stack Web Development Bootcamp</h3>
-          <p>
-            Completed an intensive 9-week program at <strong>Ironhack</strong>,
-            mastering front-end (HTML, CSS, React) and back-end (Node.js,
-            MongoDB) technologies. Built real-world applications and discovered
-            my passion for creating user-centric digital solutions.
-          </p>
+          <p>{t("ironhack")}</p>
         </article>
-
         <section>
-          <h3>Looking Ahead</h3>
-          <p>
-            Transitioning to web development has been the best decision of my
-            career. I’m excited to continue growing, learning new technologies,
-            and working on projects that combine creativity and functionality.
-          </p>
-          <p>Let’s connect and create something impactful together!</p>
+          <h3>{t("future")}</h3>
+          <p>{t("lookingAhead")}</p>
+          <p>{t("connect")}</p>
         </section>
       </div>
     </div>
