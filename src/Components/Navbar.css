@@ -94,7 +94,6 @@
   position: absolute;
   top: 0;
   right: 0;
-  margin-right: 10px;
 }
 
 .hamburger.hidden {
@@ -139,10 +138,6 @@
 }
 
 .connect-button-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
   margin-right: 20px;
 }
 
