@@ -94,6 +94,7 @@
   position: absolute;
   top: 0;
   right: 0;
+  margin-right: 30px;
 }
 
 .hamburger.hidden {
@@ -137,9 +138,10 @@
   animation: roll-back 400ms, roll-forwards 200ms disappear 300ms;
 }
 
-.connect-button-1 {
-  margin-right: 20px;
+.connect-button {
+  padding-left: 0px;
 }
+
 
 @keyframes roll-back {
   from {

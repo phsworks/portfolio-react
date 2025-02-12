@@ -154,9 +154,6 @@ function Navbar() {
                 Contact
               </Link>
             </li>
-            <li>
-              <LanguageSwitcher />
-            </li>
           </ul>
         </nav>
       </div>
