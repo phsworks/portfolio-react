@@ -27,7 +27,7 @@ i18n
             "Earned Propaedeutic Diploma in Entrepreneurship & Retail Management at Avans University, where I developed a foundation in Entrepreneurship & Retail Management.",
           internshipExperience:
             "Gained hands-on experience in market research and digital marketing during an internship at Blue Talents and as a Marketeer at Recruit a Student.",
-          entrepeneurship: "2022-2024: Entrepeneurship & Retail Management",
+          entrepeneurship: "2022-2024: Entrepreneurship & Retail Management",
           trendGigant:
             "Co-founded TrendGigant, an e-commerce business, where I built and managed a WordPress webshop.",
           solvware:
@@ -55,6 +55,20 @@ i18n
           phoneOptional: "Phone Number (Optional)",
           message: "Message",
           sendMessage: "Send Message",
+          projectDescriptions: {
+            "007Legacy":
+              "A James Bond-themed browser game based on the movies.",
+            IronHub: "A forum platform for the Ironhack community.",
+            BookQuest:
+              "A personal app for organizing the books you own and the ones you want to read.",
+            GuessMyNumber:
+              "A React Native game where your phone tries to guess your number.",
+            RecipeApp: "A React Native app to manage and explore recipes.",
+            Solvware: "A modern interactive business website for Solvware.",
+            Mietis: "A mobile user flow for shopping bags at Mietis.",
+            HouseInTuscany: "A stylish booking website for House in Tuscany.",
+            BucketlistPosters: "A modern webshop for Bucketlistposters.nl.",
+          },
         },
       },
       nl: {
@@ -84,6 +98,7 @@ i18n
           iamPietHein: "Ik ben Piet-Hein,",
           personalStatement:
             "“Met een passie voor het bouwen van websites en full-stack applicaties, combineer ik creativiteit, probleemoplossend vermogen en een resultaatgerichte aanpak om ideeën tot leven te brengen.”",
+          aboutMe: "Over mij",
           skills: "Vaardigheden",
           projects: "Projecten",
           address: "Adres",
@@ -97,6 +112,23 @@ i18n
           phoneOptional: "Telefoonnummer (Optioneel)",
           message: "Bericht",
           sendMessage: "Verstuur Bericht",
+          projectDescriptions: {
+            "007Legacy":
+              "Een James Bond-thema browserspel gebaseerd op de films.",
+            IronHub: "Een forumplatform voor de Ironhack-gemeenschap.",
+            BookQuest:
+              "Een persoonlijke app om de boeken die je bezit en die je wilt lezen te organiseren.",
+            GuessMyNumber:
+              "Een React Native spel waarbij je telefoon probeert je getal te raden.",
+            RecipeApp:
+              "Een React Native app om recepten te beheren en te verkennen.",
+            Solvware: "Een moderne interactieve bedrijfssite voor Solvware.",
+            Mietis:
+              "Een mobiele gebruikersstroom voor het kopen van tassen bij Mietis.",
+            HouseInTuscany:
+              "Een stijlvolle boekingssite voor House in Tuscany.",
+            BucketlistPosters: "Een moderne webshop voor Bucketlistposters.nl.",
+          },
         },
       },
     },
