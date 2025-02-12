@@ -83,7 +83,6 @@ function Navbar() {
           </NavLink>
         </div>
         <div className="connect-button-1">
-          <LanguageSwitcher />
           <button className="primary-button">
             <Link to="/#contact-section">Let's Connect</Link>
           </button>
@@ -154,6 +153,9 @@ function Navbar() {
               <Link onClick={toggleMenu} to="/#contact-section">
                 Contact
               </Link>
+            </li>
+            <li>
+              <LanguageSwitcher />
             </li>
           </ul>
         </nav>
