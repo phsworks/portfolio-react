@@ -7,11 +7,14 @@ import { useTranslation } from "react-i18next";
 function ProjectsDetailsPage() {
   const { id } = useParams();
   const project = projects.find((project) => project.id === Number(id));
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
+
   const scrollUp = () => {
     window.scrollTo({
       top: 0,
       left: 0,
-      behavior: "instant",
+      behavior: "smooth",
     });
   };
 
@@ -23,12 +26,11 @@ function ProjectsDetailsPage() {
     return <p>Project not found</p>;
   }
 
-  const { t, i18n } = useTranslation();
-  const currentLanguage = i18n.language;
-
-  const longDescription = t(
-    project.translations[currentLanguage].longDescription
-  );
+  // Ensure translations exist and provide a fallback
+  const longDescription =
+    project.translations && project.translations[currentLanguage]
+      ? t(project.translations[currentLanguage].longDescription)
+      : "Description not available";
 
   return (
     <section className="project-container">
@@ -44,7 +46,6 @@ function ProjectsDetailsPage() {
         <div className="project-method">
           <h2>Description</h2>
           <p>{longDescription}</p>
-
           <div className="project-buttons">
             <button className="secondary-button">
               <NavLink to={"/"} onClick={scrollUp}>
@@ -77,7 +78,6 @@ function ProjectsDetailsPage() {
             )}
           </div>
         </div>
-
         <div className="video">
           <iframe
             src={`https://www.youtube.com/embed/${project.video}`}
