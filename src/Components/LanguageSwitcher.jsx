@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import "./LanguageSwitcher.css"; // Import the CSS file for styling
+import "./LanguageSwitcher.css"; 
 import EN from "../assets/uk.svg";
 import NL from "../assets/dutch.svg";
 

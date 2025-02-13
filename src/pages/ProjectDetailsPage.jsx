@@ -14,7 +14,7 @@ function ProjectsDetailsPage() {
     window.scrollTo({
       top: 0,
       left: 0,
-      behavior: "smooth",
+      behavior: "instant",
     });
   };
 
@@ -26,7 +26,6 @@ function ProjectsDetailsPage() {
     return <p>Project not found</p>;
   }
 
-  // Ensure translations exist and provide a fallback
   const longDescription =
     project.translations && project.translations[currentLanguage]
       ? t(project.translations[currentLanguage].longDescription)

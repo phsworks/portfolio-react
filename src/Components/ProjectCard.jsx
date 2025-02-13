@@ -8,7 +8,7 @@ function ProjectCard({ project, className }) {
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
 
-  // Ensure translations exist and provide a fallback
+
   const shortDescription =
     project.translations && project.translations[currentLanguage]
       ? t(project.translations[currentLanguage].shortDescription)
