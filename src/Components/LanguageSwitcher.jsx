@@ -23,15 +23,12 @@ const LanguageSwitcher = () => {
   return (
     <div className="language-switcher">
       <button className="dropdown-toggle" onClick={() => setIsOpen(!isOpen)}>
-        {currentLanguage ? currentLanguage.flag : "EN"}
+        {currentLanguage ? currentLanguage.flag : languages[0].flag}
       </button>
       {isOpen && (
         <ul className="dropdown-menu">
           {languages
-            .filter(
-              (lang) =>
-                lang.code !== (currentLanguage ? currentLanguage.code : "")
-            )
+            .filter((lang) => lang.code !== i18n.language)
             .map((lang) => (
               <li key={lang.code} onClick={() => changeLanguage(lang.code)}>
                 {lang.flag}
