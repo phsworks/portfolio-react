@@ -39,7 +39,12 @@ function AboutPage() {
       )}
       <div className="about-intro">
         <div className="about-picture">
-          <img width={230} src={diploma} alt="piet-diploma" />
+          <img
+            width={230}
+            src={diploma}
+            alt="piet-diploma"
+            fetchPriority="high"
+          />
         </div>
         <div className="about-info">
           <h1>{t("About")}</h1>

@@ -34,7 +34,12 @@ function ProjectsDetailsPage() {
   return (
     <section className="project-container">
       <div className="project-top">
-        <img width={350} src={project.image} alt="project-image" />
+        <img
+          width={350}
+          src={project.image}
+          alt="project-image"
+          fetchPriority="high"
+        />
         <div className="technologies">
           {project.technologies.map((technology, index) => (
             <p key={index}>{technology}</p>

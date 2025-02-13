@@ -38,6 +38,7 @@ function Hero() {
             width={290}
             src={Piet}
             alt="piet-hein"
+            fetchPriority="high"
           />
           <p>{t("personalStatement")}</p>
           <div className="connect-section">
@@ -86,6 +87,7 @@ function Hero() {
             width={330}
             src={Piet}
             alt="piet-hein"
+            fetchPriority="high"
           />
         </div>
       </div>
