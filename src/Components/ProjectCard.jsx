@@ -23,7 +23,7 @@ function ProjectCard({ project, className }) {
       <div className="project-info">
         <div className="project-description">
           <h4 onClick={projectNavigate}>{`${project.title}`}</h4>
-          {/* <p>{shortDescription}</p> */}
+          <p>{shortDescription}</p>
         </div>
         <div className="project-link">
           <NavLink to={`/projectdetails/${project.id}`}>
