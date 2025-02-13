@@ -43,7 +43,7 @@ function ProjectsDetailsPage() {
       <div className="project-details">
         <div className="project-method">
           <h2>Description</h2>
-          {/* <p>{longDescription}</p> */}
+          <p>{longDescription}</p>
 
           <div className="project-buttons">
             <button className="secondary-button">
