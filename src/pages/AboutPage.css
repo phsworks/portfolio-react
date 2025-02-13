@@ -41,7 +41,7 @@
 }
 
 .my-story {
-  height: 1800px;
+  height: 1750px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -125,7 +125,7 @@
   }
 
   .my-story {
-    height: 1350px;
+    height: 1250px;
     padding-left: 110px;
 
     article {
