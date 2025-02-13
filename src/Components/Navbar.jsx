@@ -83,6 +83,7 @@ function Navbar() {
           </NavLink>
         </div>
         <div className="connect-button-1">
+          <LanguageSwitcher />
           <button className="primary-button">
             <Link to="/#contact-section">Let's Connect</Link>
           </button>
@@ -90,7 +91,7 @@ function Navbar() {
         <div className="navbar">
           <ul className="navbar-links">
             <li>
-              {/* <LanguageSwitcher /> */}
+              <LanguageSwitcher />
             </li>
             <li>
               <NavLink onClick={scrollUp} to="/aboutme">
