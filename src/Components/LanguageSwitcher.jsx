@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import "./LanguageSwitcher.css"; // Import the CSS file for styling
-import EN from '../assets/uk.svg'
-import NL from '../assets/dutch.svg'
+import EN from "../assets/uk.svg";
+import NL from "../assets/dutch.svg";
 
 const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
@@ -23,12 +23,15 @@ const LanguageSwitcher = () => {
   return (
     <div className="language-switcher">
       <button className="dropdown-toggle" onClick={() => setIsOpen(!isOpen)}>
-        {currentLanguage.flag}
+        {currentLanguage ? currentLanguage.flag : "EN"}
       </button>
       {isOpen && (
         <ul className="dropdown-menu">
           {languages
-            .filter((lang) => lang.code !== currentLanguage.code)
+            .filter(
+              (lang) =>
+                lang.code !== (currentLanguage ? currentLanguage.code : "")
+            )
             .map((lang) => (
               <li key={lang.code} onClick={() => changeLanguage(lang.code)}>
                 {lang.flag}

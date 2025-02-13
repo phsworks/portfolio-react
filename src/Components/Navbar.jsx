@@ -83,7 +83,6 @@ function Navbar() {
           </NavLink>
         </div>
         <div className="connect-button-1">
-          <LanguageSwitcher />
           <button className="primary-button">
             <Link to="/#contact-section">Let's Connect</Link>
           </button>
