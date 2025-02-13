@@ -94,14 +94,14 @@ function Navbar() {
             </li>
             <li>
               <NavLink onClick={scrollUp} to="/aboutme">
-                {/* {t("About")} */}
+                {t("About")}
               </NavLink>
             </li>
             <li>
               <Link to="/#skills-section">Skills</Link>
             </li>
             <li>
-              {/* <Link to="/#projects-section">{t("projects")}</Link> */}
+              <Link to="/#projects-section">{t("projects")}</Link>
             </li>
             <li>
               <Link to="/#contact-section">Contact</Link>
