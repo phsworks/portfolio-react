@@ -5,11 +5,11 @@
     "translations": {
       "en": {
         "shortDescription": "A James Bond-themed browser game based on the movies.",
-        "longDescription": "007 Legacy is a browser-based game inspired by the James Bond movie-franchise. In the game you will be fighting against multiple Bond Villains. They will come at you with everything they got and you need to be careful not too let them catch you. Of course you have a licence to kill so you will be able to shoot the Villains. And also look for the Vodka Martinis, they can give you some extra strength to be stronger in your fight against the Villains."
+        "longDescription": "007 Legacy is a browser-based game inspired by the James Bond movie franchise. In the game, you will be fighting against multiple Bond villains. They will come at you with everything they've got, and you need to be careful not to let them catch you. Of course, you have a license to kill, so you will be able to shoot the villains. And also look for the Vodka Martinis; they can give you some extra strength to be stronger in your fight against the villains."
       },
       "nl": {
         "shortDescription": "Een James Bond-thema browserspel gebaseerd op de films.",
-        "longDescription": "007 Legacy is een browserspel geïnspireerd door de films van James Bond. In het spel vecht je tegen meerdere Bond-schurken. Ze komen op je af met alles wat ze hebben en je moet oppassen dat ze je niet te pakken krijgen. Natuurlijk heb je een licentie to kill, dus je kunt de schurken neerschieten. Zoek ook naar de Vodka Martini's, ze kunnen je extra kracht geven om sterker te zijn in je strijd tegen de schurken."
+        "longDescription": "007 Legacy is een browserspel geïnspireerd door de films van James Bond. In het spel vecht je tegen meerdere Bond-schurken. Ze komen op je af met alles wat ze hebben, en je moet oppassen dat ze je niet te pakken krijgen. Natuurlijk heb je een licentie om te doden, dus je kunt de schurken neerschieten. Zoek ook naar de Vodka Martinis; ze kunnen je extra kracht geven om sterker te zijn in je strijd tegen de schurken."
       }
     },
     "technologies": [
@@ -79,7 +79,7 @@
       },
       "nl": {
         "shortDescription": "Een React Native spel waarbij je telefoon probeert je getal te raden.",
-        "longDescription": "Guess My Number is een React Native game die ik bouwde tijdens een cursus om React Native en Expo te leren. In dit spel denk je aan een getal en je telefoon probeert het te raden door te vragen of je getal hoger of lager is dan zijn gok. Je begeleidt de telefoon door hints te geven ('hoger' of 'lager') en hij blijft raden tot hij het juiste getal vindt. Het spel houdt bij hoeveel pogingen de telefoon nodig heeft, waardoor het een leuk en interactief uitdaging is! (geen live preview)"
+        "longDescription": "Guess My Number is een React Native game die ik bouwde tijdens een cursus om React Native en Expo te leren. In dit spel denk je aan een getal, en je telefoon probeert het te raden door te vragen of je getal hoger of lager is dan zijn gok. Je begeleidt de telefoon door hints te geven ('hoger' of 'lager'), en hij blijft raden tot hij het juiste getal vindt. Het spel houdt bij hoeveel pogingen de telefoon nodig heeft, waardoor het een leuk en interactief uitdaging is! (geen live preview)"
       }
     },
     "technologies": [
@@ -125,7 +125,7 @@
       },
       "nl": {
         "shortDescription": "Een moderne interactieve bedrijfssite voor Solvware.",
-        "longDescription": "Tijdens mijn stage bij Solvware heb ik hun website herontworpen om bestaande inhoud te integreren met nieuwe, moderne elementen. De website benadrukt de diverse diensten van Solvware, met de nadruk op gebruiksgemak en duidelijkheid. Met een responsief ontwerp, intuïtieve navigatie en strategische call-to-actions communiceert de site effectief de technische expertise van Solvware en zet het bezoekers om in klanten."
+        "longDescription": "Tijdens mijn stage bij Solvware heb ik hun website herontworpen om bestaande inhoud te integreren met nieuwe, moderne elementen. De website benadrukt de diverse diensten van Solvware, met de nadruk op gebruiksgemak en duidelijkheid. Met een responsief ontwerp, intuïtieve navigatie en strategische call-to-actions communiceert de site effectief de technische expertise van Solvware en zet bezoekers om in klanten."
       }
     },
     "technologies": [
@@ -139,14 +139,14 @@
   },
   {
     "id": 7,
-    "title": "Mietis mobile userflow",
+    "title": "Mietis Mobile User Flow",
     "translations": {
       "en": {
-        "shortDescription": "A mobile user flow for shopping bags at Mietis",
+        "shortDescription": "A mobile user flow for shopping bags at Mietis.",
         "longDescription": "Mietis was a client project we worked on during the Full Stack Web Development Bootcamp at Ironhack. Located near our campus, Mietis challenged us to design and develop a seamless user flow for their website, focusing on customizing and purchasing bags. The goal was to create a smooth and engaging shopping experience that allowed customers to personalize products effortlessly. This fast-paced, one-week project pushed us to collaborate closely with UX/UI design students, combining design and development to deliver a functional and user-friendly solution under a tight deadline."
       },
       "nl": {
-        "shortDescription": "Een mobiele user-flow voor het kopen van tassen bij Mietis",
+        "shortDescription": "Een mobiele user-flow voor het kopen van tassen bij Mietis.",
         "longDescription": "Mietis was een klantproject waar we aan werkten tijdens de Full Stack Web Development Bootcamp bij Ironhack. Dichtbij onze campus gevestigd, daagde het bedrijf Mietis ons uit om een soepele user-flow voor hun website te ontwerpen en te ontwikkelen, met de nadruk op het aanpassen en kopen van tassen. Het doel was om een vlotte winkelervaring te creëren die klanten in staat stelt om producten gemakkelijk te personaliseren. Dit snel veranderende, één week durende project dwong ons om nauw samen te werken met UX/UI design studenten, waarbij we design en ontwikkeling combineerden om een functionele en gebruiksvriendelijke oplossing te leveren binnen een korte deadline."
       }
     },
@@ -188,7 +188,7 @@
     "translations": {
       "en": {
         "shortDescription": "A modern webshop for Bucketlistposters.nl.",
-        "longDescription": "Bucketlist Posters started as a large webshop called Trendgigant, where I was selling a wide range of trendy products together with friend. We built the webshop using WordPress and WooCommerce, which became a great learning experience and sparked my passion for web development. Over time, I decided to focus more on growing my skills as a developer. The platform is now rebranded into BucketlistPosters.nl."
+        "longDescription": "Bucketlist Posters started as a large webshop called Trendgigant, where I was selling a wide range of trendy products together with a friend. We built the webshop using WordPress and WooCommerce, which became a great learning experience and sparked my passion for web development. Over time, I decided to focus more on growing my skills as a developer. The platform is now rebranded into BucketlistPosters.nl."
       },
       "nl": {
         "shortDescription": "Een moderne webshop voor Bucketlistposters.nl.",
