@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import projects from "../Data/projects.json";
 import { NavLink } from "react-router-dom";
 import "./ProjectDetailsPage.css";
-// import { useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 function ProjectsDetailsPage() {
   const { id } = useParams();
@@ -23,12 +23,12 @@ function ProjectsDetailsPage() {
     return <p>Project not found</p>;
   }
 
-  // const { t, i18n } = useTranslation();
-  // const currentLanguage = i18n.language;
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
 
-  // const longDescription = t(
-  //   project.translations[currentLanguage].longDescription
-  // );
+  const longDescription = t(
+    project.translations[currentLanguage].longDescription
+  );
 
   return (
     <section className="project-container">

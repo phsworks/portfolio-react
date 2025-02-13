@@ -6,14 +6,13 @@ import { useTranslation } from "react-i18next";
 function ProjectCard({ project, className }) {
   const navigate = useNavigate();
 
-  // const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
-  // const currentLanguage = i18n.language;
+  const currentLanguage = i18n.language;
 
-  // Gebruik de huidige taal om de juiste vertaling te krijgen
-  // const shortDescription = t(
-  //   project.translations[currentLanguage].shortDescription
-  // );
+  const shortDescription = t(
+    project.translations[currentLanguage].shortDescription
+  );
 
   const projectNavigate = () => {
     navigate(`/projectdetails/${project.id}`);
@@ -24,7 +23,7 @@ function ProjectCard({ project, className }) {
       <div className="project-info">
         <div className="project-description">
           <h4 onClick={projectNavigate}>{`${project.title}`}</h4>
-          {/* <p>{shortDescription}</p> */}
+          <p>{shortDescription}</p>
         </div>
         <div className="project-link">
           <NavLink to={`/projectdetails/${project.id}`}>
