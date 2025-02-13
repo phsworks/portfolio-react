@@ -1,14 +1,50 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" sizes="16x16 32x32 48x48" href="/icons/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>phs development</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<html lang="nl"> <!-- Standaardtaal is Nederlands, dit wordt dynamisch aangepast in React -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta id="meta-description" name="description"
+    content="Ontdek phs development, innovatieve softwareontwikkeling en webdesign." />
+  <meta id="meta-keywords" name="keywords"
+    content="softwareontwikkeling, webdesign, digitale oplossingen, phs development" />
+  <meta id="meta-author" name="author" content="phs development" />
+
+  <link rel="icon" type="image/x-icon" sizes="16x16 32x32 48x48" href="/icons/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+
+  <title id="page-title">phs development</title>
+  <script type="module" crossorigin src="/assets/index-DhSUccvl.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-Ckl3yF7R.css">
+</head>
+
+<body>
+  <div id="root"></div>
+  <script>
+    // Dynamisch de taal en meta-tags aanpassen op basis van de geselecteerde taal in React
+    const language = localStorage.getItem('i18nextLng') || 'nl';
+    document.documentElement.lang = language;
+
+    const metaTags = {
+      nl: {
+        description: "Ontdek phs development, innovatieve softwareontwikkeling en webdesign.",
+        keywords: "softwareontwikkeling, webdesign, digitale oplossingen, phs development",
+        author: "Piet-Hein Schouten",
+        title: "phs development"
+      },
+      en: {
+        description: "Discover phs development, innovative software development and web design.",
+        keywords: "software development, web design, digital solutions, phs development",
+        author: "Piet-Hein Schouten",
+        title: "phs development"
+      }
+    };
+
+    document.getElementById('meta-description').setAttribute('content', metaTags[language].description);
+    document.getElementById('meta-keywords').setAttribute('content', metaTags[language].keywords);
+    document.getElementById('meta-author').setAttribute('content', metaTags[language].author);
+    document.getElementById('page-title').textContent = metaTags[language].title;
+  </script>
+</body>
+
 </html>

@@ -8,7 +8,7 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: "en", // Stel de standaardtaal in
+    fallbackLng: "nl", // Stel de standaardtaal in
     debug: true,
     interpolation: {
       escapeValue: false, // React doet al escapen
