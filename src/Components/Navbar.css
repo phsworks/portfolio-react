@@ -137,6 +137,13 @@
   animation: roll-back 400ms, roll-forwards 200ms disappear 300ms;
 }
 
+.connect-button-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
 .connect-button {
   padding-left: 0px;
 }
