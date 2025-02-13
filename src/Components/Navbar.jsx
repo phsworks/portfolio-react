@@ -6,13 +6,13 @@ import desktoplogo from "../assets/PHS-desktop.svg";
 import menu from "../assets/menu-icon.webp";
 import X from "../assets/X-mark.webp";
 import { useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
-import LanguageSwitcher from "./LanguageSwitcher";
+// import { useTranslation } from "react-i18next";
+// import LanguageSwitcher from "./LanguageSwitcher";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [navBackground, setNavBackground] = useState(false)
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
 
   const toggleMenu = () => {
     setIsOpen((open) => {
@@ -90,18 +90,18 @@ function Navbar() {
         <div className="navbar">
           <ul className="navbar-links">
             <li>
-              <LanguageSwitcher />
+              {/* <LanguageSwitcher /> */}
             </li>
             <li>
               <NavLink onClick={scrollUp} to="/aboutme">
-                {t("About")}
+                {/* {t("About")} */}
               </NavLink>
             </li>
             <li>
               <Link to="/#skills-section">Skills</Link>
             </li>
             <li>
-              <Link to="/#projects-section">{t("projects")}</Link>
+              {/* <Link to="/#projects-section">{t("projects")}</Link> */}
             </li>
             <li>
               <Link to="/#contact-section">Contact</Link>
@@ -136,7 +136,7 @@ function Navbar() {
           <ul className="mobile-links">
             <li>
               <NavLink onClick={toggleMenu} to="/aboutme">
-                {t("About")}
+                {/* {t("About")} */}
               </NavLink>
             </li>
             <li>
@@ -146,7 +146,7 @@ function Navbar() {
             </li>
             <li>
               <Link onClick={toggleMenu} to="/#projects-section">
-                {t("projects")}
+                {/* {t("projects")} */}
               </Link>
             </li>
             <li>
