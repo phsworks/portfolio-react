@@ -82,10 +82,10 @@ function Navbar() {
             />
           </NavLink>
         </div>
-        <div className="connect-button-1">
+        <div className="buttons-mobile">
           <LanguageSwitcher />
           <button className="primary-button">
-            <Link to="/#contact-section">Let's Connect</Link>
+            <Link to="/#contact-section">Contact</Link>
           </button>
         </div>
         <div className="navbar">
@@ -99,18 +99,15 @@ function Navbar() {
               </NavLink>
             </li>
             <li>
-              <Link to="/#skills-section">Skills</Link>
-            </li>
-            <li>
               <Link to="/#projects-section">{t("projects")}</Link>
             </li>
             <li>
-              <Link to="/#contact-section">Contact</Link>
+              <Link to="/#skills-section">Skills</Link>
             </li>
           </ul>
           <div className="connect-button">
             <button className="primary-button">
-              <Link to="/#contact-section">Let's Connect</Link>
+              <Link to="/#contact-section">Contact</Link>
             </button>
           </div>
         </div>
@@ -141,13 +138,13 @@ function Navbar() {
               </NavLink>
             </li>
             <li>
-              <Link onClick={toggleMenu} to="/#skills-section">
-                Skills
+              <Link onClick={toggleMenu} to="/#projects-section">
+                {t("projects")}
               </Link>
             </li>
             <li>
-              <Link onClick={toggleMenu} to="/#projects-section">
-                {t("projects")}
+              <Link onClick={toggleMenu} to="/#skills-section">
+                Skills
               </Link>
             </li>
             <li>

@@ -16,7 +16,6 @@
   background-color: #090b15;
 }
 
-
 .mobile-menu {
   display: none;
 }
@@ -29,7 +28,6 @@
   padding-top: 80px;
   position: fixed;
   z-index: 888;
-
 }
 
 .mobile-links {
@@ -58,7 +56,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 35px;
 
   li {
     list-style: none;
@@ -137,18 +135,21 @@
   animation: roll-back 400ms, roll-forwards 200ms disappear 300ms;
 }
 
-.connect-button-1 {
+.buttons-mobile {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
-  margin-right: 20px;
+  margin-right: 10px;
+
+  .primary-button {
+    width: 110px;
+  }
 }
 
 .connect-button {
   padding-left: 0px;
 }
-
 
 @keyframes roll-back {
   from {
@@ -209,7 +210,7 @@
   .connect-button {
     padding-left: 20px;
   }
-  .connect-button-1 {
+  .buttons-mobile {
     display: none;
   }
 
@@ -231,9 +232,8 @@
   .navbar-container,
   .navbar-container-background {
     justify-content: space-around;
-    gap: 14vw;
+    gap: 20vw;
     width: 100vw;
-
   }
 
   .navbar {
@@ -265,7 +265,7 @@
     z-index: 5;
   }
 
-  .connect-button-1 {
+  .buttons-mobile {
     display: none;
   }
 
@@ -282,5 +282,3 @@
     display: none;
   }
 }
-
-
