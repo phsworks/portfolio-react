@@ -1,18 +1,18 @@
 import "./ProjectCard.css";
 import { useNavigate, NavLink } from "react-router-dom";
 import arrowRight from "../assets/ArrowRight.svg";
-// import { useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 function ProjectCard({ project, className }) {
   const navigate = useNavigate();
 
-  // const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
-  // const currentLanguage = i18n.language;
+  const currentLanguage = i18n.language;
 
-  // const shortDescription = t(
-  //   project.translations[currentLanguage].shortDescription
-  // );
+  const shortDescription = t(
+    project.translations[currentLanguage].shortDescription
+  );
 
   const projectNavigate = () => {
     navigate(`/projectdetails/${project.id}`);
