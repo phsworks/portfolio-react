@@ -9,8 +9,8 @@ const LanguageSwitcher = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const languages = [
-    { code: "en", flag: <img width={25} src={EN} alt="EN" /> },
-    { code: "nl", flag: <img width={25} src={NL} alt="NL" /> },
+    { code: "en", flag: <img width={27} src={EN} alt="EN" /> },
+    { code: "nl", flag: <img width={27} src={NL} alt="NL" /> },
   ];
 
   const currentLanguage = languages.find((lang) => lang.code === i18n.language);

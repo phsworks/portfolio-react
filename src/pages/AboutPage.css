@@ -1,5 +1,5 @@
 .about-intro, .my-story {
-  height: 1050px;
+  height: 1100px;
   padding-left: 30px;
   background: var(--light--gradient);
   display: flex;
@@ -41,7 +41,7 @@
 }
 
 .my-story {
-  height: 1700px;
+  height: 1800px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -51,7 +51,7 @@
 
 
   article {
-    width: 300px;
+    width: 290px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -125,7 +125,7 @@
   }
 
   .my-story {
-    height: 1200px;
+    height: 1350px;
     padding-left: 110px;
 
     article {

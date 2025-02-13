@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 
 function AboutPage() {
   const [isVisible, setIsVisible] = useState(false);
-   const { t } = useTranslation();
+  const { t } = useTranslation();
 
   const scrollUp = () => {
     window.scrollTo({
@@ -51,21 +51,23 @@ function AboutPage() {
       </div>
       <div className="my-story">
         <h2>{t("experience")}</h2>
-        <p>{t("propaedeuticDiploma")}</p>
-        <p>{t("internshipExperience")}</p>
         <article>
           <h3>{t("entrepeneurship")}</h3>
+          <p>{t("propaedeuticDiploma")}</p>
+          <p>{t("internshipExperience")}</p>
+        </article>
+        <article>
+          <h3>{t("wordpress")}</h3>
           <p>{t("trendGigant")}</p>
           <p>{t("solvware")}</p>
         </article>
         <article>
-          <h3>2024: Full Stack Web Development Bootcamp</h3>
+          <h3> Full Stack Web Development</h3>
           <p>{t("ironhack")}</p>
         </article>
         <section>
           <h3>{t("future")}</h3>
           <p>{t("lookingAhead")}</p>
-          <p>{t("connect")}</p>
         </section>
       </div>
     </div>

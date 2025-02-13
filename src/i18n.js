@@ -23,13 +23,14 @@ i18n
           interestedin:
             "I am especially interested in working on meaningful projects that improve our daily lives. I enjoy building applications, websites, and games, optimizing performance, and experimenting with creative designs.",
           experience: "My Experience",
+          entrepeneurship: "Entrepeneurship & Marketing",
           propaedeuticDiploma:
-            "Earned Propaedeutic Diploma in Entrepreneurship & Retail Management at Avans University, where I developed a foundation in Entrepreneurship & Retail Management.",
+            "Earned my Propaedeutic Diploma in Entrepreneurship & Retail Management at Avans University, where I developed a foundation in Entrepreneurship & Retail Management.",
           internshipExperience:
             "Gained hands-on experience in market research and digital marketing during an internship at Blue Talents and as a Marketeer at Recruit a Student.",
-          entrepeneurship: "2022-2024: Entrepreneurship & Retail Management",
+          wordpress: " Wordpress & Web Design experience",
           trendGigant:
-            "Co-founded TrendGigant, an e-commerce business, where I built and managed a WordPress webshop.",
+            "Co-founded TrendGigant together with a friend, an e-commerce business, where I built and managed a WordPress webshop.",
           solvware:
             "At Solvware B.V., I further developed technical skills by balancing WordPress development with online marketing activities.",
           ironhack:
@@ -37,7 +38,6 @@ i18n
           future: "Looking Ahead",
           lookingAhead:
             "Transitioning to web development has been the best decision of my career. I’m excited to continue growing, learning new technologies, and working on projects that combine creativity and functionality.",
-          connect: "Let’s connect and create something impactful together!",
           iamPietHein: "I am Piet-Hein,",
           personalStatement:
             "“With a passion for building websites and full-stack applications, I combine creativity, problem-solving, and a results-driven approach to bring ideas to life.”",
@@ -76,17 +76,18 @@ i18n
           About: "Over mij",
           iam: "Ik ben Piet-Hein Schouten,",
           mywholelife:
-            "Mijn hele leven ben ik gepassioneerd geweest door technologie en software. Toen ik begon als student Ondernemerschap & Retail Management, besefte ik dat ik een verandering wilde maken en een carrière in softwareontwikkeling wilde nastreven. Door mijn passie te volgen, ben ik nu een Full Stack Developer.",
+            "Mijn hele leven ben ik gepassioneerd geweest door technologie en software. Na een tijdje als student Ondernemerschap & Retail Management, besefte ik dat ik een verandering wilde maken en een carrière in softwareontwikkeling wilde nastreven. Door mijn passie te volgen, ben ik nu een Full Stack Developer.",
           interestedin:
-            "Ik ben bijzonder geïnteresseerd in het werken aan betekenisvolle projecten die ons dagelijks leven verbeteren. Ik houd van het bouwen van applicaties, websites en games, het optimaliseren van prestaties en het experimenteren met creatieve ontwerpen.",
+            "Ik ben bijzonder geïnteresseerd in het werken aan betekenisvolle projecten die ons dagelijks leven verbeteren. Ik houd van het bouwen van applicaties, websites en games, het optimaliseren van prestaties en het experimenteren met creatieve designs.",
           experience: "Mijn ervaring",
+          entrepeneurship: "Ondernemerschap & Marketing",
           propaedeuticDiploma:
-            "Behaalde Propedeuse in Ondernemerschap & Retail Management aan Avans Hogeschool, waar ik een basis ontwikkelde in Ondernemerschap & Retail Management.",
+            "Behaalde mijn Propedeuse in Ondernemerschap & Retail Management aan Avans Hogeschool, waar ik een basis ontwikkelde in Ondernemerschap & Retail Management.",
           internshipExperience:
             "Verkreeg praktijkervaring in marktonderzoek en digitale marketing tijdens een stage bij Blue Talents en als Marketeer bij Recruit a Student.",
-          entrepeneurship: "2022-2024:  Ondernemerschap & Retail Management",
+          wordpress: " Wordpress & Web Design ervaring",
           trendGigant:
-            "Mede-oprichter van TrendGigant, een e-commerce bedrijf, waar ik een WordPress webshop bouwde en beheerde.",
+            "Mede-oprichter van TrendGigant, een e-commerce bedrijf, waar ik samen met een vriend een WordPress webshop bouwde en beheerde.",
           solvware:
             "Bij Solvware B.V. heb ik mijn technische vaardigheden verder ontwikkeld door WordPress-ontwikkeling te combineren met online marketingactiviteiten.",
           ironhack:
@@ -94,7 +95,6 @@ i18n
           future: "Een blik op de toekomst",
           lookingAhead:
             "De overstap naar webontwikkeling is voor mij mijn beste beslissing geweest. Ik ben enthousiast om door te groeien, nieuwe technologieën te leren en te werken aan projecten die creativiteit en functionaliteit combineren.",
-          connect: "Laten we connecten en samen iets moois creëren!",
           iamPietHein: "Ik ben Piet-Hein,",
           personalStatement:
             "“Met een passie voor het bouwen van websites en full-stack applicaties, combineer ik creativiteit, probleemoplossend vermogen en een resultaatgerichte aanpak om ideeën tot leven te brengen.”",
@@ -112,23 +112,6 @@ i18n
           phoneOptional: "Telefoonnummer (Optioneel)",
           message: "Bericht",
           sendMessage: "Verstuur Bericht",
-          projectDescriptions: {
-            "007Legacy":
-              "Een James Bond-thema browserspel gebaseerd op de films.",
-            IronHub: "Een forumplatform voor de Ironhack-gemeenschap.",
-            BookQuest:
-              "Een persoonlijke app om de boeken die je bezit en die je wilt lezen te organiseren.",
-            GuessMyNumber:
-              "Een React Native spel waarbij je telefoon probeert je getal te raden.",
-            RecipeApp:
-              "Een React Native app om recepten te beheren en te verkennen.",
-            Solvware: "Een moderne interactieve bedrijfssite voor Solvware.",
-            Mietis:
-              "Een mobiele gebruikersstroom voor het kopen van tassen bij Mietis.",
-            HouseInTuscany:
-              "Een stijlvolle boekingssite voor House in Tuscany.",
-            BucketlistPosters: "Een moderne webshop voor Bucketlistposters.nl.",
-          },
         },
       },
     },
