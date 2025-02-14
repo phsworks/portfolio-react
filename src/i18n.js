@@ -55,20 +55,8 @@ i18n
           phoneOptional: "Phone Number (Optional)",
           message: "Message",
           sendMessage: "Send Message",
-          projectDescriptions: {
-            "007Legacy":
-              "A James Bond-themed browser game based on the movies.",
-            IronHub: "A forum platform for the Ironhack community.",
-            BookQuest:
-              "A personal app for organizing the books you own and the ones you want to read.",
-            GuessMyNumber:
-              "A React Native game where your phone tries to guess your number.",
-            RecipeApp: "A React Native app to manage and explore recipes.",
-            Solvware: "A modern interactive business website for Solvware.",
-            Mietis: "A mobile user flow for shopping bags at Mietis.",
-            HouseInTuscany: "A stylish booking website for House in Tuscany.",
-            BucketlistPosters: "A modern webshop for Bucketlistposters.nl.",
-          },
+          description: "Description",
+          seegithub: "See Github",
         },
       },
       nl: {
@@ -112,6 +100,8 @@ i18n
           phoneOptional: "Telefoonnummer (Optioneel)",
           message: "Bericht",
           sendMessage: "Verstuur Bericht",
+          description: "Beschrijving",
+          seegithub: "Zie Github",
         },
       },
     },

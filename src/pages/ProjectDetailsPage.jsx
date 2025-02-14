@@ -48,7 +48,7 @@ function ProjectsDetailsPage() {
       </div>
       <div className="project-details">
         <div className="project-method">
-          <h2>Description</h2>
+          <h2>{t('description')}</h2>
           <p>{longDescription}</p>
           <div className="project-buttons">
             <button className="secondary-button">
@@ -76,7 +76,7 @@ function ProjectsDetailsPage() {
                   </svg>
                 </div>
                 <div className="text">
-                  <a href={project.githubLink}>See Github</a>
+                  <a href={project.githubLink}>{t('seegithub')}</a>
                 </div>
               </button>
             )}
