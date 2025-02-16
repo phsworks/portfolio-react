@@ -14,6 +14,8 @@ function Navbar() {
   const [navBackground, setNavBackground] = useState(false)
   const { t } = useTranslation();
 
+
+
   const toggleMenu = () => {
     setIsOpen((open) => {
       const menuOpen = !open;
@@ -33,7 +35,7 @@ function Navbar() {
   useEffect(() => {
     const toggleNavbar = () => {
 
-      if (window.scrollY > 30) {
+      if (window.scrollY > 10) {
         setNavBackground(true);
       } else {
         setNavBackground(false);
@@ -63,6 +65,8 @@ function Navbar() {
           navBackground ? "navbar-container-background" : "navbar-container"
         }
       >
+
+
         <div className="logo-container">
           <NavLink to="/">
             <img

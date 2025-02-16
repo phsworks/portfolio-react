@@ -42,7 +42,7 @@ function HomePage() {
         <div className="scroll-up">
           <button onClick={scrollUp}>
             <img loading="lazy" src={scrollUpArrow} alt="scroll-up-icon" />
-          </button>k
+          </button>
         </div>
       )}
       <div id="projects-section">

@@ -16,6 +16,7 @@ body {
   --dark--gradient: linear-gradient(135deg, #0B0D10, #0C0F1A, #141e39, #0C1227);
   --light--gradient: linear-gradient(135deg, #0B0D10, #12182a, #141e39, #0b1127);
   --small--gradient: linear-gradient(50deg, #0B0D10, #12182a, #141e39, #0b1127);
+
   color: white;
 
   --primary--color: #0072ba;
