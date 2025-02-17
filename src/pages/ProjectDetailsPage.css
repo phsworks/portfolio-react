@@ -5,7 +5,7 @@
   flex-direction: column;
   gap: 20px;
   background: var(--light--gradient);
-
+  padding-left: 10px;
   padding-bottom: 50px;
   padding-top: 120px;
 }
@@ -25,6 +25,8 @@
     animation: fadeIn 3s;
     margin-bottom: 20px;
   }
+
+
 
   .technologies {
     display: flex;
@@ -63,7 +65,7 @@
   background-color: transparent;
 
   h2 {
-    padding-left: 0px;
+    padding-left: 10px;
   }
 
   p {
@@ -81,6 +83,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+    padding-right: 30px;
   }
 }
 
@@ -99,7 +102,7 @@
 @media (min-width: 600px) and (max-width: 1100px) {
   .project-container {
     align-items: flex-start;
-    padding-left: 4vw;
+    padding-left: 8.5vw;
     gap: 20px;
     padding-bottom: 80px;
   }
@@ -132,8 +135,14 @@
   .project-method {
     gap: 5px;
 
+    h2 {
+      padding-left: 0px;
+    }
+
     p {
-      width: 70vw;
+      width: 700px;
+      padding-right: 0px;
+      padding-left: 0px;
     }
 
     .project-buttons {
@@ -146,8 +155,8 @@
   .video {
     margin-top: 20px;
     iframe {
-      width: 500px;
-      height: 300px;
+      width: 700px;
+      height: 500px;
     }
   }
 }
@@ -168,7 +177,7 @@
     padding-top: 20px;
 
     img {
-      width: 650px;
+      width: 750px;
     }
     .technologies {
       p {
@@ -182,23 +191,26 @@
 
   .project-details {
     flex-direction: column;
+    align-items: flex-start;
     gap: 4vw;
   }
 
   .project-method {
     gap: 10px;
     h2 {
+    padding-right: 10px;
     padding-left: 0px;
   }
 
   p {
-    min-width: 800px;
+    width: 800px;
     padding-bottom: 10px;
     padding-left: 0px;
+    padding-right: 0px;
   }
 
     .project-buttons {
-      min-width: 500px;
+      width: 500px;
       gap: 20px
     }
   }
@@ -207,7 +219,7 @@
     margin-top: 20px;
     margin-bottom: 30px;
     iframe {
-      width: 750px;
+      width: 850px;
       height: 500px;
     }
   }
