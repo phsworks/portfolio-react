@@ -57,7 +57,7 @@ function Contact() {
           </div>
           <div className="contact-text">
             <h4>{t("email")}</h4>
-            <p>info@phsdevelopment.nl</p>
+            <p>piethein@phsdevelopment.nl</p>
           </div>
         </div>
         <div className="contact-method">
