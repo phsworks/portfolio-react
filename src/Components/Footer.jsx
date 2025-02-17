@@ -50,7 +50,7 @@ function Footer() {
           </nav>
         </div>
       </div>
-      <small> © 2025 PHS Development All Rights Reserved </small>
+      <small> PHS Development © 2025 - KVK: 96450827 </small>
     </div>
   );
 }

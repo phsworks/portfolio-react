@@ -85,7 +85,7 @@ i18n
             "De overstap naar webontwikkeling is voor mij mijn beste beslissing geweest. Ik ben enthousiast om door te groeien, nieuwe technologieën te leren en te werken aan projecten die creativiteit en functionaliteit combineren.",
           iamPietHein: "Ik ben Piet-Hein,",
           personalStatement:
-            "“Met een passie voor het bouwen van websites en full-stack applicaties, combineer ik creativiteit, probleemoplossend vermogen en een resultaatgerichte aanpak om ideeën tot leven te brengen.”",
+            "“Met een passie voor het bouwen van websites en full-stack applicaties, combineer ik creativiteit, oplossingsgerichtheid en een resultaatgerichte aanpak om ideeën tot leven te brengen.”",
           aboutMe: "Over mij",
           skills: "Vaardigheden",
           projects: "Projecten",
