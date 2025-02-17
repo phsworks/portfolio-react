@@ -63,7 +63,7 @@
   background-color: transparent;
 
   h2 {
-    padding-left: 10px;
+    padding-left: 0px;
   }
 
   p {
@@ -71,6 +71,7 @@
     text-align: left;
     padding-bottom: 10px;
     padding-left: 10px;
+
   }
 
   .project-buttons {
@@ -87,7 +88,7 @@
   iframe {
     width: 320px;
     height: 220px;
-    box-shadow: rgba(59, 59, 59, 0.35) 0px 5px 15px;
+    box-shadow: rgba(36, 36, 36, 0.35) 0px 5px 15px;
     background-color: #000000;
     padding: 5px;
     border-radius: 10px;
@@ -111,7 +112,7 @@
     padding-top: 20px;
 
     img {
-      width: 70vw;
+      width: 500px;
     }
     .technologies {
       p {
@@ -145,8 +146,8 @@
   .video {
     margin-top: 20px;
     iframe {
-      width: 70vw;
-      height: 30vh;
+      width: 500px;
+      height: 300px;
     }
   }
 }
@@ -167,7 +168,7 @@
     padding-top: 20px;
 
     img {
-      width: 50vw;
+      width: 650px;
     }
     .technologies {
       p {
@@ -191,16 +192,14 @@
   }
 
   p {
-    width: 750px;
+    min-width: 800px;
     padding-bottom: 10px;
     padding-left: 0px;
   }
 
     .project-buttons {
-      width: 500px;
-      display: flex;
-      justify-content: flex-start;
-      gap: 30px
+      min-width: 500px;
+      gap: 20px
     }
   }
 
@@ -208,8 +207,8 @@
     margin-top: 20px;
     margin-bottom: 30px;
     iframe {
-      width: 53vw;
-      height: 57vh;
+      width: 750px;
+      height: 500px;
     }
   }
 }
