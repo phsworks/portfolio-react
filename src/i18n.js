@@ -8,10 +8,14 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: "nl", // Stel de standaardtaal in
+    fallbackLng: ["nl", "en"],
     debug: true,
     interpolation: {
-      escapeValue: false, // React doet al escapen
+      escapeValue: false,
+    },
+    detection: {
+      order: ["localStorage", "navigator", "htmlTag", "cookie"],
+      caches: ["localStorage"],
     },
     resources: {
       en: {
