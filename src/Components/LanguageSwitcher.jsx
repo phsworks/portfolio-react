@@ -28,7 +28,11 @@ const LanguageSwitcher = () => {
         onClick={() => setIsOpen(!isOpen)}
         aria-label="Change language"
       >
-        {currentLanguage.flag}
+        {currentLanguage ? (
+          currentLanguage.flag
+        ) : (
+          <img width={25} src={NL} alt="NL" />
+        )}
       </button>
       {isOpen && (
         <ul className="dropdown-menu">
