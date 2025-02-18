@@ -9,11 +9,12 @@ const LanguageSwitcher = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const languages = [
-    { code: "nl", flag: <img width={25} src={NL} alt="NL" /> },
-    { code: "en", flag: <img width={25} src={EN} alt="EN" /> },
+    { code: "nl", flag: <img width={25} src={NL} alt="Dutch flag" /> },
+    { code: "en", flag: <img width={25} src={EN} alt="UK flag" /> },
   ];
 
-  const currentLanguage = languages.find((lang) => lang.code === i18n.language);
+  const currentLanguage =
+    languages.find((lang) => lang.code === i18n.language) || languages[1];
 
   const changeLanguage = (code) => {
     i18n.changeLanguage(code);
@@ -22,7 +23,11 @@ const LanguageSwitcher = () => {
 
   return (
     <div className="language-switcher">
-      <button className="dropdown-toggle" onClick={() => setIsOpen(!isOpen)}>
+      <button
+        className="dropdown-toggle"
+        onClick={() => setIsOpen(!isOpen)}
+        aria-label="Change language"
+      >
         {currentLanguage.flag}
       </button>
       {isOpen && (
@@ -30,7 +35,13 @@ const LanguageSwitcher = () => {
           {languages
             .filter((lang) => lang.code !== i18n.language)
             .map((lang) => (
-              <li key={lang.code} onClick={() => changeLanguage(lang.code)}>
+              <li
+                key={lang.code}
+                onClick={(event) => {
+                  event.stopPropagation();
+                  changeLanguage(lang.code);
+                }}
+              >
                 {lang.flag}
               </li>
             ))}
