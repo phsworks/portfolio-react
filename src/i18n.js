@@ -18,6 +18,51 @@ i18n
       caches: ["localStorage"],
     },
     resources: {
+      nl: {
+        translation: {
+          About: "Over mij",
+          iam: "Ik ben Piet-Hein Schouten,",
+          mywholelife:
+            "Mijn hele leven ben ik gepassioneerd geweest door technologie en software. Na een tijdje als student Ondernemerschap & Retail Management, besefte ik dat ik een verandering wilde maken en een carrière in softwareontwikkeling wilde nastreven. Door mijn passie te volgen, ben ik nu een Full Stack Developer.",
+          interestedin:
+            "Ik ben bijzonder geïnteresseerd in het werken aan betekenisvolle projecten die ons dagelijks leven verbeteren. Ik houd van het bouwen van applicaties, websites en games, het optimaliseren van prestaties en het experimenteren met creatieve designs.",
+          experience: "Mijn ervaring",
+          entrepeneurship: "Ondernemerschap & Marketing",
+          propaedeuticDiploma:
+            "Behaalde mijn Propedeuse in Ondernemerschap & Retail Management aan Avans Hogeschool, waar ik een basis ontwikkelde in Ondernemerschap & Retail Management.",
+          internshipExperience:
+            "Verkreeg praktijkervaring in marktonderzoek en digitale marketing tijdens een stage bij Blue Talents en als Marketeer bij Recruit a Student.",
+          wordpress: " Wordpress & Web Design ervaring",
+          trendGigant:
+            "Mede-oprichter van TrendGigant, een e-commerce bedrijf, waar ik samen met een vriend een WordPress webshop bouwde en beheerde.",
+          solvware:
+            "Bij Solvware B.V. heb ik mijn technische vaardigheden verder ontwikkeld door WordPress-ontwikkeling te combineren met online marketingactiviteiten.",
+          ironhack:
+            "Voltooide een intensief 9-weken durende Bootcamp bij Ironhack, waarbij ik front-end (HTML, CSS, React) en back-end (Node.js, MongoDB) technologieën leerde. Bouwde echte toepassingen en ontdekte mijn passie voor het creëren van gebruikersgerichte digitale oplossingen.",
+          future: "Een blik op de toekomst",
+          lookingAhead:
+            "De overstap naar webontwikkeling is voor mij mijn beste beslissing geweest. Ik ben enthousiast om door te groeien, nieuwe technologieën te leren en te werken aan projecten die creativiteit en functionaliteit combineren.",
+          iamPietHein: "Ik ben Piet-Hein,",
+          personalStatement:
+            "“Met een passie voor het ontwikkelen van websites en full-stack applicaties, combineer ik creativiteit, probleemoplossend vermogen en een resultaatgerichte aanpak om ideeën tot leven te brengen.”",
+          aboutMe: "Over mij",
+          skills: "Vaardigheden",
+          projects: "Projecten",
+          address: "Adres",
+          countryCity: "Nederland - Breda",
+          workTogether: "Laten we samenwerken!",
+          workTogetherText:
+            "Ik ben gepassioneerd over ontwerpen en coderen omdat ik ervan houd om ideeën tot leven te brengen met software!",
+          fullName: "Volledige naam",
+          email: "E-mail",
+          companyOptional: "Bedrijf (Optioneel)",
+          phoneOptional: "Telefoonnummer (Optioneel)",
+          message: "Bericht",
+          sendMessage: "Verstuur Bericht",
+          description: "Beschrijving",
+          seegithub: "Zie Github",
+        },
+      },
       en: {
         translation: {
           About: "About me",
@@ -61,51 +106,6 @@ i18n
           sendMessage: "Send Message",
           description: "Description",
           seegithub: "See Github",
-        },
-      },
-      nl: {
-        translation: {
-          About: "Over mij",
-          iam: "Ik ben Piet-Hein Schouten,",
-          mywholelife:
-            "Mijn hele leven ben ik gepassioneerd geweest door technologie en software. Na een tijdje als student Ondernemerschap & Retail Management, besefte ik dat ik een verandering wilde maken en een carrière in softwareontwikkeling wilde nastreven. Door mijn passie te volgen, ben ik nu een Full Stack Developer.",
-          interestedin:
-            "Ik ben bijzonder geïnteresseerd in het werken aan betekenisvolle projecten die ons dagelijks leven verbeteren. Ik houd van het bouwen van applicaties, websites en games, het optimaliseren van prestaties en het experimenteren met creatieve designs.",
-          experience: "Mijn ervaring",
-          entrepeneurship: "Ondernemerschap & Marketing",
-          propaedeuticDiploma:
-            "Behaalde mijn Propedeuse in Ondernemerschap & Retail Management aan Avans Hogeschool, waar ik een basis ontwikkelde in Ondernemerschap & Retail Management.",
-          internshipExperience:
-            "Verkreeg praktijkervaring in marktonderzoek en digitale marketing tijdens een stage bij Blue Talents en als Marketeer bij Recruit a Student.",
-          wordpress: " Wordpress & Web Design ervaring",
-          trendGigant:
-            "Mede-oprichter van TrendGigant, een e-commerce bedrijf, waar ik samen met een vriend een WordPress webshop bouwde en beheerde.",
-          solvware:
-            "Bij Solvware B.V. heb ik mijn technische vaardigheden verder ontwikkeld door WordPress-ontwikkeling te combineren met online marketingactiviteiten.",
-          ironhack:
-            "Voltooide een intensief 9-weken durende Bootcamp bij Ironhack, waarbij ik front-end (HTML, CSS, React) en back-end (Node.js, MongoDB) technologieën leerde. Bouwde echte toepassingen en ontdekte mijn passie voor het creëren van gebruikersgerichte digitale oplossingen.",
-          future: "Een blik op de toekomst",
-          lookingAhead:
-            "De overstap naar webontwikkeling is voor mij mijn beste beslissing geweest. Ik ben enthousiast om door te groeien, nieuwe technologieën te leren en te werken aan projecten die creativiteit en functionaliteit combineren.",
-          iamPietHein: "Ik ben Piet-Hein,",
-          personalStatement:
-            "“Met een passie voor het bouwen van websites en full-stack applicaties, combineer ik creativiteit, oplossingsgerichtheid en een resultaatgerichte aanpak om ideeën tot leven te brengen.”",
-          aboutMe: "Over mij",
-          skills: "Vaardigheden",
-          projects: "Projecten",
-          address: "Adres",
-          countryCity: "Nederland - Breda",
-          workTogether: "Laten we samenwerken!",
-          workTogetherText:
-            "Ik ben gepassioneerd over ontwerpen en coderen omdat ik ervan houd om ideeën tot leven te brengen met software!",
-          fullName: "Volledige naam",
-          email: "E-mail",
-          companyOptional: "Bedrijf (Optioneel)",
-          phoneOptional: "Telefoonnummer (Optioneel)",
-          message: "Bericht",
-          sendMessage: "Verstuur Bericht",
-          description: "Beschrijving",
-          seegithub: "Zie Github",
         },
       },
     },

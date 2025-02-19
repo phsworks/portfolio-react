@@ -8,8 +8,7 @@
   height: 200px;
 
   small {
-    color: var(--accent);
-    font-weight: 700;
+    font-weight: 400;
   }
 }
 

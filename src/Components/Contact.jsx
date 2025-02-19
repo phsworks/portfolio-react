@@ -47,8 +47,12 @@ function Contact() {
             <img src={phone} alt="phone" />
           </div>
           <div className="contact-text">
-            <h4>Tel</h4>
-            <p>+31 615309763</p>
+            <p>
+              Tel
+            </p>
+            <p>
+              <b>+31 615309763</b>
+            </p>
           </div>
         </div>
         <div className="contact-method">
@@ -56,8 +60,10 @@ function Contact() {
             <img src={mail} alt="mail" />
           </div>
           <div className="contact-text">
-            <h4>{t("email")}</h4>
-            <p>piethein@phsdevelopment.nl</p>
+            <p>{t("email")}</p>
+            <p>
+              <b>piethein@phsdevelopment.nl</b>
+            </p>
           </div>
         </div>
         <div className="contact-method">
@@ -65,14 +71,16 @@ function Contact() {
             <img src={map} alt="map" />
           </div>
           <div className="contact-text">
-            <h4>{t("address")}</h4>
-            <p>{t("countryCity")}</p>
+            <p>{t("address")}</p>
+            <p>
+              <b>{t("countryCity")}</b>
+            </p>
           </div>
         </div>
       </div>
       <div className="form-section">
         <div className="form-intro">
-          <h2>{t("workTogether")}</h2>
+          <h3>{t("workTogether")}</h3>
           <p>{t("workTogetherText")}</p>
         </div>
         <div className="form">

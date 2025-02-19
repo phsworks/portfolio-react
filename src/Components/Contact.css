@@ -10,7 +10,7 @@
 }
 
 .form-intro {
-  h2 {
+  h4 {
     text-align: center;
   }
   p {
@@ -27,11 +27,8 @@
   gap: 20px;
   padding-right: 20px;
 
-  h4 {
-    font-weight: 300;
-  }
   p {
-    font-weight: 700;
+    font-weight: 400;
   }
 }
 
@@ -58,6 +55,7 @@
 
   h2 {
     text-align: left;
+
   }
 
   p {
