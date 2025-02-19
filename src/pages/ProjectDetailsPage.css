@@ -210,8 +210,10 @@
   }
 
     .project-buttons {
-      width: 500px;
-      gap: 30px
+      width: 490px;
+      gap: 25px;
+      display: flex;
+      justify-content: flex-start;
     }
   }
 
