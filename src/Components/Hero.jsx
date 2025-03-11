@@ -30,7 +30,7 @@ function Hero() {
           <span className="hero-subtitle"> {t("iamPietHein")}</span>
           <h1>
             Full-Stack <br></br>
-            <span>Web Developer</span>{" "}
+            <span>Developer</span>{" "}
           </h1>
 
           <img

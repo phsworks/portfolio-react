@@ -181,27 +181,5 @@
     "video": "jNbIfOlhsN0",
     "githubLink": null,
     "liveDemo": "https://houseintuscany.eu"
-  },
-  {
-    "id": 9,
-    "title": "BucketlistPosters",
-    "translations": {
-      "en": {
-        "shortDescription": "A modern webshop for Bucketlistposters.nl.",
-        "longDescription": "Bucketlist Posters started as a large webshop called Trendgigant, where I was selling a wide range of trendy products together with a friend. We built the webshop using WordPress and WooCommerce, which became a great learning experience and sparked my passion for web development. Over time, I decided to focus more on growing my skills as a developer. The platform is now rebranded into BucketlistPosters.nl."
-      },
-      "nl": {
-        "shortDescription": "Een moderne webshop voor Bucketlistposters.nl.",
-        "longDescription": "Bucketlist Posters begon als een grote webshop genaamd Trendgigant, waar ik samen met een vriend een breed scala aan trendy producten verkocht. We bouwden de webshop met WordPress en WooCommerce, wat een geweldige leerervaring was en mijn passie voor webontwikkeling aanwakkerde. In de loop der tijd besloot ik om me meer te richten op het uitbreiden van mijn vaardigheden als developer. Het platform is nu hernoemd naar BucketlistPosters.nl."
-      }
-    },
-    "technologies": [
-      "WordPress",
-      "CSS"
-    ],
-    "image": "/images/bucketlistposters-back.webp",
-    "video": "Y69TIW-kSzo",
-    "githubLink": null,
-    "liveDemo": "https://bucketlistposters.nl/"
   }
 ]
