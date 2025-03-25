@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import "./LanguageSwitcher.css";
 import EN from "../assets/uk.svg";
@@ -7,6 +7,17 @@ import NL from "../assets/dutch.svg";
 const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
+
+  // Ensure the default language is English on first visit
+  useEffect(() => {
+    const storedLanguage = localStorage.getItem("language");
+    if (!storedLanguage) {
+      i18n.changeLanguage("en");
+      localStorage.setItem("language", "en");
+    } else {
+      i18n.changeLanguage(storedLanguage);
+    }
+  }, [i18n]);
 
   const languages = [
     { code: "nl", flag: <img width={25} src={NL} alt="Dutch flag" /> },

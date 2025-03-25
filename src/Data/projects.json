@@ -48,14 +48,35 @@
   },
   {
     "id": 3,
+    "title": "Schouten Concepts",
+    "translations": {
+      "en": {
+        "shortDescription": "A stylish website for the agency Schouten Concepts.",
+        "longDescription": "The Schouten Concepts website was designed to showcase the agency's representation of high-quality home textiles and lifestyle brands in the Benelux region. With a focus on design and quality, the site presents inspiring collections and assists in creating unique concepts. Built using WordPress, the website offers an elegant and user-friendly platform for clients to explore the agency's offerings and services."
+      },
+      "nl": {
+        "shortDescription": "Een stijlvolle website voor agentschap Schouten Concepts",
+        "longDescription": "De website van Schouten Concepts is ontworpen om het agentschap te presenteren dat hoogwaardige home textiles en lifestylemerken vertegenwoordigt in de Benelux. Met een focus op design en kwaliteit toont de site inspirerende collecties en helpt bij het creëren van unieke concepten. Gebouwd met WordPress, biedt de website een elegante en gebruiksvriendelijke omgeving voor klanten om het aanbod en de diensten van het agentschap te verkennen."
+      }
+    },
+    "technologies": [
+      "WordPress"
+    ],
+    "image": "/images/SchoutenConcepts 2.webp",
+    "video": "YYPhtE8LGjE",
+    "githubLink": "",
+    "liveDemo": "https://schoutenconcepts.nl/"
+  },
+  {
+    "id": 4,
     "title": "BookQuest",
     "translations": {
       "en": {
-        "shortDescription": "A personal app for organizing the books you own and the ones you want to read.",
+        "shortDescription": "A personal app for organizing books.",
         "longDescription": "BookQuest was created during my Full Stack Development Bootcamp at IronHack with a colleague. We wanted to build an app that helps users organize their personal libraries, like their favorite books, and keep track of the ones they still want to read. We used Supabase to manage and store the book data, making it easy to create a smooth and responsive experience for book lovers."
       },
       "nl": {
-        "shortDescription": "Een persoonlijke app om de boeken die je bezit en die je wilt lezen te organiseren.",
+        "shortDescription": "Een persoonlijke app om boeken te organiseren.",
         "longDescription": "BookQuest werd gemaakt tijdens mijn Full Stack Development Bootcamp bij IronHack met een collega. We wilden een app bouwen die gebruikers helpt hun persoonlijke bibliotheken te organiseren, zoals hun favoriete boeken, en bij te houden welke ze nog willen lezen. We gebruikten Supabase om de boekgegevens te beheren en op te slaan, waardoor het gemakkelijk werd om een soepele en responsieve ervaring voor boekliefhebbers te creëren."
       }
     },
@@ -70,7 +91,7 @@
     "liveDemo": "https://thebookquest.netlify.app/"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Guess My Number",
     "translations": {
       "en": {
@@ -93,7 +114,7 @@
     "liveDemo": null
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Recipe App",
     "translations": {
       "en": {
@@ -116,7 +137,7 @@
     "liveDemo": null
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Solvware",
     "translations": {
       "en": {
@@ -138,7 +159,7 @@
     "liveDemo": "https://solvware.nl"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Mietis Mobile User Flow",
     "translations": {
       "en": {
@@ -161,7 +182,7 @@
     "liveDemo": "https://mietis.netlify.app/#/createbag"
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "House in Tuscany",
     "translations": {
       "en": {
