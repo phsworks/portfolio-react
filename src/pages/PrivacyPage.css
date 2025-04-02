@@ -1,0 +1,45 @@
+/* PrivacyPage.css */
+
+.privacy-container {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 100px 50px 100px 50px;
+  color: 'white';
+  line-height: 1.6;
+}
+
+.privacy-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.privacy-subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.privacy-paragraph {
+  margin-bottom: 1rem;
+}
+
+.privacy-link {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .privacy-title {
+    font-size: 1.6rem;
+  }
+
+  .privacy-subtitle {
+    font-size: 1.25rem;
+  }
+
+  .privacy-container {
+    padding: 1.5rem 1rem;
+  }
+}
