@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   padding-top: 60px;
+  padding-bottom: 60px;
   gap: 20px;
   text-align: center;
   background: var(--light--gradient);
