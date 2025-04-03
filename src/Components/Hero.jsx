@@ -27,8 +27,8 @@ function Hero() {
     <div className="hero-container">
       <div className="hero">
         <div className="personal-info">
-          <div>
-            <h3 className="iam">{t("iamPietHein")}</h3>
+          <div className="intro">
+            <span className="iam">{t("iamPietHein")}</span>
             <h1>
               Full-Stack <br></br> Developer
             </h1>

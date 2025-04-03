@@ -2,16 +2,15 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 60px;
   gap: 20px;
   text-align: center;
   background: var(--light--gradient);
 }
 
 .projects {
-  padding-top: 20px;
   display: grid;
+  padding-top: 30px;
   grid-template-columns: repeat(1, 1fr);
   grid-column-gap: 5px;
   grid-row-gap: 40px;

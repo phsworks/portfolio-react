@@ -21,14 +21,7 @@
     font-size: 32px;
     padding-top: 10px;
     color: #ffffff;
-  }
-
-
-
-  .hero-subtitle {
-    font-size: 28px;
     font-weight: 700;
-
   }
 
   img {
@@ -138,14 +131,11 @@
 
 
     h1 {
-      font-size: 60px;
+      font-size: 62px;
 
     }
     .iam {
       font-size: 35px;
-    }
-    h2 {
-      font-size: 40px;
     }
 
     p {

@@ -143,7 +143,7 @@ function Navbar() {
             </li>
             <li>
               <Link onClick={toggleMenu} to="/#skills-section">
-                Skills
+                Tools
               </Link>
             </li>
             <li>
