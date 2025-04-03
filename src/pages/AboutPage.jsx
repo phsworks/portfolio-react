@@ -38,6 +38,13 @@ function AboutPage() {
         </div>
       )}
       <div className="about-intro">
+        <div className="about-info">
+          <h1>{t("About")}</h1>
+          <h4>{t("iam")}</h4>
+          <p>{t("mywholelife")}</p>
+          <br></br>
+          <p>{t("interestedin")}</p>
+        </div>
         <div className="about-picture">
           <img
             width={230}
@@ -45,13 +52,6 @@ function AboutPage() {
             alt="piet-diploma"
             fetchPriority="high"
           />
-        </div>
-        <div className="about-info">
-          <h1>{t("About")}</h1>
-          <h4>{t("iam")}</h4>
-          <p>{t("mywholelife")}</p>
-          <br></br>
-          <p>{t("interestedin")}</p>
         </div>
       </div>
       <div className="my-story">

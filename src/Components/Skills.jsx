@@ -12,11 +12,11 @@ import GithubLogo from "../assets/GithubLogo.webp"
 
 
 function Skills() {
-  
+
   return (
     <div className="skills">
       <div className="skills-top">
-        <h2>Skills</h2>
+        <h2>Tools</h2>
       </div>
       <div className="all-skills">
         <div className="skill-container">

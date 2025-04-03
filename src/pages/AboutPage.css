@@ -7,6 +7,7 @@
   align-items: flex-start;
   flex-direction: column;
   padding-top: 30px;
+  gap: 40px;
 
   h1 {
     padding-bottom: 10px;
@@ -41,7 +42,7 @@
 }
 
 .my-story {
-  height: 1750px;
+  height: 1550px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -110,12 +111,11 @@
     height: 94vh;
     justify-content: space-evenly;
     padding-top: 120px;
-    gap: 0px;
     gap: 10px;
 
 
     img {
-      width: 420px;
+      width: 380px;
     }
 
     p {

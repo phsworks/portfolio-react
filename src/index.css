@@ -13,27 +13,27 @@ body {
   line-height: 1.5;
   background-color: #000000;
 
-  --dark--gradient: linear-gradient(135deg, #0B0D10, #0C0F1A, #141e39, #0C1227);
-  --light--gradient: linear-gradient(135deg, #0B0D10, #12182a, #141e39, #0b1127);
+  --dark--gradient: linear-gradient(135deg, #171b21, #181c2a, #141e39, #0C1227);
+  --light--gradient: linear-gradient(135deg, #171a1d, #12182a, #141e39, #0b1127);
   --small--gradient: linear-gradient(50deg, #0B0D10, #12182a, #141e39, #0b1127);
 
   color: white;
 
   --primary--color: #0072ba;
-  --secondary-color: #fdffff;
+  --secondary-color: #ffffff;
   --accent: #77bfd2;
 }
 
 h1 {
   font-size: 34px;
-  background-image: linear-gradient(45deg, #0072ba, #77bfd2, #fdffff);
+  background-image: linear-gradient(40deg, #0072ba, #77bfd2, #ffffff, #ffffff);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 h2 {
   font-size: 32px;
-  background-image: linear-gradient(45deg, #0072ba, #77bfd2, #fdffff);
+  background-image: linear-gradient(45deg, #0072ba, #77bfd2, #ffffff, #ffffff);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }

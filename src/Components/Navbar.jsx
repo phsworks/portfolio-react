@@ -98,15 +98,15 @@ function Navbar() {
               <LanguageSwitcher />
             </li>
             <li>
-              <NavLink onClick={scrollUp} to="/aboutme">
-                {t("About")}
-              </NavLink>
-            </li>
-            <li>
               <Link to="/#projects-section">{t("projects")}</Link>
             </li>
             <li>
-              <Link to="/#skills-section">Skills</Link>
+              <Link to="/#skills-section">Tools</Link>
+            </li>
+            <li>
+              <NavLink onClick={scrollUp} to="/aboutme">
+                {t("About")}
+              </NavLink>
             </li>
           </ul>
           <div className="connect-button">
@@ -137,11 +137,6 @@ function Navbar() {
         <nav>
           <ul className="mobile-links">
             <li>
-              <NavLink onClick={toggleMenu} to="/aboutme">
-                {t("About")}
-              </NavLink>
-            </li>
-            <li>
               <Link onClick={toggleMenu} to="/#projects-section">
                 {t("projects")}
               </Link>
@@ -150,6 +145,11 @@ function Navbar() {
               <Link onClick={toggleMenu} to="/#skills-section">
                 Skills
               </Link>
+            </li>
+            <li>
+              <NavLink onClick={toggleMenu} to="/aboutme">
+                {t("About")}
+              </NavLink>
             </li>
             <li>
               <Link onClick={toggleMenu} to="/#contact-section">

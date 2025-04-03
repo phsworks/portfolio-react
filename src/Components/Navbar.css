@@ -182,7 +182,7 @@
   .navbar-container-background {
     justify-content: space-around;
     width: 100vw;
-    gap: 5vw;
+    gap: 3vw;
   }
 
   .navbar {
@@ -190,13 +190,13 @@
   }
 
   .logo-container {
-    padding-top: 0px;
+    padding-top: 0px;k
     padding-left: 0px;
   }
 
   .logo-desktop {
     display: block;
-    width: 200px;
+    width: 240px;
   }
 
   .logo-desktop:hover {

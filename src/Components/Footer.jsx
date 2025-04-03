@@ -27,19 +27,19 @@ function Footer() {
           <nav>
             <ul className="footer-links">
               <li>
-                <NavLink onClick={scrollUp} to="/aboutme">
-                  {t("About")}
-                </NavLink>
-              </li>
-              <li>
-                <Link onClick={scrollUp} to="/#skills-section">
-                  Skills
-                </Link>
-              </li>
-              <li>
                 <Link onClick={scrollUp} to="/#projects-section">
                   {t("projects")}
                 </Link>
+              </li>
+              <li>
+                <Link onClick={scrollUp} to="/#skills-section">
+                  Tools
+                </Link>
+              </li>
+              <li>
+                <NavLink onClick={scrollUp} to="/aboutme">
+                  {t("About")}
+                </NavLink>
               </li>
               <li>
                 <Link onClick={scrollUp} to="/#contact-section">

@@ -27,11 +27,12 @@ function Hero() {
     <div className="hero-container">
       <div className="hero">
         <div className="personal-info">
-          <span className="hero-subtitle"> {t("iamPietHein")}</span>
-          <h1>
-            Full-Stack <br></br>
-            <span>Developer</span>{" "}
-          </h1>
+          <div>
+            <h3 className="iam">{t("iamPietHein")}</h3>
+            <h1>
+              Full-Stack <br></br> Developer
+            </h1>
+          </div>
 
           <img
             className="image-mobile"
