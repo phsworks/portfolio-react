@@ -23,25 +23,25 @@ i18n
           About: "Over",
           iam: "Ik ben Piet-Hein Schouten,",
           mywholelife:
-            "Ik ben altijd gepassioneerd geweest over technologie en software. Na een studie Ondernemerschap & Retail Management heb ik bewust gekozen voor een carrière in softwareontwikkeling. Die beslissing bracht me naar waar ik nu ben: Full Stack Developer en oprichter van PHS Development.",
+            "Ik ben altijd gepassioneerd geweest over technologie en software. Tijdens het volgen van de studie Ondernemerschap & Retail Management kwam ik erachter dat ik me echt hierop wilde focussen. Daarom besloot ik te stoppen met die opleiding en ben ik na het afronden van een full-stack development bootcamp gepassioneerd om een betere developer te worden.",
           interestedin:
-            "Ik werk graag aan betekenisvolle digitale oplossingen die het dagelijks leven verbeteren. Of het nu gaat om websites, webapps of creatieve tools – ik combineer technische kennis met een scherp oog voor design en gebruiksvriendelijkheid.",
+            "Ik werk graag aan projecten die het dagelijks leven verbeteren, of het nu gaat om websites, webapps, games of andere creatieve projecten. Ik combineer technische kennis met een scherp oog voor design en gebruiksvriendelijkheid.",
           experience: "Ervaring",
           entrepeneurship: "Ondernemerschap & Marketing",
           propaedeuticDiploma:
-            "Propedeuse Ondernemerschap & Retail Management behaald aan Avans Hogeschool. Hier legde ik de basis in ondernemerschap, marktanalyse en innovatie.",
+            "Propedeuse Ondernemerschap & Retail Management behaald aan Avans Hogeschool. Hier legde ik de basis in ondernemerschap, marketing en bedrijfsvoering.",
           internshipExperience:
             "Werkervaring opgedaan in marktonderzoek en digitale marketing bij Blue Talents en als marketeer bij Recruit a Student.",
           wordpress: "Ervaring met WordPress & Webdesign",
           trendGigant:
-            "Mede-oprichter van TrendGigant, een e-commerce project waarin ik samen met een vriend een WordPress webshop bouwde en beheerde.",
+            "Mede-oprichter van TrendGigant, een trendy cadeautjes webshop waar ik leerde om een webshop te runnen en te werken met Wordpress en Woocommerce",
           solvware:
             "Bij Solvware B.V. werkte ik aan het bouwen en optimaliseren van WordPress-websites, gecombineerd met online marketingactiviteiten.",
           ironhack:
-            "Intensieve bootcamp gevolgd bij Ironhack (9 weken) met focus op Front-end (HTML, CSS, React) en Back-end (Node.js, MongoDB). Hier ontstond mijn passie voor het bouwen van schaalbare digitale toepassingen.",
+            "Intensieve bootcamp gevolgd bij Ironhack (9 weken) met focus op Front-end (HTML, CSS, React) en Back-end (Node.js, MongoDB).",
           future: "Toekomstvisie",
           lookingAhead:
-            "De overstap naar webontwikkeling is mijn beste beslissing geweest. Ik blijf groeien, leer nieuwe technologieën en bouw graag aan digitale producten die impact maken.",
+            "Ik wil blijven groeien en mezelf uitdagen met het leren van nieuwe technologieën en het bouwen van nog meer mooie digitale producten",
           iamPietHein: "Ik ben Piet-Hein,",
           personalStatement:
             "Gefocust op het bouwen van moderne, schaalbare websites en applicaties met creativiteit, gebruiksvriendelijkheid en een duidelijk doel",
@@ -51,7 +51,7 @@ i18n
           countryCity: "Nederland - Breda",
           workTogether: "Laten we samenwerken!",
           workTogetherText:
-            "Ik help je graag bij het ontwikkelen van digitale oplossingen. Of je nu een app, website of MVP nodig hebt – laten we bouwen!",
+            "Ik help je graag bij het ontwikkelen van digitale oplossingen. Of je nu een app, website of andere software zoekt – laten we het bouwen!",
           fullName: "Volledige naam",
           email: "E-mail",
           companyOptional: "Bedrijf (optioneel)",
@@ -59,7 +59,6 @@ i18n
           message: "Bericht",
           sendMessage: "Verstuur bericht",
           description: "Beschrijving",
-          seegithub: "Bekijk Github",
         },
       },
       en: {
@@ -67,43 +66,42 @@ i18n
           About: "About",
           iam: "I am Piet-Hein Schouten,",
           mywholelife:
-            "I’ve always had a passion for technology and software. After studying Entrepreneurship & Retail Management, I decided to switch gears and pursue a career in software development. That choice led me to where I am today: a Full Stack Developer and founder of PHS Development.",
+            "I’ve always been passionate about technology and software. While studying Entrepreneurship & Retail Management, I realized I wanted to fully focus on this field. So I decided to stop that program and, after completing a full-stack development bootcamp, I’m now driven to become an even better developer.",
           interestedin:
-            "I enjoy working on meaningful digital solutions that improve daily life. Whether it’s websites, web apps, or creative tools – I combine technical skills with a sharp eye for design and usability.",
+            "I enjoy working on projects that improve daily life—whether it's websites, web apps, games, or other creative projects. I combine technical knowledge with a keen eye for design and usability.",
           experience: "Experience",
           entrepeneurship: "Entrepreneurship & Marketing",
           propaedeuticDiploma:
-            "Earned a Propaedeutic Diploma in Entrepreneurship & Retail Management at Avans University, where I built a solid foundation in market analysis and innovation.",
+            "Obtained my propaedeutic diploma in Entrepreneurship & Retail Management at Avans University of Applied Sciences. Here I built a strong foundation in entrepreneurship, marketing, and business management.",
           internshipExperience:
-            "Gained hands-on experience in market research and digital marketing during internships at Blue Talents and Recruit a Student.",
-          wordpress: "WordPress & Web Design Experience",
+            "Gained work experience in market research and digital marketing at Blue Talents, and as a marketer at Recruit a Student.",
+          wordpress: "Experience with WordPress & Web Design",
           trendGigant:
-            "Co-founded TrendGigant, an e-commerce venture where I developed and maintained a WordPress webshop with a friend.",
+            "Co-founder of TrendGigant, a trendy gift webshop where I learned how to run a webshop and work with WordPress and WooCommerce.",
           solvware:
-            "At Solvware B.V., I combined WordPress development with online marketing, helping businesses improve their digital presence.",
+            "At Solvware B.V., I worked on building and optimizing WordPress websites, combined with online marketing activities.",
           ironhack:
-            "Completed an intensive 9-week coding bootcamp at Ironhack, mastering Front-end (HTML, CSS, React) and Back-end (Node.js, MongoDB) technologies. This is where I discovered my passion for building scalable digital products.",
-          future: "Looking Ahead",
+            "Completed an intensive 9-week bootcamp at Ironhack, focusing on Front-end (HTML, CSS, React) and Back-end (Node.js, MongoDB).",
+          future: "Vision for the Future",
           lookingAhead:
-            "Transitioning into web development was the best decision I made. I’m excited to keep learning, growing, and building digital products that have a real impact.",
-          iamPietHein: "I am Piet-Hein,",
+            "I want to keep growing and challenging myself by learning new technologies and building even more impactful digital products.",
+          iamPietHein: "I’m Piet-Hein,",
           personalStatement:
-            "Focused on building modern, scalable websites and applications with creativity, usability, and purpose.",
+            "Focused on building modern, scalable websites and applications with creativity, usability, and a clear purpose.",
           aboutMe: "About Me",
           projects: "Projects",
           address: "Address",
-          countryCity: "Netherlands - Breda",
+          countryCity: "The Netherlands - Breda",
           workTogether: "Let’s work together!",
           workTogetherText:
-            "I'm passionate about helping you build digital solutions. Whether you need an app, website, or MVP – let’s build it together.",
+            "I’d love to help you develop digital solutions. Whether you need an app, website, or other software – let’s build it together!",
           fullName: "Full Name",
           email: "Email",
-          companyOptional: "Company (Optional)",
-          phoneOptional: "Phone Number (Optional)",
+          companyOptional: "Company (optional)",
+          phoneOptional: "Phone Number (optional)",
           message: "Message",
           sendMessage: "Send Message",
           description: "Description",
-          seegithub: "View Github",
         },
       },
     },

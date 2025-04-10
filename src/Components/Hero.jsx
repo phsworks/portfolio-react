@@ -30,7 +30,7 @@ function Hero() {
           <div className="intro">
             <span className="iam">{t("iamPietHein")}</span>
             <h1>
-              Full-Stack <br></br> Developer
+              Full-Stack <br></br>Developer
             </h1>
           </div>
 

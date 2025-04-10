@@ -7,9 +7,9 @@ const PrivacyPage = () => {
       <h1 className="privacy-title">Privacy Policy</h1>
 
       <p className="privacy-paragraph">
-        Welcome to Quotely! This Privacy Policy outlines how PHS Development
-        ("we," "our," or "us") handles information related to the use of our
-        mobile application, Quotely ("App"). By using the App, you agree to the
+        This Privacy Policy outlines how PHS Development
+        ("we," "our," or "us") handles information related to the use of
+        mobile applications. By using the App, you agree to the
         terms outlined in this policy.
       </p>
 

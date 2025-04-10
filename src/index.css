@@ -26,14 +26,14 @@ body {
 
 h1 {
   font-size: 34px;
-  background-image: linear-gradient(40deg, #0072ba, #77bfd2, #ffffff, #ffffff);
+  background-image: linear-gradient(40deg, #0072ba, #77bfd2, #b3f2fb, #ffffff);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 h2 {
   font-size: 32px;
-  background-image: linear-gradient(45deg, #0072ba, #77bfd2, #ffffff, #ffffff);
+  background-image: linear-gradient(45deg, #0072ba, #77bfd2, #b3f2fb, #ffffff);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }

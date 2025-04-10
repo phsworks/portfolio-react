@@ -1,6 +1,28 @@
 [
   {
     "id": 1,
+    "title": "Quotely",
+    "translations": {
+      "en": {
+        "shortDescription": "Quotely is a quotes app with inspirational quotes",
+        "longDescription": "Quotely was created out of a personal need for a quotes app in the App Store where you can find quotes from all kinds of well-known, inspiring people across different categories. The design is minimalist and stylish, featuring striking gradients and a light blue primary color. This is my first app in the App Store and it's free to download and use. Download it now here: https://apps.apple.com/us/app/quotely-daily-wisdom/id6744104889"
+      },
+      "nl": {
+        "shortDescription": "Quotely is een quotes app met inspirerende quotes",
+        "longDescription": "Quotely is gecreeerd vanuit de persoonlijke behoefte naar een quotes app in de appstore waar je quotes kan vinden van allerlei bekende inspirende mensen uit verschillende categorieen. Het design is minimalistisch en stijlvol en bevat veel opvallende mooie gradients en een lichtblauwe hoofdkleur.  De app is mijn eerste app in de appstore en is gratis te downloaden en te gebruiken. Download hem nu hier: https://apps.apple.com/us/app/quotely-daily-wisdom/id6744104889 "
+      }
+    },
+    "technologies": [
+      "JavaScript",
+      "React Native"
+    ],
+    "image": "/images/Quotely-App.webp",
+    "video": "I9rkChfLnzw",
+    "githubLink": "https://github.com/phsworks/007-Legacy",
+    "liveDemo": "https://apps.apple.com/us/app/quotely-daily-wisdom/id6744104889"
+  },
+  {
+    "id": 2,
     "title": "007 Legacy",
     "translations": {
       "en": {
@@ -23,7 +45,7 @@
     "liveDemo": "https://phsworks.github.io/007-Legacy/"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "IronHub",
     "translations": {
       "en": {
@@ -47,7 +69,7 @@
     "liveDemo": "https://ironhub-front.netlify.app"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Schouten Concepts",
     "translations": {
       "en": {
@@ -68,7 +90,7 @@
     "liveDemo": "https://schoutenconcepts.nl/"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "BookQuest",
     "translations": {
       "en": {
@@ -91,7 +113,7 @@
     "liveDemo": "https://thebookquest.netlify.app/"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Guess My Number",
     "translations": {
       "en": {
@@ -114,7 +136,7 @@
     "liveDemo": null
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Recipe App",
     "translations": {
       "en": {
@@ -137,7 +159,7 @@
     "liveDemo": null
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Solvware",
     "translations": {
       "en": {
@@ -159,7 +181,7 @@
     "liveDemo": "https://solvware.nl"
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Mietis Mobile User Flow",
     "translations": {
       "en": {
@@ -182,7 +204,7 @@
     "liveDemo": "https://mietis.netlify.app/#/createbag"
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "House in Tuscany",
     "translations": {
       "en": {

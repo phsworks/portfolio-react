@@ -76,7 +76,7 @@ function ProjectsDetailsPage() {
                   </svg>
                 </div>
                 <div className="text">
-                  <a href={project.githubLink}>{t('seegithub')}</a>
+                  <a href={project.githubLink}>Github</a>
                 </div>
               </button>
             )}
