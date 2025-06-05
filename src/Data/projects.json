@@ -5,11 +5,11 @@
     "translations": {
       "en": {
         "shortDescription": "Quotely is a quotes app with inspirational quotes",
-        "longDescription": "Quotely was created out of a personal need for a quotes app in the App Store where you can find quotes from all kinds of well-known, inspiring people across different categories. The design is minimalist and stylish, featuring striking gradients and a light blue primary color. This is my first app in the App Store and it's free to download and use. Download it now here: https://apps.apple.com/us/app/quotely-daily-wisdom/id6744104889"
+        "longDescription": "With Quotely the intention was to create a new kind of quotes app in the App Store where you can find quotes from all kinds of well-known, inspiring people across different categories. The design is minimalist and stylish, featuring striking gradients and a light blue primary color. This is my first app in the App Store and it's free to download and use. Download it now here: https://apps.apple.com/us/app/quotely-daily-wisdom/id6744104889"
       },
       "nl": {
         "shortDescription": "Quotely is een quotes app met inspirerende quotes",
-        "longDescription": "Quotely is gecreeërd vanuit de persoonlijke behoefte naar een quotes app in de appstore waar je quotes kan vinden van allerlei bekende inspirende mensen uit verschillende categorieën. Het design is minimalistisch en stijlvol en bevat veel opvallende mooie gradients en een lichtblauwe hoofdkleur.  De app is mijn eerste app in de appstore en is gratis te downloaden en te gebruiken. Download hem nu hier: https://apps.apple.com/us/app/quotely-daily-wisdom/id6744104889 "
+        "longDescription": "Met het maken van Quotely was de intentie om een quotes app te ontwikkelen waar je quotes kan vinden van allerlei bekende inspirende mensen uit verschillende categorieën. Het design is minimalistisch en stijlvol en bevat veel opvallende mooie gradients en een lichtblauwe hoofdkleur.  De app is mijn eerste app in de appstore en is gratis te downloaden en te gebruiken. Download hem nu hier: https://apps.apple.com/us/app/quotely-daily-wisdom/id6744104889 "
       }
     },
     "technologies": [
@@ -23,6 +23,28 @@
   },
   {
     "id": 2,
+    "title": "Stairway To Heaven",
+    "translations": {
+      "en": {
+        "shortDescription": "A calm but challenging game about climbing as high as you can.",
+        "longDescription": "Stairway To Heaven is a peaceful yet tense vertical platformer made in Unity with C#. The goal is simple: jump from platform to platform and climb as high as possible. There are no enemies or time pressure. Just the quiet focus of each jump and the beauty of the world around you. The higher you go, the smaller the world below becomes, and the closer you get to the light above."
+      },
+      "nl": {
+        "shortDescription": "Een rustige maar uitdagende game waarin je zo hoog mogelijk klimt.",
+        "longDescription": "Stairway To Heaven is een kalme maar spannende verticale platformgame, gemaakt met Unity en C#. Het doel is simpel: spring van platform naar platform en kom zo hoog mogelijk. Er zijn geen vijanden of tijdsdruk. Alleen de stille concentratie bij elke sprong en de rust van de omgeving. Hoe hoger je komt, hoe verder de wereld onder je verdwijnt en hoe dichter je bij het licht boven je komt."
+      }
+    },
+    "technologies": [
+      "C#",
+      "Unity"
+    ],
+    "image": "/images/stairwaytoheaven.webp",
+    "video": "Tl1eKL59uhM",
+    "githubLink": "https://github.com/phsworks/Cloud-Climber",
+    "liveDemo": "https://play.unity.com/en/games/92533fdf-b09e-436a-8ea0-4151964a6e12/stairway-to-heaven"
+  },
+  {
+    "id": 3,
     "title": "007 Legacy",
     "translations": {
       "en": {
@@ -45,7 +67,7 @@
     "liveDemo": "https://phsworks.github.io/007-Legacy/"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "IronHub",
     "translations": {
       "en": {
@@ -69,7 +91,7 @@
     "liveDemo": "https://ironhub-front.netlify.app"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Schouten Concepts",
     "translations": {
       "en": {
@@ -90,7 +112,7 @@
     "liveDemo": "https://schoutenconcepts.nl/"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "BookQuest",
     "translations": {
       "en": {
@@ -113,7 +135,7 @@
     "liveDemo": "https://thebookquest.netlify.app/"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Guess My Number",
     "translations": {
       "en": {
@@ -136,7 +158,7 @@
     "liveDemo": null
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Recipe App",
     "translations": {
       "en": {
@@ -159,7 +181,7 @@
     "liveDemo": null
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Solvware",
     "translations": {
       "en": {
@@ -181,7 +203,7 @@
     "liveDemo": "https://solvware.nl"
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Mietis Mobile User Flow",
     "translations": {
       "en": {
@@ -204,7 +226,7 @@
     "liveDemo": "https://mietis.netlify.app/#/createbag"
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "House in Tuscany",
     "translations": {
       "en": {

@@ -1,6 +1,6 @@
 .skills {
   background: var(--dark--gradient);
-  height: 1250px;
+  height: 1450px;
 }
 
 .skills-top {
@@ -89,7 +89,7 @@
   .skills {
     background-size: cover;
     background-position: left top;
-    height: 850px;
+    height: 950px;
   }
 }
 
@@ -109,7 +109,7 @@
     padding-right: 40px;
   }
   .skills {
-    height: 700px;
+    height: 900px;
     background-size: cover;
     background-position: left top;
     padding-bottom: 75px;

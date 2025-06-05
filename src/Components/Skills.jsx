@@ -9,6 +9,8 @@ import MySQL from "../assets/MySQL.webp";
 import NodeJS from "../assets/NodeJS.webp";
 import Git from "../assets/Git.webp";
 import GithubLogo from "../assets/GithubLogo.webp"
+import CSharpLogo from "../assets/csharp.webp";
+import UnityLogo from "../assets/unity.webp";
 
 
 function Skills() {
@@ -39,6 +41,12 @@ function Skills() {
         </div>
         <div className="skill-container">
           <div className="skill-card">
+            <img loading="lazy" src={CSharpLogo} alt="C#" />
+          </div>
+          <p>C#</p>
+        </div>
+        <div className="skill-container">
+          <div className="skill-card">
             <img loading="lazy" width={100} src={ReactLogo} alt="React" />
           </div>
           <p>React</p>
@@ -51,11 +59,16 @@ function Skills() {
         </div>
         <div className="skill-container">
           <div className="skill-card">
-            <img loading="lazy" src={GithubLogo} alt="Git" />
+            <img loading="lazy" src={GithubLogo} alt="Github" />
           </div>
           <p>Github</p>
         </div>
-
+        <div className="skill-container">
+          <div className="skill-card">
+            <img loading="lazy" src={UnityLogo} alt="Unity" />
+          </div>
+          <p>Unity</p>
+        </div>
         <div className="skill-container">
           <div className="skill-card">
             <img src={Wordpress} alt="Wordpress" />
