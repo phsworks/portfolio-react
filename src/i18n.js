@@ -48,7 +48,7 @@ i18n
           aboutMe: "Over mij",
           projects: "Projecten",
           address: "Adres",
-          countryCity: "Nederland - Breda",
+          countryCity: "Nederland - Amsterdam",
           workTogether: "Laten we samenwerken!",
           workTogetherText:
             "Ik help je graag bij het ontwikkelen van digitale oplossingen. Of je nu een app, website of andere software zoekt – laten we het bouwen!",
@@ -91,7 +91,7 @@ i18n
           aboutMe: "About Me",
           projects: "Projects",
           address: "Address",
-          countryCity: "The Netherlands - Breda",
+          countryCity: "The Netherlands - Amsterdam",
           workTogether: "Let’s work together!",
           workTogetherText:
             "I’d love to help you develop digital solutions. Whether you need an app, website, or other software – let’s build it together!",
