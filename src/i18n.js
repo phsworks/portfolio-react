@@ -39,9 +39,9 @@ i18n
             "Bij Solvware B.V. werkte ik aan het bouwen en optimaliseren van WordPress-websites, gecombineerd met online marketingactiviteiten.",
           ironhack:
             "Intensieve bootcamp gevolgd bij Ironhack (9 weken) met focus op Front-end (HTML, CSS, React) en Back-end (Node.js, MongoDB).",
-          future: "Toekomstvisie",
-          lookingAhead:
-            "Ik wil blijven groeien en mezelf uitdagen met het leren van nieuwe technologieën en het bouwen van nog meer mooie digitale producten",
+          create: "Creative Technology",
+          creativeTech:
+            "Op dit moment studeer ik Creative Technology, een gezamenlijke opleiding van de Vrije Universiteit in Amsterdam en de Universiteit Twente. Ik wil mezelf tijdens deze opleiding blijven ontwikkelen als developer, meer leren over alle vormen van technologie en werken aan projecten die me uitdagen. Naast mijn studie wil ik graag ervaring opdoen door mee te werken aan mooie projecten en wil ik mensen ontmoeten die dezelfde drive hebben om nieuwe dingen te bouwen. ",
           iamPietHein: "Ik ben Piet-Hein,",
           personalStatement:
             "Gefocust op het bouwen van moderne, schaalbare websites en applicaties met creativiteit, gebruiksvriendelijkheid en een duidelijk doel",
@@ -82,9 +82,9 @@ i18n
             "At Solvware B.V., I worked on building and optimizing WordPress websites, combined with online marketing activities.",
           ironhack:
             "Completed an intensive 9-week bootcamp at Ironhack, focusing on Front-end (HTML, CSS, React) and Back-end (Node.js, MongoDB).",
-          future: "Vision for the Future",
-          lookingAhead:
-            "I want to keep growing and challenging myself by learning new technologies and building even more impactful digital products.",
+          create: "Creative Technology",
+          creativeTech:
+            "Currently I'm studying Creative Technology, a shared program by the Vrije Universiteit in Amsterdam and the University of Twente. I’m eager to keep growing as a developer, learning more about technology in all its forms and working on projects that challenge me. Next to my studies, I want to gain experience by contributing to projects as a developer and connecting with people who share the same drive to build new things. ",
           iamPietHein: "I’m Piet-Hein,",
           personalStatement:
             "Focused on building modern, scalable websites and applications with creativity, usability, and a clear purpose.",

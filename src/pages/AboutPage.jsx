@@ -67,13 +67,13 @@ function AboutPage() {
           <p>{t("solvware")}</p>
         </article>
         <article>
-          <h3> Full Stack Web Development</h3>
+          <h3> Web Development Bootcamp</h3>
           <p>{t("ironhack")}</p>
         </article>
-        <section>
-          <h3>{t("future")}</h3>
-          <p>{t("lookingAhead")}</p>
-        </section>
+        <article>
+          <h3>{t("create")}</h3>
+          <p>{t("creativeTech")}</p>
+        </article>
       </div>
     </div>
   );
