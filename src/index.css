@@ -13,8 +13,8 @@ body {
   line-height: 1.5;
   background-color: #000000;
 
-  --dark--gradient: linear-gradient(135deg, #262e39, #1e243a, #0e162c, #0b122c);
-  --light--gradient: linear-gradient(135deg, #111d27, #12182a, #141e39, #0b1127);
+  --dark--gradient: linear-gradient(135deg, #1b2129, #1e243a, #0e162c, #0b122c);
+  --light--gradient: linear-gradient(135deg, #0f161e, #0a122a, #141e39, #0b1127);
   --small--gradient: linear-gradient(50deg, #0B0D10, #12182a, #141e39, #0b1127);
 
   color: white;
