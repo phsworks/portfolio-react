@@ -121,6 +121,8 @@
   .projectcard:hover,
   .projectcard:active {
 
+    cursor: pointer;
+
     .project-info {
       width: 480px;
 

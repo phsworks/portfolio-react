@@ -1,11 +1,12 @@
 .footer-container {
-  margin-top: 10px;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 30px;
   height: 200px;
+  background-color: #030a24;
 
   small {
     font-weight: 400;
@@ -51,7 +52,7 @@
 
 @media (min-width: 600px) and (max-width: 1100px) {
   .footer-container {
-    margin-top: 10px;
+    padding-top: 10px;
     gap: 50px;
   }
 
@@ -90,7 +91,7 @@
 
 @media (min-width: 1100px) {
   .footer-container {
-    margin-top: 10px;
+    padding-top: 10px;
     gap: 50px;
   }
 

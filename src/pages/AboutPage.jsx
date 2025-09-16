@@ -73,6 +73,7 @@ function AboutPage() {
         <article>
           <h3>{t("create")}</h3>
           <p>{t("creativeTech")}</p>
+          <p>{t("future")}</p>
         </article>
       </div>
     </div>
