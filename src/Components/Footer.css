@@ -45,7 +45,6 @@
     font-size: 16px;
   }
   Li:hover {
-    transform: scale(1.02);
     cursor: pointer;
   }
 }
@@ -91,7 +90,7 @@
 
 @media (min-width: 1100px) {
   .footer-container {
-    padding-top: 10px;
+    padding-top: 20px;
     gap: 50px;
   }
 
@@ -102,7 +101,7 @@
 
   }
   .footer-container {
-    height: 150px;
+    height: 180px;
   }
 
   .footer-items {
