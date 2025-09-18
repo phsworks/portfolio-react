@@ -164,7 +164,7 @@
 @media (min-width: 1100px) {
   .project-container {
     align-items: flex-start;
-    padding-left: 7vw;
+    padding-left: 9vw;
     gap: 20px;
     padding-bottom: 80px;
   }
