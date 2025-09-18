@@ -112,6 +112,7 @@
     justify-content: space-evenly;
     padding-top: 120px;
     gap: 10px;
+    padding-right: 50px;
 
 
     img {
@@ -126,7 +127,7 @@
 
   .my-story {
     height: 1250px;
-    padding-left: 110px;
+    padding-left: 120px;
 
     article {
       width: 60vw;
