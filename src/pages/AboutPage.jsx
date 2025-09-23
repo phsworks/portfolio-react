@@ -94,6 +94,8 @@ function AboutPage() {
             <i>2025</i>
             <p>{t("creativeTech")}</p>
           </div>
+
+          
         </div>
       </section>
     </div>

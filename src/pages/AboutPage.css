@@ -113,7 +113,7 @@
     background-image: linear-gradient(40deg, #0072ba, #77bfd2, #b3f2fb, #ffffff);
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 24px;
+    font-size: 20px;
 
   }
 
@@ -144,14 +144,13 @@
   padding: 20px;
   background: rgb(20, 29, 46);
   border: 1px solid rgb(2, 42, 85);
-  border-radius: 38px;
+  border-radius: 25px;
   color: white;
-  padding: 1.75rem;
+  padding: 30px 20px 50px 30px;
   transition: 0.4s ease;
   overflow-wrap: break-word !important;
   margin: 1rem;
   margin-bottom: 20px;
-  border-radius: 6px;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -167,13 +166,35 @@
 }
 
 @media screen and (min-width: 768px) {
+
+  .experience-section {
+    height: 1750px;
+
+
+    h3 {
+      font-size: 25px;
+    }
+
+    p {
+      font-size: 17px;
+    }
+  }
+
+
+
   .timeline {
     display: grid;
     grid-template-columns: 1fr 3px 1fr;
   }
+
+  .timeline-content {
+    padding: 30px 30px 50px 50px;
+
+  }
+
   .timeline-middle {
     position: relative;
-    background-image: linear-gradient(40deg, #0072ba, #77bfd2, #b3f2fb, #ffffff);
+    background-image: linear-gradient(40deg, #0072ba, #206c9b, #668293, #84a4b7);
     width: 3px;
     height: 100%;
   }
@@ -184,8 +205,8 @@
     position: absolute;
     top: 0;
     left: 50%;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background-image: linear-gradient(40deg, #0072ba, #77bfd2, #b3f2fb, #ffffff);
     -webkit-transform: translateX(-50%);
