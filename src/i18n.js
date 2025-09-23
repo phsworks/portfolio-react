@@ -30,9 +30,7 @@ i18n
           entrepeneurship: "Ondernemerschap & Marketing",
           propaedeuticDiploma:
             "Propedeuse Ondernemerschap & Retail Management behaald aan Avans Hogeschool. Hier legde ik de basis in ondernemerschap, marketing en bedrijfsvoering.",
-          internshipExperience:
-            "Werkervaring opgedaan in marktonderzoek en digitale marketing bij Blue Talents en als marketeer bij Recruit a Student.",
-          wordpress: "Ervaring met WordPress & Webdesign",
+          wordpress: "WordPress & Webdesign",
           trendGigant:
             "Mede-oprichter van TrendGigant, een trendy cadeautjes webshop waar ik leerde om een webshop te runnen en te werken met Wordpress en Woocommerce",
           solvware:
@@ -42,7 +40,6 @@ i18n
           create: "Creative Technology",
           creativeTech:
             "Op dit moment studeer ik Creative Technology, een gezamenlijke opleiding van de Vrije Universiteit in Amsterdam en de Universiteit Twente. Ik wil mezelf tijdens deze opleiding blijven ontwikkelen als developer, meer leren over alle vormen van technologie en werken aan projecten die me uitdagen. ",
-          future:"Naast mijn studie wil ik graag ervaring opdoen door mee te werken aan mooie projecten en wil ik mensen ontmoeten die dezelfde drive hebben om nieuwe dingen te bouwen.",
           iamPietHein: "Ik ben Piet-Hein,",
           personalStatement:
             "Gefocust op het bouwen van moderne, schaalbare websites en applicaties met creativiteit, gebruiksvriendelijkheid en een duidelijk doel",
@@ -69,14 +66,12 @@ i18n
           mywholelife:
             "I’ve always been passionate about technology and software. While studying Entrepreneurship & Retail Management, I realized I wanted to fully focus on this field. So I decided to stop that program and, after completing a full-stack development bootcamp, I’m now driven to become an even better developer.",
           interestedin:
-            "I enjoy working on projects that improve daily life—whether it's websites, web apps, games, or other creative projects. I combine technical knowledge with a keen eye for design and usability.",
+            "I enjoy working on projects that improve daily life whether it's websites, web apps, games, or other creative projects. I combine technical knowledge with a keen eye for design and usability.",
           experience: "Experience",
           entrepeneurship: "Entrepreneurship & Marketing",
           propaedeuticDiploma:
             "Obtained my propaedeutic diploma in Entrepreneurship & Retail Management at Avans University of Applied Sciences. Here I built a strong foundation in entrepreneurship, marketing, and business management.",
-          internshipExperience:
-            "Gained work experience in market research and digital marketing at Blue Talents, and as a marketer at Recruit a Student.",
-          wordpress: "Experience with WordPress & Web Design",
+          wordpress: "WordPress & Web Design",
           trendGigant:
             "Co-founder of TrendGigant, a trendy gift webshop where I learned how to run a webshop and work with WordPress and WooCommerce.",
           solvware:
@@ -86,8 +81,6 @@ i18n
           create: "Creative Technology",
           creativeTech:
             "Currently I'm studying Creative Technology, a shared program by the Vrije Universiteit in Amsterdam and the University of Twente. I’m eager to keep growing as a developer, learning more about technology in all its forms and working on projects that challenge me. ",
-          future:
-            "Next to my studies, I want to gain experience by contributing to projects as a developer and connecting with people who share the same drive to build new things.",
           iamPietHein: "I’m Piet-Hein,",
           personalStatement:
             "Focused on building modern, scalable websites and applications with creativity, usability, and a clear purpose.",

@@ -12,10 +12,14 @@
   flex-direction: column;
   gap: 15px;
 
-  h1 {
-    padding-bottom: 36px;
-    font-size: 45px;
+
+  .title {
+    font-size: 60px;
   }
+
+
+
+
 
   .iam {
     font-size: 32px;
@@ -27,7 +31,7 @@
   img {
     rotate: 2deg;
     border-radius: 38px;
-    border: 2px solid #6589937d;
+    border: 2px solid rgb(2, 42, 85);
     height: auto;
     margin-bottom: 20px;
     box-shadow: rgba(61, 61, 61, 0.2) 0px 8px 24px;
@@ -67,7 +71,7 @@
     gap: 12px;
 
     img {
-      border: 1px solid var(--primary--color);
+      border: 1px solid #7bb6c7;
       padding: 8px;
       width: 42px;
     }
@@ -85,13 +89,17 @@
 }
 
 
-@media (min-width: 600px) and (max-width: 1100px) {
+@media (min-width: 700px) and (max-width: 1100px) {
   .hero {
     height: 85vh;
     flex-direction: row;
     justify-content: space-around;
     padding-left: 20px;
     gap: 3vw;
+
+    .title {
+      font-size: 60px;
+    }
 
     h1 {
       padding-bottom: 10px;
@@ -126,8 +134,12 @@
     height: 100vh;
     flex-direction: row;
     justify-content:space-around;
-    padding-top: 140px;
+    padding-top: 150px;
     gap: 5vw;
+
+    .title {
+      font-size: 75px;
+    }
 
 
     h1 {
@@ -149,7 +161,7 @@
   .image-tablet {
     display: block;
     margin-right: 20px;
-    width: 450px;
+    width: 440px;
 
   }
   .image-mobile {
@@ -160,4 +172,14 @@
     gap: 12px;
   }
 }
+
+
+
+
+
+
+
+
+
+
 

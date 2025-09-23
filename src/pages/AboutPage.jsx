@@ -3,6 +3,7 @@ import diploma from "../assets/diploma.webp";
 import { useState, useEffect } from "react";
 import scrollUpArrow from "../assets/arrowUp.svg";
 import { useTranslation } from "react-i18next";
+import timeline from "../assets/Timeline.webp"
 
 function AboutPage() {
   const [isVisible, setIsVisible] = useState(false);
@@ -47,6 +48,7 @@ function AboutPage() {
         </div>
         <div className="about-picture">
           <img
+            className="diploma"
             width={230}
             src={diploma}
             alt="piet-diploma"
@@ -54,28 +56,46 @@ function AboutPage() {
           />
         </div>
       </div>
-      <div className="my-story">
+
+      <section class="experience-section">
         <h2>{t("experience")}</h2>
-        <article>
-          <h3>{t("entrepeneurship")}</h3>
-          <p>{t("propaedeuticDiploma")}</p>
-          <p>{t("internshipExperience")}</p>
-        </article>
-        <article>
-          <h3>{t("wordpress")}</h3>
-          <p>{t("trendGigant")}</p>
-          <p>{t("solvware")}</p>
-        </article>
-        <article>
-          <h3> Web Development Bootcamp</h3>
-          <p>{t("ironhack")}</p>
-        </article>
-        <article>
-          <h3>{t("create")}</h3>
-          <p>{t("creativeTech")}</p>
-          <p>{t("future")}</p>
-        </article>
-      </div>
+        <div class="timeline">
+          <div class="timeline-empty"></div>
+          <div class="timeline-middle">
+            <div class="timeline-circle"></div>
+          </div>
+          <div class="timeline-component timeline-content">
+            <h3> {t("entrepeneurship")}</h3>
+            <i>2021-2023</i>
+            <p>{t("propaedeuticDiploma")}</p>
+          </div>
+          <div class="timeline-component timeline-content">
+            <h3> {t("wordpress")}</h3>
+            <i>2023-2024</i>
+            <p>{t("trendGigant")}</p>
+            <p>{t("solvware")}</p>
+          </div>
+          <div class="timeline-middle">
+            <div class="timeline-circle"></div>
+          </div>
+          <div class="timeline-empty"></div>
+          <div class="timeline-empty"></div>
+          <div class="timeline-middle">
+            <div class="timeline-circle"></div>
+          </div>
+          <div class="timeline-component timeline-content">
+            <h3> Web Development Bootcamp</h3>
+            <i>2024</i>
+            <p>{t("ironhack")}</p>
+          </div>
+
+          <div class="timeline-component timeline-content">
+            <h3> {t("create")}</h3>
+            <i>2025</i>
+            <p>{t("creativeTech")}</p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

@@ -6,7 +6,8 @@
   align-items: center;
   gap: 30px;
   height: 200px;
-  background-color: #131820;
+  background-color: #0b121d;
+
 
   small {
     font-weight: 400;
@@ -91,7 +92,7 @@
 @media (min-width: 1100px) {
   .footer-container {
     padding-top: 20px;
-    gap: 50px;
+    gap: 40px;
   }
 
   .logo-footer {
@@ -109,7 +110,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 84vw;
+    width: 82vw;
     gap: 30px;
   }
 

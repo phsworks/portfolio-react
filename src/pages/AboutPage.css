@@ -1,4 +1,4 @@
-.about-intro, .my-story {
+.about-intro, .experience-section {
   height: 1150px;
   padding-left: 30px;
   background: var(--light--gradient);
@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  padding-top: 30px;
+  padding-top: 50px;
   gap: 40px;
 
   h1 {
@@ -14,19 +14,6 @@
   }
 
 
-  img {
-      width: 200px;
-      border-radius: 38px;
-      border: 2px solid #77bed23e;
-      height: auto;
-      margin-bottom: 20px;
-      box-shadow: rgba(61, 61, 61, 0.2) 0px 8px 24px;
-      animation: fadeIn 5s;
-    }
-    img:hover {
-      transition-duration: 300ms;
-      border: 2px solid #77bed2;
-    }
     h4 {
       font-size: 24px;
 
@@ -35,37 +22,29 @@
     p {
       width: 280px;
 
+
     }
 
 
 
 }
 
-.my-story {
-  height: 1750px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 30px;
-  padding-bottom: 30px;
+.diploma {
 
-
-  article {
-    width: 290px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 20px;
-
-
-    h3 {
-      font-size: 25px;
-      border-bottom: 1px solid white;
+      width: 200px;
+      border-radius: 38px;
+      border: 2px solid #77bed23e;
+      height: auto;
+      margin-bottom: 20px;
+      box-shadow: rgba(61, 61, 61, 0.2) 0px 8px 24px;
+      animation: fadeIn 5s;
     }
-  }
+.diploma:hover {
+      transition-duration: 300ms;
+      border: 2px solid #77bed2;
 }
+
+
 
 
 
@@ -88,21 +67,8 @@
     }
   }
 
-  .my-story {
-    height: 1050px;
-    padding-left: 80px;
-    background-position: left;
 
-    article {
-      width: 60vw;
-    }
-
-    p {
-    width: 700px;
-  }
-  }
 }
-
 
 
 @media (min-width: 1100px) {
@@ -110,32 +76,19 @@
     flex-direction: row;
     height: 94vh;
     justify-content: space-evenly;
-    padding-top: 120px;
+    padding-top: 140px;
     gap: 10px;
     padding-right: 50px;
 
 
     img {
-      width: 380px;
+      width: 350px;
     }
 
     p {
       width: 550px;
       margin-right: 200px;
     }
-  }
-
-  .my-story {
-    height: 1250px;
-    padding-left: 120px;
-
-    article {
-      width: 60vw;
-    }
-
-    p {
-    width: 700px;
-  }
   }
 
 
@@ -145,3 +98,101 @@
   0% { opacity: 0;}
   100% { opacity: 1;}
 }
+
+.experience-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light--gradient);
+  min-height: 100vh;
+  padding: 100px 0;
+  height: 1450px;
+
+  h3 {
+    background-image: linear-gradient(40deg, #0072ba, #77bfd2, #b3f2fb, #ffffff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+
+
+}
+
+.design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline {
+  width: 90%;
+  height: auto;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-content {
+  padding: 20px;
+  background: rgb(20, 29, 46);
+  border: 1px solid rgb(2, 42, 85);
+  border-radius: 38px;
+  color: white;
+  padding: 1.75rem;
+  transition: 0.4s ease;
+  overflow-wrap: break-word !important;
+  margin: 1rem;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.timeline-content:hover {
+  border: 1px solid var(--accent);
+}
+
+
+.timeline-component {
+  margin: 0px 20px 20px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+  }
+  .timeline-middle {
+    position: relative;
+    background-image: linear-gradient(40deg, #0072ba, #77bfd2, #b3f2fb, #ffffff);
+    width: 3px;
+    height: 100%;
+  }
+  .main-middle {
+    opacity: 0;
+  }
+  .timeline-circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-image: linear-gradient(40deg, #0072ba, #77bfd2, #b3f2fb, #ffffff);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
+
+
+
