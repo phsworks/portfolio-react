@@ -27,6 +27,14 @@ function AboutPage() {
       const timelineElement3 = document.querySelector(".timeline-3");
       const timelineElement4 = document.querySelector(".timeline-4");
 
+      const timeOnPage = (Date.now() - entryTime) / 1000;
+      const scrolledToBottom =
+        window.innerHeight + window.scrollY >= document.body.offsetHeight;
+
+      if (timeOnPage < 2 && scrolledToBottom) {
+        scrollUp();
+      }
+
       if (window.scrollY > 300) {
         setIsVisible(true);
         if (window.scrollY > 400) {
