@@ -37,8 +37,6 @@ function AboutPage() {
 
         }
 
-
-
       } else {
         setIsVisible(false);
       }
