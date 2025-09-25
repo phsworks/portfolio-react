@@ -1,13 +1,13 @@
 .about-intro, .experience-section {
-  height: 1150px;
+  height: 1000px;
   padding-left: 30px;
   background: var(--light--gradient);
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  padding-top: 50px;
-  gap: 40px;
+  padding-top: 30px;
+  gap: 50px;
 
   h1 {
     padding-bottom: 10px;
@@ -20,7 +20,7 @@
     }
 
     p {
-      width: 280px;
+      width: 330px;
 
 
     }
@@ -114,6 +114,7 @@
 
   p {
     font-size: 15px;
+    width: 270px;
   }
 
 
@@ -192,6 +193,7 @@
 
     p {
       font-size: 17px;
+      width: 350px;
     }
   }
 
