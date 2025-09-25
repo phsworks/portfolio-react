@@ -23,9 +23,7 @@ i18n
           About: "Over",
           iam: "Ik ben Piet-Hein Schouten,",
           mywholelife:
-            "Ik ben altijd gepassioneerd geweest over technologie en software. Tijdens het volgen van de studie Ondernemerschap & Retail Management kwam ik erachter dat ik me echt hierop wilde focussen. Daarom besloot ik te stoppen met die opleiding en ben ik na het afronden van een full-stack development bootcamp gepassioneerd om een betere developer te worden.",
-          interestedin:
-            "Ik werk graag aan projecten die het dagelijks leven verbeteren, of het nu gaat om websites, webapps, games of andere creatieve projecten. Ik combineer technische kennis met een scherp oog voor design en gebruiksvriendelijkheid.",
+            "Ik heb altijd al een passie gehad voor technologie en software. Tijdens mijn studie Entrepreneurship & Retail Management ontdekte ik hoe graag ik mijn ondernemende denkwijze combineer met het bouwen van weboplossingen. Die drive bracht me ertoe een full stack development bootcamp te volgen, en inmiddels studeer ik Creative Technology, waar ik mijn vaardigheden verder ontwikkel en ideeën tot leven breng. Mijn doel is om te blijven groeien als developer en mijn ondernemersmentaliteit te gebruiken om impactvolle producten te bouwen.",
           experience: "Ervaring",
           entrepeneurship: "Ondernemerschap & Marketing",
           propaedeuticDiploma:
@@ -64,9 +62,7 @@ i18n
           About: "About",
           iam: "I am Piet-Hein Schouten,",
           mywholelife:
-            "I’ve always been passionate about technology and software. While studying Entrepreneurship & Retail Management, I realized I wanted to fully focus on this field. So I decided to stop that program and, after completing a full-stack development bootcamp, I’m now driven to become an even better developer.",
-          interestedin:
-            "I enjoy working on projects that improve daily life whether it's websites, web apps, games, or other creative projects. I combine technical knowledge with a keen eye for design and usability.",
+            "I’ve always been passionate about technology and software. While studying Entrepreneurship & Retail Management, I discovered how much I enjoy combining entrepreneurial thinking with building web solutions. That drive led me to complete a full stack development bootcamp, and I am now studying Creative Technology where I continue to develop my skills and bring ideas to life. My goal is to keep growing as a developer while using my entrepreneurial mindset to build impactful products.",
           experience: "Experience",
           entrepeneurship: "Entrepreneurship & Marketing",
           propaedeuticDiploma:
@@ -90,7 +86,7 @@ i18n
           countryCity: "The Netherlands - Amsterdam",
           workTogether: "Let’s work together!",
           workTogetherText:
-            "I’d love to help you develop digital solutions. Whether you need an app, website, or other software – let’s build it together!",
+            "I’d love to help you develop digital solutions. Whether you need an app, website, or other software. Let’s build it together!",
           fullName: "Full Name",
           email: "Email",
           companyOptional: "Company (optional)",

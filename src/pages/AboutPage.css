@@ -107,7 +107,7 @@
   background-color: var(--light--gradient);
   min-height: 100vh;
   padding: 100px 0;
-  height: 1550px;
+  height: 2650px;
 
   h3 {
     background-image: linear-gradient(40deg, #0072ba, #77bfd2, #b3f2fb, #ffffff);
@@ -168,7 +168,7 @@
 @media screen and (min-width: 768px) {
 
   .experience-section {
-    height: 1750px;
+    height: 3050px;
 
 
     h3 {

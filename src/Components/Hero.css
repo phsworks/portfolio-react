@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
 
 
   .title {
@@ -72,7 +72,7 @@
     gap: 12px;
 
     img {
-      border: 1px solid #7bb6c7;
+      border: 1px solid rgb(2, 42, 85);
       padding: 8px;
       width: 42px;
     }
@@ -136,10 +136,10 @@
     flex-direction: row;
     justify-content:space-around;
     padding-top: 150px;
-    gap: 5vw;
+    gap: 6vw;
 
     .title {
-      font-size: 75px;
+      font-size: 80px;
     }
 
 
