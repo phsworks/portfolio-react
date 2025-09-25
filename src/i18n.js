@@ -34,7 +34,7 @@ i18n
           solvware:
             "Bij Solvware B.V. werkte ik aan het bouwen en optimaliseren van WordPress-websites, gecombineerd met online marketingactiviteiten.",
           ironhack:
-            "Intensieve bootcamp gevolgd bij Ironhack (9 weken) met focus op Front-end (HTML, CSS, React) en Back-end (Node.js, MongoDB).",
+            "Ik volgede een intensieve bootcamp gevolgd bij Ironhack (9 weken) in Barcelona met focus op Front-end (HTML, CSS, React) en Back-end (Node.js, MongoDB).",
           create: "Creative Technology",
           creativeTech:
             "Op dit moment studeer ik Creative Technology, een gezamenlijke opleiding van de Vrije Universiteit in Amsterdam en de Universiteit Twente. Ik wil mezelf tijdens deze opleiding blijven ontwikkelen als developer, meer leren over alle vormen van technologie en werken aan projecten die me uitdagen. ",
@@ -73,7 +73,7 @@ i18n
           solvware:
             "At Solvware B.V., I worked on building and optimizing WordPress websites, combined with online marketing activities.",
           ironhack:
-            "Completed an intensive 9-week bootcamp at Ironhack, focusing on Front-end (HTML, CSS, React) and Back-end (Node.js, MongoDB).",
+            "I followed an intensive 9-week bootcamp at Ironhack in Barcelona, focusing on Front-end (HTML, CSS, React) and Back-end (Node.js, MongoDB).",
           create: "Creative Technology",
           creativeTech:
             "Currently I'm studying Creative Technology, a shared program by the Vrije Universiteit in Amsterdam and the University of Twente. I’m eager to keep growing as a developer, learning more about technology in all its forms and working on projects that challenge me. ",

@@ -40,7 +40,7 @@ function AboutPage() {
     const timer = setTimeout(checkPosition, 100);
 
     return () => clearTimeout(timer);
-    
+
    }, []);
 
 
