@@ -29,7 +29,7 @@
 
 }
 
-.diploma {
+.story-pictures {
 
       width: 200px;
       border-radius: 38px;
@@ -39,7 +39,7 @@
       box-shadow: rgba(61, 61, 61, 0.2) 0px 8px 24px;
       animation: fadeIn 5s;
     }
-.diploma:hover {
+.story-pictures:hover {
       transition-duration: 300ms;
       border: 2px solid #77bed2;
 }
@@ -138,6 +138,11 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0;}
+  100% { opacity: 1;}
 }
 
 .timeline-content {

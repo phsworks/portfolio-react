@@ -48,14 +48,13 @@ function AboutPage() {
           <h1>{t("About")}</h1>
           <h4>{t("iam")}</h4>
           <p>{t("mywholelife")}</p>
-          
         </div>
         <div className="about-picture">
           <img
-            className="diploma"
+            className="story-pictures"
             width={230}
             src={steve}
-            alt="piet-diploma"
+            alt="huis steve jobs"
             fetchPriority="high"
           />
         </div>
@@ -73,10 +72,10 @@ function AboutPage() {
             <i>2021-2023</i>
             <p>{t("propaedeuticDiploma")}</p>
             <img
-              className="diploma"
+              className="story-pictures"
               width={120}
               src={diploma}
-              alt="study"
+              alt="diploma"
               fetchPriority="high"
             />
           </div>
@@ -85,19 +84,19 @@ function AboutPage() {
             <i>2023-2024</i>
             <p>{t("trendGigant")}</p>
             <img
-              className="diploma"
+              className="story-pictures"
               width={120}
               src={trendgigant}
-              alt="study"
+              alt="trendgigant"
               fetchPriority="high"
             />
             <p>{t("solvware")}</p>
 
             <img
-              className="diploma"
+              className="story-pictures"
               width={120}
               src={developer}
-              alt="study"
+              alt="developer"
               fetchPriority="high"
             />
           </div>
@@ -114,17 +113,17 @@ function AboutPage() {
             <i>2024</i>
             <p>{t("ironhack")}</p>
             <img
-              className="diploma"
+              className="story-pictures"
               width={120}
               src={webdev}
-              alt="study"
+              alt="ironhack"
               fetchPriority="high"
             />
             <img
-              className="diploma"
+              className="story-pictures"
               width={120}
               src={present}
-              alt="study"
+              alt="presentation ironhack"
               fetchPriority="high"
             />
           </div>
