@@ -5,7 +5,6 @@ import scrollUpArrow from "../assets/arrowUp.svg";
 import { useTranslation } from "react-i18next";
 import developer from "../assets/developer.webp"
 import steve from "../assets/steve.webp"
-import study from "../assets/study.webp"
 import trendgigant from "../assets/trendgigant.webp"
 import present from "../assets/present.webp"
 import webdev from "../assets/webdev.webp"
