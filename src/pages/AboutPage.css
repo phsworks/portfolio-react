@@ -93,10 +93,6 @@
 
 }
 
-@keyframes fadeIn {
-  0% { opacity: 0;}
-  100% { opacity: 1;}
-}
 
 .experience-section {
   display: flex;
@@ -155,6 +151,22 @@
   flex-direction: column;
   gap: 15px;
 
+
+}
+
+
+.timeline-1, .timeline-2, .timeline-3, .timeline-4 {
+  display: none;
+}
+
+.timeline-animation {
+  display: block;
+  animation: slide-in 2s;
+}
+
+.timeline-animation-2 {
+  display: block;
+  animation: slide-in 6s;
 }
 
 
@@ -219,4 +231,18 @@
 
 
 
+@keyframes slide-in {
+  from {
+    transform: translateY(100%);
+  }
 
+  to {
+    transform: translateY(0%);
+  }
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 0;}
+  100% { opacity: 1;}
+}
