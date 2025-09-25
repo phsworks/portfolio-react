@@ -20,20 +20,40 @@ function AboutPage() {
     });
   };
 
+
+   useEffect(() => {
+    const entryTime = Date.now();
+
+    const checkPosition = () => {
+      const timeOnPage = (Date.now() - entryTime) / 1000;
+
+      const notAtTop = window.scrollY > 0;
+
+      if (timeOnPage < 2 && notAtTop) {
+        window.scrollTo({
+          top: 0,
+          behavior: "auto",
+        });
+      }
+    }
+
+    const timer = setTimeout(checkPosition, 100);
+
+    return () => clearTimeout(timer);
+    
+   }, []);
+
+
+
+
+
+
   useEffect(() => {
     const toggleVisibility = () => {
       const timelineElement1 = document.querySelector(".timeline-1");
       const timelineElement2 = document.querySelector(".timeline-2");
       const timelineElement3 = document.querySelector(".timeline-3");
       const timelineElement4 = document.querySelector(".timeline-4");
-
-      const timeOnPage = (Date.now() - entryTime) / 1000;
-      const scrolledToBottom =
-        window.innerHeight + window.scrollY >= document.body.offsetHeight;
-
-      if (timeOnPage < 2 && scrolledToBottom) {
-        scrollUp();
-      }
 
       if (window.scrollY > 300) {
         setIsVisible(true);
