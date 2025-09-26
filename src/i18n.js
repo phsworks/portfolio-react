@@ -23,7 +23,9 @@ i18n
           About: "Over",
           iam: "Ik ben Piet-Hein Schouten,",
           mywholelife:
-            "Ik heb altijd al een passie gehad voor technologie en software. Tijdens mijn studie Entrepreneurship & Retail Management ontdekte ik hoe graag ik mijn ondernemende denkwijze combineer met het bouwen van weboplossingen. Die drive bracht me ertoe een full stack development bootcamp te volgen, en inmiddels studeer ik Creative Technology, waar ik mijn vaardigheden verder ontwikkel en ideeën tot leven breng.",
+            "Ik heb altijd al een passie gehad voor technologie en software. Tijdens mijn studie Entrepreneurship & Retail Management ontdekte ik hoe graag ik mijn ondernemende denkwijze combineer met het bouwen van weboplossingen.",
+          studyweb:
+            "Die drive bracht me ertoe een full stack development bootcamp te volgen, en inmiddels studeer ik Creative Technology, waar ik mijn vaardigheden verder ontwikkel en ideeën tot leven breng.",
           experience: "Ervaring",
           entrepeneurship: "Ondernemerschap & Marketing",
           propaedeuticDiploma:
@@ -47,7 +49,7 @@ i18n
           countryCity: "Nederland - Amsterdam",
           workTogether: "Laten we samenwerken!",
           workTogetherText:
-            "Ik help je graag bij het ontwikkelen van digitale oplossingen. Of je nu een app, website of andere software zoekt – laten we het bouwen!",
+            "Ik help je graag bij het ontwikkelen van digitale oplossingen. Of je nu een app, website of andere software zoekt. Laten we het bouwen!",
           fullName: "Volledige naam",
           email: "E-mail",
           companyOptional: "Bedrijf (optioneel)",
@@ -62,7 +64,9 @@ i18n
           About: "About",
           iam: "I am Piet-Hein Schouten,",
           mywholelife:
-            "I’ve always been passionate about technology and software. While studying Entrepreneurship & Retail Management, I discovered how much I enjoy combining entrepreneurial thinking with building web solutions. That drive led me to complete a full stack development bootcamp, and I am now studying Creative Technology where I continue to develop my skills and bring ideas to life.",
+            "I’ve always been passionate about technology and software. While studying Entrepreneurship & Retail Management, I discovered how much I enjoy combining entrepreneurial thinking with building web solutions.",
+          studyweb:
+            "That drive led me to complete a full stack development bootcamp, and now I am studying Creative Technology where I continue to develop my skills and bring ideas to life.",
           experience: "Experience",
           entrepeneurship: "Entrepreneurship & Marketing",
           propaedeuticDiploma:

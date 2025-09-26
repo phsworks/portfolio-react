@@ -24,18 +24,17 @@
 
   .iam {
     font-size: 32px;
-    padding-top: 10px;
     color: #ffffff;
     font-weight: 700;
   }
 
   img {
-    rotate: 2deg;
+    rotate: 1.2deg;
     border-radius: 38px;
     border: 2px solid rgb(2, 42, 85);
     height: auto;
-    margin-bottom: 20px;
     box-shadow: rgba(61, 61, 61, 0.2) 0px 8px 24px;
+    margin-top: 10px;
   }
 
   img:hover {
@@ -53,6 +52,7 @@
   .info-buttons {
     display: flex;
     gap: 10px;
+
   }
 }
 
@@ -65,11 +65,13 @@
   gap: 25px;
 
 
+
   .social-icons {
     display: flex;
     justify-content: left;
     align-items: center;
     gap: 12px;
+
 
     img {
       border: 1px solid rgb(2, 42, 85);
@@ -139,7 +141,7 @@
     gap: 6vw;
 
     .title {
-      font-size: 80px;
+      font-size: 78px;
     }
 
 
@@ -171,6 +173,9 @@
   .connect-section {
     flex-direction: row;
     gap: 12px;
+
+
+
   }
 }
 

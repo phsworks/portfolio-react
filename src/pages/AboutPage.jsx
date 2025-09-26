@@ -90,6 +90,8 @@ function AboutPage() {
           <h1>{t("About")}</h1>
           <h4>{t("iam")}</h4>
           <p>{t("mywholelife")}</p>
+          <br></br>
+          <p>{t("studyweb")}</p>
         </div>
         <div className="about-picture">
           <img
