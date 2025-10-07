@@ -70,11 +70,11 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    gap: 12px;
+    gap: 8px;
 
 
     img {
-      border: 1px solid rgb(2, 42, 85);
+      border: 1px solid #0763A5;
       padding: 8px;
       width: 42px;
     }
@@ -155,9 +155,13 @@
 
     p {
       width: 500px;
-      padding-top: 0px;
+      padding-top: 20px;
       padding-bottom: 40px;
       font-size: 25px;
+    }
+
+    .info-buttons {
+      padding-top: 10px;
     }
   }
 
