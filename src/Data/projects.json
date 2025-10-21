@@ -67,29 +67,6 @@
   },
   {
     "id": 4,
-    "title": "007 Legacy",
-    "translations": {
-      "en": {
-        "shortDescription": "A James Bond-themed browser game based on the movies.",
-        "longDescription": "007 Legacy is a browser-based game inspired by the James Bond movie franchise. In the game, you will be fighting against multiple Bond villains. They will come at you with everything they've got, and you need to be careful not to let them catch you. Of course, you have a license to kill, so you will be able to shoot the villains. And also look for the Vodka Martinis; they can give you some extra strength to be stronger in your fight against the villains."
-      },
-      "nl": {
-        "shortDescription": "Een James Bond-thema browserspel gebaseerd op de films.",
-        "longDescription": "007 Legacy is een browserspel geïnspireerd door de films van James Bond. In het spel vecht je tegen meerdere Bond-schurken. Ze komen op je af met alles wat ze hebben, en je moet oppassen dat ze je niet te pakken krijgen. Natuurlijk heb je een licentie om te doden, dus je kunt de schurken neerschieten. Zoek ook naar de Vodka Martinis; ze kunnen je extra kracht geven om sterker te zijn in je strijd tegen de schurken."
-      }
-    },
-    "technologies": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
-    "image": "/images/007-legacy-back.webp",
-    "video": "I9rkChfLnzw",
-    "githubLink": "https://github.com/phsworks/007-Legacy",
-    "liveDemo": "https://phsworks.github.io/007-Legacy/"
-  },
-  {
-    "id": 5,
     "title": "IronHub",
     "translations": {
       "en": {
@@ -111,6 +88,29 @@
     "video": "fmNhYVl26AQ",
     "githubLink": "https://github.com/didonatodani/ironhub-front",
     "liveDemo": "https://ironhub-front.netlify.app"
+  },
+  {
+    "id": 5,
+    "title": "007 Legacy",
+    "translations": {
+      "en": {
+        "shortDescription": "A James Bond-themed browser game based on the movies.",
+        "longDescription": "007 Legacy is a browser-based game inspired by the James Bond movie franchise. In the game, you will be fighting against multiple Bond villains. They will come at you with everything they've got, and you need to be careful not to let them catch you. Of course, you have a license to kill, so you will be able to shoot the villains. And also look for the Vodka Martinis; they can give you some extra strength to be stronger in your fight against the villains."
+      },
+      "nl": {
+        "shortDescription": "Een James Bond-thema browserspel gebaseerd op de films.",
+        "longDescription": "007 Legacy is een browserspel geïnspireerd door de films van James Bond. In het spel vecht je tegen meerdere Bond-schurken. Ze komen op je af met alles wat ze hebben, en je moet oppassen dat ze je niet te pakken krijgen. Natuurlijk heb je een licentie om te doden, dus je kunt de schurken neerschieten. Zoek ook naar de Vodka Martinis; ze kunnen je extra kracht geven om sterker te zijn in je strijd tegen de schurken."
+      }
+    },
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "image": "/images/007-legacy-back.webp",
+    "video": "I9rkChfLnzw",
+    "githubLink": "https://github.com/phsworks/007-Legacy",
+    "liveDemo": "https://phsworks.github.io/007-Legacy/"
   },
   {
     "id": 6,
