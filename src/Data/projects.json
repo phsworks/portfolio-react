@@ -23,50 +23,28 @@
   },
   {
     "id": 2,
-    "title": "AmongUs Simulation",
+    "title": "Schouten Concepts",
     "translations": {
       "en": {
-        "shortDescription": "A simple Processing simulation inspired by Among Us, focused on movement, collisions, and interaction.",
-        "longDescription": "AmongUs Creature is a small simulation created for the Programming course in Creative Technology to learn the basics of Processing. The project was inspired by the game Among Us and focuses on understanding movement, collision detection, and event handling in processing."
+        "shortDescription": "A stylish website for the agency Schouten Concepts.",
+        "longDescription": "The Schouten Concepts website was designed to showcase the agency's representation of high-quality home textiles and lifestyle brands in the Benelux region. With a focus on design and quality, the site presents inspiring collections and assists in creating unique concepts. Built using WordPress, the website offers an elegant and user-friendly platform for clients to explore the agency's offerings and services."
       },
       "nl": {
-        "shortDescription": "Een eenvoudige Processing-simulatie geïnspireerd op Among Us, gericht op beweging, botsingen en interactie.",
-        "longDescription": "AmongUs Creature is een kleine simulatie gemaakt voor het vak Programming binnen Creative Technology om de basis van Processing te leren. Het project is geïnspireerd op de game Among Us en richt zich op het begrijpen van beweging, botsdetectie en event-afhandeling in processing. "
+        "shortDescription": "Een stijlvolle website voor agentschap Schouten Concepts",
+        "longDescription": "De website van Schouten Concepts is ontworpen om het agentschap te presenteren dat hoogwaardige home textiles en lifestylemerken vertegenwoordigt in de Benelux. Met een focus op design en kwaliteit toont de site inspirerende collecties en helpt bij het creëren van unieke concepten. Gebouwd met WordPress, biedt de website een elegante en gebruiksvriendelijke omgeving voor klanten om het aanbod en de diensten van het agentschap te verkennen."
       }
     },
     "technologies": [
-      "Processing",
-      "Java"
+      "WordPress"
     ],
-    "image": "/images/amongusmock.webp",
-    "video": "OFNdijdDA3o",
-    "githubLink": "https://github.com/phsworks/AmongUsCreature",
-    "liveDemo": ""
+    "image": "/images/SchoutenConcepts 2.webp",
+    "video": "YYPhtE8LGjE",
+    "githubLink": "",
+    "liveDemo": "https://schoutenconcepts.nl/"
   },
+
   {
     "id": 3,
-    "title": "Stairway To Heaven",
-    "translations": {
-      "en": {
-        "shortDescription": "A calm but challenging game about climbing as high as you can.",
-        "longDescription": "Stairway To Heaven is a peaceful yet tense vertical platformer made in Unity with C#. The goal is simple: jump from platform to platform and climb as high as possible. There are no enemies or time pressure. Just the quiet focus of each jump and the beauty of the world around you. The higher you go, the smaller the world below becomes, and the closer you get to the light above."
-      },
-      "nl": {
-        "shortDescription": "Een rustige maar uitdagende game waarin je zo hoog mogelijk klimt.",
-        "longDescription": "Stairway To Heaven is een kalme maar spannende verticale platformgame, gemaakt met Unity en C#. Het doel is simpel: spring van platform naar platform en kom zo hoog mogelijk. Er zijn geen vijanden of tijdsdruk. Alleen de stille concentratie bij elke sprong en de rust van de omgeving. Hoe hoger je komt, hoe verder de wereld onder je verdwijnt en hoe dichter je bij het licht boven je komt."
-      }
-    },
-    "technologies": [
-      "C#",
-      "Unity"
-    ],
-    "image": "/images/stairwaytoheaven.webp",
-    "video": "Tl1eKL59uhM",
-    "githubLink": "https://github.com/phsworks/Cloud-Climber",
-    "liveDemo": "https://play.unity.com/en/games/92533fdf-b09e-436a-8ea0-4151964a6e12/stairway-to-heaven"
-  },
-  {
-    "id": 4,
     "title": "IronHub",
     "translations": {
       "en": {
@@ -88,6 +66,28 @@
     "video": "fmNhYVl26AQ",
     "githubLink": "https://github.com/didonatodani/ironhub-front",
     "liveDemo": "https://ironhub-front.netlify.app"
+  },
+  {
+    "id": 4,
+    "title": "Stairway To Heaven",
+    "translations": {
+      "en": {
+        "shortDescription": "A calm but challenging game about climbing as high as you can.",
+        "longDescription": "Stairway To Heaven is a peaceful yet tense vertical platformer made in Unity with C#. The goal is simple: jump from platform to platform and climb as high as possible. There are no enemies or time pressure. Just the quiet focus of each jump and the beauty of the world around you. The higher you go, the smaller the world below becomes, and the closer you get to the light above."
+      },
+      "nl": {
+        "shortDescription": "Een rustige maar uitdagende game waarin je zo hoog mogelijk klimt.",
+        "longDescription": "Stairway To Heaven is een kalme maar spannende verticale platformgame, gemaakt met Unity en C#. Het doel is simpel: spring van platform naar platform en kom zo hoog mogelijk. Er zijn geen vijanden of tijdsdruk. Alleen de stille concentratie bij elke sprong en de rust van de omgeving. Hoe hoger je komt, hoe verder de wereld onder je verdwijnt en hoe dichter je bij het licht boven je komt."
+      }
+    },
+    "technologies": [
+      "C#",
+      "Unity"
+    ],
+    "image": "/images/stairwaytoheaven.webp",
+    "video": "Tl1eKL59uhM",
+    "githubLink": "https://github.com/phsworks/Cloud-Climber",
+    "liveDemo": "https://play.unity.com/en/games/92533fdf-b09e-436a-8ea0-4151964a6e12/stairway-to-heaven"
   },
   {
     "id": 5,
@@ -112,29 +112,9 @@
     "githubLink": "https://github.com/phsworks/007-Legacy",
     "liveDemo": "https://phsworks.github.io/007-Legacy/"
   },
+
   {
     "id": 6,
-    "title": "Schouten Concepts",
-    "translations": {
-      "en": {
-        "shortDescription": "A stylish website for the agency Schouten Concepts.",
-        "longDescription": "The Schouten Concepts website was designed to showcase the agency's representation of high-quality home textiles and lifestyle brands in the Benelux region. With a focus on design and quality, the site presents inspiring collections and assists in creating unique concepts. Built using WordPress, the website offers an elegant and user-friendly platform for clients to explore the agency's offerings and services."
-      },
-      "nl": {
-        "shortDescription": "Een stijlvolle website voor agentschap Schouten Concepts",
-        "longDescription": "De website van Schouten Concepts is ontworpen om het agentschap te presenteren dat hoogwaardige home textiles en lifestylemerken vertegenwoordigt in de Benelux. Met een focus op design en kwaliteit toont de site inspirerende collecties en helpt bij het creëren van unieke concepten. Gebouwd met WordPress, biedt de website een elegante en gebruiksvriendelijke omgeving voor klanten om het aanbod en de diensten van het agentschap te verkennen."
-      }
-    },
-    "technologies": [
-      "WordPress"
-    ],
-    "image": "/images/SchoutenConcepts 2.webp",
-    "video": "YYPhtE8LGjE",
-    "githubLink": "",
-    "liveDemo": "https://schoutenconcepts.nl/"
-  },
-  {
-    "id": 7,
     "title": "BookQuest",
     "translations": {
       "en": {
@@ -157,7 +137,7 @@
     "liveDemo": "https://thebookquest.netlify.app/"
   },
   {
-    "id": 8,
+    "id": 7,
     "title": "Guess My Number",
     "translations": {
       "en": {
@@ -180,7 +160,7 @@
     "liveDemo": null
   },
   {
-    "id": 9,
+    "id": 8,
     "title": "Recipe App",
     "translations": {
       "en": {
@@ -203,7 +183,7 @@
     "liveDemo": null
   },
   {
-    "id": 10,
+    "id": 9,
     "title": "Solvware",
     "translations": {
       "en": {
@@ -225,7 +205,7 @@
     "liveDemo": "https://solvware.nl"
   },
   {
-    "id": 11,
+    "id": 10,
     "title": "Mietis Mobile User Flow",
     "translations": {
       "en": {
@@ -248,7 +228,7 @@
     "liveDemo": "https://mietis.netlify.app/#/createbag"
   },
   {
-    "id": 12,
+    "id": 11,
     "title": "House in Tuscany",
     "translations": {
       "en": {
@@ -268,5 +248,27 @@
     "video": "jNbIfOlhsN0",
     "githubLink": null,
     "liveDemo": "https://houseintuscany.eu"
+  },
+  {
+    "id": 12,
+    "title": "AmongUs Simulation",
+    "translations": {
+      "en": {
+        "shortDescription": "A simple Processing simulation inspired by Among Us, focused on movement, collisions, and interaction.",
+        "longDescription": "AmongUs Creature is a small simulation created for the Programming course in Creative Technology to learn the basics of Processing. The project was inspired by the game Among Us and focuses on understanding movement, collision detection, and event handling in processing."
+      },
+      "nl": {
+        "shortDescription": "Een eenvoudige Processing-simulatie geïnspireerd op Among Us, gericht op beweging, botsingen en interactie.",
+        "longDescription": "AmongUs Creature is een kleine simulatie gemaakt voor het vak Programming binnen Creative Technology om de basis van Processing te leren. Het project is geïnspireerd op de game Among Us en richt zich op het begrijpen van beweging, botsdetectie en event-afhandeling in processing. "
+      }
+    },
+    "technologies": [
+      "Processing",
+      "Java"
+    ],
+    "image": "/images/amongusmock.webp",
+    "video": "OFNdijdDA3o",
+    "githubLink": "https://github.com/phsworks/AmongUsCreature",
+    "liveDemo": ""
   }
 ]
