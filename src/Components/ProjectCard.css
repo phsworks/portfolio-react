@@ -35,24 +35,27 @@
 }
 
 .projectcard.bg-6 {
-  background-image: url(../assets/BookQuest.webp);
+  background-image: url(../assets/soundplaza.webp);
 }
 .projectcard.bg-7 {
-  background-image: url(../assets/GuessNumberGame.webp);
+  background-image: url(../assets/BookQuest.webp);
 }
 .projectcard.bg-8 {
-  background-image: url(../assets/RecipesApp.webp);
+  background-image: url(../assets/GuessNumberGame.webp);
 }
 .projectcard.bg-9 {
-  background-image: url(../assets/Solvware.webp);
+  background-image: url(../assets/RecipesApp.webp);
 }
 .projectcard.bg-10 {
-  background-image: url(../assets/mietis.webp);
+  background-image: url(../assets/Solvware.webp);
 }
 .projectcard.bg-11 {
-  background-image: url(../assets/houseintuscany.webp);
+  background-image: url(../assets/mietis.webp);
 }
 .projectcard.bg-12 {
+  background-image: url(../assets/houseintuscany.webp);
+}
+.projectcard.bg-13 {
   background-image: url(../assets/amongusback.webp);
 }
 
