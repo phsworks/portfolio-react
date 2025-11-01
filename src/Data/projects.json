@@ -122,7 +122,7 @@
       },
       "nl": {
         "shortDescription": "Een interactief audiovisueel Processing-project geïnspireerd op een echte muziekwinkel.",
-        "longDescription": "SoundPlaza is een interactieve animatie volledig geprogrammeerd in Processing, geïnspireerd op de echte Sound Plaza muziekwinkel in Amsterdam. Het project herinterpreteert de winkel als een levendige digitale scène met gitaren, logo’s en een knipperend neonbord. (geem live demo) "
+        "longDescription": "SoundPlaza is een interactieve animatie volledig geprogrammeerd in Processing, geïnspireerd op de echte Sound Plaza muziekwinkel in Amsterdam. Het project herinterpreteert de winkel als een levendige digitale scène met gitaren, logo’s en een knipperend neonbord. (geen live demo) "
       }
     },
     "technologies": [
