@@ -113,19 +113,42 @@ function AboutPage() {
           </div>
           <div class="timeline-1">
             <div class="timeline-component timeline-content">
-              <h3> {t("entrepeneurship")}</h3>
-              <i>2021-2023</i>
-              <p>{t("propaedeuticDiploma")}</p>
+              <h3> {t("create")}</h3>
+              <i>2025</i>
+              <p>{t("creativeTech")}</p>
+            </div>
+          </div>
+          <div class="timeline-2">
+            <div class="timeline-component timeline-content">
+              <h3> Web Development Bootcamp</h3>
+              <i>2024</i>
+              <p>{t("ironhack")}</p>
               <img
                 className="story-pictures"
                 width={120}
-                src={diploma}
-                alt="diploma"
+                src={webdev}
+                alt="ironhack"
+                fetchPriority="high"
+              />
+              <img
+                className="story-pictures"
+                width={120}
+                src={present}
+                alt="presentation ironhack"
                 fetchPriority="high"
               />
             </div>
           </div>
-          <div class="timeline-2">
+
+          <div class="timeline-middle">
+            <div class="timeline-circle"></div>
+          </div>
+          <div class="timeline-empty"></div>
+          <div class="timeline-empty"></div>
+          <div class="timeline-middle">
+            <div class="timeline-circle"></div>
+          </div>
+          <div class="timeline-3">
             <div class="timeline-component timeline-content">
               <h3> {t("wordpress")}</h3>
               <i>2023-2024</i>
@@ -148,41 +171,18 @@ function AboutPage() {
               />
             </div>
           </div>
-
-          <div class="timeline-middle">
-            <div class="timeline-circle"></div>
-          </div>
-          <div class="timeline-empty"></div>
-          <div class="timeline-empty"></div>
-          <div class="timeline-middle">
-            <div class="timeline-circle"></div>
-          </div>
-          <div class="timeline-3">
-            <div class="timeline-component timeline-content">
-              <h3> Web Development Bootcamp</h3>
-              <i>2024</i>
-              <p>{t("ironhack")}</p>
-              <img
-                className="story-pictures"
-                width={120}
-                src={webdev}
-                alt="ironhack"
-                fetchPriority="high"
-              />
-              <img
-                className="story-pictures"
-                width={120}
-                src={present}
-                alt="presentation ironhack"
-                fetchPriority="high"
-              />
-            </div>
-          </div>
           <div class="timeline-4">
             <div class="timeline-component timeline-content">
-              <h3> {t("create")}</h3>
-              <i>2025</i>
-              <p>{t("creativeTech")}</p>
+              <h3> {t("entrepeneurship")}</h3>
+              <i>2021-2023</i>
+              <p>{t("propaedeuticDiploma")}</p>
+              <img
+                className="story-pictures"
+                width={120}
+                src={diploma}
+                alt="diploma"
+                fetchPriority="high"
+              />
             </div>
           </div>
         </div>
