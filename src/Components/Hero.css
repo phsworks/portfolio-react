@@ -71,6 +71,7 @@
     justify-content: left;
     align-items: center;
     gap: 8px;
+    cursor: pointer;
 
 
     img {
@@ -141,7 +142,7 @@
     gap: 6vw;
 
     .title {
-      font-size: 78px;
+      font-size: 64px;
     }
 
 
@@ -155,8 +156,8 @@
 
     p {
       width: 500px;
-      padding-top: 20px;
-      padding-bottom: 40px;
+      padding-top: 10px;
+      padding-bottom: 20px;
       font-size: 25px;
     }
 
