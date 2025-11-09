@@ -179,7 +179,7 @@
   }
 }
 
-@media (min-width: 600px) and (max-width: 1100px) {
+@media (min-width: 700px) and (max-width: 1100px) {
   .navbar-container,
   .navbar-container-background {
     justify-content: space-around;
@@ -198,7 +198,7 @@
 
   .logo-desktop {
     display: block;
-    width: 180px;
+    width: 220px;
   }
 
   .logo-desktop:hover {
