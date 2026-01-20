@@ -269,27 +269,5 @@
     "video": "jNbIfOlhsN0",
     "githubLink": null,
     "liveDemo": "https://houseintuscany.eu"
-  },
-  {
-    "id": 13,
-    "title": "AmongUs Simulation",
-    "translations": {
-      "en": {
-        "shortDescription": "A simple Processing simulation inspired by Among Us, focused on movement, collisions, and interaction.",
-        "longDescription": "AmongUs Creature is a small simulation created for the Programming course in Creative Technology to learn the basics of Processing. The project was inspired by the game Among Us and focuses on understanding movement, collision detection, and event handling in processing."
-      },
-      "nl": {
-        "shortDescription": "Een eenvoudige Processing-simulatie geïnspireerd op Among Us, gericht op beweging, botsingen en interactie.",
-        "longDescription": "AmongUs Creature is een kleine simulatie gemaakt voor het vak Programming binnen Creative Technology om de basis van Processing te leren. Het project is geïnspireerd op de game Among Us en richt zich op het begrijpen van beweging, botsdetectie en event-afhandeling in processing. "
-      }
-    },
-    "technologies": [
-      "Processing",
-      "Java"
-    ],
-    "image": "/images/amongusmock.webp",
-    "video": "OFNdijdDA3o",
-    "githubLink": "https://github.com/phsworks/AmongUsCreature",
-    "liveDemo": ""
   }
 ]
