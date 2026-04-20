@@ -23,10 +23,14 @@ i18n
           About: "Over",
           iam: "Ik ben Piet-Hein Schouten,",
           mywholelife:
-            "Ik heb altijd al een passie gehad voor technologie en software. Tijdens mijn studie Entrepreneurship & Retail Management ontdekte ik hoe graag ik mijn ondernemende denkwijze combineer met het bouwen van weboplossingen.",
+            "Ik ben gepassioneerd door technologie en het bouwen van digitale oplossingen die echt werken. Met een achtergrond in full stack development combineer ik creativiteit, probleemoplossend denken en een ondernemende mindset in elk project.",
           studyweb:
-            "Die drive bracht me ertoe een full stack development bootcamp te volgen, en inmiddels studeer ik Creative Technology, waar ik mijn vaardigheden verder ontwikkel en ideeën tot leven breng.",
+            "Ik studeer HBO-ICT aan de Hogeschool van Amsterdam en bouw naast mijn studie eigen producten en aan projecten voor opdrachtgevers.",
           experience: "Ervaring",
+          hboict: "HBO-ICT",
+          hboictYear: "2025 - heden",
+          hboictDescription:
+            "Eerstejaars HBO-ICT student aan de Hogeschool van Amsterdam. Ik werk aan projecten met JavaScript, Python, Flask, Docker en React. Naast mijn studie bouw ik eigen producten en werk ik aan opdrachten voor opdrachtgevers.",
           entrepeneurship: "Ondernemerschap & Marketing",
           propaedeuticDiploma:
             "Propedeuse Ondernemerschap & Retail Management behaald aan Avans Hogeschool. Hier legde ik de basis in ondernemerschap, marketing en bedrijfsvoering.",
@@ -39,7 +43,7 @@ i18n
             "Ik volgede een intensieve bootcamp gevolgd bij Ironhack (9 weken) in Barcelona met focus op Front-end (HTML, CSS, React) en Back-end (Node.js, MongoDB).",
           create: "Creative Technology",
           creativeTech:
-            "Op dit moment studeer ik Creative Technology, een gezamenlijke opleiding van de Vrije Universiteit in Amsterdam en de Universiteit Twente. Ik wil mezelf tijdens deze opleiding blijven ontwikkelen als developer, meer leren over alle vormen van technologie en werken aan projecten die me uitdagen. ",
+            "Korte periode bij de gezamenlijke opleiding van de VU en Universiteit Twente. Versterkte mijn interesse in de combinatie van technologie, design en creativiteit.",
           iamPietHein: "Ik ben Piet-Hein,",
           personalStatement:
             "Gefocust op het bouwen van moderne, schaalbare websites en applicaties met creativiteit, gebruiksvriendelijkheid en een duidelijk doel",
@@ -64,10 +68,14 @@ i18n
           About: "About",
           iam: "I am Piet-Hein Schouten,",
           mywholelife:
-            "I’ve always been passionate about technology and software. While studying Entrepreneurship & Retail Management, I discovered how much I enjoy combining entrepreneurial thinking with building web solutions.",
+            "I'm passionate about technology and building digital solutions that actually work. With a background in full stack development I combine creativity, problem solving and an entrepreneurial mindset in every project.",
           studyweb:
-            "That drive led me to complete a full stack development bootcamp, and now I am studying Creative Technology where I continue to develop my skills and bring ideas to life.",
+            "I study HBO-ICT at the Hogeschool van Amsterdam and alongside my studies I build my own products and work on projects for clients.",
           experience: "Experience",
+          hboict: "HBO-ICT",
+          hboictYear: "2025 - present",
+          hboictDescription:
+            "First-year HBO-ICT student at the Hogeschool van Amsterdam. I work on projects using JavaScript, Python, Flask, Docker and React. Alongside my studies I build my own products and take on assignments for clients.",
           entrepeneurship: "Entrepreneurship & Marketing",
           propaedeuticDiploma:
             "Obtained my propaedeutic diploma in Entrepreneurship & Retail Management at Avans University of Applied Sciences. Here I built a strong foundation in entrepreneurship, marketing, and business management.",
@@ -75,22 +83,22 @@ i18n
           trendGigant:
             "Co-founder of TrendGigant, a trendy gift webshop where I learned how to run a webshop and work with WordPress and WooCommerce.",
           solvware:
-            "At Solvware B.V., I worked on building and optimizing WordPress websites, combined with online marketing activities.",
+            "At Solvware B.V., I worked on building and optimising WordPress websites, combined with online marketing activities.",
           ironhack:
             "I followed an intensive 9-week bootcamp at Ironhack in Barcelona, focusing on Front-end (HTML, CSS, React) and Back-end (Node.js, MongoDB).",
           create: "Creative Technology",
           creativeTech:
-            "Currently I'm studying Creative Technology, a shared program by the Vrije Universiteit in Amsterdam and the University of Twente. I’m eager to keep growing as a developer, learning more about technology in all its forms and working on projects that challenge me. ",
-          iamPietHein: "I’m Piet-Hein,",
+            "A short period at the joint programme of VU Amsterdam and University of Twente. Strengthened my interest in the combination of technology, design and creativity.",
+          iamPietHein: "I'm Piet-Hein,",
           personalStatement:
             "Focused on building modern, scalable websites and applications with creativity, usability, and a clear purpose.",
           aboutMe: "About Me",
           projects: "Projects",
           address: "Address",
           countryCity: "The Netherlands - Amsterdam",
-          workTogether: "Let’s work together!",
+          workTogether: "Let's work together!",
           workTogetherText:
-            "I’d love to help you develop digital solutions. Whether you need an app, website, or other software. Let’s build it together!",
+            "I'd love to help you develop digital solutions. Whether you need an app, website, or other software. Let's build it together!",
           fullName: "Full Name",
           email: "Email",
           companyOptional: "Company (optional)",

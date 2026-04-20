@@ -107,20 +107,33 @@ function AboutPage() {
       <section class="experience-section">
         <h2>{t("experience")}</h2>
         <div class="timeline">
+          <div class="timeline-1">
+            <div class="timeline-component timeline-content">
+              <h3>{t("hboict")}</h3>
+              <i>{t("hboictYear")}</i>
+              <p>{t("hboictDescription")}</p>
+            </div>
+          </div>
+          <div class="timeline-middle">
+            <div class="timeline-circle"></div>
+          </div>
+          <div class="timeline-empty"></div>
+
           <div class="timeline-empty"></div>
           <div class="timeline-middle">
             <div class="timeline-circle"></div>
           </div>
-          <div class="timeline-1">
+          <div class="timeline-2">
             <div class="timeline-component timeline-content">
-              <h3> {t("create")}</h3>
+              <h3>{t("create")}</h3>
               <i>2025</i>
               <p>{t("creativeTech")}</p>
             </div>
           </div>
-          <div class="timeline-2">
+
+          <div class="timeline-3">
             <div class="timeline-component timeline-content">
-              <h3> Web Development Bootcamp</h3>
+              <h3>Web Development Bootcamp</h3>
               <i>2024</i>
               <p>{t("ironhack")}</p>
               <img
@@ -139,18 +152,18 @@ function AboutPage() {
               />
             </div>
           </div>
+          <div class="timeline-middle">
+            <div class="timeline-circle"></div>
+          </div>
+          <div class="timeline-empty"></div>
 
-          <div class="timeline-middle">
-            <div class="timeline-circle"></div>
-          </div>
-          <div class="timeline-empty"></div>
           <div class="timeline-empty"></div>
           <div class="timeline-middle">
             <div class="timeline-circle"></div>
           </div>
-          <div class="timeline-3">
+          <div class="timeline-4">
             <div class="timeline-component timeline-content">
-              <h3> {t("wordpress")}</h3>
+              <h3>{t("wordpress")}</h3>
               <i>2023-2024</i>
               <p>{t("trendGigant")}</p>
               <img
@@ -161,7 +174,6 @@ function AboutPage() {
                 fetchPriority="high"
               />
               <p>{t("solvware")}</p>
-
               <img
                 className="story-pictures"
                 width={120}
@@ -171,9 +183,10 @@ function AboutPage() {
               />
             </div>
           </div>
-          <div class="timeline-4">
+
+          <div class="timeline-5">
             <div class="timeline-component timeline-content">
-              <h3> {t("entrepeneurship")}</h3>
+              <h3>{t("entrepeneurship")}</h3>
               <i>2021-2023</i>
               <p>{t("propaedeuticDiploma")}</p>
               <img
@@ -185,6 +198,10 @@ function AboutPage() {
               />
             </div>
           </div>
+          <div class="timeline-middle">
+            <div class="timeline-circle"></div>
+          </div>
+          <div class="timeline-empty"></div>
         </div>
       </section>
     </div>
