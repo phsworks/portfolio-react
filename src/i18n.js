@@ -28,7 +28,7 @@ i18n
             "Ik studeer HBO-ICT aan de Hogeschool van Amsterdam en bouw naast mijn studie eigen producten en aan projecten voor opdrachtgevers.",
           experience: "Ervaring",
           hboict: "HBO-ICT",
-          hboictYear: "2025 - heden",
+          hboictYear: "2026 - heden",
           hboictDescription:
             "Eerstejaars HBO-ICT student aan de Hogeschool van Amsterdam. Ik werk aan projecten met JavaScript, Python, Flask, Docker en React. Naast mijn studie bouw ik eigen producten en werk ik aan opdrachten voor opdrachtgevers.",
           entrepeneurship: "Ondernemerschap & Marketing",
@@ -73,7 +73,7 @@ i18n
             "I study HBO-ICT at the Hogeschool van Amsterdam and alongside my studies I build my own products and work on projects for clients.",
           experience: "Experience",
           hboict: "HBO-ICT",
-          hboictYear: "2025 - present",
+          hboictYear: "2026 - present",
           hboictDescription:
             "First-year HBO-ICT student at the Hogeschool van Amsterdam. I work on projects using JavaScript, Python, Flask, Docker and React. Alongside my studies I build my own products and take on assignments for clients.",
           entrepeneurship: "Entrepreneurship & Marketing",
