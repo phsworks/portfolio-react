@@ -25,7 +25,7 @@ i18n
           mywholelife:
             "Ik ben gepassioneerd door technologie en het bouwen van digitale oplossingen die echt werken. Met een achtergrond in full stack development combineer ik creativiteit, probleemoplossend denken en een ondernemende mindset in elk project.",
           studyweb:
-            "Ik studeer HBO-ICT aan de Hogeschool van Amsterdam en bouw naast mijn studie eigen producten en aan projecten voor opdrachtgevers.",
+            "Ik studeer HBO-ICT aan de Hogeschool van Amsterdam en werk naast mijn studie aan eigen producten en aan projecten voor opdrachtgevers.",
           experience: "Ervaring",
           hboict: "HBO-ICT",
           hboictYear: "2026 - heden",
