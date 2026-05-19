@@ -11,6 +11,9 @@ import Git from "../assets/Git.webp";
 import GithubLogo from "../assets/GithubLogo.webp"
 import CSharpLogo from "../assets/csharp.webp";
 import UnityLogo from "../assets/unity.webp";
+import docker from "../assets/docker.webp";
+import python from "../assets/python.webp";
+import arduino from "../assets/arduino.webp";
 
 
 function Skills() {
@@ -41,7 +44,13 @@ function Skills() {
         </div>
         <div className="skill-container">
           <div className="skill-card">
-            <img loading="lazy" src={CSharpLogo} alt="C#" />
+            <img loading="lazy" src= {python} alt="Python" />
+          </div>
+          <p>Python</p>
+        </div>
+        <div className="skill-container">
+          <div className="skill-card">
+            <img loading="lazy" src= {CSharpLogo} alt="C#" />
           </div>
           <p>C#</p>
         </div>
@@ -92,6 +101,18 @@ function Skills() {
             <img loading="lazy" src={MongoDB} alt="NodeJS" />
           </div>
           <p>MongoDB</p>
+        </div>
+        <div className="skill-container">
+          <div className="skill-card">
+            <img loading="lazy" src={arduino} alt="Arduino" />
+          </div>
+          <p>Arduino</p>
+        </div>
+        <div className="skill-container">
+          <div className="skill-card">
+            <img loading="lazy" src={docker} alt="Docker" />
+          </div>
+          <p>Docker</p>
         </div>
       </div>
     </div>
