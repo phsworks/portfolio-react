@@ -13,7 +13,7 @@ function Hero() {
 
   const cvDownload = () => {
     window.location.href =
-      "https://drive.google.com/file/d/15IIUaiKjJ0qGr2stTNO6pOb-iyxZ9OSd/view?usp=sharing";
+      "https://drive.google.com/file/d/1cMh3F5s-1ULdEt03Bhn1HtabgB61ZO1L/view?usp=drive_link";
   };
 
   const scrollUp = () => {
