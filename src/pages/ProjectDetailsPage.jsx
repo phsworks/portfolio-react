@@ -85,6 +85,11 @@ function ProjectsDetailsPage() {
             )}
           </div>
         </div>
+        {project.videoFile && (
+          <div className="video">
+            <video src={`${project.videoFile}#t=2`} controls playsInline preload="metadata" />
+          </div>
+        )}
         {project.video && (
         <div className="video">
           <iframe

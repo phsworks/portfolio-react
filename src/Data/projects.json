@@ -68,6 +68,32 @@
     "liveDemo": "https://apps.apple.com/us/app/quotely-daily-wisdom/id6744104889"
   },
   {
+    "id": 17,
+    "title": "ESP32 Race Car",
+    "translations": {
+      "nl": {
+        "shortDescription": "Bestuurbare auto op een ESP32, met PlayStation-controller, noodstop en een web-app voor rondetijden.",
+        "longDescription": "Voor een HvA-project bouwde ik samen met een medestudent een interactieve ervaring voor studiekiezers: een auto die je bestuurt met een PlayStation-controller. Op de auto zit een ESP32 die via Bluetooth de controller uitleest en de motoren voor rijden en sturen aanstuurt. Met de A-knop gebruik je de toeter. Ultrasone sensoren voor en achter meten de afstand en zetten de auto in een noodstop als hij te dicht bij een obstakel komt. Naast de auto bouwden we een web-app in Python (Flask) met een MySQL-database, waarin groepen hun rondes rijden, rondetijden worden bijgehouden op een leaderboard en bezoekers feedback kunnen geven. De hele omgeving draait in Docker. We hebben de auto getest met bezoekers tijdens een meeloopdag."
+      },
+      "en": {
+        "shortDescription": "Remote-controlled car on an ESP32, with a PlayStation controller, emergency stop and a web app for lap times.",
+        "longDescription": "For a project at the Amsterdam University of Applied Sciences, a fellow student and I built an interactive experience for prospective students: a car you drive with a PlayStation controller. The car runs on an ESP32 that reads the controller over Bluetooth and drives the motors for driving and steering. The A button sounds the horn. Ultrasonic sensors at the front and back measure the distance and put the car in an emergency stop when it gets too close to an obstacle. Next to the car we built a web app in Python (Flask) with a MySQL database, where groups drive their laps, lap times are kept on a leaderboard and visitors can leave feedback. The whole setup runs in Docker. We tested the car with visitors during an open day."
+      }
+    },
+    "technologies": [
+      "ESP32",
+      "Arduino (C++)",
+      "Python (Flask)",
+      "MySQL",
+      "Docker"
+    ],
+    "image": "/images/rc-auto.jpg",
+    "video": "",
+    "githubLink": "",
+    "liveDemo": "",
+    "videoFile": "/videos/rc-auto-demo.mp4"
+  },
+  {
     "id": 2,
     "title": "Schouten Concepts",
     "translations": {
