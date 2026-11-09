@@ -13,6 +13,7 @@ import CSharpLogo from "../assets/csharp.webp";
 import UnityLogo from "../assets/unity.webp";
 import docker from "../assets/docker.webp";
 import python from "../assets/python.webp";
+import neon from "../assets/neon.png";
 
 // tools without an icon show a short text in the card
 const groups = [
@@ -32,7 +33,7 @@ const groups = [
       { name: "Python", icon: python },
       { name: "MySQL", icon: MySQL },
       { name: "MongoDB", icon: MongoDB },
-      { name: "Postgres (Neon)", short: "PG" },
+      { name: "Postgres (Neon)", icon: neon },
     ],
   },
   {
