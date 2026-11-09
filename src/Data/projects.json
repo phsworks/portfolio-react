@@ -4,12 +4,12 @@
     "title": "BookHub",
     "translations": {
       "nl": {
-        "shortDescription": "Chrome-extensie die je bookmarks met AI in categorieën sorteert, met een rustige nieuw-tabbladpagina. Live in de Chrome Web Store.",
-        "longDescription": "BookHub is een Chrome-extensie die het lege nieuwe tabblad vervangt door een rustige startpagina en je bookmarks met AI in duidelijke categorieën sorteert. Je ziet je belangrijkste sites, kunt in één balk zoeken op het web of in je bookmarks, en hebt een klok, het weer en een to-dolijst bij de hand. Via de sidebar sla je de pagina waar je op zit met één klik op; AI kiest dan de categorie, titel en een korte beschrijving. BookHub werkt met je bestaande Chrome-bookmarks, dus er is niets te importeren. De extensie staat live in de Chrome Web Store met een freemium-model: de basis is gratis, BookHub Pro geeft onder meer onbeperkte AI-sortering, een dubbele-bookmarkzoeker en statistieken. De backend draait op Vercel, met een Postgres-database bij Neon."
+        "shortDescription": "Een Chrome-extensie die je bookmarks met AI overzichtelijk sorteert.",
+        "longDescription": "Met BookHub wilde ik een oplossing bouwen voor iets waar ik zelf last van had: een bladwijzerbalk vol links die ik nooit meer terugvond. BookHub vervangt het lege nieuwe tabblad in Chrome door een rustige startpagina, waar al je bookmarks met AI in duidelijke categorieën worden gesorteerd. Je kunt er ook zoeken, je meestbezochte sites zien en met één klik de pagina opslaan waar je op zit. De extensie werkt met je bestaande Chrome-bookmarks, dus je hoeft niets te importeren. BookHub staat live in de Chrome Web Store en draait op Vercel met een Postgres-database bij Neon."
       },
       "en": {
-        "shortDescription": "Chrome extension that sorts your bookmarks into categories with AI, with a calm new tab page. Live in the Chrome Web Store.",
-        "longDescription": "BookHub is a Chrome extension that replaces the empty new tab with a calm start page and uses AI to sort your bookmarks into clear categories. You see your most important sites, can search the web or your bookmarks from one bar, and have a clock, the weather and a to-do list at hand. From the sidebar you save the page you are on with one click; AI then picks the category, title and a short description. BookHub works with your existing Chrome bookmarks, so there is nothing to import. The extension is live in the Chrome Web Store with a freemium model: the basics are free, BookHub Pro adds unlimited AI sorting, a duplicate finder and statistics, among other things. The backend runs on Vercel, with a Postgres database on Neon."
+        "shortDescription": "A Chrome extension that uses AI to keep your bookmarks organised.",
+        "longDescription": "With BookHub I wanted to solve something that bothered me myself: a bookmarks bar full of links I could never find again. BookHub replaces the empty new tab in Chrome with a calm start page, where AI sorts all your bookmarks into clear categories. You can also search, see your most visited sites and save the page you are on with one click. The extension works with your existing Chrome bookmarks, so there is nothing to import. BookHub is live in the Chrome Web Store and runs on Vercel with a Postgres database on Neon."
       }
     },
     "technologies": [
@@ -27,12 +27,12 @@
     "title": "Readify",
     "translations": {
       "nl": {
-        "shortDescription": "Web-app die een nette README genereert voor elke GitHub-repo.",
-        "longDescription": "Readify maakt een README voor je GitHub-project. Je plakt de URL van een publieke repo, Readify scant de code en herkent de stack, de structuur en de dependencies. Daaruit maakt het een gestructureerde README in markdown, met badges en installatiestappen, die je zo in je repo plakt. Je logt in met GitHub. Readify werkt met een freemium-model: een aantal generaties per maand is gratis, met Pro of Lifetime genereer je onbeperkt. De app is gebouwd met Next.js en draait op Vercel."
+        "shortDescription": "Een web-app die automatisch een README maakt voor je GitHub-project.",
+        "longDescription": "Een goede README schrijven kost tijd en wordt vaak overgeslagen. Daarom bouwde ik Readify: je plakt de link van een GitHub-repo en Readify scant de code. Het herkent de stack, de structuur en de dependencies, en maakt daar een nette README van met badges en installatiestappen, die je zo in je project kunt plakken. Je logt in met je GitHub-account. De app is gebouwd met Next.js en draait op Vercel."
       },
       "en": {
-        "shortDescription": "Web app that generates a clean README for any GitHub repo.",
-        "longDescription": "Readify writes a README for your GitHub project. You paste the URL of a public repo, Readify scans the code and detects the stack, the structure and the dependencies. From that it builds a structured README in markdown, with badges and install steps, ready to paste into your repo. You sign in with GitHub. Readify uses a freemium model: a few generations per month are free, Pro or Lifetime gives you unlimited generations. The app is built with Next.js and runs on Vercel."
+        "shortDescription": "A web app that automatically writes a README for your GitHub project.",
+        "longDescription": "Writing a good README takes time and often gets skipped. That is why I built Readify: you paste the link to a GitHub repo and Readify scans the code. It detects the stack, the structure and the dependencies, and turns that into a clean README with badges and install steps, ready to paste into your project. You sign in with your GitHub account. The app is built with Next.js and runs on Vercel."
       }
     },
     "technologies": [
