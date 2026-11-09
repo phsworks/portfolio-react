@@ -70,14 +70,14 @@ function Hero() {
               <a href="https://github.com/phsworks?tab=repositories">
                 <img src={github} alt="github-logo" />
               </a>
+              <a href="https://www.linkedin.com/in/piethein-schouten/">
+                <img src={linkedin} alt="linkedin-logo" />
+              </a>
               <a href="https://www.youtube.com/channel/UCEIjn71x-ahkmjvUxYURz-w">
                 <img src={youtube} alt="youtube-logo" />
               </a>
               <a href="https://www.instagram.com/phsdevelopment/">
                 <img src={instagram} alt="instagram-logo" />
-              </a>
-              <a href="https://www.linkedin.com/in/piethein-schouten/">
-                <img src={linkedin} alt="linkedin-logo" />
               </a>
             </div>
           </div>
