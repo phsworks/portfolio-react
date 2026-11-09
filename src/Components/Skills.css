@@ -1,6 +1,6 @@
 .skills {
   background: var(--dark--gradient);
-  height: 1900px;
+  padding-bottom: 60px;
 }
 
 .skills-top {
@@ -21,7 +21,6 @@
 .all-skills {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 5px;
   grid-row-gap: 20px;
   padding-left: 20px;
@@ -89,7 +88,6 @@
   .skills {
     background-size: cover;
     background-position: left top;
-    height: 1000px;
   }
 }
 
@@ -109,10 +107,37 @@
     padding-right: 60px;
   }
   .skills {
-    height: 950px;
     background-size: cover;
     background-position: left top;
     padding-bottom: 75px;
     padding-top: 75px;
   }
+}
+
+.skill-group {
+  padding-bottom: 40px;
+
+  h3 {
+    text-align: center;
+    color: var(--accent);
+    padding-bottom: 20px;
+  }
+}
+
+.skill-card-text {
+  width: 150px;
+  height: 150px;
+
+  span {
+    color: var(--accent);
+    font-size: 40px;
+    font-weight: 800;
+  }
+}
+
+.skill-group .all-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px 40px;
 }

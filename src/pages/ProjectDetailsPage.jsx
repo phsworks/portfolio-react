@@ -8,7 +8,7 @@ function ProjectsDetailsPage() {
   const { id } = useParams();
   const project = projects.find((project) => project.id === Number(id));
   const { t, i18n } = useTranslation();
-  const currentLanguage = i18n.language;
+  const currentLanguage = i18n.resolvedLanguage;
 
   const scrollUp = () => {
     window.scrollTo({
@@ -34,6 +34,7 @@ function ProjectsDetailsPage() {
   return (
     <section className="project-container">
       <div className="project-top">
+        <h1>{project.title}</h1>
         <img
           width={350}
           src={project.image}
@@ -53,12 +54,14 @@ function ProjectsDetailsPage() {
           <div className="project-buttons">
             <button className="secondary-button">
               <NavLink to={"/"} onClick={scrollUp}>
-                Back to Home
+                {t("backToHome")}
               </NavLink>
             </button>
-            <button className="primary-button">
-              <a href={project.liveDemo}>Live Preview</a>
-            </button>
+            {project.liveDemo && (
+              <button className="primary-button">
+                <a href={project.liveDemo}>{t("livePreview")}</a>
+              </button>
+            )}
             {project.githubLink && (
               <button className="github-button">
                 <div className="icon">
@@ -82,6 +85,7 @@ function ProjectsDetailsPage() {
             )}
           </div>
         </div>
+        {project.video && (
         <div className="video">
           <iframe
             src={`https://www.youtube.com/embed/${project.video}`}
@@ -93,6 +97,7 @@ function ProjectsDetailsPage() {
             loading="lazy"
           />
         </div>
+        )}
       </div>
     </section>
   );

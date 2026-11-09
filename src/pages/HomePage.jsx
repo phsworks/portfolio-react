@@ -11,7 +11,7 @@ import { useTranslation } from "react-i18next";
 
 function HomePage() {
   const [isVisible, setIsVisible] = useState(false);
-   const { t } = useTranslation();
+  const { t } = useTranslation();
 
   const scrollUp = () => {
     window.scrollTo({
@@ -48,12 +48,8 @@ function HomePage() {
       <div id="projects-section">
         <h2>{t("projects")}</h2>
         <div className="projects">
-          {projects.map((project, index) => (
-            <ProjectCard
-              key={index}
-              project={project}
-              className={`bg-${project.id}`}
-            />
+          {projects.map((project) => (
+            <ProjectCard key={project.id} project={project} />
           ))}
         </div>
       </div>

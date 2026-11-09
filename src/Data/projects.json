@@ -1,25 +1,49 @@
 [
   {
-    "id": 1,
-    "title": "Quotely",
+    "id": 14,
+    "title": "BookHub",
     "translations": {
-      "en": {
-        "shortDescription": "Quotely is a quotes app with inspirational quotes",
-        "longDescription": "With Quotely the intention was to create a new kind of quotes app in the App Store where you can find quotes from all kinds of well-known, inspiring people across different categories. The design is minimalist and stylish, featuring striking gradients and a light blue primary color. This is my first app in the App Store and it's free to download and use. Download it now here: https://apps.apple.com/us/app/quotely-daily-wisdom/id6744104889"
-      },
       "nl": {
-        "shortDescription": "Quotely is een quotes app met inspirerende quotes",
-        "longDescription": "Met het maken van Quotely was de intentie om een quotes app te ontwikkelen waar je quotes kan vinden van allerlei bekende inspirende mensen uit verschillende categorieën. Het design is minimalistisch en stijlvol en bevat veel opvallende mooie gradients en een lichtblauwe hoofdkleur.  De app is mijn eerste app in de appstore en is gratis te downloaden en te gebruiken. Download hem nu hier: https://apps.apple.com/us/app/quotely-daily-wisdom/id6744104889 "
+        "shortDescription": "Chrome-extensie die je bookmarks met AI in categorieën sorteert, met een rustige nieuw-tabbladpagina. Live in de Chrome Web Store.",
+        "longDescription": "BookHub is een Chrome-extensie die het lege nieuwe tabblad vervangt door een rustige startpagina en je bookmarks met AI in duidelijke categorieën sorteert. Je ziet je belangrijkste sites, kunt in één balk zoeken op het web of in je bookmarks, en hebt een klok, het weer en een to-dolijst bij de hand. Via de sidebar sla je de pagina waar je op zit met één klik op; AI kiest dan de categorie, titel en een korte beschrijving. BookHub werkt met je bestaande Chrome-bookmarks, dus er is niets te importeren. De extensie staat live in de Chrome Web Store met een freemium-model: de basis is gratis, BookHub Pro geeft onder meer onbeperkte AI-sortering, een dubbele-bookmarkzoeker en statistieken. De backend draait op Vercel, met een Postgres-database bij Neon."
+      },
+      "en": {
+        "shortDescription": "Chrome extension that sorts your bookmarks into categories with AI, with a calm new tab page. Live in the Chrome Web Store.",
+        "longDescription": "BookHub is a Chrome extension that replaces the empty new tab with a calm start page and uses AI to sort your bookmarks into clear categories. You see your most important sites, can search the web or your bookmarks from one bar, and have a clock, the weather and a to-do list at hand. From the sidebar you save the page you are on with one click; AI then picks the category, title and a short description. BookHub works with your existing Chrome bookmarks, so there is nothing to import. The extension is live in the Chrome Web Store with a freemium model: the basics are free, BookHub Pro adds unlimited AI sorting, a duplicate finder and statistics, among other things. The backend runs on Vercel, with a Postgres database on Neon."
       }
     },
     "technologies": [
-      "JavaScript",
-      "React Native"
+      "Chrome Extension",
+      "Vercel",
+      "Postgres (Neon)"
     ],
-    "image": "/images/Quotely-App.webp",
-    "video": "alndWeYCopw",
-    "githubLink": "https://github.com/phsworks/quotely-codebase",
-    "liveDemo": "https://apps.apple.com/us/app/quotely-daily-wisdom/id6744104889"
+    "image": "/images/bookhub-transparent-1.webp",
+    "video": "O98yMbdII0M",
+    "githubLink": "",
+    "liveDemo": "https://chromewebstore.google.com/detail/bookhub-%E2%80%93-ai-new-tab-book/hcehkkojidkbehemileoljeenodagkgo"
+  },
+  {
+    "id": 16,
+    "title": "Readify",
+    "translations": {
+      "nl": {
+        "shortDescription": "Web-app die een nette README genereert voor elke GitHub-repo.",
+        "longDescription": "Readify maakt een README voor je GitHub-project. Je plakt de URL van een publieke repo, Readify scant de code en herkent de stack, de structuur en de dependencies. Daaruit maakt het een gestructureerde README in markdown, met badges en installatiestappen, die je zo in je repo plakt. Je logt in met GitHub. Readify werkt met een freemium-model: een aantal generaties per maand is gratis, met Pro of Lifetime genereer je onbeperkt. De app is gebouwd met Next.js en draait op Vercel."
+      },
+      "en": {
+        "shortDescription": "Web app that generates a clean README for any GitHub repo.",
+        "longDescription": "Readify writes a README for your GitHub project. You paste the URL of a public repo, Readify scans the code and detects the stack, the structure and the dependencies. From that it builds a structured README in markdown, with badges and install steps, ready to paste into your repo. You sign in with GitHub. Readify uses a freemium model: a few generations per month are free, Pro or Lifetime gives you unlimited generations. The app is built with Next.js and runs on Vercel."
+      }
+    },
+    "technologies": [
+      "Next.js",
+      "Vercel",
+      "GitHub OAuth"
+    ],
+    "image": "/images/readify-1.webp",
+    "video": "",
+    "githubLink": "",
+    "liveDemo": "https://readify-virid.vercel.app/"
   },
   {
     "id": 2,
@@ -42,7 +66,50 @@
     "githubLink": "",
     "liveDemo": "https://schoutenconcepts.nl/"
   },
-
+  {
+    "id": 4,
+    "title": "Stairway To Heaven",
+    "translations": {
+      "en": {
+        "shortDescription": "A calm but challenging game about climbing as high as you can.",
+        "longDescription": "Stairway To Heaven is a peaceful yet tense vertical platformer made in Unity with C#. The goal is simple: jump from platform to platform and climb as high as possible. There are no enemies or time pressure. Just the quiet focus of each jump and the beauty of the world around you. The higher you go, the smaller the world below becomes, and the closer you get to the light above."
+      },
+      "nl": {
+        "shortDescription": "Een rustige maar uitdagende game waarin je zo hoog mogelijk klimt.",
+        "longDescription": "Stairway To Heaven is een kalme maar spannende verticale platformgame, gemaakt met Unity en C#. Het doel is simpel: spring van platform naar platform en kom zo hoog mogelijk. Er zijn geen vijanden of tijdsdruk. Alleen de stille concentratie bij elke sprong en de rust van de omgeving. Hoe hoger je komt, hoe verder de wereld onder je verdwijnt en hoe dichter je bij het licht boven je komt."
+      }
+    },
+    "technologies": [
+      "C#",
+      "Unity"
+    ],
+    "image": "/images/stairwaytoheaven.webp",
+    "video": "Tl1eKL59uhM",
+    "githubLink": "https://github.com/phsworks/Cloud-Climber",
+    "liveDemo": "https://play.unity.com/en/games/92533fdf-b09e-436a-8ea0-4151964a6e12/stairway-to-heaven"
+  },
+  {
+    "id": 1,
+    "title": "Quotely",
+    "translations": {
+      "en": {
+        "shortDescription": "Quotely is a quotes app with inspirational quotes",
+        "longDescription": "With Quotely the intention was to create a new kind of quotes app in the App Store where you can find quotes from all kinds of well-known, inspiring people across different categories. The design is minimalist and stylish, featuring striking gradients and a light blue primary color. This is my first app in the App Store and it's free to download and use. Download it now here: https://apps.apple.com/us/app/quotely-daily-wisdom/id6744104889"
+      },
+      "nl": {
+        "shortDescription": "Quotely is een quotes app met inspirerende quotes",
+        "longDescription": "Met het maken van Quotely was de intentie om een quotes app te ontwikkelen waar je quotes kan vinden van allerlei bekende inspirende mensen uit verschillende categorieën. Het design is minimalistisch en stijlvol en bevat veel opvallende mooie gradients en een lichtblauwe hoofdkleur.  De app is mijn eerste app in de appstore en is gratis te downloaden en te gebruiken. Download hem nu hier: https://apps.apple.com/us/app/quotely-daily-wisdom/id6744104889 "
+      }
+    },
+    "technologies": [
+      "JavaScript",
+      "React Native"
+    ],
+    "image": "/images/Quotely-App.webp",
+    "video": "alndWeYCopw",
+    "githubLink": "https://github.com/phsworks/quotely-codebase",
+    "liveDemo": "https://apps.apple.com/us/app/quotely-daily-wisdom/id6744104889"
+  },
   {
     "id": 3,
     "title": "IronHub",
@@ -68,73 +135,6 @@
     "liveDemo": "https://ironhub-front.netlify.app"
   },
   {
-    "id": 4,
-    "title": "Stairway To Heaven",
-    "translations": {
-      "en": {
-        "shortDescription": "A calm but challenging game about climbing as high as you can.",
-        "longDescription": "Stairway To Heaven is a peaceful yet tense vertical platformer made in Unity with C#. The goal is simple: jump from platform to platform and climb as high as possible. There are no enemies or time pressure. Just the quiet focus of each jump and the beauty of the world around you. The higher you go, the smaller the world below becomes, and the closer you get to the light above."
-      },
-      "nl": {
-        "shortDescription": "Een rustige maar uitdagende game waarin je zo hoog mogelijk klimt.",
-        "longDescription": "Stairway To Heaven is een kalme maar spannende verticale platformgame, gemaakt met Unity en C#. Het doel is simpel: spring van platform naar platform en kom zo hoog mogelijk. Er zijn geen vijanden of tijdsdruk. Alleen de stille concentratie bij elke sprong en de rust van de omgeving. Hoe hoger je komt, hoe verder de wereld onder je verdwijnt en hoe dichter je bij het licht boven je komt."
-      }
-    },
-    "technologies": [
-      "C#",
-      "Unity"
-    ],
-    "image": "/images/stairwaytoheaven.webp",
-    "video": "Tl1eKL59uhM",
-    "githubLink": "https://github.com/phsworks/Cloud-Climber",
-    "liveDemo": "https://play.unity.com/en/games/92533fdf-b09e-436a-8ea0-4151964a6e12/stairway-to-heaven"
-  },
-  {
-    "id": 5,
-    "title": "007 Legacy",
-    "translations": {
-      "en": {
-        "shortDescription": "A James Bond-themed browser game based on the movies.",
-        "longDescription": "007 Legacy is a browser-based game inspired by the James Bond movie franchise. In the game, you will be fighting against multiple Bond villains. They will come at you with everything they've got, and you need to be careful not to let them catch you. Of course, you have a license to kill, so you will be able to shoot the villains. And also look for the Vodka Martinis; they can give you some extra strength to be stronger in your fight against the villains."
-      },
-      "nl": {
-        "shortDescription": "Een James Bond-thema browserspel gebaseerd op de films.",
-        "longDescription": "007 Legacy is een browserspel geïnspireerd door de films van James Bond. In het spel vecht je tegen meerdere Bond-schurken. Ze komen op je af met alles wat ze hebben, en je moet oppassen dat ze je niet te pakken krijgen. Natuurlijk heb je een licentie om te doden, dus je kunt de schurken neerschieten. Zoek ook naar de Vodka Martinis; ze kunnen je extra kracht geven om sterker te zijn in je strijd tegen de schurken."
-      }
-    },
-    "technologies": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
-    "image": "/images/007-legacy-back.webp",
-    "video": "I9rkChfLnzw",
-    "githubLink": "https://github.com/phsworks/007-Legacy",
-    "liveDemo": "https://phsworks.github.io/007-Legacy/"
-  },
-  {
-    "id": 6,
-    "title": "SoundPlaza",
-    "translations": {
-      "en": {
-        "shortDescription": "An interactive audio-visual Processing project inspired by a real music store.",
-        "longDescription": "SoundPlaza is an interactive animation coded entirely in Processing, inspired by the real Sound Plaza Amsterdam storefront. The project reimagines the music store as a lively digital scene filled with guitars, logos, and neon signs. (no live demo)"
-      },
-      "nl": {
-        "shortDescription": "Een interactief audiovisueel Processing-project geïnspireerd op een echte muziekwinkel.",
-        "longDescription": "SoundPlaza is een interactieve animatie volledig geprogrammeerd in Processing, geïnspireerd op de echte Sound Plaza muziekwinkel in Amsterdam. Het project herinterpreteert de winkel als een levendige digitale scène met gitaren, logo’s en een knipperend neonbord. (geen live demo) "
-      }
-    },
-    "technologies": [
-      "Processing",
-      "Java"
-    ],
-    "image": "/images/soundplazaback.webp",
-    "video": "0eyAzzaUVaQ",
-    "githubLink": "https://github.com/phsworks/Interactive-Store",
-    "liveDemo": ""
-  },
-  {
     "id": 7,
     "title": "BookQuest",
     "translations": {
@@ -156,52 +156,6 @@
     "video": "gLO3q4JOJDk",
     "githubLink": "https://github.com/NigelFerrefe/bookquest-project",
     "liveDemo": "https://thebookquest.netlify.app/"
-  },
-  {
-    "id": 8,
-    "title": "Guess My Number",
-    "translations": {
-      "en": {
-        "shortDescription": "A React Native game where your phone tries to guess your number.",
-        "longDescription": "Guess My Number is a React Native game I built during a course to learn React Native and Expo. In this game, you think of a number, and the phone tries to guess it by asking if your number is higher or lower than its guess. You guide the phone by providing hints ('higher' or 'lower'), and it continues guessing until it finds the correct number. The game tracks how many attempts the phone needs, making it a fun and interactive challenge! (no live preview)"
-      },
-      "nl": {
-        "shortDescription": "Een React Native spel waarbij je telefoon probeert je getal te raden.",
-        "longDescription": "Guess My Number is een React Native game die ik bouwde tijdens een cursus om React Native en Expo te leren. In dit spel denk je aan een getal, en je telefoon probeert het te raden door te vragen of je getal hoger of lager is dan zijn gok. Je begeleidt de telefoon door hints te geven ('hoger' of 'lager'), en hij blijft raden tot hij het juiste getal vindt. Het spel houdt bij hoeveel pogingen de telefoon nodig heeft, waardoor het een leuk en interactief uitdaging is! (geen live preview)"
-      }
-    },
-    "technologies": [
-      "React Native",
-      "JavaScript",
-      "Expo"
-    ],
-    "image": "/images/guessinggame-back.webp",
-    "video": "9ve0WXNKLtc",
-    "githubLink": "https://github.com/phsworks/guessing-game-react-native",
-    "liveDemo": null
-  },
-  {
-    "id": 9,
-    "title": "Recipe App",
-    "translations": {
-      "en": {
-        "shortDescription": "A React Native app to manage and explore recipes.",
-        "longDescription": "This Recipe App is a React Native app I developed during a course to explore how to build dynamic applications. It features an intuitive user interface and the ability to filter recipes based on categories. This project helped me learn about React Native Navigation components. (no live preview)"
-      },
-      "nl": {
-        "shortDescription": "Een React Native app om recepten te beheren en te verkennen.",
-        "longDescription": "Deze Recipe App is een React Native app die ik ontwikkelde tijdens een cursus om te leren hoe je dynamische applicaties bouwt. Het biedt een intuïtieve gebruikersinterface en de mogelijkheid om recepten te filteren op basis van categorieën. Dit project hielp me om meer te leren over React Native Navigatie componenten. (geen live preview)"
-      }
-    },
-    "technologies": [
-      "React Native",
-      "JavaScript",
-      "Expo"
-    ],
-    "image": "/images/recipe-app-back.webp",
-    "video": "0mJKk9R2S2I",
-    "githubLink": "https://github.com/phsworks/my-recipes-app",
-    "liveDemo": null
   },
   {
     "id": 10,
@@ -226,29 +180,6 @@
     "liveDemo": "https://solvware.nl"
   },
   {
-    "id": 11,
-    "title": "Mietis Mobile User Flow",
-    "translations": {
-      "en": {
-        "shortDescription": "A mobile user flow for shopping bags at Mietis.",
-        "longDescription": "Mietis was a client project we worked on during the Full Stack Web Development Bootcamp at Ironhack. Located near our campus, Mietis challenged us to design and develop a seamless user flow for their website, focusing on customizing and purchasing bags. The goal was to create a smooth and engaging shopping experience that allowed customers to personalize products effortlessly. This fast-paced, one-week project pushed us to collaborate closely with UX/UI design students, combining design and development to deliver a functional and user-friendly solution under a tight deadline."
-      },
-      "nl": {
-        "shortDescription": "Een mobiele user-flow voor het kopen van tassen bij Mietis.",
-        "longDescription": "Mietis was een klantproject waar we aan werkten tijdens de Full Stack Web Development Bootcamp bij Ironhack. Dichtbij onze campus gevestigd, daagde het bedrijf Mietis ons uit om een soepele user-flow voor hun website te ontwerpen en te ontwikkelen, met de nadruk op het aanpassen en kopen van tassen. Het doel was om een vlotte winkelervaring te creëren die klanten in staat stelt om producten gemakkelijk te personaliseren. Dit snel veranderende, één week durende project dwong ons om nauw samen te werken met UX/UI design studenten, waarbij we design en ontwikkeling combineerden om een functionele en gebruiksvriendelijke oplossing te leveren binnen een korte deadline."
-      }
-    },
-    "technologies": [
-      "React",
-      "CSS",
-      "JavaScript"
-    ],
-    "image": "/images/mietis-webshop-back.webp",
-    "video": "vJBIYEjoK7c",
-    "githubLink": "https://github.com/didonatodani/mietis",
-    "liveDemo": "https://mietis.netlify.app/#/createbag"
-  },
-  {
     "id": 12,
     "title": "House in Tuscany",
     "translations": {
@@ -269,5 +200,28 @@
     "video": "jNbIfOlhsN0",
     "githubLink": null,
     "liveDemo": "https://houseintuscany.eu"
+  },
+  {
+    "id": 5,
+    "title": "007 Legacy",
+    "translations": {
+      "en": {
+        "shortDescription": "A James Bond-themed browser game based on the movies.",
+        "longDescription": "007 Legacy is a browser-based game inspired by the James Bond movie franchise. In the game, you will be fighting against multiple Bond villains. They will come at you with everything they've got, and you need to be careful not to let them catch you. Of course, you have a license to kill, so you will be able to shoot the villains. And also look for the Vodka Martinis; they can give you some extra strength to be stronger in your fight against the villains."
+      },
+      "nl": {
+        "shortDescription": "Een James Bond-thema browserspel gebaseerd op de films.",
+        "longDescription": "007 Legacy is een browserspel geïnspireerd door de films van James Bond. In het spel vecht je tegen meerdere Bond-schurken. Ze komen op je af met alles wat ze hebben, en je moet oppassen dat ze je niet te pakken krijgen. Natuurlijk heb je een licentie om te doden, dus je kunt de schurken neerschieten. Zoek ook naar de Vodka Martinis; ze kunnen je extra kracht geven om sterker te zijn in je strijd tegen de schurken."
+      }
+    },
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "image": "/images/007-legacy-back.webp",
+    "video": "I9rkChfLnzw",
+    "githubLink": "https://github.com/phsworks/007-Legacy",
+    "liveDemo": "https://phsworks.github.io/007-Legacy/"
   }
 ]

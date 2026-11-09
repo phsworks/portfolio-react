@@ -2,7 +2,6 @@ import "./Contact.css";
 import { useState } from "react";
 import mail from "../assets/mail.svg"
 import map from "../assets/map.svg"
-import phone from "../assets/phone.svg"
 import { useTranslation } from "react-i18next";
 
 function Contact() {
@@ -18,7 +17,7 @@ function Contact() {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    setResult("Sending....");
+    setResult(t("formSending"));
     const formData = new FormData(event.target);
 
     formData.append("access_key", "3528c7e8-626a-4414-8c64-28210efa7ae3");
@@ -31,7 +30,7 @@ function Contact() {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Form Submitted Successfully");
+      setResult(t("formSuccess"));
       event.target.reset();
     } else {
       console.log("Error", data);
@@ -42,19 +41,6 @@ function Contact() {
   return (
     <div className="contact-container">
       <div className="contact-info">
-        <div className="contact-method">
-          <div className="contact-icon">
-            <img src={phone} alt="phone" />
-          </div>
-          <div className="contact-text">
-            <p>
-              Tel
-            </p>
-            <p>
-              <b>+31 615309763</b>
-            </p>
-          </div>
-        </div>
         <div className="contact-method">
           <div className="contact-icon">
             <img src={mail} alt="mail" />

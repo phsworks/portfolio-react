@@ -5,36 +5,38 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta id="meta-description" name="description"
-    content="Ontdek phs development, innovatieve softwareontwikkeling en webdesign." />
+    content="Full-stack developer uit Amsterdam. Ik bouw web-apps, mobiele apps en tools, van idee tot live product." />
   <meta id="meta-keywords" name="keywords"
-    content="softwareontwikkeling, webdesign, digitale oplossingen, phs development" />
+    content="softwareontwikkeling, digitale oplossingen, phs development" />
   <meta id="meta-author" name="author" content="phs development" />
 
   <link rel="icon" type="image/x-icon" sizes="16x16 32x32 48x48" href="/icons/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
 
-  <title id="page-title">phs development</title>
+  <title id="page-title">Piet-Hein Schouten | Full-stack Developer</title>
   <script type="module" src="/src/main.jsx"></script>
 </head>
 
 <body>
   <div id="root"></div>
   <script>
-    const language = localStorage.getItem('i18nextLng') || 'nl';
+    // older visits may have stored e.g. "en-US"
+    const stored = (localStorage.getItem('i18nextLng') || 'nl').slice(0, 2);
+    const language = stored === 'en' ? 'en' : 'nl';
     document.documentElement.lang = language;
 
     const metaTags = {
       nl: {
-        description: "Ontdek phs development, innovatieve softwareontwikkeling en webdesign.",
-        keywords: "softwareontwikkeling, webdesign, digitale oplossingen, phs development",
+        description: "Full-stack developer uit Amsterdam. Ik bouw web-apps, mobiele apps en tools, van idee tot live product.",
+        keywords: "softwareontwikkeling, digitale oplossingen, phs development",
         author: "phs development",
-        title: "phs development"
+        title: "Piet-Hein Schouten | Full-stack Developer"
       },
       en: {
-        description: "Discover phs development, innovative software development and web design.",
-        keywords: "software development, web design, digital solutions, phs development",
+        description: "Full-stack developer from Amsterdam. I build web apps, mobile apps and tools, from idea to live product.",
+        keywords: "software development, digital solutions, phs development",
         author: "phs development",
-        title: "phs development"
+        title: "Piet-Hein Schouten | Full-stack Developer"
       }
     };
 

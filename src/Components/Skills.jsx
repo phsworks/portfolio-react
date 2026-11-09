@@ -1,4 +1,5 @@
 import "./Skills.css";
+import { useTranslation } from "react-i18next";
 import Javascript from "../assets/Javascript.webp";
 import HTML from "../assets/HTML.webp";
 import CSS from "../assets/CSS.webp";
@@ -8,113 +9,81 @@ import Wordpress from "../assets/Wordpress.webp";
 import MySQL from "../assets/MySQL.webp";
 import NodeJS from "../assets/NodeJS.webp";
 import Git from "../assets/Git.webp";
-import GithubLogo from "../assets/GithubLogo.webp"
 import CSharpLogo from "../assets/csharp.webp";
 import UnityLogo from "../assets/unity.webp";
 import docker from "../assets/docker.webp";
 import python from "../assets/python.webp";
-import arduino from "../assets/arduino.webp";
 
+// tools without an icon show a short text in the card
+const groups = [
+  {
+    key: "toolsFrontend",
+    tools: [
+      { name: "HTML", icon: HTML },
+      { name: "CSS", icon: CSS },
+      { name: "JavaScript", icon: Javascript },
+      { name: "React", icon: ReactLogo },
+    ],
+  },
+  {
+    key: "toolsBackend",
+    tools: [
+      { name: "Node.js", icon: NodeJS },
+      { name: "Python", icon: python },
+      { name: "MySQL", icon: MySQL },
+      { name: "MongoDB", icon: MongoDB },
+      { name: "Postgres (Neon)", short: "PG" },
+    ],
+  },
+  {
+    key: "toolsMobile",
+    tools: [
+      { name: "React Native", icon: ReactLogo },
+      { name: "Unity", icon: UnityLogo },
+      { name: "C#", icon: CSharpLogo },
+    ],
+  },
+  {
+    key: "toolsOther",
+    tools: [
+      { name: "Git / GitHub", icon: Git },
+      { name: "Docker", icon: docker },
+      { name: "Vercel", short: "▲" },
+      { name: "WordPress", icon: Wordpress },
+    ],
+  },
+];
 
 function Skills() {
+  const { t } = useTranslation();
 
   return (
     <div className="skills">
       <div className="skills-top">
         <h2>Tools</h2>
       </div>
-      <div className="all-skills">
-        <div className="skill-container">
-          <div className="skill-card">
-            <img loading="lazy" width={100} src={HTML} alt="HTML" />
+      {groups.map((group) => (
+        <div className="skill-group" key={group.key}>
+          <h3>{t(group.key)}</h3>
+          <div className="all-skills">
+            {group.tools.map((tool) => {
+              const name = tool.name;
+              return (
+                <div className="skill-container" key={tool.name}>
+                  <div className={`skill-card ${tool.icon ? "" : "skill-card-text"}`}>
+                    {tool.icon ? (
+                      <img loading="lazy" src={tool.icon} alt={name} />
+                    ) : (
+                      <span>{tool.short}</span>
+                    )}
+                  </div>
+                  <p>{name}</p>
+                </div>
+              );
+            })}
           </div>
-          <p>HTML</p>
         </div>
-        <div className="skill-container">
-          <div className="skill-card">
-            <img loading="lazy" width={80} src={CSS} alt="CSS" />
-          </div>
-          <p>CSS</p>
-        </div>
-        <div className="skill-container">
-          <div className="skill-card">
-            <img loading="lazy" src={Javascript} alt="Javascript" />
-          </div>
-          <p>Javascript</p>
-        </div>
-        <div className="skill-container">
-          <div className="skill-card">
-            <img loading="lazy" src= {python} alt="Python" />
-          </div>
-          <p>Python</p>
-        </div>
-        <div className="skill-container">
-          <div className="skill-card">
-            <img loading="lazy" src= {CSharpLogo} alt="C#" />
-          </div>
-          <p>C#</p>
-        </div>
-        <div className="skill-container">
-          <div className="skill-card">
-            <img loading="lazy" width={100} src={ReactLogo} alt="React" />
-          </div>
-          <p>React</p>
-        </div>
-        <div className="skill-container">
-          <div className="skill-card">
-            <img loading="lazy" src={Git} alt="Git" />
-          </div>
-          <p>Git</p>
-        </div>
-        <div className="skill-container">
-          <div className="skill-card">
-            <img loading="lazy" src={GithubLogo} alt="Github" />
-          </div>
-          <p>Github</p>
-        </div>
-        <div className="skill-container">
-          <div className="skill-card">
-            <img loading="lazy" src={UnityLogo} alt="Unity" />
-          </div>
-          <p>Unity</p>
-        </div>
-        <div className="skill-container">
-          <div className="skill-card">
-            <img src={Wordpress} alt="Wordpress" />
-          </div>
-          <p>Wordpress</p>
-        </div>
-        <div className="skill-container">
-          <div className="skill-card">
-            <img loading="lazy" src={MySQL} alt="MySQL" />
-          </div>
-          <p>MySQL</p>
-        </div>
-        <div className="skill-container">
-          <div className="skill-card">
-            <img loading="lazy" src={NodeJS} alt="NodeJS" />
-          </div>
-          <p>NodeJS</p>
-        </div>
-        <div className="skill-container">
-          <div className="skill-card">
-            <img loading="lazy" src={MongoDB} alt="NodeJS" />
-          </div>
-          <p>MongoDB</p>
-        </div>
-        <div className="skill-container">
-          <div className="skill-card">
-            <img loading="lazy" src={arduino} alt="Arduino" />
-          </div>
-          <p>Arduino</p>
-        </div>
-        <div className="skill-container">
-          <div className="skill-card">
-            <img loading="lazy" src={docker} alt="Docker" />
-          </div>
-          <p>Docker</p>
-        </div>
-      </div>
+      ))}
     </div>
   );
 }

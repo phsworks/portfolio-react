@@ -13,7 +13,7 @@ function Hero() {
 
   const cvDownload = () => {
     window.location.href =
-      "https://drive.google.com/file/d/1cMh3F5s-1ULdEt03Bhn1HtabgB61ZO1L/view?usp=drive_link";
+      "https://drive.google.com/file/d/1_g-SszAD23KJtgUVucaUa7-W6dWuMlhG/view?usp=sharing";
   };
 
   const scrollUp = () => {
@@ -30,7 +30,7 @@ function Hero() {
           <div className="intro">
             <span className="iam">{t("iamPietHein")}</span>
             <h1 className="title">
-              Creative <br></br> Developer
+              {t("heroTitle1")} <br></br> {t("heroTitle2")}
             </h1>
           </div>
 
@@ -45,7 +45,7 @@ function Hero() {
           <div className="connect-section">
             <div className="info-buttons">
               <button onClick={cvDownload} className="secondary-button">
-                Download CV
+                {t("downloadCv")}
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

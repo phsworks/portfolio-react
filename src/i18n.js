@@ -3,12 +3,18 @@ import { initReactI18next } from "react-i18next";
 import Backend from "i18next-http-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
 
+i18n.on("languageChanged", (lng) => {
+  document.documentElement.lang = lng;
+});
+
 i18n
   .use(Backend)
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     fallbackLng: ["nl", "en"],
+    // maps browser codes like "en-US" to "en" so translations[lang] lookups work
+    supportedLngs: ["nl", "en"],
     debug: true,
     interpolation: {
       escapeValue: false,
@@ -45,15 +51,26 @@ i18n
           creativeTech:
             "Korte periode bij de gezamenlijke opleiding van de VU en Universiteit Twente. Versterkte mijn interesse in de combinatie van technologie, design en creativiteit.",
           iamPietHein: "Ik ben Piet-Hein,",
+          heroTitle1: "Full-stack",
+          heroTitle2: "Developer",
+          downloadCv: "Download CV",
           personalStatement:
-            "Gefocust op het bouwen van moderne, schaalbare websites en applicaties met creativiteit, gebruiksvriendelijkheid en een duidelijk doel",
+            "Ik bouw web-apps, mobiele apps en tools, van idee tot live product.",
+          backToHome: "Terug naar home",
+          livePreview: "Live bekijken",
+          toolsFrontend: "Frontend",
+          toolsBackend: "Backend & data",
+          toolsMobile: "Mobile & games",
+          toolsOther: "Overig",
+          formSending: "Versturen...",
+          formSuccess: "Bericht verstuurd, ik neem snel contact op.",
           aboutMe: "Over mij",
           projects: "Projecten",
           address: "Adres",
           countryCity: "Nederland - Amsterdam",
           workTogether: "Laten we samenwerken!",
           workTogetherText:
-            "Ik help je graag bij het ontwikkelen van digitale oplossingen. Of je nu een app, website of andere software zoekt. Laten we het bouwen!",
+            "Heb je een idee voor een app, website of tool? Ik denk graag mee en bouw het.",
           fullName: "Volledige naam",
           email: "E-mail",
           companyOptional: "Bedrijf (optioneel)",
@@ -90,15 +107,26 @@ i18n
           creativeTech:
             "A short period at the joint programme of VU Amsterdam and University of Twente. Strengthened my interest in the combination of technology, design and creativity.",
           iamPietHein: "I'm Piet-Hein,",
+          heroTitle1: "Full-stack",
+          heroTitle2: "Developer",
+          downloadCv: "Download CV",
           personalStatement:
-            "Focused on building modern, scalable websites and applications with creativity, usability, and a clear purpose.",
+            "I build web apps, mobile apps and tools, from idea to live product.",
+          backToHome: "Back to home",
+          livePreview: "Live preview",
+          toolsFrontend: "Frontend",
+          toolsBackend: "Backend & data",
+          toolsMobile: "Mobile & games",
+          toolsOther: "Other",
+          formSending: "Sending...",
+          formSuccess: "Message sent, I'll get back to you soon.",
           aboutMe: "About Me",
           projects: "Projects",
           address: "Address",
           countryCity: "The Netherlands - Amsterdam",
           workTogether: "Let's work together!",
           workTogetherText:
-            "I'd love to help you develop digital solutions. Whether you need an app, website, or other software. Let's build it together!",
+            "Have an idea for an app, website or tool? I'd love to think along and build it.",
           fullName: "Full Name",
           email: "Email",
           companyOptional: "Company (optional)",

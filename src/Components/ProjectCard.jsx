@@ -1,37 +1,28 @@
 import "./ProjectCard.css";
-import { useNavigate, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import arrowRight from "../assets/ArrowRight.svg";
 import { useTranslation } from "react-i18next";
 
-function ProjectCard({ project, className }) {
-  const navigate = useNavigate();
-  const { t, i18n } = useTranslation();
-  const currentLanguage = i18n.language;
-
-
-  const shortDescription =
-    project.translations && project.translations[currentLanguage]
-      ? t(project.translations[currentLanguage].shortDescription)
-      : "Description not available";
-
-  const projectNavigate = () => {
-    navigate(`/projectdetails/${project.id}`);
-  };
+function ProjectCard({ project }) {
+  const { i18n } = useTranslation();
+  const tr = project.translations[i18n.resolvedLanguage] || project.translations.nl;
 
   return (
-    <div className={`projectcard ${className}`}>
-      <div className="project-info">
-        <div className="project-description">
-          <h4 onClick={projectNavigate}>{project.title}</h4>
-          <p>{shortDescription}</p>
-        </div>
-        <div className="project-link">
-          <NavLink to={`/projectdetails/${project.id}`}>
-            <img loading="lazy" src={arrowRight} alt="arrow-right" />
-          </NavLink>
-        </div>
+    <NavLink to={`/projectdetails/${project.id}`} className="projectcard-wrapper">
+      <div className={`projectcard bg-${project.id}`}></div>
+      <div className="project-text">
+        <h4>
+          {project.title}
+          <img loading="lazy" src={arrowRight} alt="" />
+        </h4>
+        <p>{tr.shortDescription}</p>
+        <ul className="project-tags">
+          {project.technologies.map((tech) => (
+            <li key={tech}>{tech}</li>
+          ))}
+        </ul>
       </div>
-    </div>
+    </NavLink>
   );
 }
 

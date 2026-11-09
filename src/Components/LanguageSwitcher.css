@@ -1,20 +1,29 @@
 .language-switcher {
-  padding-top: 10px;
-  position: relative;
-  display: inline-block;
-
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--secondary-color);
+  font-size: 17px;
+  line-height: 1;
 
   button {
     border: none;
     background-color: transparent;
+    color: inherit;
+    font: inherit;
+    font-weight: 400;
+    opacity: 0.7;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  button:hover {
+    opacity: 1;
+  }
+
+  .active {
+    font-weight: 800;
+    opacity: 1;
+    cursor: default;
   }
 }
-
-
-.dropdown-menu {
-  list-style: none;
-  position: absolute;
-
-
-}
-

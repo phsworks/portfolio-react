@@ -232,3 +232,20 @@
   0% { opacity: 0;}
   100% { opacity: 1;}
 }
+/* fixed global button widths are too narrow for translated labels */
+.project-buttons {
+  .primary-button,
+  .secondary-button,
+  .github-button {
+    width: auto;
+    min-width: 140px;
+    height: 44px;
+    padding: 10px 20px;
+    white-space: nowrap;
+  }
+}
+
+.project-method .project-buttons {
+  width: auto;
+  max-width: 100%;
+}

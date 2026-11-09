@@ -1,21 +1,27 @@
-.projectcard {
+.projectcard-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: end;
-  align-items: center;
   gap: 15px;
-  position: relative;
   margin: 0 auto;
+  width: 320px;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+}
+
+.projectcard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 320px;
   height: 250px;
   border-radius: 10px;
+  /* fallback for projects without an image; bg-N classes override it */
+  background-image: linear-gradient(50deg, #02609a, #77bfd2);
   background-size: cover;
   background-position: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
-  .project-info {
-    display: none;
-  }
+  transition: transform 300ms ease;
 }
 
 .projectcard.bg-1 {
@@ -33,120 +39,82 @@
 .projectcard.bg-5 {
   background-image: url(../assets/legacy.webp);
 }
-
-.projectcard.bg-6 {
-  background-image: url(../assets/soundplaza.webp);
-}
 .projectcard.bg-7 {
   background-image: url(../assets/BookQuest.webp);
-}
-.projectcard.bg-8 {
-  background-image: url(../assets/GuessNumberGame.webp);
-}
-.projectcard.bg-9 {
-  background-image: url(../assets/RecipesApp.webp);
 }
 .projectcard.bg-10 {
   background-image: url(../assets/Solvware.webp);
 }
-.projectcard.bg-11 {
-  background-image: url(../assets/mietis.webp);
-}
 .projectcard.bg-12 {
   background-image: url(../assets/houseintuscany.webp);
 }
-.projectcard.bg-13 {
-  background-image: url(../assets/amongusback.webp);
+
+.projectcard-wrapper:hover .projectcard,
+.projectcard-wrapper:active .projectcard {
+  transform: scale(1.02);
 }
 
+.projectcard-wrapper:hover .project-text h4 img {
+  animation: roll-forwards 300ms;
+}
 
-.projectcard:hover,
-.projectcard:active {
-  cursor: pointer;
-  color: white;
+.project-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 
-
-
-  .project-info {
+  h4 {
     display: flex;
-    justify-content: center;
-    align-items: left;
+    align-items: center;
     gap: 10px;
-    background-image: linear-gradient(50deg, #02609a, #77bfd2);
-    width: 300px;
-    text-align: left;
-    padding: 3px 0px 3px 10px;
-    margin-bottom: 8px;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+    font-size: 20px;
+    font-weight: 800;
 
-    h4 {
-      font-size: 18px;
-      font-weight: 800;
+    img {
+      width: 28px;
     }
+  }
 
-      img {
-        width: 35px;
-        animation: roll-forwards 300ms;
-        margin-right: 10px;
+  p {
+    font-weight: 400;
+  }
+}
 
-    }
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+
+  li {
+    background-image: linear-gradient(to right, #02609a, #77bfd2);
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
   }
 }
 
 @media (min-width: 650px) and (max-width: 1100px) {
+  .projectcard-wrapper,
   .projectcard {
     width: 350px;
-    height: 250px;
-  }
-
-  .projectcard:hover,
-  .projectcard:active {
-
-     .project-info {
-      width: 320px;
-
-      h4 {
-      font-size: 18px;
-      font-weight: 800;
-    }
-
-      img {
-        width: 40px;
-
-    }
-    }
   }
 }
 
 @media (min-width: 1100px) {
+  .projectcard-wrapper,
   .projectcard {
     width: 530px;
+  }
+
+  .projectcard {
     height: 400px;
   }
 
-  .projectcard:hover,
-  .projectcard:active {
-
-    cursor: pointer;
-
-    .project-info {
-      width: 480px;
-
-      h4 {
-      font-size: 26px;
-    }
-
-      img {
-        width: 35px;
-        animation: roll-forwards 300ms;
-        margin-right: 10px;
-
-    }
+  .project-text h4 {
+    font-size: 26px;
   }
-
-}
-
 }
 
 @keyframes roll-forwards {
@@ -156,13 +124,10 @@
   to {
     transform: rotate(0deg);
   }
-  to {
-    transform: rotate(80deg);
-  }
 }
-
-
-
-
-
-
+.projectcard.bg-14 {
+  background-image: url(../assets/bookhub-mock.webp);
+}
+.projectcard.bg-16 {
+  background-image: url(../assets/readifyt-mock.webp);
+}

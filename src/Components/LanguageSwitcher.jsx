@@ -1,68 +1,34 @@
-import React, { useState, useEffect } from "react";
+import { Fragment } from "react";
 import { useTranslation } from "react-i18next";
 import "./LanguageSwitcher.css";
-import EN from "../assets/uk.svg";
-import NL from "../assets/dutch.svg";
 
+const languages = [
+  { code: "nl", label: "Nederlands" },
+  { code: "en", label: "English" },
+];
+
+// i18next's detector already persists the choice in localStorage ("i18nextLng")
 const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
-  const [isOpen, setIsOpen] = useState(false);
-
-  // Ensure the default language is English on first visit
-  useEffect(() => {
-    const storedLanguage = localStorage.getItem("language");
-    if (!storedLanguage) {
-      i18n.changeLanguage("en");
-      localStorage.setItem("language", "en");
-    } else {
-      i18n.changeLanguage(storedLanguage);
-    }
-  }, [i18n]);
-
-  const languages = [
-    { code: "nl", flag: <img width={25} src={NL} alt="Dutch flag" /> },
-    { code: "en", flag: <img width={25} src={EN} alt="UK flag" /> },
-  ];
-
-  const currentLanguage =
-    languages.find((lang) => lang.code === i18n.language) || languages[1];
-
-  const changeLanguage = (code) => {
-    i18n.changeLanguage(code);
-    setIsOpen(false);
-    localStorage.setItem("language", code);
-  };
 
   return (
     <div className="language-switcher">
-      <button
-        className="dropdown-toggle"
-        onClick={() => setIsOpen(!isOpen)}
-        aria-label="Change language"
-      >
-        {currentLanguage ? (
-          currentLanguage.flag
-        ) : (
-          <img width={25} src={NL} alt="NL" />
-        )}
-      </button>
-      {isOpen && (
-        <ul className="dropdown-menu">
-          {languages
-            .filter((lang) => lang.code !== i18n.language)
-            .map((lang) => (
-              <li
-                key={lang.code}
-                onClick={(event) => {
-                  event.stopPropagation();
-                  changeLanguage(lang.code);
-                }}
-              >
-                {lang.flag}
-              </li>
-            ))}
-        </ul>
-      )}
+      {languages.map(({ code, label }, index) => {
+        const isActive = i18n.resolvedLanguage === code;
+        return (
+          <Fragment key={code}>
+            {index > 0 && <span aria-hidden="true">|</span>}
+            <button
+              className={isActive ? "active" : ""}
+              onClick={() => !isActive && i18n.changeLanguage(code)}
+              aria-label={label}
+              aria-pressed={isActive}
+            >
+              {code.toUpperCase()}
+            </button>
+          </Fragment>
+        );
+      })}
     </div>
   );
 };
