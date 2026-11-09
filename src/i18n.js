@@ -55,7 +55,7 @@ i18n
           heroTitle2: "Developer",
           downloadCv: "Download CV",
           personalStatement:
-            "Ik bouw websites, web-apps en mobiele apps met React, React Native en Node.js.",
+            "Ik bouw web-apps, mobiele apps en tools, van idee tot live product.",
           backToHome: "Terug naar home",
           livePreview: "Live bekijken",
           toolsFrontend: "Frontend",
@@ -111,7 +111,7 @@ i18n
           heroTitle2: "Developer",
           downloadCv: "Download CV",
           personalStatement:
-            "I build websites, web apps and mobile apps with React, React Native and Node.js.",
+            "I build web apps, mobile apps and tools, from idea to live product.",
           backToHome: "Back to home",
           livePreview: "Live preview",
           toolsFrontend: "Frontend",
