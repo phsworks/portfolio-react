@@ -257,3 +257,37 @@
   width: auto;
   max-width: 100%;
 }
+
+/* phones: one shared 20px gutter so text, buttons and video line up */
+@media (max-width: 699px) {
+  .project-details {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .project-method {
+    width: 100%;
+
+    h2,
+    p {
+      width: auto;
+      padding-left: 0;
+      overflow-wrap: anywhere; /* long URLs in descriptions */
+    }
+
+    .project-buttons {
+      justify-content: flex-start;
+      padding-right: 0;
+    }
+  }
+
+  .video {
+    width: 100%;
+
+    iframe {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+}
